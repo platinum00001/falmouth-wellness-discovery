@@ -316,7 +316,7 @@
     width: auto !important;
     max-width: none !important;
   }
-  .front-sheet.is-print .cafe-inline { position: relative !important; inset: auto !important; max-width: none !important; }
+  .front-sheet.is-print .cafe-inline, .front-sheet.is-print .beacon-card { position: relative !important; inset: auto !important; max-width: none !important; }
   .front-sheet.is-print .walk-fold { position: absolute !important; left: 50% !important; top: 0 !important; bottom: 0 !important; border-left: 2px dashed rgba(24, 52, 61, 0.72) !important; display: block !important; }
   .guide-sheet.is-print .walk-fold { display: none !important; }
   .walk-sheet.is-print .walk-fold span { position: absolute !important; transform: translateX(-50%) !important; }
@@ -335,7 +335,8 @@
 .front-sheet, .guide-sheet { height: 100%; background: #f6eee1; }
 .front-frame {
   display: grid;
-  grid-template-rows: auto minmax(0, 1fr) auto;
+  /* two children: the map/tiles band takes the height, the bottom card row sizes to content */
+  grid-template-rows: minmax(0, 1fr) auto;
   gap: 0.28rem;
   height: 100%;
   padding: 0.35rem;
@@ -412,6 +413,13 @@
   max-width: none;
   width: auto;
 }
+.front-sheet .beacon-card {
+  position: relative;
+  inset: auto;
+  flex: 1;
+  max-width: none;
+  width: auto;
+}
 .mini-qr { width: 52px; height: 52px; background: #fff; border-radius: 4px; }
 .mini-qr img, .mini-qr canvas { display: block; width: 52px !important; height: 52px !important; }
 .ad-side .mini-qr { display: none; }
@@ -468,6 +476,7 @@
 .print-stack { display: grid; gap: 0.9rem; }
 .print-page { transform-origin: top left; width: 17in; }
 .front-sheet.is-print .front-frame { padding: 0.26in; gap: 0.08in; }
+.front-sheet.is-print .cafe-inline, .front-sheet.is-print .beacon-card { inset: auto; max-width: none; }
 .front-sheet.is-print .title-card { padding: 0.06in 0.1in; }
 .front-sheet.is-print .title-card h2 { font-size: 14px; }
 .front-sheet.is-print .title-card p { font-size: 9px; }
@@ -512,6 +521,9 @@
   .front-sheet .map-well .walk-map { position: absolute !important; inset: 0 !important; height: auto !important; min-height: 0; }
   .front-sheet .title-card { position: relative !important; inset: auto !important; transform: none !important; width: auto !important; max-width: none !important; }
   .front-sheet .walk-fold { position: absolute; left: 50%; top: 0; bottom: 0; display: block; border-left: 2px dashed rgba(24, 52, 61, 0.72); }
+  .front-sheet .walk-fold span { position: absolute; left: 0; transform: translateX(-50%); font-size: 0.62rem; padding: 0.1rem 0.4rem; }
+  .front-sheet .walk-fold span.top { top: 0.2rem; }
+  .front-sheet .walk-fold span.bottom { bottom: 1.5rem; top: auto; }
   .guide-sheet .guide-frame { height: auto; overflow: visible; }
   .guide-sheet .guide-cols, .guide-sheet.mode-web .guide-cols { display: block; }
   .guide-sheet .inset-map { position: relative !important; inset: auto !important; height: 280px !important; }
@@ -546,7 +558,7 @@
   print-color-adjust: exact;
 }
 .map-well.fwd-frame { border-radius: 10px; --u: clamp(2px, 0.3vw, 4px); }
-.walk-sheet.is-print .map-well.fwd-frame { --u: 2.2px; }
+.walk-sheet.is-print .map-well.fwd-frame { --u: 4.5px; }
 .front-sheet .map-well.fwd-frame .walk-map,
 .walk-sheet .map-well.fwd-frame .walk-map {
   inset: var(--fi-t) var(--fi-x) var(--fi-b) !important;
@@ -560,5 +572,12 @@
 }
 .map-card.fwd-frame #discovery-map { border-radius: 8px; }
 @media print {
-  .walk-sheet.is-print .map-well.fwd-frame { --u: 2.2px; }
+  .walk-sheet.is-print .map-well.fwd-frame { --u: 4.5px; }
+  /* the sheet is already 17in wide: drop the centered page wrapper so it starts at the page edge */
+  .fold-stage.wrap-l { width: auto !important; max-width: none !important; margin: 0 !important; }
+  .print-stack { display: block !important; gap: 0 !important; }
+  .print-page { overflow: hidden; }
+}
+@media screen and (max-width: 800px) {
+  .walk-sheet.is-print .map-well.fwd-frame { --u: clamp(2px, 0.6vw, 3.2px); }
 }
