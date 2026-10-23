@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>11×17 Fold-out Map | Falmouth Wellness Discovery</title>
-<meta name="description" content="Print layout for the Falmouth Wellness Discovery 11 by 17 inch fold-out map, with partner callout pockets around the edge.">
+<title>17×11 Pull-out Map | Falmouth Wellness Discovery</title>
+<meta name="description" content="Print-ready 17 by 11 inch pull-out: the Falmouth Wellness map with partner boxes on the front, and a Falmouth visitor guide on the back.">
 <link rel="canonical" href="https://healthandwellnessmaps.com/magazine/map-print.html">
 <meta name="theme-color" content="#2C7F7B">
 <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
@@ -25,41 +25,34 @@
   <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav"><span class="sr-only">Menu</span><span class="burger" aria-hidden="true"></span></button>
   <nav id="site-nav" class="site-nav" aria-label="Primary">
     <a href="index.html">Home</a>
+    <a href="magazine.html">Magazine</a>
     <a href="map.html">Map</a>
-    <a href="map-print.html" aria-current="page">11×17 layout</a>
+    <a href="guide.html">Guide</a>
+    <a href="map-print.html" aria-current="page">17×11 pull-out</a>
     <a href="partner.html">Become a Partner</a>
   </nav>
 </header>
 <main id="main">
   <div class="wrap page-hero no-print">
-    <h1>11×17 fold-out</h1>
-    <p class="lede">This is the center spread: 17 inches wide by 11 inches tall. On a phone the pockets stack so they can be read; printing still uses the 11×17 sheet. Sample slots say so and do not invent an address.</p>
-    <button class="btn" type="button" id="do-print">Print the sheet</button>
+    <h1>17×11 pull-out</h1>
+    <p class="lede">Two sides of the same sheet, each 17 inches wide by 11 inches tall. The front is the wellness map, framed by partner boxes that use the same numbers as the pins. The back is the Falmouth Visitor Guide. Trim marks sit in the corners. The dashed line on the map is the center fold. On a phone the boxes stack; printing still uses two 17×11 pages.</p>
+    <button class="btn" type="button" id="do-print">Print front and back</button>
     <p id="print-status" role="status">Preparing the sheet…</p>
   </div>
-  <div class="wrap-l fold-stage" id="fold-stage">
-    <article class="fold" id="fold" aria-label="Printable 11 by 17 map">
-      <div class="band-p" id="pockets-top"></div>
-      <div class="mid-p">
-        <div class="side-p" id="pockets-left"></div>
-        <div class="map-hold">
-          <div class="map-title"><strong>Falmouth Wellness Discovery</strong><span>Winter 2027 sample fold-out · not to scale as a survey</span></div>
-          <div id="print-map" role="region" aria-label="Falmouth map"></div>
-        </div>
-        <div class="side-p" id="pockets-right"></div>
-      </div>
-      <div class="band-p" id="pockets-bottom"></div>
-    </article>
+  <div class="wrap-l fold-stage no-print-stage" id="fold-stage">
+    <div class="print-stack" id="print-stack"></div>
   </div>
 </main>
 <footer class="site-footer no-print">
   <div class="wrap credit-line">
-    <p>Nobska Light cover photo: Giacomo Barbaro, CC BY-SA 3.0, via Wikimedia Commons (<a href="https://commons.wikimedia.org/wiki/File:Nobska_Lighthouse.jpg">https://commons.wikimedia.org/wiki/File:Nobska_Lighthouse.jpg</a>); modified with added text.</p>
+    <p>Map tiles © OpenStreetMap contributors. Nobska Light cover photo: Giacomo Barbaro, CC BY-SA 3.0, via Wikimedia Commons (<a href="https://commons.wikimedia.org/wiki/File:Nobska_Lighthouse.jpg">https://commons.wikimedia.org/wiki/File:Nobska_Lighthouse.jpg</a>); modified with added text.</p>
   </div>
 </footer>
 <script src="config.js"></script>
 <script src="js/main.js"></script>
 <script src="assets/vendor/leaflet/leaflet.js"></script>
+<script src="assets/vendor/qrcode/qrcode.min.js"></script>
+<script src="js/walking-map.js"></script>
 <script src="js/map-print.js"></script>
 </body>
 </html>

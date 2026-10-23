@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Discovery Map | Falmouth Wellness Discovery</title>
-<meta name="description" content="Interactive discovery map of Falmouth Wellness Discovery partners in Falmouth, Massachusetts. Filter by category or zoom to Main Street.">
+<meta name="description" content="Interactive Falmouth Wellness walking map from Woods Hole to Davis Straits, with numbered pins and the same A–H by 1–6 grid as the visitor guide.">
 <link rel="canonical" href="https://healthandwellnessmaps.com/magazine/map.html">
 <meta property="og:title" content="Falmouth discovery map">
 <meta property="og:description" content="Partner pins for the Falmouth wellness magazine map.">
@@ -31,29 +31,32 @@
     <a href="index.html">Home</a>
     <a href="magazine.html">Magazine</a>
     <a href="map.html" aria-current="page">Map</a>
+    <a href="guide.html">Guide</a>
     <a href="directory.html">Directory</a>
     <a href="partner.html">Become a Partner</a>
     <a class="btn btn-small" href="signup.html">Get the magazine</a>
   </nav>
 </header>
-<main id="main">
-  <div class="wrap page-hero">
+<main id="main" class="map-page">
+  <div class="map-intro">
     <h1>Discovery map</h1>
-    <p class="lede">Confirmed addresses get a pin. Sample slots stay in the list without a dot on the map, so we do not invent a storefront.</p>
+    <p class="lede">The same walking map as the front of the pull-out: Palmer Avenue to Teaticket Highway, and Jones Road down to Main Street. Twenty numbered pins. Where Main Street shops sit on top of each other, the pin is pulled aside and a line runs back to the address. Beacon Gardens is north of the sheet.</p>
     <div class="cta-row">
-      <button class="btn btn-small" type="button" id="zoom-main">Main Street</button>
+      <button class="btn btn-small" type="button" id="zoom-main">Downtown walk</button>
       <button class="btn btn-small btn-ghost" type="button" id="zoom-town">All of Falmouth</button>
-      <a class="btn btn-small btn-ghost" href="map-print.html">11×17 print layout</a>
+      <a class="btn btn-small btn-ghost" href="guide.html">Visitor guide</a>
+      <a class="btn btn-small btn-ghost" href="map-print.html">17×11 pull-out</a>
+      <a class="btn btn-small btn-ghost" href="magazine.html">Open the issue</a>
     </div>
     <div class="legend" id="legend"></div>
     <p id="map-status" role="status">Loading the map…</p>
   </div>
-  <section class="section" style="padding-top:0">
-    <div class="wrap-l map-layout">
-      <div class="pin-list" id="pin-list" aria-label="Places"></div>
+  <div class="map-stage">
+    <div class="pin-list" id="pin-list" aria-label="Places"></div>
+    <div class="map-card">
       <div id="discovery-map" role="region" aria-label="Map of Falmouth partners"></div>
     </div>
-  </section>
+  </div>
 </main>
 <footer class="site-footer">
   <div class="wrap credit-line">
@@ -63,6 +66,7 @@
 <script src="config.js"></script>
 <script src="js/main.js"></script>
 <script src="assets/vendor/leaflet/leaflet.js"></script>
+<script src="js/walking-map.js"></script>
 <script src="js/map.js"></script>
 </body>
 </html>

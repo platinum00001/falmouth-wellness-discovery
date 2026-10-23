@@ -185,6 +185,7 @@ def chrome(root: str, current: str) -> str:
     {link("index.html", "Home", "")}
     {link("magazine.html", "Magazine", "magazine.html")}
     {link("map.html", "Map", "map.html")}
+    {link("guide.html", "Guide", "guide.html")}
     {link("directory.html", "Directory", "directory.html")}
     {link("partner.html", "Become a Partner", "partner.html")}
     <a class="btn btn-small" href="{root}signup.html">Get the magazine</a>
@@ -203,7 +204,7 @@ def footer(root: str) -> str:
     </div>
     <div>
       <h2>Explore</h2>
-      <p><a href="{root}magazine.html">Winter 2027 sample issue</a><br><a href="{root}map.html">Discovery map</a><br><a href="{root}directory.html">Service directory</a><br><a href="{root}credits.html">Image credits</a></p>
+      <p><a href="{root}magazine.html">Winter 2027 sample issue</a><br><a href="{root}map.html">Discovery map</a><br><a href="{root}guide.html">Visitor guide</a><br><a href="{root}directory.html">Service directory</a><br><a href="{root}credits.html">Image credits</a></p>
     </div>
     <div>
       <h2>Partners</h2>

@@ -1,82 +1,99 @@
 async function bootPrint() {
   const status = document.getElementById("print-status");
-  if (typeof L === "undefined") {
+  const stack = document.getElementById("print-stack");
+  if (!window.FWDWalk || typeof L === "undefined") {
     status.textContent = "The map library did not load.";
     return;
   }
-  let data;
+  let issue;
   try {
-    data = await (await fetch("data/directory.json")).json();
+    issue = await (await fetch("data/issue1.json")).json();
   } catch (err) {
-    status.textContent = "Directory data did not load.";
+    status.textContent = "The walking map did not load.";
     return;
   }
-  const listings = [];
-  data.categories.forEach(function (cat) {
-    cat.listings.forEach(function (item) {
-      listings.push(Object.assign({ categoryName: cat.short }, item));
-    });
-  });
-  (data.mapOnly || []).forEach(function (item) { listings.push(item); });
+  const data = issue.walkingMap;
+  if (!data) {
+    status.textContent = "This issue has no walking map yet.";
+    return;
+  }
 
-  const buckets = {
-    top: document.getElementById("pockets-top"),
-    bottom: document.getElementById("pockets-bottom"),
-    left: document.getElementById("pockets-left"),
-    right: document.getElementById("pockets-right")
-  };
-  const order = ["top", "right", "bottom", "left"];
-  listings.forEach(function (item, i) {
-    const pocket = document.createElement("article");
-    pocket.className = "pocket";
-    const text = function (value) {
-      return String(value ?? "").replace(/[&<>]/g, function (ch) {
-        return ({ "&": "&amp;", "<": "&lt;", ">": "&gt;" })[ch];
-      });
-    };
-    pocket.innerHTML = '<p class="pk">' + (item.placeholder ? "Sample slot" : "Partner") + " · " + text(item.categoryName || "") +
-      "</p><h3>" + text(item.name) + "</h3><p>" + text(item.address || "Address not confirmed") + "</p>";
-    buckets[order[i % 4]].appendChild(pocket);
-  });
+  const faces = [
+    { face: "front", mapId: "print-map", qrId: "print-qr", label: "Front. Wellness map with partner boxes." },
+    { face: "back", mapId: "print-inset", qrId: "", label: "Back. Falmouth Visitor Guide." }
+  ];
+  stack.innerHTML = faces.map(function (face) {
+    return (
+      '<article class="print-page" aria-label="' + face.label + '">' +
+      window.FWDWalk.sheetHtml(data, {
+        mode: "spread",
+        print: true,
+        face: face.face,
+        mapId: face.mapId,
+        qrId: face.qrId
+      }) +
+      "</article>"
+    );
+  }).join("");
 
-  const map = L.map("print-map", { zoomControl: false, attributionControl: true }).setView([41.5522, -70.6145], 14);
-  L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
-    maxZoom: 19,
-    attribution: "&copy; OpenStreetMap"
-  }).addTo(map);
-  listings.forEach(function (item) {
-    if (item.lat == null) return;
-    L.circleMarker([item.lat, item.lng], {
-      radius: 6,
-      color: "#1c5a5e",
-      weight: 2,
-      fillColor: "#e8684a",
-      fillOpacity: 0.9
-    }).addTo(map).bindTooltip(item.name);
+  const front = window.FWDWalk.mountMap(document.getElementById("print-map"), data, {
+    interactive: true,
+    scrollWheelZoom: false,
+    zoomControl: false,
+    grid: true,
+    padding: [16, 16]
   });
+  const inset = data.inset || {};
+  const back = window.FWDWalk.mountMap(document.getElementById("print-inset"), data, {
+    interactive: true,
+    scrollWheelZoom: false,
+    zoomControl: false,
+    grid: false,
+    bounds: inset.bounds,
+    places: window.FWDWalk.placesInBounds(data.places, inset.bounds),
+    padding: [12, 12]
+  });
+  window.FWDWalk.drawQr("print-qr");
+  window.FWDWalk.drawQrSlots(stack);
+  const views = [front, back].filter(Boolean);
 
+  const narrow = window.matchMedia("(max-width: 800px)");
+  const stage = document.getElementById("fold-stage");
   function fit() {
-    const stage = document.getElementById("fold-stage");
-    const fold = document.getElementById("fold");
-    if (window.matchMedia("(max-width: 800px)").matches) {
-      fold.style.transform = "none";
-      stage.style.height = "auto";
-      map.invalidateSize();
-      return;
-    }
-    const scale = Math.min(1, (stage.clientWidth - 8) / fold.offsetWidth);
-    fold.style.transform = "scale(" + scale + ")";
-    stage.style.height = (fold.offsetHeight * scale + 8) + "px";
-    map.invalidateSize();
+    stack.querySelectorAll(".print-page").forEach(function (page) {
+      const sheet = page.querySelector(".walk-sheet");
+      if (!sheet) return;
+      if (narrow.matches) {
+        page.style.transform = "none";
+        page.style.width = "100%";
+        page.style.height = "auto";
+        return;
+      }
+      page.style.width = "17in";
+      const scale = Math.min(1, (stage.clientWidth - 8) / sheet.offsetWidth);
+      page.style.transform = "scale(" + scale + ")";
+      page.style.height = (sheet.offsetHeight * scale + 12) + "px";
+    });
+    views.forEach(function (view) { view.settle(); });
+  }
+  function restorePrint() {
+    stack.querySelectorAll(".print-page").forEach(function (page) {
+      page.style.transform = "none";
+      page.style.width = "17in";
+      page.style.height = "11in";
+    });
+    views.forEach(function (view) { view.settle(); });
   }
   window.addEventListener("resize", fit);
   document.getElementById("do-print").addEventListener("click", function () {
-    document.getElementById("fold").style.transform = "none";
+    restorePrint();
     window.print();
     fit();
   });
+  window.addEventListener("beforeprint", restorePrint);
+  window.addEventListener("afterprint", fit);
   fit();
-  status.textContent = "";
+  status.textContent = "Two 17×11 pages: the wellness map, then the visitor guide. Sample boxes are not real listings. A date says check date unless that date is printed.";
 }
 
 bootPrint();

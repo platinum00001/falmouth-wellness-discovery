@@ -21,19 +21,79 @@
     }
   },
   "imageSlots": [
-    {"id": "tanorama-story", "src": "", "webp": "", "alt": "", "note": "Reserved for a confirmed Tanorama photo or later generated art."},
-    {"id": "cape-island-story", "src": "", "webp": "", "alt": "", "note": "Reserved for a confirmed Cape Island Café photo or later generated art."},
-    {"id": "transport-story", "src": "", "webp": "", "alt": "", "note": "Reserved for a confirmed Falmouth Transport image or later generated art."},
-    {"id": "innovators", "src": "", "webp": "", "alt": "", "note": "Reserved for innovator portraits after interviews."},
-    {"id": "family-story", "src": "", "webp": "", "alt": "", "note": "Reserved for a family story photo used with permission."},
-    {"id": "charity", "src": "", "webp": "", "alt": "", "note": "Reserved for a charity spotlight image."},
-    {"id": "pets", "src": "", "webp": "", "alt": "", "note": "Reserved for shelter-confirmed pet photos."},
-    {"id": "map-illustration", "src": "", "webp": "", "alt": "", "note": "Reserved for a drawn discovery-map illustration."}
+    {
+      "id": "tanorama-story",
+      "src": "",
+      "webp": "",
+      "alt": "",
+      "note": "Reserved for a confirmed Tanorama photo or later generated art."
+    },
+    {
+      "id": "cape-island-story",
+      "src": "",
+      "webp": "",
+      "alt": "",
+      "note": "Reserved for a confirmed Cape Island Café photo or later generated art."
+    },
+    {
+      "id": "transport-story",
+      "src": "",
+      "webp": "",
+      "alt": "",
+      "note": "Reserved for a confirmed Falmouth Transport image or later generated art."
+    },
+    {
+      "id": "innovators",
+      "src": "",
+      "webp": "",
+      "alt": "",
+      "note": "Reserved for innovator portraits after interviews."
+    },
+    {
+      "id": "family-story",
+      "src": "",
+      "webp": "",
+      "alt": "",
+      "note": "Reserved for a family story photo used with permission."
+    },
+    {
+      "id": "charity",
+      "src": "",
+      "webp": "",
+      "alt": "",
+      "note": "Reserved for a charity spotlight image."
+    },
+    {
+      "id": "pets",
+      "src": "",
+      "webp": "",
+      "alt": "",
+      "note": "Reserved for shelter-confirmed pet photos."
+    },
+    {
+      "id": "map-illustration",
+      "src": "",
+      "webp": "",
+      "alt": "",
+      "note": "The pull-out front is the live walking map. This slot stays open if a drawn version is added later."
+    }
   ],
   "events": [
-    {"title": "Sample wellness walk", "when": "A weekday in January, February, or March 2027 — date not set", "detail": "Layout sample only. Not a town event and not on any official calendar."},
-    {"title": "Sample library note", "when": "Winter 2027 — title not confirmed", "detail": "Space for a program the Falmouth Public Library chooses to share. Nothing is listed until the library confirms it."},
-    {"title": "Sample partner open house", "when": "Winter 2027 — host not confirmed", "detail": "A partner can place a real open house here after it is confirmed. This line is a sample."}
+    {
+      "title": "Sample wellness walk",
+      "when": "A weekday in January, February, or March 2027 — date not set",
+      "detail": "Layout sample only. Not a town event and not on any official calendar."
+    },
+    {
+      "title": "Sample library note",
+      "when": "Winter 2027 — title not confirmed",
+      "detail": "Space for a program the Falmouth Public Library chooses to share. Nothing is listed until the library confirms it."
+    },
+    {
+      "title": "Sample partner open house",
+      "when": "Winter 2027 — host not confirmed",
+      "detail": "A partner can place a real open house here after it is confirmed. This line is a sample."
+    }
   ],
   "crossword": {
     "puzzles": [
@@ -51,39 +111,89 @@
         ],
         "clues": {
           "across": [
-            {"n": 1, "clue": "Buzzards ___, the bay on Falmouth's west side."},
-            {"n": 2, "clue": "The town this magazine is printed for."},
-            {"n": 5, "clue": "A class for breath and a steady mind."}
+            {
+              "n": 1,
+              "clue": "Buzzards ___, the bay on Falmouth's west side."
+            },
+            {
+              "n": 2,
+              "clue": "The town this magazine is printed for."
+            },
+            {
+              "n": 5,
+              "clue": "A class for breath and a steady mind."
+            }
           ],
           "down": [
-            {"n": 1, "clue": "Sandy shore. Surf Drive and Old Silver Beach are two of them."},
-            {"n": 3, "clue": "Woods Hole light on this issue's cover."},
-            {"n": 4, "clue": "The harbor's rise and fall."}
+            {
+              "n": 1,
+              "clue": "Sandy shore. Surf Drive and Old Silver Beach are two of them."
+            },
+            {
+              "n": 3,
+              "clue": "Woods Hole light on this issue's cover."
+            },
+            {
+              "n": 4,
+              "clue": "The harbor's rise and fall."
+            }
           ]
         }
       },
       {
         "title": "Sea-glass mini",
-        "grid": ["CAPE", "AREA", "REST", "EATS"],
+        "grid": [
+          "CAPE",
+          "AREA",
+          "REST",
+          "EATS"
+        ],
         "clues": {
           "across": [
-            {"n": 1, "clue": "Cod, the way people shorten the peninsula."},
-            {"n": 5, "clue": "A neighborhood, generally."},
-            {"n": 6, "clue": "A pause. Waiting rooms are built for one."},
-            {"n": 7, "clue": "Meals, casually."}
+            {
+              "n": 1,
+              "clue": "Cod, the way people shorten the peninsula."
+            },
+            {
+              "n": 5,
+              "clue": "A neighborhood, generally."
+            },
+            {
+              "n": 6,
+              "clue": "A pause. Waiting rooms are built for one."
+            },
+            {
+              "n": 7,
+              "clue": "Meals, casually."
+            }
           ],
           "down": [
-            {"n": 1, "clue": "What a clinic visit is for."},
-            {"n": 2, "clue": "The same four letters as 5 across, reading down."},
-            {"n": 3, "clue": "Unwanted guest at a picnic."},
-            {"n": 4, "clue": "The same four letters as 7 across, reading down."}
+            {
+              "n": 1,
+              "clue": "What a clinic visit is for."
+            },
+            {
+              "n": 2,
+              "clue": "The same four letters as 5 across, reading down."
+            },
+            {
+              "n": 3,
+              "clue": "Unwanted guest at a picnic."
+            },
+            {
+              "n": 4,
+              "clue": "The same four letters as 7 across, reading down."
+            }
           ]
         }
       }
     ]
   },
   "pages": [
-    {"kind": "cover", "title": "Cover"},
+    {
+      "kind": "cover",
+      "title": "Cover"
+    },
     {
       "kind": "letter",
       "kicker": "From the publisher",
@@ -92,12 +202,20 @@
       "paragraphs": [
         "Falmouth Wellness Discovery is a quarterly health and wellness magazine with a fold-out discovery map. We print 1,000 copies and place them free. Winter 2027 is the founding issue, and this digital reader is a sample of that issue.",
         "The pages follow four pillars: Mind, Body, Soul, and Health & Food. Stories are written from interviews. Until someone confirms a fact, the page says so. Placeholder businesses are marked as samples.",
-        "The printed magazine is made at letter size from 11×17 sheets. The discovery map is the center spread. This screen edition turns the same pages one at a time, or as a spread on a wider screen.",
+        "The printed magazine is letter size, made from 11×17 sheets. Tear out the walking-map sheet: the front is the wellness map, with partner boxes around the edge, and the back is a Falmouth visitor guide. On a wide screen those two sides open as landscape spreads.",
         "Come by Cape Island Café at 316 Gifford Street if you want to talk about a story or a partnership. The phone is (774) 247-5263 and the email is CapeIslandCafe@gmail.com."
       ],
-      "ad": {"size": "eighth", "label": "Sample · 1/8 page", "headline": "Your business here", "text": "Not a real advertisement. This box shows an eighth-page placement."}
+      "ad": {
+        "size": "eighth",
+        "label": "Sample · 1/8 page",
+        "headline": "Your business here",
+        "text": "Not a real advertisement. This box shows an eighth-page placement."
+      }
     },
-    {"kind": "toc", "title": "Contents"},
+    {
+      "kind": "toc",
+      "title": "Contents"
+    },
     {
       "kind": "story",
       "kicker": "Mind · Innovators",
@@ -109,10 +227,25 @@
         "A profile here will say how the work started, who it is for, and where a reader can find it. Those details come from the person, not from guesswork."
       ],
       "cards": [
-        {"title": "Sample innovator", "kicker": "Open profile", "placeholder": true, "text": "Your interview here. No person, title, or organization is invented for this slot."},
-        {"title": "Sample innovator", "kicker": "Open profile", "placeholder": true, "text": "A second profile can run beside the first once two people have agreed."}
+        {
+          "title": "Sample innovator",
+          "kicker": "Open profile",
+          "placeholder": true,
+          "text": "Your interview here. No person, title, or organization is invented for this slot."
+        },
+        {
+          "title": "Sample innovator",
+          "kicker": "Open profile",
+          "placeholder": true,
+          "text": "A second profile can run beside the first once two people have agreed."
+        }
       ],
-      "ad": {"size": "quarter", "label": "Sample · 1/4 page", "headline": "Quarter-page placement", "text": "Not a real advertisement."}
+      "ad": {
+        "size": "quarter",
+        "label": "Sample · 1/4 page",
+        "headline": "Quarter-page placement",
+        "text": "Not a real advertisement."
+      }
     },
     {
       "kind": "story",
@@ -137,8 +270,16 @@
         "Until then, treat every sentence on these two pages as a sample frame, except the address, the owner's name, and the nearly-three-decades line."
       ],
       "cards": [
-        {"title": "Confirmed", "kicker": "Use these", "text": "Tanning salon. 365 Main Street, Falmouth. Owner: Scott. Nearly three decades on Main Street."},
-        {"title": "Not confirmed", "kicker": "Leave blank", "text": "Hours, phone, website, prices, and a list of services. They stay off the page until Tanorama provides them."}
+        {
+          "title": "Confirmed",
+          "kicker": "Use these",
+          "text": "Tanning salon. 365 Main Street, Falmouth. Owner: Scott. Nearly three decades on Main Street."
+        },
+        {
+          "title": "Not confirmed",
+          "kicker": "Leave blank",
+          "text": "Hours, phone, website, prices, and a list of services. They stay off the page until Tanorama provides them."
+        }
       ]
     },
     {
@@ -165,8 +306,18 @@
         "Taxi partners can take the open slots beside this feature. Those slots are labeled as samples until a company claims one."
       ],
       "cards": [
-        {"title": "Taxi partner (your business here)", "kicker": "Sample slot", "placeholder": true, "text": "No company is named. No phone or fare is shown."},
-        {"title": "Taxi partner (your business here)", "kicker": "Sample slot", "placeholder": true, "text": "A second taxi can share the getting-around page."}
+        {
+          "title": "Taxi partner (your business here)",
+          "kicker": "Sample slot",
+          "placeholder": true,
+          "text": "No company is named. No phone or fare is shown."
+        },
+        {
+          "title": "Taxi partner (your business here)",
+          "kicker": "Sample slot",
+          "placeholder": true,
+          "text": "A second taxi can share the getting-around page."
+        }
       ]
     },
     {
@@ -178,9 +329,24 @@
         "Each quarter the food pages hold one featured breakfast, one lunch, and one dinner. Lunch in this sample is Cape Island Café, already introduced. Breakfast and dinner are open."
       ],
       "cards": [
-        {"title": "Featured Breakfast (your business here)", "kicker": "Sample slot", "placeholder": true, "text": "A Falmouth breakfast spot can take this card. No café is invented to fill it."},
-        {"title": "Cape Island Café", "kicker": "Lunch · founding partner", "meta": "316 Gifford Street", "text": "Alcohol-free, sober-friendly weekday lunch. Confirmed founding partner."},
-        {"title": "Featured Dinner (your business here)", "kicker": "Sample slot", "placeholder": true, "text": "An evening restaurant can take this card after it confirms the listing."}
+        {
+          "title": "Featured Breakfast (your business here)",
+          "kicker": "Sample slot",
+          "placeholder": true,
+          "text": "A Falmouth breakfast spot can take this card. No café is invented to fill it."
+        },
+        {
+          "title": "Cape Island Café",
+          "kicker": "Lunch · founding partner",
+          "meta": "316 Gifford Street",
+          "text": "Alcohol-free, sober-friendly weekday lunch. Confirmed founding partner."
+        },
+        {
+          "title": "Featured Dinner (your business here)",
+          "kicker": "Sample slot",
+          "placeholder": true,
+          "text": "An evening restaurant can take this card after it confirms the listing."
+        }
       ]
     },
     {
@@ -192,11 +358,31 @@
         "Seasonal trucks, farm stands, and a pharmacy belong in the same food-and-health neighborhood of the issue. The cards below are empty on purpose."
       ],
       "cards": [
-        {"title": "Featured Food Truck (your business here)", "kicker": "Sample slot", "placeholder": true, "text": "No truck name, corner, or schedule is invented."},
-        {"title": "Featured Farm Stand (your business here)", "kicker": "Sample slot", "placeholder": true, "text": "No farm is named. What is in season will come from the stand."},
-        {"title": "Featured Pharmacy (your business here)", "kicker": "Sample slot", "placeholder": true, "text": "No pharmacy is named and no health claim is made."}
+        {
+          "title": "Featured Food Truck (your business here)",
+          "kicker": "Sample slot",
+          "placeholder": true,
+          "text": "No truck name, corner, or schedule is invented."
+        },
+        {
+          "title": "Featured Farm Stand (your business here)",
+          "kicker": "Sample slot",
+          "placeholder": true,
+          "text": "No farm is named. What is in season will come from the stand."
+        },
+        {
+          "title": "Featured Pharmacy (your business here)",
+          "kicker": "Sample slot",
+          "placeholder": true,
+          "text": "No pharmacy is named and no health claim is made."
+        }
       ],
-      "ad": {"size": "half", "label": "Sample · 1/2 page", "headline": "Half-page placement", "text": "Not a real advertisement. This block shows how a half page sits under the cards."}
+      "ad": {
+        "size": "half",
+        "label": "Sample · 1/2 page",
+        "headline": "Half-page placement",
+        "text": "Not a real advertisement. This block shows how a half page sits under the cards."
+      }
     },
     {
       "kind": "story",
@@ -207,10 +393,49 @@
         "Body pages cover places to move: a gym, a yoga studio, and a personal trainer. None are confirmed for Issue 1, so the cards stay generic."
       ],
       "cards": [
-        {"title": "Featured Gym (your business here)", "kicker": "Sample slot", "placeholder": true, "text": "No gym is named. Hours and class lists wait for the business."},
-        {"title": "Featured Yoga (your business here)", "kicker": "Sample slot", "placeholder": true, "text": "No studio is named."},
-        {"title": "Featured Personal Trainer (your business here)", "kicker": "Sample slot", "placeholder": true, "text": "No trainer is named."}
+        {
+          "title": "Featured Gym (your business here)",
+          "kicker": "Sample slot",
+          "placeholder": true,
+          "text": "No gym is named. Hours and class lists wait for the business."
+        },
+        {
+          "title": "Featured Yoga (your business here)",
+          "kicker": "Sample slot",
+          "placeholder": true,
+          "text": "No studio is named."
+        },
+        {
+          "title": "Featured Personal Trainer (your business here)",
+          "kicker": "Sample slot",
+          "placeholder": true,
+          "text": "No trainer is named."
+        }
       ]
+    },
+    {
+      "kind": "centerfold",
+      "panel": "map",
+      "title": "Walking map",
+      "face": "front"
+    },
+    {
+      "kind": "centerfold",
+      "panel": "legend",
+      "title": "Partner boxes",
+      "face": "front"
+    },
+    {
+      "kind": "centerfold",
+      "face": "back",
+      "panel": "guide",
+      "title": "Visitor guide"
+    },
+    {
+      "kind": "centerfold",
+      "face": "back",
+      "panel": "guide",
+      "title": "Visitor guide, continued"
     },
     {
       "kind": "story",
@@ -220,9 +445,24 @@
         "A hair salon sits with beauty, beside Tanorama's tanning feature. Golf and social clubs get their own cards. All three below are open slots."
       ],
       "cards": [
-        {"title": "Featured Hair Salon (your business here)", "kicker": "Sample slot", "placeholder": true, "text": "No salon is named. Tanorama's feature is the tanning story, not a hair listing."},
-        {"title": "Featured Golf (your business here)", "kicker": "Sample slot", "placeholder": true, "text": "No course or club is named."},
-        {"title": "Featured Social Club (your business here)", "kicker": "Sample slot", "placeholder": true, "text": "No club is named."}
+        {
+          "title": "Featured Hair Salon (your business here)",
+          "kicker": "Sample slot",
+          "placeholder": true,
+          "text": "No salon is named. Tanorama's feature is the tanning story, not a hair listing."
+        },
+        {
+          "title": "Featured Golf (your business here)",
+          "kicker": "Sample slot",
+          "placeholder": true,
+          "text": "No course or club is named."
+        },
+        {
+          "title": "Featured Social Club (your business here)",
+          "kicker": "Sample slot",
+          "placeholder": true,
+          "text": "No club is named."
+        }
       ]
     },
     {
@@ -234,8 +474,18 @@
         "The hotels page is for where to stay in Falmouth. No inn or hotel is named in this sample, and no rate or amenity is invented. A featured hotel can take the card and the map pin together."
       ],
       "cards": [
-        {"title": "Featured Hotel (your business here)", "kicker": "Sample slot · Where to stay", "placeholder": true, "text": "Address, season, and a booking link will be added only after the hotel confirms them."},
-        {"title": "Featured Hotel (your business here)", "kicker": "Sample slot", "placeholder": true, "text": "A second stay can run if the quarter has room. Still unnamed."}
+        {
+          "title": "Featured Hotel (your business here)",
+          "kicker": "Sample slot · Where to stay",
+          "placeholder": true,
+          "text": "Address, season, and a booking link will be added only after the hotel confirms them."
+        },
+        {
+          "title": "Featured Hotel (your business here)",
+          "kicker": "Sample slot",
+          "placeholder": true,
+          "text": "A second stay can run if the quarter has room. Still unnamed."
+        }
       ]
     },
     {
@@ -248,9 +498,22 @@
         "Falmouth Public Library is at 300 Main Street. Its site is falmouthpubliclibrary.org. The Falmouth Senior Center is at 300 Dillingham Avenue. Youth sports are not listed by league name until a program or the recreation department confirms the contact."
       ],
       "cards": [
-        {"title": "Falmouth Public Library", "kicker": "300 Main Street", "text": "Hours and events stay on the library's site. This magazine will run a quarterly note only when the library sends one."},
-        {"title": "Falmouth Senior Center", "kicker": "300 Dillingham Avenue", "text": "Programs are published by the Town of Falmouth. None are repeated here."},
-        {"title": "Youth sports (listing to be confirmed)", "kicker": "Sample slot", "placeholder": true, "text": "No league is named and no field address is guessed."}
+        {
+          "title": "Falmouth Public Library",
+          "kicker": "300 Main Street",
+          "text": "Hours and events stay on the library's site. This magazine will run a quarterly note only when the library sends one."
+        },
+        {
+          "title": "Falmouth Senior Center",
+          "kicker": "300 Dillingham Avenue",
+          "text": "Programs are published by the Town of Falmouth. None are repeated here."
+        },
+        {
+          "title": "Youth sports (listing to be confirmed)",
+          "kicker": "Sample slot",
+          "placeholder": true,
+          "text": "No league is named and no field address is guessed."
+        }
       ]
     },
     {
@@ -297,9 +560,24 @@
         "The pet page will use animals a shelter or rescue confirms, with the shelter's own contact. These three cards are dummies so the layout can be checked."
       ],
       "cards": [
-        {"title": "Sample dog", "kicker": "Not a real pet", "placeholder": true, "text": "Name, age, and shelter phone are blank until a rescue provides them."},
-        {"title": "Sample cat", "kicker": "Not a real pet", "placeholder": true, "text": "Do not try to adopt this cat. It is a layout block."},
-        {"title": "Sample cat", "kicker": "Not a real pet", "placeholder": true, "text": "A third card, also fictional."}
+        {
+          "title": "Sample dog",
+          "kicker": "Not a real pet",
+          "placeholder": true,
+          "text": "Name, age, and shelter phone are blank until a rescue provides them."
+        },
+        {
+          "title": "Sample cat",
+          "kicker": "Not a real pet",
+          "placeholder": true,
+          "text": "Do not try to adopt this cat. It is a layout block."
+        },
+        {
+          "title": "Sample cat",
+          "kicker": "Not a real pet",
+          "placeholder": true,
+          "text": "A third card, also fictional."
+        }
       ]
     },
     {
@@ -334,7 +612,479 @@
       "paragraphs": [
         "The back cover is a full-page ad. This sample shows the size and nothing else. Cover Partner is the package aimed at this placement. Prices are on the partner page and are introductory."
       ],
-      "ad": {"size": "full", "label": "Sample · full page", "headline": "Your back cover here", "text": "Not a real advertisement. No business is implied."}
+      "ad": {
+        "size": "full",
+        "label": "Sample · full page",
+        "headline": "Your back cover here",
+        "text": "Not a real advertisement. No business is implied."
+      }
     }
-  ]
+  ],
+  "walkingMap": {
+    "title": "Falmouth Wellness Walking Map",
+    "dek": "Palmer Avenue to Teaticket Highway, and Jones Road down to Main Street. Letters A–H run west to east. Numbers 1–6 run north to south. Pins that share a block are pulled apart, with a line back to the address.",
+    "bounds": [
+      [
+        41.545,
+        -70.632
+      ],
+      [
+        41.57,
+        -70.59
+      ]
+    ],
+    "route": {
+      "label": "Suggested walk along Main Street",
+      "note": "From Palmer Avenue toward Davis Straits, past Town Hall Square, the library, and Tanorama. A sketch for this issue, not a measured trail.",
+      "points": [
+        [
+          41.5539,
+          -70.6212
+        ],
+        [
+          41.5535,
+          -70.6202
+        ],
+        [
+          41.5522,
+          -70.6184
+        ],
+        [
+          41.55255,
+          -70.6163
+        ],
+        [
+          41.55285,
+          -70.61408
+        ],
+        [
+          41.55208,
+          -70.61241
+        ],
+        [
+          41.55235,
+          -70.6086
+        ],
+        [
+          41.5535,
+          -70.6046
+        ],
+        [
+          41.5546,
+          -70.6009
+        ]
+      ]
+    },
+    "highlight": {
+      "title": "Cape Island Cafe, 316 Gifford St",
+      "text": "Weekday lunch. Alcohol-free and sober-friendly. The orange pin is near Gifford Street and Jones Road."
+    },
+    "places": [
+      {
+        "number": 1,
+        "id": "cape-island-cafe",
+        "name": "Cape Island Café",
+        "category": "Lunch",
+        "pillar": "health-food",
+        "address": "316 Gifford St",
+        "lat": 41.562274,
+        "lng": -70.611104,
+        "qr": "food/index.html#cape-island-cafe",
+        "size": "wide",
+        "color": "#e07a2f"
+      },
+      {
+        "number": 2,
+        "id": "eight-cousins",
+        "name": "Eight Cousins Books",
+        "category": "Bookstore",
+        "pillar": "mind",
+        "address": "199 Main St",
+        "lat": 41.55223,
+        "lng": -70.616636,
+        "qr": "bookstore/index.html#eight-cousins",
+        "size": "small",
+        "approximate": true
+      },
+      {
+        "number": 3,
+        "id": "jacquelines-gifts",
+        "name": "Jacqueline's Gifts & Antiques",
+        "category": "Antiques & vintage",
+        "pillar": "soul",
+        "address": "17 Walker St",
+        "lat": 41.55179,
+        "lng": -70.616636,
+        "qr": "antiques/index.html#jacquelines-gifts",
+        "size": "small"
+      },
+      {
+        "number": 4,
+        "id": "salty-florist",
+        "name": "The Salty Florist & More",
+        "category": "Florist",
+        "pillar": "soul",
+        "address": "362 Main St",
+        "lat": 41.552251,
+        "lng": -70.612338,
+        "qr": "florist/index.html#salty-florist",
+        "size": "small",
+        "approximate": true
+      },
+      {
+        "number": 5,
+        "id": "falmouth-art-center",
+        "name": "Falmouth Art Center",
+        "category": "Art gallery",
+        "pillar": "soul",
+        "address": "137 Gifford St",
+        "lat": 41.555662,
+        "lng": -70.610386,
+        "qr": "art-gallery/index.html#falmouth-art-center",
+        "size": "small"
+      },
+      {
+        "number": 6,
+        "id": "cape-symphony-conservatory",
+        "name": "Cape Symphony Conservatory",
+        "category": "Music lessons",
+        "pillar": "mind",
+        "address": "60 Highfield Dr",
+        "lat": 41.558498,
+        "lng": -70.630111,
+        "qr": "music-lessons/index.html#cape-symphony-conservatory",
+        "size": "small"
+      },
+      {
+        "number": 7,
+        "id": "corner-cycle",
+        "name": "Corner Cycle",
+        "category": "Bike shop",
+        "pillar": "body",
+        "address": "115 Palmer Ave",
+        "lat": 41.556346,
+        "lng": -70.620947,
+        "qr": "bike-shop/index.html#corner-cycle",
+        "size": "small"
+      },
+      {
+        "number": 8,
+        "id": "windfall-market",
+        "name": "Windfall Market",
+        "category": "Local market",
+        "pillar": "health-food",
+        "address": "77 Scranton Ave",
+        "lat": 41.551452,
+        "lng": -70.603742,
+        "qr": "local-market/index.html#windfall-market",
+        "size": "small"
+      },
+      {
+        "number": 9,
+        "id": "maison-villatte",
+        "name": "Maison Villatte",
+        "category": "Bakery",
+        "pillar": "health-food",
+        "address": "267 Main St",
+        "lat": 41.552029,
+        "lng": -70.614537,
+        "qr": "bakery/index.html#maison-villatte",
+        "size": "small",
+        "approximate": true
+      },
+      {
+        "number": 10,
+        "id": "hospital-auxiliary-thrift",
+        "name": "Falmouth Hospital Auxiliary Thrift Shop",
+        "category": "Thrift",
+        "pillar": "soul",
+        "address": "432 Palmer Ave",
+        "lat": 41.564434,
+        "lng": -70.619021,
+        "qr": "thrift/index.html#hospital-auxiliary-thrift",
+        "size": "small"
+      },
+      {
+        "number": 11,
+        "id": "cafe-grounded",
+        "name": "Café Grounded",
+        "category": "Healthy café",
+        "pillar": "health-food",
+        "address": "281 Main St",
+        "lat": 41.552029,
+        "lng": -70.614525,
+        "qr": "food/index.html#cafe-grounded",
+        "size": "small",
+        "approximate": true
+      },
+      {
+        "number": 12,
+        "id": "tanorama",
+        "name": "Tanorama",
+        "category": "Tanning",
+        "pillar": "body",
+        "address": "365 Main St",
+        "lat": 41.552083,
+        "lng": -70.612413,
+        "qr": "beauty/index.html#tanorama",
+        "size": "small",
+        "approximate": true
+      },
+      {
+        "number": 13,
+        "id": "bellezza-salon",
+        "name": "Bellezza Salon Medspa",
+        "category": "Hair salon",
+        "pillar": "body",
+        "address": "221 Main St",
+        "lat": 41.551936,
+        "lng": -70.616116,
+        "qr": "beauty/index.html#bellezza-salon",
+        "size": "small",
+        "approximate": true
+      },
+      {
+        "number": 14,
+        "id": "rooted-hot-yoga",
+        "name": "rooted Hot Yoga",
+        "category": "Yoga",
+        "pillar": "body",
+        "address": "80 Davis Straits",
+        "lat": 41.559296,
+        "lng": -70.600074,
+        "qr": "fitness/index.html#rooted-hot-yoga",
+        "size": "small"
+      },
+      {
+        "number": 15,
+        "id": "spa-and-nails",
+        "name": "Spa & Nails",
+        "category": "Nail salon",
+        "pillar": "body",
+        "address": "669 Main St",
+        "lat": 41.552693,
+        "lng": -70.604668,
+        "qr": "beauty/index.html#spa-and-nails",
+        "size": "small",
+        "approximate": true
+      },
+      {
+        "number": 16,
+        "id": "golden-crown-cleaners",
+        "name": "Golden Crown Cleaners",
+        "category": "Dry cleaner",
+        "pillar": "soul",
+        "address": "194 Teaticket Hwy",
+        "lat": 41.565604,
+        "lng": -70.596282,
+        "qr": "dry-cleaner/index.html#golden-crown-cleaners",
+        "size": "small"
+      },
+      {
+        "number": 17,
+        "id": "falmouth-elks",
+        "name": "Falmouth Elks Lodge #2380",
+        "category": "Social club",
+        "pillar": "soul",
+        "address": "140 Palmer Ave",
+        "lat": 41.556906,
+        "lng": -70.621386,
+        "qr": "community/index.html#falmouth-elks",
+        "size": "small"
+      },
+      {
+        "number": 18,
+        "id": "palmer-house-inn",
+        "name": "Palmer House Inn",
+        "category": "Hotel",
+        "pillar": "stay",
+        "address": "81 Palmer Ave",
+        "lat": 41.555924,
+        "lng": -70.620102,
+        "qr": "hotels/index.html#palmer-house-inn",
+        "size": "small"
+      },
+      {
+        "number": 19,
+        "id": "tommys-place",
+        "name": "Tommy's Place",
+        "category": "Charity",
+        "pillar": "soul",
+        "address": "26 Elm Arch Way",
+        "lat": 41.551313,
+        "lng": -70.61506,
+        "qr": "community/index.html#tommys-place",
+        "size": "small"
+      },
+      {
+        "number": 20,
+        "id": "fitness-directions",
+        "name": "Fitness Directions",
+        "category": "Pilates",
+        "pillar": "body",
+        "address": "27 Falmouth Heights Rd",
+        "lat": 41.553307,
+        "lng": -70.600428,
+        "qr": "fitness/index.html#fitness-directions",
+        "size": "small"
+      }
+    ],
+    "inset": {
+      "title": "Main Street",
+      "dek": "Town Hall Square, the library, the Chamber, and Tanorama. Cape Island Cafe stays on the large map, near Gifford Street and Jones Road.",
+      "bounds": [
+        [
+          41.5502,
+          -70.6222
+        ],
+        [
+          41.5556,
+          -70.6062
+        ]
+      ]
+    },
+    "guide": {
+      "landmarks": [
+        {
+          "id": "nobska",
+          "name": "Nobska Light",
+          "lat": 41.5157896,
+          "lng": -70.6551448,
+          "qr": "guide.html#nobska",
+          "detail": "Nobska Point Light, 233 Nobska Road, Woods Hole, Falmouth, MA 02543. Friends of Nobska Light. Grounds open dawn to dusk year-round. Phone 774-763-6453."
+        },
+        {
+          "id": "village-green",
+          "name": "Falmouth Village Green",
+          "lat": 41.5550589,
+          "lng": -70.6194749,
+          "qr": "guide.html#village-green",
+          "detail": "The Town Green at Palmer Avenue, beside Falmouth Museums on the Green. This cell is the visitor-center address, 55 Palmer Avenue."
+        },
+        {
+          "id": "wicks-house",
+          "name": "Dr. Francis Wicks House",
+          "lat": 41.5550589,
+          "lng": -70.6194749,
+          "detail": "About 1790. Oldest house on the Town Green, on the Museums on the Green campus. The first floor is wheelchair accessible."
+        },
+        {
+          "id": "conant-house",
+          "name": "Conant House",
+          "lat": 41.5553607,
+          "lng": -70.6196379,
+          "detail": "About 1730. 65 Palmer Avenue. Office and research library of the Falmouth Historical Society."
+        }
+      ],
+      "museums": [
+        {
+          "id": "museums-on-the-green",
+          "name": "Falmouth Museums on the Green",
+          "lat": 41.5550589,
+          "lng": -70.6194749,
+          "qr": "guide.html#museums-on-the-green",
+          "detail": "Nonprofit Falmouth Historical Society. Visitor center in the Hallett Barn, 55 Palmer Avenue, Falmouth, MA 02540. Office hours Monday–Friday, 10 a.m.–3 p.m., year-round. Phone 508-548-4857."
+        },
+        {
+          "id": "woods-hole-historical-museum",
+          "name": "Woods Hole Historical Museum",
+          "lat": 41.5234911,
+          "lng": -70.6678428,
+          "qr": "guide.html#woods-hole-historical-museum",
+          "detail": "Nonprofit. 579 Woods Hole Road, Woods Hole, MA 02543. Phone 508-548-7270. Hours are seasonal; check woodsholemuseum.org."
+        },
+        {
+          "id": "whoi-discovery",
+          "name": "WHOI Ocean Science Discovery Center",
+          "lat": 41.5245293,
+          "lng": -70.6683751,
+          "qr": "guide.html#whoi-discovery",
+          "detail": "15 School Street, Woods Hole, MA 02543. Hours and the phone number are on whoi.edu/visit."
+        },
+        {
+          "id": "highfield",
+          "name": "Highfield Hall & Gardens",
+          "lat": 41.55756,
+          "lng": -70.629128,
+          "qr": "guide.html#highfield",
+          "detail": "56 Highfield Drive, Falmouth, MA 02541. Phone 508-495-1878. From Depot Avenue, through the stone pillars onto Highfield Drive."
+        }
+      ],
+      "trails": [
+        {
+          "id": "shining-sea",
+          "name": "Shining Sea Bikeway",
+          "lat": 41.5559095,
+          "lng": -70.6226492,
+          "qr": "guide.html#shining-sea",
+          "detail": "10.7 miles, from County Road in North Falmouth (off this sheet) to the Steamship Authority terminal in Woods Hole. This cell is the Depot Avenue parking access in the village. Named for Katharine Lee Bates. A monument stands on the path near Woods Hole and Oyster Pond; it is not pinned on this sheet. From Depot Avenue the town describes a trail toward Highfield Hall and Beebe Woods, and another toward Goodwill Park, Grew’s Pond, Long Pond, and the Moraine Trail, crossing Route 28."
+        }
+      ],
+      "beaches": [
+        {
+          "id": "surf-drive",
+          "name": "Surf Drive Beach",
+          "lat": 41.5423335,
+          "lng": -70.6182809,
+          "qr": "guide.html#surf-drive",
+          "detail": "56 Surf Drive. Town beach; the public is welcome."
+        },
+        {
+          "id": "menauhant",
+          "name": "Menauhant Beach",
+          "lat": 41.5736303,
+          "lng": -70.5498741,
+          "detail": "663 Menauhant Road, East Falmouth. East and west beaches. Off this sheet."
+        },
+        {
+          "id": "old-silver",
+          "name": "Old Silver Beach",
+          "lat": 41.6393836,
+          "lng": -70.6296664,
+          "detail": "296 Quaker Road, North Falmouth. Public beach. Off this sheet."
+        },
+        {
+          "id": "falmouth-heights",
+          "name": "Falmouth Heights Beach",
+          "detail": "261 Grand Avenue. Sticker parking. Off this sheet."
+        },
+        {
+          "id": "grews-pond",
+          "name": "Grew’s Pond",
+          "lat": 41.5706846,
+          "lng": -70.6158714,
+          "qr": "guide.html#grews-pond",
+          "detail": "416 Pumping Station Road, Goodwill Park. Freshwater town beach. Free parking."
+        }
+      ],
+      "events": [
+        {
+          "id": "road-race",
+          "name": "ASICS Falmouth Road Race",
+          "ref": "Check date",
+          "qr": "guide.html#road-race",
+          "detail": "Seven-mile seaside race. The 54th running was published for Sunday, August 16, 2026, at 8:00 a.m. Next date: check date."
+        },
+        {
+          "id": "christmas-parade",
+          "name": "Falmouth Christmas Parade",
+          "ref": "Dec 6",
+          "qr": "guide.html#christmas-parade",
+          "detail": "Falmouth Chamber of Commerce. The 63rd annual parade is Sunday, December 6, 2026, at noon, rain or shine. It steps off from Dillingham Avenue onto Davis Straits, with staging from Gifford Street. A later year: check date."
+        }
+      ]
+    },
+    "offsheet": [
+      {
+        "id": "beacon-gardens",
+        "name": "Beacon Gardens",
+        "category": "Garden center",
+        "address": "254 Brick Kiln Rd",
+        "lat": 41.58195,
+        "lng": -70.595348,
+        "edge": "north",
+        "qr": "garden-center/index.html#beacon-gardens"
+      }
+    ]
+  }
 }

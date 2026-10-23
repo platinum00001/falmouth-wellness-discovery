@@ -198,6 +198,54 @@ function renderPuzzle(puzzle) {
   return section;
 }
 
+function renderCenterfold(issue, index, total, mode, face) {
+  const data = issue.walkingMap || {};
+  const mapId = "centerfold-map";
+  const qrId = "centerfold-qr";
+  const sheet = window.FWDWalk
+    ? window.FWDWalk.sheetHtml(data, { mode: mode, mapId: mapId, qrId: qrId, face: face || "front" })
+    : "<p>The walking map did not load.</p>";
+  const rightNo = mode === "spread" ? (index + 2) : (index + 1);
+  const label = face === "back" ? "visitor guide" : "walking map";
+  return (
+    '<article class="leaf centerfold face-' + (face === "back" ? "back" : "front") + '">' + sheet +
+    '<p class="page-no"><span>' + esc(issue.issue.name) + " · " + label + "</span><span>" +
+    (index + 1) + (mode === "spread" ? "–" + rightNo : "") + " / " + total + "</span></p></article>"
+  );
+}
+
+function mountCenterfold(issue, face) {
+  if (!window.FWDWalk || !issue.walkingMap) return;
+  const host = document.getElementById("centerfold-map");
+  if (!host || typeof L === "undefined") {
+    if (host) host.textContent = "The map library did not load.";
+    return;
+  }
+  const data = issue.walkingMap;
+  let view;
+  if (face === "back") {
+    const inset = data.inset || {};
+    view = window.FWDWalk.mountMap(host, data, {
+      interactive: true,
+      scrollWheelZoom: false,
+      grid: false,
+      bounds: inset.bounds,
+      places: window.FWDWalk.placesInBounds(data.places, inset.bounds),
+      padding: [16, 16]
+    });
+  } else {
+    view = window.FWDWalk.mountMap(host, data, {
+      interactive: true,
+      scrollWheelZoom: false,
+      grid: true,
+      padding: [18, 18]
+    });
+    window.FWDWalk.drawQr("centerfold-qr");
+  }
+  window.FWDWalk.drawQrSlots(document.getElementById("book"));
+  if (view) setTimeout(view.settle, 400);
+}
+
 function drawAudioQr() {
   const box = document.getElementById("audio-qr");
   if (!box || typeof QRCode === "undefined") return;
@@ -222,34 +270,74 @@ async function boot() {
   const pages = issue.pages;
   let index = 0;
   const spreadQuery = window.matchMedia("(min-width: 980px)");
+  const requested = Number(new URLSearchParams(location.search).get("page"));
+  if (requested >= 1 && requested <= pages.length) index = requested - 1;
 
-  function step() { return spreadQuery.matches ? 2 : 1; }
+  function viewStart(i) {
+    const last = pages.length - 1;
+    const n = Math.max(0, Math.min(last, i));
+    if (!spreadQuery.matches || n === 0) return n;
+    if (n === last && last % 2 === 1) return last;
+    return n % 2 === 0 ? n - 1 : n;
+  }
+
+  function viewCount(start) {
+    if (!spreadQuery.matches || start === 0) return 1;
+    if (start >= pages.length - 1) return 1;
+    return 2;
+  }
+
+  function nextStart(start) {
+    if (!spreadQuery.matches) return Math.min(pages.length - 1, start + 1);
+    if (start === 0) return pages.length > 1 ? 1 : 0;
+    const n = start + 2;
+    if (n >= pages.length) return start;
+    return n;
+  }
+
+  function prevStart(start) {
+    if (!spreadQuery.matches) return Math.max(0, start - 1);
+    if (start <= 1) return 0;
+    return start - 2;
+  }
 
   function paint(animate) {
-    const count = step();
+    const count = viewCount(index);
     const slice = pages.slice(index, index + count);
-    book.classList.toggle("spread", count === 2);
-    book.innerHTML = slice.map(function (page, offset) {
-      return renderPage(issue, page, index + offset, pages.length);
-    }).join("");
+    const faceOf = function (page) { return (page && page.face) || "front"; };
+    const centerSpread = count === 2 && slice[0].kind === "centerfold" && slice[1].kind === "centerfold" && faceOf(slice[0]) === faceOf(slice[1]);
+    const centerSingle = count === 1 && slice[0] && slice[0].kind === "centerfold";
+    const face = (centerSpread || centerSingle) ? faceOf(slice[0]) : "";
+    book.classList.toggle("spread", count === 2 && !centerSpread);
+    book.classList.toggle("center-open", centerSpread || centerSingle);
+    if (centerSpread) book.innerHTML = renderCenterfold(issue, index, pages.length, "spread", face);
+    else if (centerSingle) book.innerHTML = renderCenterfold(issue, index, pages.length, "spread", face);
+    else {
+      book.innerHTML = slice.map(function (page, offset) {
+        return renderPage(issue, page, index + offset, pages.length);
+      }).join("");
+    }
     if (animate && !REDUCED) {
       book.querySelectorAll(".leaf").forEach(function (leaf) {
         leaf.classList.add("turning");
         leaf.addEventListener("animationend", function () { leaf.classList.remove("turning"); }, { once: true });
       });
     }
-    document.getElementById("page-label").textContent = "Pages " + (index + 1) + "–" + (index + slice.length) + " of " + pages.length;
+    const end = index + slice.length;
+    document.getElementById("page-label").textContent = (slice.length > 1 ? "Pages " : "Page ") +
+      (index + 1) + (slice.length > 1 ? "–" + end : "") + " of " + pages.length +
+      (face === "back" ? " · visitor guide" : (face === "front" ? " · walking map" : ""));
     document.getElementById("prev-page").disabled = index === 0;
-    document.getElementById("next-page").disabled = index + count >= pages.length;
+    document.getElementById("next-page").disabled = nextStart(index) === index;
     buildCrossword(issue);
     drawAudioQr();
+    if (centerSpread || centerSingle) mountCenterfold(issue, face);
     const live = document.getElementById("reader-live");
-    live.textContent = slice.map(function (page) { return page.title || "Cover"; }).join(" and ");
+    live.textContent = face === "back" ? "Falmouth Visitor Guide" : (face === "front" ? "Walking map centerfold" : slice.map(function (page) { return page.title || "Cover"; }).join(" and "));
   }
 
   function go(delta) {
-    const next = Math.max(0, Math.min(pages.length - 1, index + delta * step()));
-    const aligned = spreadQuery.matches ? next - (next % 2) : next;
+    const aligned = delta < 0 ? prevStart(index) : nextStart(index);
     if (aligned === index) return;
     index = aligned;
     paint(true);
@@ -270,7 +358,7 @@ async function boot() {
     if (Math.abs(dx) > 40) go(dx < 0 ? 1 : -1);
     touchX = null;
   }, { passive: true });
-  spreadQuery.addEventListener("change", function () { index = index - (index % step()); paint(false); });
+  spreadQuery.addEventListener("change", function () { index = viewStart(index); paint(false); });
 
   const dialog = document.getElementById("toc-dialog");
   const list = document.getElementById("toc-jump");
@@ -280,12 +368,12 @@ async function boot() {
   list.addEventListener("click", function (event) {
     const button = event.target.closest("button");
     if (!button) return;
-    index = Number(button.dataset.i);
-    if (spreadQuery.matches) index = index - (index % 2);
+    index = viewStart(Number(button.dataset.i));
     dialog.close();
     paint(false);
   });
   document.getElementById("open-toc").addEventListener("click", function () { dialog.showModal(); });
+  index = viewStart(index);
   paint(false);
   status.textContent = "";
 }

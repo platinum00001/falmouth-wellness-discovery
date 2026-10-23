@@ -25,6 +25,8 @@ That rewrites canonical tags, Open Graph URLs, and `sitemap.xml`.
 
 If the Supabase fields are left blank, the forms still show success and keep a copy in the browser. Use that only for a local preview.
 
+`map-print.html` is the 17×11 pull-out: the wellness map on the first page and the Falmouth Visitor Guide on the second. In the print dialog, set the paper to 17 by 11 inches and the margins to none so the `@page` rule can use the full sheet. The dashed line on the map is the center fold. `guide.html` is the same visitor guide as a page you can open on a phone.
+
 ## Local check
 
 ```bash

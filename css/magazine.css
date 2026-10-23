@@ -47,7 +47,18 @@
   .book.spread .leaf:first-child { border-radius: 12px 0 0 12px; }
   .book.spread .leaf:last-child { border-radius: 0 12px 12px 0; border-left: 1px solid rgba(24, 52, 61, 0.08); }
   .leaf { min-height: 74vh; max-height: 78vh; padding: 1.4rem 1.3rem 1.6rem; }
+  .book.center-open { grid-template-columns: 1fr; }
+  .book.center-open .leaf.centerfold {
+    border-radius: 16px;
+    padding: 0.35rem;
+    background: #f6eee1;
+    max-height: none;
+    overflow: auto;
+  }
+  .book.center-open .walk-sheet { height: 76vh; min-height: 560px; }
 }
+.leaf.centerfold { background: #f6eee1; padding: 0.45rem; max-height: none; overflow: visible; }
+.leaf.centerfold .page-no { display: none; }
 
 .kicker {
   font-size: 0.75rem;

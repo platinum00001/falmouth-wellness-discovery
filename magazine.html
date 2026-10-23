@@ -18,6 +18,8 @@
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,600;0,9..40,700;1,9..40,400&family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;1,9..144,500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/styles.css">
 <link rel="stylesheet" href="css/magazine.css">
+<link rel="stylesheet" href="css/map.css">
+<link rel="stylesheet" href="assets/vendor/leaflet/leaflet.css">
 </head>
 <body data-path="magazine.html">
 <a class="skip" href="#main">Skip to content</a>
@@ -31,6 +33,7 @@
     <a href="index.html">Home</a>
     <a href="magazine.html" aria-current="page">Magazine</a>
     <a href="map.html">Map</a>
+    <a href="guide.html">Guide</a>
     <a href="directory.html">Directory</a>
     <a href="partner.html">Become a Partner</a>
     <a class="btn btn-small" href="signup.html">Get the magazine</a>
@@ -41,7 +44,7 @@
     <div>
       <p class="eyebrow">Sample issue</p>
       <h1>Winter 2027</h1>
-      <p>Use Previous and Next, the arrow keys, or a swipe. On a wide screen the issue opens as a spread.</p>
+      <p>Use Previous and Next, the arrow keys, or a swipe. On a wide screen the issue opens as a spread. The walking-map pull-out opens as one landscape sheet, and the next sheet is the visitor guide on the back.</p>
     </div>
     <div class="pager">
       <button id="prev-page" class="btn btn-small" type="button">Previous</button>
@@ -63,13 +66,15 @@
 </main>
 <footer class="site-footer">
   <div class="wrap credit-line">
-    <p><a href="index.html">Home</a> · <a href="map.html">Map</a> · <a href="partner.html">Become a Partner</a> · <a href="credits.html">Credits</a></p>
+    <p><a href="index.html">Home</a> · <a href="map.html">Map</a> · <a href="guide.html">Visitor guide</a> · <a href="partner.html">Become a Partner</a> · <a href="credits.html">Credits</a></p>
     <p>Nobska Light cover photo: Giacomo Barbaro, CC BY-SA 3.0, via Wikimedia Commons (<a href="https://commons.wikimedia.org/wiki/File:Nobska_Lighthouse.jpg">https://commons.wikimedia.org/wiki/File:Nobska_Lighthouse.jpg</a>); modified with added text.</p>
   </div>
 </footer>
 <script src="config.js"></script>
 <script src="js/main.js"></script>
+<script src="assets/vendor/leaflet/leaflet.js"></script>
 <script src="assets/vendor/qrcode/qrcode.min.js"></script>
+<script src="js/walking-map.js"></script>
 <script src="js/magazine.js"></script>
 </body>
 </html>

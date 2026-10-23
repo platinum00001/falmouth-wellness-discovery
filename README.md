@@ -18,8 +18,9 @@ Open `http://127.0.0.1:4177/`.
 
 - `index.html` — home
 - `magazine.html` — Winter 2027 sample issue, page-turn reader
-- `map.html` — Leaflet discovery map
-- `map-print.html` — 11×17 fold-out with callout pockets
+- `map.html` — Leaflet discovery map, with the A–H by 1–6 grid
+- `guide.html` — Falmouth Visitor Guide, the back of the pull-out
+- `map-print.html` — 17×11 print-ready pull-out, front and back
 - `directory.html` and the category folders — local SEO directory
 - `partner.html` — packages, gift-card calculator, pitch deck, inquiry
 - `signup.html` — reader sign-up
