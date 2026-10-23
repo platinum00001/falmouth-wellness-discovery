@@ -67,14 +67,14 @@
   <p>The link may be old, or the page may have moved. The magazine, the discovery map, and the partner page are still here.</p>
   <ul>
     <li><a id="home" href="index.html">Back to the magazine</a></li>
-    <li><a class="ghost" href="/magazine/">Open /magazine/</a></li>
+    <li><a class="ghost" id="site-folder" href="/falmouth-wellness-discovery/">Open /falmouth-wellness-discovery/</a></li>
     <li><a class="ghost" href="/">Site root</a></li>
   </ul>
 </main>
 <script>
 (function () {
   var path = location.pathname;
-  var mark = "/magazine/";
+  var mark = "/falmouth-wellness-discovery/";
   var at = path.indexOf(mark);
   var home = document.getElementById("home");
   if (!home) return;

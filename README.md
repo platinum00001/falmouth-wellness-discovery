@@ -1,6 +1,6 @@
 # Falmouth Wellness Discovery
 
-A static site for the quarterly Falmouth health and wellness magazine and its fold-out discovery map. It is plain HTML, CSS, and JavaScript so it can be copied to GitHub Pages at `healthandwellnessmaps.com/magazine/`. Links are relative.
+A static site for the quarterly Falmouth health and wellness magazine and its fold-out discovery map. It is plain HTML, CSS, and JavaScript so it can be copied to GitHub Pages at `platinum00001.github.io/falmouth-wellness-discovery/`. Links are relative.
 
 Deployment steps are in `DEPLOY.md` (GitHub Pages root or a `/magazine/` subfolder, Supabase, and Square).
 
@@ -41,7 +41,7 @@ After editing the directory file:
 python3 scripts/build_directory.py
 ```
 
-`SITE_BASE` in `config.js` is the canonical root with no trailing slash. Change it, then rerun the directory script so canonical tags match.
+`SITE_BASE` in `config.js` is the canonical root with no trailing slash. Change it, then run `python3 scripts/set_site_base.py` so canonical tags, the sitemap and robots.txt match.
 
 ## Forms and Supabase
 

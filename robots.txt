@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://healthandwellnessmaps.com/magazine/sitemap.xml
+Sitemap: https://platinum00001.github.io/falmouth-wellness-discovery/sitemap.xml

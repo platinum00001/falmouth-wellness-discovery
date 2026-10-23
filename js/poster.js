@@ -7,7 +7,7 @@ function slugify(value) {
 }
 
 function posterUrl(slug) {
-  const base = String((window.FWD_CONFIG || {}).SITE_BASE || "https://healthandwellnessmaps.com/magazine").replace(/\/$/, "");
+  const base = String((window.FWD_CONFIG || {}).SITE_BASE || location.href.replace(/\/[^/]*$/, "")).replace(/\/$/, "");
   const loc = slug || "your-counter";
   return base + "/signup.html?loc=" + encodeURIComponent(loc);
 }

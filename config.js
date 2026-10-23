@@ -1,16 +1,17 @@
 /* Falmouth Wellness Discovery — public site config.
-   Fill in the blanks locally. Do not commit real keys.
-   The anon key is meant to be public only after the SQL in /sql is applied
-   (anonymous insert, no public read). Never put the service-role key here.
+   SUPABASE_ANON_KEY holds the project's publishable key. It is meant to be public:
+   the SQL in /sql (applied) lets the anon role INSERT only, with no read, update
+   or delete. Never put the service-role or a secret key here.
 
-   SITE_BASE is the canonical origin and folder, with no trailing slash.
-   Category pages bake this into canonical tags. After you change it, run:
-   python3 scripts/build_directory.py
+   SITE_BASE is the one base-URL setting: canonical origin and folder, no trailing slash.
+   QR codes and runtime canonical tags read it here. Static files (canonical tags,
+   sitemap.xml, robots.txt, 404.html) are updated by running, after you change it:
+   python3 scripts/set_site_base.py
 */
 window.FWD_CONFIG = {
-  SITE_BASE: "https://healthandwellnessmaps.com/magazine",
-  SUPABASE_URL: "",
-  SUPABASE_ANON_KEY: "",
+  SITE_BASE: "https://platinum00001.github.io/falmouth-wellness-discovery",
+  SUPABASE_URL: "https://oiousqgzqcjanikglkxl.supabase.co",
+  SUPABASE_ANON_KEY: "sb_publishable_IJHa5taHcttV2DSZq45fWQ_bVbRDbA2",
   /* Secure Square checkout or invoice links. One URL per package.
      Leave blank until the Square links exist. The site never collects card numbers. */
   SQUARE_CHECKOUT: {

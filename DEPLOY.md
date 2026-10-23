@@ -1,6 +1,6 @@
 # Deploy
 
-This folder is the static site. Links between pages are relative, so the same files work as a GitHub Pages repo root or as a `/magazine/` subfolder (for example `https://healthandwellnessmaps.com/magazine/`).
+This folder is the static site. Links between pages are relative, so the same files work as a GitHub Pages repo root or as a project folder (it is live at `https://platinum00001.github.io/falmouth-wellness-discovery/`).
 
 ## GitHub Pages
 
@@ -9,17 +9,17 @@ This folder is the static site. Links between pages are relative, so the same fi
 3. Leave `404.html` at the publishing root. GitHub Pages serves it for missing URLs. The page links back to `index.html`, and to `/magazine/` when the missing path contains `/magazine/`.
 4. In the repository, set Pages to deploy from the branch that contains these files.
 
-If the live URL is not `https://healthandwellnessmaps.com/magazine`, change `SITE_BASE` in `config.js` (no trailing slash) and regenerate the directory pages:
+`SITE_BASE` in `config.js` is the one base-URL setting (no trailing slash). QR codes and runtime canonical/Open Graph tags read it directly. When a custom domain is pointed at the site, change `SITE_BASE` and run:
 
 ```bash
-python3 scripts/build_directory.py
+python3 scripts/set_site_base.py
 ```
 
-That rewrites canonical tags, Open Graph URLs, and `sitemap.xml`.
+That swaps the old base for the new one in canonical tags, Open Graph URLs, JSON-LD, `sitemap.xml`, `robots.txt`, the 404 page and the docs, then rebuilds the directory pages.
 
 ## Forms and billing
 
-1. In the Supabase SQL editor, run `sql/001_magazine_tables.sql`. It creates `magazine_reader_signups` and `magazine_partner_inquiries` with anonymous insert only.
+1. `sql/001_magazine_tables.sql` is applied to the james-sites project as the `magazine_tables` migration. It creates `magazine_reader_signups` and `magazine_partner_inquiries` with anonymous insert only.
 2. Paste `SUPABASE_URL` and `SUPABASE_ANON_KEY` into `config.js`. Do not put a service-role key in this file.
 3. Paste one Square checkout or invoice URL per package into `SQUARE_CHECKOUT` (`neighbor`, `featured`, `wellness`, `cover`). Until those are set, the partner buttons stay placeholders. The site never collects card numbers.
 
