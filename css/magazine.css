@@ -175,3 +175,12 @@
   cursor: pointer;
 }
 #reader-status { min-height: 1.2rem; }
+
+/* v2 art banners on pillar pages */
+.mag-banner { margin: -1.1rem -1rem 1rem; }
+.mag-banner img { display: block; width: 100%; aspect-ratio: 16 / 9; object-fit: cover; border-radius: 4px 14px 0 0; }
+@media (min-width: 980px) {
+  .mag-banner { margin: -1.4rem -1.3rem 1.1rem; }
+  .book.spread .leaf:first-child .mag-banner img { border-radius: 12px 0 0 0; }
+  .book.spread .leaf:last-child .mag-banner img { border-radius: 0 12px 0 0; }
+}

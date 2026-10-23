@@ -245,6 +245,11 @@
         "label": "Sample · 1/4 page",
         "headline": "Quarter-page placement",
         "text": "Not a real advertisement."
+      },
+      "banner": {
+        "src": "assets/img/v2/pillar-mind.jpg",
+        "small": "assets/img/v2/pillar-mind-800.jpg",
+        "alt": "Sunlit window-seat reading nook with linen pillows, a navy throw, stacked books, an open book and a mug of tea beside a sea-glass bottle and an ocean view."
       }
     },
     {
@@ -347,7 +352,12 @@
           "placeholder": true,
           "text": "An evening restaurant can take this card after it confirms the listing."
         }
-      ]
+      ],
+      "banner": {
+        "src": "assets/img/v2/pillar-health-food.jpg",
+        "small": "assets/img/v2/pillar-health-food-800.jpg",
+        "alt": "Farm stand table with a colorful bowl of fresh greens, tomatoes and berries beside a crusty sourdough loaf, with crates of local produce and the coast behind."
+      }
     },
     {
       "kind": "story",
@@ -382,6 +392,11 @@
         "label": "Sample · 1/2 page",
         "headline": "Half-page placement",
         "text": "Not a real advertisement. This block shows how a half page sits under the cards."
+      },
+      "banner": {
+        "src": "assets/img/v2/category-food-trucks.jpg",
+        "small": "assets/img/v2/category-food-trucks-800.jpg",
+        "alt": "Vintage sea-glass green and cream food truck with a coral striped awning and string lights, parked by the dunes with bistro tables and the ocean behind."
       }
     },
     {
@@ -411,7 +426,12 @@
           "placeholder": true,
           "text": "No trainer is named."
         }
-      ]
+      ],
+      "banner": {
+        "src": "assets/img/v2/pillar-body.jpg",
+        "small": "assets/img/v2/pillar-body-800.jpg",
+        "alt": "Sea-glass green yoga mat rolled out on a quiet beach at morning, with a folded towel, navy water bottle and coral yoga block near the dunes."
+      }
     },
     {
       "kind": "centerfold",
@@ -486,7 +506,12 @@
           "placeholder": true,
           "text": "A second stay can run if the quarter has room. Still unnamed."
         }
-      ]
+      ],
+      "banner": {
+        "src": "assets/img/v2/category-hotels.jpg",
+        "small": "assets/img/v2/category-hotels-800.jpg",
+        "alt": "Shingled coastal inn porch with white rocking chairs, navy and coral cushions, hanging ferns and blue hydrangeas overlooking the sea."
+      }
     },
     {
       "kind": "story",
@@ -514,7 +539,12 @@
           "placeholder": true,
           "text": "No league is named and no field address is guessed."
         }
-      ]
+      ],
+      "banner": {
+        "src": "assets/img/v2/category-community.jpg",
+        "small": "assets/img/v2/category-community-800.jpg",
+        "alt": "White gazebo on a village green at dusk, strung with warm lights, with picnic blankets and baskets on the grass and clapboard houses beyond."
+      }
     },
     {
       "kind": "story",
@@ -537,7 +567,12 @@
         "In this sample sketch, a neighbor lends a wagon so someone can get groceries home when the wind is up off Vineyard Sound. There is no family name, because no family has agreed to a story.",
         "The real page will be told only with permission, in the people's own details. If that story is not ready for Winter 2027, this page can stay a letter from a reader instead."
       ],
-      "pullquote": "Sample line, not a quotation from a real person."
+      "pullquote": "Sample line, not a quotation from a real person.",
+      "banner": {
+        "src": "assets/img/v2/pillar-soul.jpg",
+        "small": "assets/img/v2/pillar-soul-800.jpg",
+        "alt": "Artist's table by a sea-view window with a watercolor palette, brushes, a loose seascape painting, an antique compass and coral peonies in a blue-and-white pitcher."
+      }
     },
     {
       "kind": "story",

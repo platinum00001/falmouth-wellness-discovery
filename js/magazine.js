@@ -49,6 +49,13 @@ function slotHtml(issue, id) {
     '</strong><p>' + esc(slot.note || "Open for a confirmed photo or later generated art.") + "</p></div>";
 }
 
+function bannerHtml(banner) {
+  if (!banner || !banner.src) return "";
+  const srcset = banner.small ? ' srcset="' + esc(banner.small) + ' 800w, ' + esc(banner.src) + ' 1600w" sizes="(min-width: 980px) 45vw, 100vw"' : "";
+  return '<figure class="mag-banner"><img src="' + esc(banner.src) + '"' + srcset +
+    ' width="1600" height="900" alt="' + esc(banner.alt || "") + '" loading="lazy" decoding="async"></figure>';
+}
+
 function footer(issue, page, index, total) {
   return '<p class="page-no"><span>' + esc(issue.issue.name) + " · " + esc(issue.issue.season) +
     ' · Sample</span><span>' + (index + 1) + " / " + total + "</span></p>";
@@ -77,7 +84,7 @@ function renderPage(issue, page, index, total) {
     return '<article class="leaf"><p class="kicker">Sample puzzle</p><h2>' + esc(page.title) + "</h2><p>" +
       esc(page.dek) + '</p><div id="crossword"></div>' + foot + "</article>";
   }
-  let body = '<p class="kicker">' + esc(page.kicker || "Sample") + "</p><h2>" + esc(page.title) + "</h2>";
+  let body = bannerHtml(page.banner) + '<p class="kicker">' + esc(page.kicker || "Sample") + "</p><h2>" + esc(page.title) + "</h2>";
   if (page.dek) body += '<p class="dek">' + esc(page.dek) + "</p>";
   if (page.imageSlot) body += slotHtml(issue, page.imageSlot);
   if (page.lead) body += '<p class="drop">' + esc(page.lead) + "</p>";

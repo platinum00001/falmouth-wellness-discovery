@@ -131,7 +131,7 @@
       "<h2>" + esc(data.title || "Falmouth Wellness Walking Map") + "</h2>" +
       '<div class="qr-row"><div class="walk-qr" id="' + esc(opts.qrId) + '" data-size="64"></div><p>' + esc(data.dek || "") + "</p></div>" +
       "</div>" +
-      '<div class="map-well">' +
+      '<div class="map-well fwd-frame">' +
       '<div class="walk-map" id="' + esc(opts.mapId) + '" role="region" aria-label="Falmouth Wellness Walking Map"></div>' +
       '<div class="walk-fold" aria-hidden="true"><span class="top">Tear here</span><span class="bottom">Take me with you</span></div>' +
       "</div></div>" +

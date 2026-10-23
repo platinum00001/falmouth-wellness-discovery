@@ -19,6 +19,33 @@ from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data" / "directory.json"
 CONFIG = ROOT / "config.js"
+ART_MANIFEST = ROOT / "assets" / "img" / "v2" / "manifest.json"
+
+# Header art for category pages (files live in assets/img/v2/, alt text comes from the manifest).
+CATEGORY_ART = {
+    "transportation": "category-transportation.jpg",
+    "home-remodeling": "category-home-remodeling.jpg",
+    "doctors": "category-doctors-health.jpg",
+    "hotels": "category-hotels.jpg",
+    "food": "category-food-trucks.jpg",
+    "community": "category-community.jpg",
+    "bookstore": "pillar-mind.jpg",
+    "fitness": "pillar-body.jpg",
+    "bike-shop": "home-hero.jpg",
+    "art-gallery": "pillar-soul.jpg",
+    "antiques": "pillar-soul.jpg",
+    "florist": "pillar-soul.jpg",
+    "bakery": "pillar-health-food.jpg",
+    "local-market": "pillar-health-food.jpg",
+    "garden-center": "pillar-health-food.jpg",
+}
+
+
+def art_alt() -> dict:
+    if not ART_MANIFEST.exists():
+        return {}
+    data = json.loads(ART_MANIFEST.read_text(encoding="utf-8"))
+    return {item["filename"]: item["alt"] for item in data.get("images", [])}
 
 
 def site_base() -> str:
@@ -249,6 +276,33 @@ def head(cat: dict, base: str, root: str, ld: str) -> str:
 """
 
 
+def hero_html(cat: dict, intro: str) -> str:
+    crumbs = f'<p class="crumbs"><a href="../index.html">Home</a> · <a href="../directory.html">Directory</a> · {esc(cat['short'])}</p>'
+    eyebrow = f'<p class="eyebrow">Falmouth MA · {esc(cat['short'])}</p>'
+    h1 = f"<h1>{esc(cat['h1'])}</h1>"
+    art = CATEGORY_ART.get(cat["slug"])
+    if not art:
+        return f"""  <div class="wrap page-hero">
+    {crumbs}
+    {eyebrow}
+    {h1}
+    <div class="prose">{intro}</div>
+  </div>"""
+    alt = art_alt().get(art, "")
+    stem = art[:-4]
+    return f"""  <section class="art-banner">
+    <img src="../assets/img/v2/{art}" srcset="../assets/img/v2/{stem}-800.jpg 800w, ../assets/img/v2/{art} 1600w" sizes="100vw" width="1600" height="900" alt="{esc(alt)}" fetchpriority="high" decoding="async">
+    <div class="wrap art-banner-copy">
+      {crumbs}
+      {eyebrow}
+      {h1}
+    </div>
+  </section>
+  <div class="wrap page-hero page-hero-after-art">
+    <div class="prose">{intro}</div>
+  </div>"""
+
+
 def render_category(cat: dict, data: dict, base: str) -> str:
     root = "../"
     by_slug = {c["slug"]: c for c in data["categories"]}
@@ -265,12 +319,7 @@ def render_category(cat: dict, data: dict, base: str) -> str:
 <body data-path="{esc(cat['slug'])}/">
 {chrome(root, cat['slug'] + "/")}
 <main id="main">
-  <div class="wrap page-hero">
-    <p class="crumbs"><a href="../index.html">Home</a> · <a href="../directory.html">Directory</a> · {esc(cat['short'])}</p>
-    <p class="eyebrow">Falmouth MA · {esc(cat['short'])}</p>
-    <h1>{esc(cat['h1'])}</h1>
-    <div class="prose">{intro}</div>
-  </div>
+{hero_html(cat, intro)}
   <section class="section">
     <div class="wrap">
       <h2>Before you call</h2>

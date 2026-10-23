@@ -519,3 +519,46 @@
   .print-page { width: 100% !important; height: auto !important; transform: none !important; }
   #guide-map { min-height: 320px; height: 70vw; }
 }
+
+/* ---------- v2 vintage nautical frame around the map ----------
+   1 --u = 1% of the 1600px frame artwork. Ornaments sit on the edges; the
+   bottom wave band (about the last 18-20% of the art) stays off the map. */
+.fwd-frame {
+  --u: clamp(2.4px, 0.36vw, 5px);
+  --fi-t: calc(4 * var(--u));
+  --fi-x: calc(5 * var(--u));
+  --fi-b: calc(19 * var(--u));
+  position: relative;
+  isolation: isolate;
+  background: #f6eee1;
+}
+.fwd-frame::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 650;
+  pointer-events: none;
+  border-style: solid;
+  border-color: transparent;
+  border-width: calc(19.5 * var(--u)) calc(20 * var(--u)) calc(22.5 * var(--u));
+  border-image: url("../assets/img/v2/map-border-frame.png") 312 320 360 / calc(19.5 * var(--u)) calc(20 * var(--u)) calc(22.5 * var(--u)) / 0 round;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+.map-well.fwd-frame { border-radius: 10px; --u: clamp(2px, 0.3vw, 4px); }
+.walk-sheet.is-print .map-well.fwd-frame { --u: 2.2px; }
+.front-sheet .map-well.fwd-frame .walk-map,
+.walk-sheet .map-well.fwd-frame .walk-map {
+  inset: var(--fi-t) var(--fi-x) var(--fi-b) !important;
+  z-index: auto;
+  border-radius: 6px;
+}
+.map-well.fwd-frame .walk-fold { top: var(--fi-t) !important; bottom: var(--fi-b) !important; }
+.map-card.fwd-frame {
+  --u: clamp(2.6px, 0.4vw, 5.5px);
+  padding: var(--fi-t) var(--fi-x) var(--fi-b);
+}
+.map-card.fwd-frame #discovery-map { border-radius: 8px; }
+@media print {
+  .walk-sheet.is-print .map-well.fwd-frame { --u: 2.2px; }
+}

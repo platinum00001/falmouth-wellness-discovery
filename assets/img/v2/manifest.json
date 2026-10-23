@@ -1,0 +1,137 @@
+{
+  "project": "Falmouth Wellness Discovery",
+  "version": "v2",
+  "generated": "2026-10-23",
+  "style": "Warm premium coastal New England editorial; soft natural light; cream, navy, sea-glass and coral palette",
+  "images": [
+    {
+      "filename": "home-hero.jpg",
+      "path": "assets/img/v2/home-hero.jpg",
+      "slot": "Home page hero (16:9)",
+      "alt": "Weathered wooden boardwalk through dune grass at sunrise, with a cream bicycle and a navy-striped tote in its wicker basket overlooking a calm sea.",
+      "width": 1600,
+      "height": 900,
+      "bytes": 278496,
+      "small": "assets/img/v2/home-hero-800.jpg"
+    },
+    {
+      "filename": "pillar-mind.jpg",
+      "path": "assets/img/v2/pillar-mind.jpg",
+      "slot": "Pillar header: Mind",
+      "alt": "Sunlit window-seat reading nook with linen pillows, a navy throw, stacked books, an open book and a mug of tea beside a sea-glass bottle and an ocean view.",
+      "width": 1600,
+      "height": 900,
+      "bytes": 248608,
+      "small": "assets/img/v2/pillar-mind-800.jpg"
+    },
+    {
+      "filename": "pillar-body.jpg",
+      "path": "assets/img/v2/pillar-body.jpg",
+      "slot": "Pillar header: Body",
+      "alt": "Sea-glass green yoga mat rolled out on a quiet beach at morning, with a folded towel, navy water bottle and coral yoga block near the dunes.",
+      "width": 1600,
+      "height": 900,
+      "bytes": 225489,
+      "small": "assets/img/v2/pillar-body-800.jpg"
+    },
+    {
+      "filename": "pillar-soul.jpg",
+      "path": "assets/img/v2/pillar-soul.jpg",
+      "slot": "Pillar header: Soul",
+      "alt": "Artist's table by a sea-view window with a watercolor palette, brushes, a loose seascape painting, an antique compass and coral peonies in a blue-and-white pitcher.",
+      "width": 1600,
+      "height": 900,
+      "bytes": 285550,
+      "small": "assets/img/v2/pillar-soul-800.jpg"
+    },
+    {
+      "filename": "pillar-health-food.jpg",
+      "path": "assets/img/v2/pillar-health-food.jpg",
+      "slot": "Pillar header: Health & Food",
+      "alt": "Farm stand table with a colorful bowl of fresh greens, tomatoes and berries beside a crusty sourdough loaf, with crates of local produce and the coast behind.",
+      "width": 1600,
+      "height": 900,
+      "bytes": 281791,
+      "small": "assets/img/v2/pillar-health-food-800.jpg"
+    },
+    {
+      "filename": "category-transportation.jpg",
+      "path": "assets/img/v2/category-transportation.jpg",
+      "slot": "Category header: Transportation / Taxis",
+      "alt": "Friendly cream-and-navy taxi van parked on a seaside village street lined with shingled shops and flower boxes, harbor water in the distance.",
+      "width": 1600,
+      "height": 900,
+      "bytes": 280296,
+      "small": "assets/img/v2/category-transportation-800.jpg"
+    },
+    {
+      "filename": "category-home-remodeling.jpg",
+      "path": "assets/img/v2/category-home-remodeling.jpg",
+      "slot": "Category header: Home Remodeling",
+      "alt": "Bright remodeled cottage living room and kitchen with shiplap walls, wood beams, a navy island, oak floors and a linen sofa with sea-glass and coral pillows.",
+      "width": 1600,
+      "height": 900,
+      "bytes": 298776,
+      "small": "assets/img/v2/category-home-remodeling-800.jpg"
+    },
+    {
+      "filename": "category-doctors-health.jpg",
+      "path": "assets/img/v2/category-doctors-health.jpg",
+      "slot": "Category header: Doctors & Health",
+      "alt": "Calm, bright clinic waiting room with cream armchairs, a navy accent wall, a wooden magazine rack, plants and a window letting in soft natural light.",
+      "width": 1600,
+      "height": 900,
+      "bytes": 225036,
+      "small": "assets/img/v2/category-doctors-health-800.jpg"
+    },
+    {
+      "filename": "category-hotels.jpg",
+      "path": "assets/img/v2/category-hotels.jpg",
+      "slot": "Category header: Hotels & Inns",
+      "alt": "Shingled coastal inn porch with white rocking chairs, navy and coral cushions, hanging ferns and blue hydrangeas overlooking the sea.",
+      "width": 1600,
+      "height": 900,
+      "bytes": 278884,
+      "small": "assets/img/v2/category-hotels-800.jpg"
+    },
+    {
+      "filename": "category-food-trucks.jpg",
+      "path": "assets/img/v2/category-food-trucks.jpg",
+      "slot": "Category header: Food Trucks",
+      "alt": "Vintage sea-glass green and cream food truck with a coral striped awning and string lights, parked by the dunes with bistro tables and the ocean behind.",
+      "width": 1600,
+      "height": 900,
+      "bytes": 287563,
+      "small": "assets/img/v2/category-food-trucks-800.jpg"
+    },
+    {
+      "filename": "category-community.jpg",
+      "path": "assets/img/v2/category-community.jpg",
+      "slot": "Category header: Community & Events",
+      "alt": "White gazebo on a village green at dusk, strung with warm lights, with picnic blankets and baskets on the grass and clapboard houses beyond.",
+      "width": 1600,
+      "height": 900,
+      "bytes": 286948,
+      "small": "assets/img/v2/category-community-800.jpg"
+    },
+    {
+      "filename": "become-a-partner.jpg",
+      "path": "assets/img/v2/become-a-partner.jpg",
+      "slot": "Become a Partner section",
+      "alt": "Two people's hands shaking over a wooden coffee shop counter, with two lattes and a coral flower in a sea-glass vase.",
+      "width": 1600,
+      "height": 900,
+      "bytes": 226063,
+      "small": "assets/img/v2/become-a-partner-800.jpg"
+    },
+    {
+      "filename": "map-border-frame.png",
+      "path": "assets/img/v2/map-border-frame.png",
+      "slot": "Centerfold discovery map decorative border/frame (transparent PNG overlay)",
+      "alt": "Decorative vintage nautical border of navy rope knots, a compass rose, anchors, sailboats, waves, seashells, coral and sea glass.",
+      "width": 1600,
+      "height": 1200,
+      "bytes": 273192
+    }
+  ]
+}
