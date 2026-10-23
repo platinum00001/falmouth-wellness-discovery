@@ -1,0 +1,340 @@
+{
+  "issue": {
+    "id": "winter-2027",
+    "name": "Falmouth Wellness Discovery",
+    "season": "Winter 2027",
+    "number": 1,
+    "sample": true,
+    "tagline": "A quarterly health and wellness magazine and discovery map for Falmouth, Massachusetts."
+  },
+  "images": {
+    "cover": {
+      "src": "assets/img/cover-winter-2027.jpg",
+      "webp": "assets/img/cover-winter-2027.webp",
+      "alt": "Winter 2027 cover of Falmouth Wellness Discovery. Nobska Light, a white lighthouse and dark-roofed keeper's house in Woods Hole, under a pale sky, with the magazine masthead in the sky. Photo by Giacomo Barbaro, CC BY-SA 3.0, via Wikimedia Commons, modified with added text.",
+      "credit": "Nobska Light cover photo: Giacomo Barbaro, CC BY-SA 3.0, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Nobska_Lighthouse.jpg); modified with added text."
+    },
+    "hero": {
+      "src": "assets/img/hero.jpg",
+      "webp": "assets/img/hero.webp",
+      "alt": "Still life on warm sand-colored linen: a linen notebook, round glasses, a sprig of greenery, and a smooth stone, with open space on the left."
+    }
+  },
+  "imageSlots": [
+    {"id": "tanorama-story", "src": "", "webp": "", "alt": "", "note": "Reserved for a confirmed Tanorama photo or later generated art."},
+    {"id": "cape-island-story", "src": "", "webp": "", "alt": "", "note": "Reserved for a confirmed Cape Island Café photo or later generated art."},
+    {"id": "transport-story", "src": "", "webp": "", "alt": "", "note": "Reserved for a confirmed Falmouth Transport image or later generated art."},
+    {"id": "innovators", "src": "", "webp": "", "alt": "", "note": "Reserved for innovator portraits after interviews."},
+    {"id": "family-story", "src": "", "webp": "", "alt": "", "note": "Reserved for a family story photo used with permission."},
+    {"id": "charity", "src": "", "webp": "", "alt": "", "note": "Reserved for a charity spotlight image."},
+    {"id": "pets", "src": "", "webp": "", "alt": "", "note": "Reserved for shelter-confirmed pet photos."},
+    {"id": "map-illustration", "src": "", "webp": "", "alt": "", "note": "Reserved for a drawn discovery-map illustration."}
+  ],
+  "events": [
+    {"title": "Sample wellness walk", "when": "A weekday in January, February, or March 2027 — date not set", "detail": "Layout sample only. Not a town event and not on any official calendar."},
+    {"title": "Sample library note", "when": "Winter 2027 — title not confirmed", "detail": "Space for a program the Falmouth Public Library chooses to share. Nothing is listed until the library confirms it."},
+    {"title": "Sample partner open house", "when": "Winter 2027 — host not confirmed", "detail": "A partner can place a real open house here after it is confirmed. This line is a sample."}
+  ],
+  "crossword": {
+    "puzzles": [
+      {
+        "title": "Falmouth criss-cross",
+        "grid": [
+          "########",
+          "#BAY####",
+          "#E##N###",
+          "FALMOUTH",
+          "#C##B#I#",
+          "#H##S#D#",
+          "####K#E#",
+          "#YOGA###"
+        ],
+        "clues": {
+          "across": [
+            {"n": 1, "clue": "Buzzards ___, the bay on Falmouth's west side."},
+            {"n": 2, "clue": "The town this magazine is printed for."},
+            {"n": 5, "clue": "A class for breath and a steady mind."}
+          ],
+          "down": [
+            {"n": 1, "clue": "Sandy shore. Surf Drive and Old Silver Beach are two of them."},
+            {"n": 3, "clue": "Woods Hole light on this issue's cover."},
+            {"n": 4, "clue": "The harbor's rise and fall."}
+          ]
+        }
+      },
+      {
+        "title": "Sea-glass mini",
+        "grid": ["CAPE", "AREA", "REST", "EATS"],
+        "clues": {
+          "across": [
+            {"n": 1, "clue": "Cod, the way people shorten the peninsula."},
+            {"n": 5, "clue": "A neighborhood, generally."},
+            {"n": 6, "clue": "A pause. Waiting rooms are built for one."},
+            {"n": 7, "clue": "Meals, casually."}
+          ],
+          "down": [
+            {"n": 1, "clue": "What a clinic visit is for."},
+            {"n": 2, "clue": "The same four letters as 5 across, reading down."},
+            {"n": 3, "clue": "Unwanted guest at a picnic."},
+            {"n": 4, "clue": "The same four letters as 7 across, reading down."}
+          ]
+        }
+      }
+    ]
+  },
+  "pages": [
+    {"kind": "cover", "title": "Cover"},
+    {
+      "kind": "letter",
+      "kicker": "From the publisher",
+      "title": "A magazine for the time you spend waiting",
+      "lead": "Falmouth already gathers in waiting rooms, hotel lobbies, the Chamber, and the library. This magazine is for that time.",
+      "paragraphs": [
+        "Falmouth Wellness Discovery is a quarterly health and wellness magazine with a fold-out discovery map. We print 1,000 copies and place them free. Winter 2027 is the founding issue, and this digital reader is a sample of that issue.",
+        "The pages follow four pillars: Mind, Body, Soul, and Health & Food. Stories are written from interviews. Until someone confirms a fact, the page says so. Placeholder businesses are marked as samples.",
+        "The printed magazine is made at letter size from 11×17 sheets. The discovery map is the center spread. This screen edition turns the same pages one at a time, or as a spread on a wider screen.",
+        "Come by Cape Island Café at 316 Gifford Street if you want to talk about a story or a partnership. The phone is (774) 247-5263 and the email is CapeIslandCafe@gmail.com."
+      ],
+      "ad": {"size": "eighth", "label": "Sample · 1/8 page", "headline": "Your business here", "text": "Not a real advertisement. This box shows an eighth-page placement."}
+    },
+    {"kind": "toc", "title": "Contents"},
+    {
+      "kind": "story",
+      "kicker": "Mind · Innovators",
+      "title": "Innovators",
+      "dek": "Sample page. No one is named until an interview is confirmed.",
+      "imageSlot": "innovators",
+      "paragraphs": [
+        "This section is for people in Falmouth who are trying something new in learning, care, or local research. The founding issue leaves the portraits blank on purpose.",
+        "A profile here will say how the work started, who it is for, and where a reader can find it. Those details come from the person, not from guesswork."
+      ],
+      "cards": [
+        {"title": "Sample innovator", "kicker": "Open profile", "placeholder": true, "text": "Your interview here. No person, title, or organization is invented for this slot."},
+        {"title": "Sample innovator", "kicker": "Open profile", "placeholder": true, "text": "A second profile can run beside the first once two people have agreed."}
+      ],
+      "ad": {"size": "quarter", "label": "Sample · 1/4 page", "headline": "Quarter-page placement", "text": "Not a real advertisement."}
+    },
+    {
+      "kind": "story",
+      "kicker": "Featured business",
+      "title": "Tanorama, nearly three decades on Main Street",
+      "dek": "Sample layout for the Issue 1 feature. The interview with owner Scott is still to come.",
+      "imageSlot": "tanorama-story",
+      "paragraphs": [
+        "Tanorama is a tanning salon at 365 Main Street, Falmouth. Owner Scott has kept the business on Main Street for nearly three decades. That is the confirmed frame of the story.",
+        "This sample spread shows where the interview will sit: how the shop fits the winter town, who comes in, and what Scott wants readers to know. Services beyond tanning are not listed here, because they have not been confirmed for this page.",
+        "The finished story will run beside the salon's own ad, after Scott signs off on the words."
+      ]
+    },
+    {
+      "kind": "story",
+      "kicker": "Feature, continued",
+      "title": "What the interview will hold",
+      "pullquote": "Sample pull quote from the interview goes here.",
+      "paragraphs": [
+        "The quote above is a placeholder, the same one used in the pitch layout. It is not something Scott said.",
+        "When the conversation happens, this page can hold a short timeline, a portrait, and a way to find the salon on the discovery map. The map pin for Tanorama is already at 365 Main Street, because that address is confirmed.",
+        "Until then, treat every sentence on these two pages as a sample frame, except the address, the owner's name, and the nearly-three-decades line."
+      ],
+      "cards": [
+        {"title": "Confirmed", "kicker": "Use these", "text": "Tanning salon. 365 Main Street, Falmouth. Owner: Scott. Nearly three decades on Main Street."},
+        {"title": "Not confirmed", "kicker": "Leave blank", "text": "Hours, phone, website, prices, and a list of services. They stay off the page until Tanorama provides them."}
+      ]
+    },
+    {
+      "kind": "story",
+      "kicker": "Founding partner · Health & Food",
+      "title": "Cape Island Café",
+      "dek": "Alcohol-free, sober-friendly weekday lunch at 316 Gifford Street.",
+      "imageSlot": "cape-island-story",
+      "paragraphs": [
+        "Cape Island Café is a founding partner and the home base for this magazine. It is an alcohol-free, sober-friendly café serving weekday lunch at 316 Gifford Street, Falmouth.",
+        "The menu, prices, and any hours beyond weekday lunch are not printed here. They will come from the café. Readers can call (774) 247-5263 or write to CapeIslandCafe@gmail.com.",
+        "In the printed issue this partnership is planned for the inside front and a Health & Food page. This digital page is the sample of that placement."
+      ]
+    },
+    {
+      "kind": "story",
+      "kicker": "Founding partner · Getting around",
+      "title": "Falmouth Transport",
+      "dek": "A new local guide to rides and moving things around Falmouth.",
+      "imageSlot": "transport-story",
+      "paragraphs": [
+        "Falmouth Transport is a founding partner. The guide is for rides and for moving things around Falmouth, with local options ahead of the big rideshare apps.",
+        "This page does not list a phone number, a fare, a fleet, or a street address. None of those have been confirmed. When they are, they will show up here, on the transportation directory page, and as a booking link.",
+        "Taxi partners can take the open slots beside this feature. Those slots are labeled as samples until a company claims one."
+      ],
+      "cards": [
+        {"title": "Taxi partner (your business here)", "kicker": "Sample slot", "placeholder": true, "text": "No company is named. No phone or fare is shown."},
+        {"title": "Taxi partner (your business here)", "kicker": "Sample slot", "placeholder": true, "text": "A second taxi can share the getting-around page."}
+      ]
+    },
+    {
+      "kind": "story",
+      "kicker": "Health & Food",
+      "title": "Breakfast, lunch, and dinner",
+      "dek": "One featured table for each part of the day. Only lunch is filled.",
+      "paragraphs": [
+        "Each quarter the food pages hold one featured breakfast, one lunch, and one dinner. Lunch in this sample is Cape Island Café, already introduced. Breakfast and dinner are open."
+      ],
+      "cards": [
+        {"title": "Featured Breakfast (your business here)", "kicker": "Sample slot", "placeholder": true, "text": "A Falmouth breakfast spot can take this card. No café is invented to fill it."},
+        {"title": "Cape Island Café", "kicker": "Lunch · founding partner", "meta": "316 Gifford Street", "text": "Alcohol-free, sober-friendly weekday lunch. Confirmed founding partner."},
+        {"title": "Featured Dinner (your business here)", "kicker": "Sample slot", "placeholder": true, "text": "An evening restaurant can take this card after it confirms the listing."}
+      ]
+    },
+    {
+      "kind": "story",
+      "kicker": "Health & Food",
+      "title": "Food truck, farm stand, pharmacy",
+      "dek": "Three more open cards. Nothing here is a real listing.",
+      "paragraphs": [
+        "Seasonal trucks, farm stands, and a pharmacy belong in the same food-and-health neighborhood of the issue. The cards below are empty on purpose."
+      ],
+      "cards": [
+        {"title": "Featured Food Truck (your business here)", "kicker": "Sample slot", "placeholder": true, "text": "No truck name, corner, or schedule is invented."},
+        {"title": "Featured Farm Stand (your business here)", "kicker": "Sample slot", "placeholder": true, "text": "No farm is named. What is in season will come from the stand."},
+        {"title": "Featured Pharmacy (your business here)", "kicker": "Sample slot", "placeholder": true, "text": "No pharmacy is named and no health claim is made."}
+      ],
+      "ad": {"size": "half", "label": "Sample · 1/2 page", "headline": "Half-page placement", "text": "Not a real advertisement. This block shows how a half page sits under the cards."}
+    },
+    {
+      "kind": "story",
+      "kicker": "Body",
+      "title": "Gym, yoga, and a trainer",
+      "dek": "One featured business in each of these three.",
+      "paragraphs": [
+        "Body pages cover places to move: a gym, a yoga studio, and a personal trainer. None are confirmed for Issue 1, so the cards stay generic."
+      ],
+      "cards": [
+        {"title": "Featured Gym (your business here)", "kicker": "Sample slot", "placeholder": true, "text": "No gym is named. Hours and class lists wait for the business."},
+        {"title": "Featured Yoga (your business here)", "kicker": "Sample slot", "placeholder": true, "text": "No studio is named."},
+        {"title": "Featured Personal Trainer (your business here)", "kicker": "Sample slot", "placeholder": true, "text": "No trainer is named."}
+      ]
+    },
+    {
+      "kind": "story",
+      "kicker": "Body · Soul",
+      "title": "Hair, golf, and social clubs",
+      "paragraphs": [
+        "A hair salon sits with beauty, beside Tanorama's tanning feature. Golf and social clubs get their own cards. All three below are open slots."
+      ],
+      "cards": [
+        {"title": "Featured Hair Salon (your business here)", "kicker": "Sample slot", "placeholder": true, "text": "No salon is named. Tanorama's feature is the tanning story, not a hair listing."},
+        {"title": "Featured Golf (your business here)", "kicker": "Sample slot", "placeholder": true, "text": "No course or club is named."},
+        {"title": "Featured Social Club (your business here)", "kicker": "Sample slot", "placeholder": true, "text": "No club is named."}
+      ]
+    },
+    {
+      "kind": "story",
+      "kicker": "Where to stay",
+      "title": "Hotels",
+      "dek": "A page for visitors who want a bed near the village, the Sound, or Woods Hole.",
+      "paragraphs": [
+        "The hotels page is for where to stay in Falmouth. No inn or hotel is named in this sample, and no rate or amenity is invented. A featured hotel can take the card and the map pin together."
+      ],
+      "cards": [
+        {"title": "Featured Hotel (your business here)", "kicker": "Sample slot · Where to stay", "placeholder": true, "text": "Address, season, and a booking link will be added only after the hotel confirms them."},
+        {"title": "Featured Hotel (your business here)", "kicker": "Sample slot", "placeholder": true, "text": "A second stay can run if the quarter has room. Still unnamed."}
+      ]
+    },
+    {
+      "kind": "story",
+      "kicker": "Community",
+      "title": "Library, senior center, youth sports",
+      "dek": "Desks for the town, not advertisements.",
+      "paragraphs": [
+        "These notes point to public places. Programs and phone numbers change, so this sample does not copy them. Confirm details with each desk or on its own site.",
+        "Falmouth Public Library is at 300 Main Street. Its site is falmouthpubliclibrary.org. The Falmouth Senior Center is at 300 Dillingham Avenue. Youth sports are not listed by league name until a program or the recreation department confirms the contact."
+      ],
+      "cards": [
+        {"title": "Falmouth Public Library", "kicker": "300 Main Street", "text": "Hours and events stay on the library's site. This magazine will run a quarterly note only when the library sends one."},
+        {"title": "Falmouth Senior Center", "kicker": "300 Dillingham Avenue", "text": "Programs are published by the Town of Falmouth. None are repeated here."},
+        {"title": "Youth sports (listing to be confirmed)", "kicker": "Sample slot", "placeholder": true, "text": "No league is named and no field address is guessed."}
+      ]
+    },
+    {
+      "kind": "story",
+      "kicker": "What's happening this quarter",
+      "title": "Police, fire, Town Hall, Chamber",
+      "dek": "Winter 2027 notes are not in yet. The frame is here.",
+      "paragraphs": [
+        "Each quarter these four desks can send a short 'what's happening' note. Issue 1 does not invent one. For emergencies, call 911.",
+        "Falmouth Police Department is listed in OpenStreetMap at 750 Main Street. Falmouth Fire-Rescue publishes its stations through the town; this page does not treat one station as the only firehouse. Town Hall is at 59 Town Hall Square. The Falmouth Chamber of Commerce is on Katherine Lee Bates Road, and its public page is on the Cape Cod Chamber site.",
+        "The town website is falmouthma.gov. That is the place for hours and non-emergency numbers. We are not copying them into a quarterly that will sit in a lobby after they change."
+      ]
+    },
+    {
+      "kind": "story",
+      "kicker": "Soul · Family",
+      "title": "A sample good deed",
+      "dek": "Fiction for the layout. This is not a report about a real Falmouth family.",
+      "imageSlot": "family-story",
+      "paragraphs": [
+        "In this sample sketch, a neighbor lends a wagon so someone can get groceries home when the wind is up off Vineyard Sound. There is no family name, because no family has agreed to a story.",
+        "The real page will be told only with permission, in the people's own details. If that story is not ready for Winter 2027, this page can stay a letter from a reader instead."
+      ],
+      "pullquote": "Sample line, not a quotation from a real person."
+    },
+    {
+      "kind": "story",
+      "kicker": "Soul · Charity spotlight",
+      "title": "Featured Charity (your nonprofit here)",
+      "dek": "No organization is described in this sample.",
+      "imageSlot": "charity",
+      "paragraphs": [
+        "Every issue can give one local charity a page: what the group does, what it needs this quarter, and where to give time or money. Those facts have to come from the charity.",
+        "Nothing is filled in for Winter 2027. A nonprofit that wants the spotlight can ask through the partner page. Gift-card portions of partner payments are planned for reader perks and host thank-yous, not as a claim that any charity has received them."
+      ]
+    },
+    {
+      "kind": "story",
+      "kicker": "Soul · Pets",
+      "title": "Adoptable pets",
+      "dek": "Sample animals. Not real adoption listings.",
+      "imageSlot": "pets",
+      "paragraphs": [
+        "The pet page will use animals a shelter or rescue confirms, with the shelter's own contact. These three cards are dummies so the layout can be checked."
+      ],
+      "cards": [
+        {"title": "Sample dog", "kicker": "Not a real pet", "placeholder": true, "text": "Name, age, and shelter phone are blank until a rescue provides them."},
+        {"title": "Sample cat", "kicker": "Not a real pet", "placeholder": true, "text": "Do not try to adopt this cat. It is a layout block."},
+        {"title": "Sample cat", "kicker": "Not a real pet", "placeholder": true, "text": "A third card, also fictional."}
+      ]
+    },
+    {
+      "kind": "crossword",
+      "kicker": "Puzzle",
+      "title": "A Falmouth crossword",
+      "dek": "Two sample puzzles. Clues use public places and ordinary words, not claims about local businesses."
+    },
+    {
+      "kind": "calendar",
+      "kicker": "Winter 2027",
+      "title": "Quarterly calendar",
+      "dek": "Sample entries only. This is not the town's official calendar.",
+      "paragraphs": [
+        "The printed calendar will list confirmed community dates for the quarter. The three lines below are labeled sample so they are not mistaken for real events."
+      ]
+    },
+    {
+      "kind": "audio",
+      "kicker": "Listen",
+      "title": "Quarterly audio update",
+      "dek": "A short recording will ride with each issue. This QR is a sample.",
+      "paragraphs": [
+        "Point a phone at the code to open the audio page. Winter 2027 does not have a recording yet. Partners on the introductory packages are mentioned in the update once the recording exists.",
+        "The code uses the site address in config.js, so a printed proof can point at healthandwellnessmaps.com/magazine/audio.html."
+      ]
+    },
+    {
+      "kind": "story",
+      "kicker": "Back cover",
+      "title": "Full-page placement",
+      "paragraphs": [
+        "The back cover is a full-page ad. This sample shows the size and nothing else. Cover Partner is the package aimed at this placement. Prices are on the partner page and are introductory."
+      ],
+      "ad": {"size": "full", "label": "Sample · full page", "headline": "Your back cover here", "text": "Not a real advertisement. No business is implied."}
+    }
+  ]
+}

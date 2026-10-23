@@ -1,0 +1,548 @@
+{
+  "categories": [
+    {
+      "slug": "transportation",
+      "short": "Transportation",
+      "nav": "Taxi, rides, and moving things",
+      "title": "Falmouth MA Transportation | Taxi, Rides & Local Moves",
+      "h1": "Falmouth MA transportation: rides, taxis, and moving things around town",
+      "description": "Falmouth MA transportation for rides, taxis, and moving things around town. Falmouth Transport is the featured local guide. Open taxi slots stay blank until a company confirms them.",
+      "intro": [
+        "Falmouth runs from the village and Main Street out to Woods Hole, East Falmouth, North Falmouth, and the beaches. People need a ride to the ferry, a taxi when the car is in the shop, or help moving something across town.",
+        "This page lists local transportation partners and sends you to them. Falmouth Transport is the featured guide. Taxi companies can take the open cards. Nothing is filled in until that company confirms the phone, the fare, and the booking link."
+      ],
+      "tips": [
+        "Ask whether the ride is a taxi, a scheduled car, or help moving a piece of furniture. Those are different jobs.",
+        "For the Woods Hole ferry, leave time for the terminal. This page does not publish a ferry schedule.",
+        "If a card has no phone, the business has not given us one yet. Please do not guess a number from an old listing."
+      ],
+      "related": ["food", "hotels", "community"],
+      "listings": [
+        {
+          "id": "falmouth-transport",
+          "name": "Falmouth Transport",
+          "featured": true,
+          "placeholder": false,
+          "subcategory": "Rides and moving things",
+          "summary": "A new local guide to rides and moving things around Falmouth. Founding partner of Falmouth Wellness Discovery. Phone, website, street address, and a booking link are not published here until Falmouth Transport confirms them.",
+          "address": null,
+          "phone": null,
+          "website": null,
+          "booking": null,
+          "lat": null,
+          "lng": null,
+          "schemaType": "LocalBusiness",
+          "facts": ["Founding partner", "Local rides and moving things around Falmouth"]
+        },
+        {
+          "id": "taxi-partner",
+          "name": "Taxi partner (your business here)",
+          "featured": false,
+          "placeholder": true,
+          "subcategory": "Taxi",
+          "summary": "Sample slot for a Falmouth taxi. No company is named. No phone, fare, or dispatch link is shown.",
+          "address": null,
+          "phone": null,
+          "website": null,
+          "booking": null,
+          "lat": null,
+          "lng": null
+        }
+      ]
+    },
+    {
+      "slug": "home-remodeling",
+      "short": "Home remodeling",
+      "nav": "Remodeling and renovations",
+      "title": "Falmouth MA Home Remodeling | Renovations & Contractors",
+      "h1": "Falmouth MA home remodeling",
+      "description": "Falmouth MA home remodeling directory for renovations and contractors. No firm is named until a partner confirms the listing. Questions to ask before you hire.",
+      "intro": [
+        "Cape houses live with salt air, older layouts, and winters when some work has to wait. A remodel goes better when the scope is written down and someone local is accountable for permits.",
+        "No remodeling firm is listed yet. The card below is an open slot, not a recommendation of a company we have not met."
+      ],
+      "tips": [
+        "Ask who pulls the permit and which Falmouth inspections the job needs.",
+        "Get the scope and the price in writing before demolition starts.",
+        "Ask for a recent Falmouth or Upper Cape reference, then call that person yourself."
+      ],
+      "related": ["hotels", "community", "food"],
+      "listings": [
+        {
+          "id": "featured-remodeler",
+          "name": "Featured remodeler (your business here)",
+          "featured": false,
+          "placeholder": true,
+          "subcategory": "Home remodeling",
+          "summary": "Sample slot. No contractor is named and no license number is invented.",
+          "address": null,
+          "phone": null,
+          "website": null,
+          "booking": null,
+          "lat": null,
+          "lng": null
+        }
+      ]
+    },
+    {
+      "slug": "doctors",
+      "short": "Doctors",
+      "nav": "Visits, urgent care, dental",
+      "title": "Falmouth MA Doctors | Visits, Urgent Care & Dental",
+      "h1": "Falmouth MA doctors, urgent care, and dental visits",
+      "description": "Falmouth MA doctors directory for routine visits, urgent care, and dental care. This is not medical advice. No practice is named until it confirms a listing.",
+      "intro": [
+        "This page is a directory, not medical advice, and it does not rank clinicians. For an emergency, call 911.",
+        "Routine visits, urgent care, and dental care will each have a featured partner when a practice confirms its name, address, and phone. Until then the cards stay blank. We do not copy names out of an old phone book."
+      ],
+      "tips": [
+        "Call 911 for an emergency. Do not use this page as a substitute for emergency care.",
+        "Ask a clinic what to bring: insurance card, medication list, and the reason for the visit.",
+        "Urgent care and the emergency department are not the same door. The practice can tell you which one fits."
+      ],
+      "related": ["fitness", "beauty", "community"],
+      "listings": [
+        {
+          "id": "featured-doctor",
+          "name": "Featured doctor visits (your practice here)",
+          "featured": false,
+          "placeholder": true,
+          "subcategory": "Doctor visits",
+          "summary": "Sample slot for routine visits. No physician or practice is named.",
+          "address": null,
+          "phone": null,
+          "website": null,
+          "booking": null,
+          "lat": null,
+          "lng": null
+        },
+        {
+          "id": "featured-urgent-care",
+          "name": "Featured urgent care (your clinic here)",
+          "featured": false,
+          "placeholder": true,
+          "subcategory": "Urgent care",
+          "summary": "Sample slot. No clinic is named and no wait time is claimed.",
+          "address": null,
+          "phone": null,
+          "website": null,
+          "booking": null,
+          "lat": null,
+          "lng": null
+        },
+        {
+          "id": "featured-dental",
+          "name": "Featured dental practice (your office here)",
+          "featured": false,
+          "placeholder": true,
+          "subcategory": "Dental",
+          "summary": "Sample slot. No dentist is named.",
+          "address": null,
+          "phone": null,
+          "website": null,
+          "booking": null,
+          "lat": null,
+          "lng": null
+        }
+      ]
+    },
+    {
+      "slug": "food",
+      "short": "Food",
+      "nav": "Breakfast, lunch, dinner, trucks, farm stands",
+      "title": "Falmouth MA Food | Breakfast, Lunch, Dinner, Trucks & Farm Stands",
+      "h1": "Falmouth MA food: breakfast, lunch, dinner, trucks, and farm stands",
+      "description": "Falmouth MA food directory for breakfast, lunch, dinner, food trucks, and farm stands. Cape Island Café is the featured weekday lunch. Other meals stay open until a business confirms them.",
+      "intro": [
+        "Falmouth eats on Main Street, in the villages, from trucks when the season is on, and at farm stands. This page keeps one card for each of those, and only prints what the business has confirmed.",
+        "The confirmed lunch partner is Cape Island Café, an alcohol-free, sober-friendly weekday lunch café at 316 Gifford Street. Breakfast, dinner, a food truck, and a farm stand are open sample slots."
+      ],
+      "tips": [
+        "Weekday lunch at Cape Island is alcohol-free and sober-friendly. The menu is the café's to publish, not ours to invent.",
+        "Food trucks and farm stands change with the season. A card without a schedule means we do not have a confirmed one.",
+        "Call ahead if you need to know about ingredients. We do not post allergy claims for a kitchen we have not heard from."
+      ],
+      "related": ["fitness", "hotels", "beauty"],
+      "listings": [
+        {
+          "id": "featured-breakfast",
+          "name": "Featured Breakfast (your business here)",
+          "featured": false,
+          "placeholder": true,
+          "subcategory": "Breakfast",
+          "summary": "Sample slot for a Falmouth breakfast. No café is named.",
+          "address": null,
+          "phone": null,
+          "website": null,
+          "booking": null,
+          "lat": null,
+          "lng": null
+        },
+        {
+          "id": "cape-island-cafe",
+          "name": "Cape Island Café",
+          "featured": true,
+          "placeholder": false,
+          "subcategory": "Lunch",
+          "summary": "Alcohol-free, sober-friendly weekday lunch café at 316 Gifford Street, Falmouth. Founding partner and home base of Falmouth Wellness Discovery. Menu items and hours beyond weekday lunch are not listed until the café confirms them.",
+          "address": "316 Gifford Street, Falmouth, MA",
+          "phone": "+1-774-247-5263",
+          "phoneDisplay": "(774) 247-5263",
+          "website": null,
+          "booking": null,
+          "email": "CapeIslandCafe@gmail.com",
+          "lat": 41.562274,
+          "lng": -70.611104,
+          "schemaType": "LocalBusiness",
+          "facts": ["Weekday lunch", "Alcohol-free and sober-friendly", "316 Gifford Street, Falmouth"]
+        },
+        {
+          "id": "featured-dinner",
+          "name": "Featured Dinner (your business here)",
+          "featured": false,
+          "placeholder": true,
+          "subcategory": "Dinner",
+          "summary": "Sample slot for dinner. No restaurant is named.",
+          "address": null,
+          "phone": null,
+          "website": null,
+          "booking": null,
+          "lat": null,
+          "lng": null
+        },
+        {
+          "id": "featured-food-truck",
+          "name": "Featured Food Truck (your business here)",
+          "featured": false,
+          "placeholder": true,
+          "subcategory": "Food truck",
+          "summary": "Sample slot. No truck, corner, or schedule is invented.",
+          "address": null,
+          "phone": null,
+          "website": null,
+          "booking": null,
+          "lat": null,
+          "lng": null
+        },
+        {
+          "id": "featured-farm-stand",
+          "name": "Featured Farm Stand (your business here)",
+          "featured": false,
+          "placeholder": true,
+          "subcategory": "Farm stand",
+          "summary": "Sample slot. No farm is named.",
+          "address": null,
+          "phone": null,
+          "website": null,
+          "booking": null,
+          "lat": null,
+          "lng": null
+        }
+      ]
+    },
+    {
+      "slug": "fitness",
+      "short": "Fitness",
+      "nav": "Gym, yoga, personal training",
+      "title": "Falmouth MA Fitness | Gyms, Yoga & Personal Training",
+      "h1": "Falmouth MA fitness: gyms, yoga, and personal training",
+      "description": "Falmouth MA fitness directory for a gym, yoga, and personal training. Spots stay open until a studio or trainer confirms the listing. No business is invented.",
+      "intro": [
+        "A gym, a yoga class, and a session with a trainer are different promises. This page will feature one confirmed business in each, with a button that goes to that business.",
+        "None of the three are confirmed for this launch, so the cards are sample slots. Class times and prices are not guessed."
+      ],
+      "tips": [
+        "Ask what a first visit includes and whether you can pay for one class before a membership.",
+        "Ask a trainer where sessions happen: their studio, a gym, or your home.",
+        "If you are returning from an injury, ask the studio what they need from you before you book. This page is not medical advice."
+      ],
+      "related": ["food", "beauty", "doctors"],
+      "listings": [
+        {
+          "id": "featured-gym",
+          "name": "Featured Gym (your business here)",
+          "featured": false,
+          "placeholder": true,
+          "subcategory": "Gym",
+          "summary": "Sample slot. No gym is named.",
+          "address": null,
+          "phone": null,
+          "website": null,
+          "booking": null,
+          "lat": null,
+          "lng": null
+        },
+        {
+          "id": "featured-yoga",
+          "name": "Featured Yoga (your business here)",
+          "featured": false,
+          "placeholder": true,
+          "subcategory": "Yoga",
+          "summary": "Sample slot. No studio is named.",
+          "address": null,
+          "phone": null,
+          "website": null,
+          "booking": null,
+          "lat": null,
+          "lng": null
+        },
+        {
+          "id": "featured-trainer",
+          "name": "Featured Personal Trainer (your business here)",
+          "featured": false,
+          "placeholder": true,
+          "subcategory": "Personal training",
+          "summary": "Sample slot. No trainer is named.",
+          "address": null,
+          "phone": null,
+          "website": null,
+          "booking": null,
+          "lat": null,
+          "lng": null
+        }
+      ]
+    },
+    {
+      "slug": "beauty",
+      "short": "Beauty",
+      "nav": "Tanning and hair salons",
+      "title": "Falmouth MA Beauty | Tanning & Hair Salons",
+      "h1": "Falmouth MA beauty: tanning and hair salons",
+      "description": "Falmouth MA beauty directory for tanning and hair salons. Tanorama at 365 Main Street is the featured tanning salon. The hair salon slot is open.",
+      "intro": [
+        "Beauty in this directory means two cards: tanning, and a hair salon. Tanorama is the featured tanning salon. It is at 365 Main Street, Falmouth. Owner Scott has kept it on Main Street for nearly three decades.",
+        "A phone, a website, hours, and a list of services are not shown, because Tanorama has not confirmed them for this directory. The hair salon card is empty."
+      ],
+      "tips": [
+        "Call the salon for hours. We do not print a guessed closing time.",
+        "Ask what a first visit includes before you book.",
+        "The Tanorama story in the magazine is a sample layout until the interview with Scott is finished."
+      ],
+      "related": ["fitness", "food", "hotels"],
+      "listings": [
+        {
+          "id": "tanorama",
+          "name": "Tanorama",
+          "featured": true,
+          "placeholder": false,
+          "subcategory": "Tanning",
+          "summary": "Tanning salon at 365 Main Street, Falmouth. Owner Scott. Nearly three decades on Main Street. Hours, phone, website, and services beyond tanning are not listed until the salon confirms them.",
+          "address": "365 Main Street, Falmouth, MA",
+          "phone": null,
+          "website": null,
+          "booking": null,
+          "lat": 41.552083,
+          "lng": -70.6124133,
+          "schemaType": "LocalBusiness",
+          "facts": ["365 Main Street, Falmouth", "Owner: Scott", "Nearly three decades on Main Street"]
+        },
+        {
+          "id": "featured-hair",
+          "name": "Featured Hair Salon (your business here)",
+          "featured": false,
+          "placeholder": true,
+          "subcategory": "Hair salon",
+          "summary": "Sample slot. No salon is named.",
+          "address": null,
+          "phone": null,
+          "website": null,
+          "booking": null,
+          "lat": null,
+          "lng": null
+        }
+      ]
+    },
+    {
+      "slug": "hotels",
+      "short": "Hotels",
+      "nav": "Where to stay",
+      "title": "Falmouth MA Hotels | Where to Stay",
+      "h1": "Falmouth MA hotels: where to stay",
+      "description": "Falmouth MA hotels and where to stay, from the village to Woods Hole. No inn is named until a hotel confirms its listing, rates, and booking link.",
+      "intro": [
+        "Visitors come for the village, the Sound, the beaches, and the Woods Hole ferry. A useful stay listing names the hotel, the address, the season, and a real booking link.",
+        "No hotel is confirmed yet. The card is a sample so the page has a shape. Rates and amenities are not invented."
+      ],
+      "tips": [
+        "Ask whether the rate is for the room you will actually sleep in, and what is closed in winter.",
+        "If you want to walk to Main Street, ask how far the door is. We will not guess a walk time.",
+        "Book on the hotel's own link when we have one, so the hotel can see the visit."
+      ],
+      "related": ["food", "transportation", "golf"],
+      "listings": [
+        {
+          "id": "featured-hotel",
+          "name": "Featured Hotel (your business here)",
+          "featured": false,
+          "placeholder": true,
+          "subcategory": "Where to stay",
+          "summary": "Sample slot. No hotel or inn is named.",
+          "address": null,
+          "phone": null,
+          "website": null,
+          "booking": null,
+          "lat": null,
+          "lng": null
+        }
+      ]
+    },
+    {
+      "slug": "golf",
+      "short": "Golf",
+      "nav": "Golf",
+      "title": "Falmouth MA Golf | Courses & Tee Times",
+      "h1": "Falmouth MA golf",
+      "description": "Falmouth MA golf directory for a featured course or club. No course is named until it confirms tee times, address, and a booking link.",
+      "intro": [
+        "Golf around Falmouth depends on the season, the tee sheet, and whether a course is public that week. This page will feature one confirmed course or club and link out for tee times.",
+        "No course is named in this launch edition. A listing without a confirmed address does not get a map pin."
+      ],
+      "tips": [
+        "Ask if the tee time is walking or cart, and what the weather policy is.",
+        "Public and private play are different invitations. The course should say which one the listing is.",
+        "Winter hours are the course's to publish. We will not copy a summer schedule into a winter magazine."
+      ],
+      "related": ["hotels", "food", "fitness"],
+      "listings": [
+        {
+          "id": "featured-golf",
+          "name": "Featured Golf (your business here)",
+          "featured": false,
+          "placeholder": true,
+          "subcategory": "Golf",
+          "summary": "Sample slot. No course or club is named.",
+          "address": null,
+          "phone": null,
+          "website": null,
+          "booking": null,
+          "lat": null,
+          "lng": null
+        }
+      ]
+    },
+    {
+      "slug": "community",
+      "short": "Community",
+      "nav": "Library, senior center, youth sports, Town Hall, Chamber",
+      "title": "Falmouth MA Community | Library, Senior Center, Town Hall & Chamber",
+      "h1": "Falmouth MA community: library, senior center, youth sports, Town Hall, and the Chamber",
+      "description": "Falmouth MA community desks: the public library, senior center, youth sports, Town Hall, and the Chamber of Commerce. Programs are not copied here. Confirm them with each desk.",
+      "intro": [
+        "These are public desks, not paid ads. The magazine gives them a quarterly 'what's happening' space. This directory lists where they are and links to the sites they already run.",
+        "Hours, program names, and phone extensions change. They are not repeated here. Youth sports stay unnamed until a league or the recreation department confirms a contact."
+      ],
+      "tips": [
+        "For an emergency, call 911. This page is not a dispatch line.",
+        "Library events belong on falmouthpubliclibrary.org. We will add a quarterly note only when the library sends one.",
+        "Town Hall business starts at falmouthma.gov. Bring the document the department asked for."
+      ],
+      "related": ["transportation", "food", "doctors"],
+      "listings": [
+        {
+          "id": "falmouth-public-library",
+          "name": "Falmouth Public Library",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Library",
+          "summary": "The town public library at 300 Main Street. Hours and the event calendar stay on the library's own site so this page does not go stale.",
+          "address": "300 Main Street, Falmouth, MA 02540",
+          "phone": null,
+          "website": "https://www.falmouthpubliclibrary.org/",
+          "websiteLabel": "Website",
+          "booking": null,
+          "lat": 41.5528547,
+          "lng": -70.614079,
+          "schemaType": "Library",
+          "facts": ["300 Main Street, Falmouth"]
+        },
+        {
+          "id": "falmouth-senior-center",
+          "name": "Falmouth Senior Center",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Senior center",
+          "summary": "The senior center at 300 Dillingham Avenue. Programs and phone numbers are published by the Town of Falmouth. A dedicated page URL was not confirmed for this listing, so the button goes to the town website.",
+          "address": "300 Dillingham Avenue, Falmouth, MA",
+          "phone": null,
+          "website": "https://www.falmouthma.gov/",
+          "websiteLabel": "Town website",
+          "booking": null,
+          "lat": 41.55691,
+          "lng": -70.602504,
+          "schemaType": "GovernmentOffice",
+          "facts": ["300 Dillingham Avenue, Falmouth"]
+        },
+        {
+          "id": "youth-sports",
+          "name": "Youth sports (your program here)",
+          "featured": false,
+          "placeholder": true,
+          "subcategory": "Youth sports",
+          "summary": "Sample slot. No league is named and no field address is guessed. A program can send its own quarterly note.",
+          "address": null,
+          "phone": null,
+          "website": null,
+          "booking": null,
+          "lat": null,
+          "lng": null
+        },
+        {
+          "id": "falmouth-town-hall",
+          "name": "Falmouth Town Hall",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Town Hall",
+          "summary": "Town Hall at 59 Town Hall Square. Department hours and phone numbers stay on the town website.",
+          "address": "59 Town Hall Square, Falmouth, MA 02540",
+          "phone": null,
+          "website": "https://www.falmouthma.gov/",
+          "websiteLabel": "Town website",
+          "booking": null,
+          "lat": 41.5513766,
+          "lng": -70.6184645,
+          "schemaType": "GovernmentOffice",
+          "facts": ["59 Town Hall Square, Falmouth"]
+        },
+        {
+          "id": "falmouth-chamber",
+          "name": "Falmouth Chamber of Commerce",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Chamber",
+          "summary": "The Chamber's public page is on the Cape Cod Chamber site. OpenStreetMap places the office on Katherine Lee Bates Road without a street number, so none is added here.",
+          "address": "Katherine Lee Bates Road, Falmouth, MA",
+          "phone": null,
+          "website": "https://www.capecodchamber.org/falmouth-chamber/",
+          "websiteLabel": "Website",
+          "booking": null,
+          "lat": 41.5531612,
+          "lng": -70.6163061,
+          "schemaType": "Organization",
+          "facts": ["Katherine Lee Bates Road, Falmouth"]
+        }
+      ]
+    }
+  ],
+  "mapOnly": [
+    {
+      "id": "featured-pharmacy",
+      "name": "Featured Pharmacy (your business here)",
+      "placeholder": true,
+      "category": "food",
+      "categoryName": "Pharmacy",
+      "summary": "Sample slot in the magazine. Not a real pharmacy.",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "featured-social-club",
+      "name": "Featured Social Club (your business here)",
+      "placeholder": true,
+      "category": "community",
+      "categoryName": "Social club",
+      "summary": "Sample slot in the magazine. No club is named.",
+      "lat": null,
+      "lng": null
+    }
+  ]
+}
