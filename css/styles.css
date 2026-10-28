@@ -642,3 +642,26 @@ textarea { min-height: 8rem; resize: vertical; }
 .pillar.has-art { padding: 0; overflow: hidden; display: flex; flex-direction: column; box-shadow: var(--shadow); }
 .pillar-art { display: block; width: 100%; aspect-ratio: 16 / 9; object-fit: cover; }
 .pillar-body { padding: 1rem 1rem 1.2rem; }
+
+/* Free Food & Help page */
+.help-hotlines { margin: 1.2rem 0; max-width: 42rem; }
+.help-hotlines h2 { font-size: 1.3rem; margin-bottom: 0.3rem; }
+.help-toc { margin: 1rem 0 0.4rem; }
+.help-card p { margin: 0.3rem 0; }
+.help-when { color: var(--teal-d); }
+.help-source { font-size: 0.88rem; color: var(--ink-2); margin-top: 0.6rem !important; }
+.help-day { background: var(--white); border-radius: 16px; margin: 0.5rem 0; padding: 0.6rem 0.9rem; box-shadow: var(--shadow); }
+.help-day summary { cursor: pointer; font-weight: 700; padding: 0.3rem 0; }
+.table-wrap { overflow-x: auto; }
+.help-table { width: 100%; border-collapse: collapse; font-size: 0.92rem; margin-top: 0.5rem; }
+.help-table th, .help-table td { text-align: left; vertical-align: top; padding: 0.45rem 0.5rem; border-top: 1px solid var(--line); }
+.help-table small { color: var(--ink-2); }
+
+/* Case studies */
+.case-grid { display: grid; gap: 0.9rem; }
+@media (min-width: 900px) { .case-grid { grid-template-columns: repeat(3, 1fr); } }
+.case-card { display: flex; flex-direction: column; }
+.case-card ul { padding-left: 1.1rem; margin: 0.4rem 0 0.8rem; }
+.case-card .actions { margin-top: auto; }
+.leaf .sources { font-size: 0.82rem; color: var(--ink-2); margin-top: 0.8rem; }
+footer a { overflow-wrap: anywhere; word-break: break-word; }

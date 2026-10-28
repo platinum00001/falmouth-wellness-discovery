@@ -91,9 +91,14 @@ function renderPage(issue, page, index, total) {
   body += paras(page.paragraphs);
   if (page.pullquote) body += '<blockquote class="pull">' + esc(page.pullquote) + "</blockquote>";
   body += cardsHtml(page.cards);
+  if (page.sources && page.sources.length) {
+    body += '<p class="sources">Sources: ' + page.sources.map(function (url) {
+      return '<a href="' + esc(url) + '" target="_blank" rel="noopener">' + esc(url.replace(/^https?:\/\/(www\.)?/, "").split("/")[0]) + "</a>";
+    }).join(", ") + "</p>";
+  }
   if (page.kind === "calendar") {
     body += (issue.events || []).map(function (event) {
-      return '<article class="event"><p class="kicker">Sample</p><h3>' + esc(event.title) +
+      return '<article class="event"><p class="kicker">' + esc(event.status || "Check date") + '</p><h3>' + esc(event.title) +
         "</h3><p>" + esc(event.when) + "</p><p>" + esc(event.detail) + "</p></article>";
     }).join("");
   }

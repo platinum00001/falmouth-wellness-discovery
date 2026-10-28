@@ -17,7 +17,7 @@
         "If a card has no phone, the business has not given us one yet. Please do not guess a number from an old listing."
       ],
       "related": [
-        "food",
+        "getting-around",
         "hotels",
         "community"
       ],
@@ -112,9 +112,9 @@
         "Urgent care and the emergency department are not the same door. The practice can tell you which one fits."
       ],
       "related": [
-        "fitness",
-        "beauty",
-        "community"
+        "dental",
+        "spa-recovery",
+        "fitness"
       ],
       "listings": [
         {
@@ -165,12 +165,12 @@
       "slug": "food",
       "short": "Food",
       "nav": "Breakfast, lunch, dinner, trucks, farm stands",
-      "title": "Falmouth MA Food | Breakfast, Lunch, Dinner, Trucks & Farm Stands",
-      "h1": "Falmouth MA food: breakfast, lunch, dinner, trucks, and farm stands",
-      "description": "Falmouth MA food directory for breakfast, lunch, dinner, food trucks, and farm stands. Cape Island Café is the featured weekday lunch. Other meals stay open until a business confirms them.",
+      "title": "Falmouth MA Food | Breakfast, Lunch, Dinner, Cafés & Bakeries",
+      "h1": "Falmouth MA food: breakfast, lunch, dinner, cafés, and bakeries",
+      "description": "Falmouth MA food directory: breakfast and lunch spots, cafés and bakeries, diners, seafood, pizza, and dinner. Cape Island Café is the featured weekday lunch. Each listing links to the restaurant.",
       "intro": [
-        "Falmouth eats on Main Street, in the villages, from trucks when the season is on, and at farm stands. This page keeps one card for each of those, and only prints what the business has confirmed.",
-        "The confirmed lunch partner is Cape Island Café, an alcohol-free, sober-friendly weekday lunch café at 316 Gifford Street. Café Grounded is on the walking map at 281 Main Street. That Main Street dot is approximate. Breakfast, dinner, a food truck, and a farm stand are still open sample slots."
+        "Falmouth eats on Main Street, around the harbor, in Woods Hole and out in the villages. This page lists local restaurants, cafés and bakeries with their own phone numbers and websites.",
+        "The featured lunch partner is Cape Island Café, an alcohol-free, sober-friendly weekday lunch café at 316 Gifford Street. A food truck is still an open sample slot. Hours shown are as published by each restaurant and change by season, so call ahead."
       ],
       "tips": [
         "Weekday lunch at Cape Island is alcohol-free and sober-friendly. The menu is the café's to publish, not ours to invent.",
@@ -178,25 +178,11 @@
         "Call ahead if you need to know about ingredients. We do not post allergy claims for a kitchen we have not heard from."
       ],
       "related": [
+        "nutrition",
         "fitness",
-        "hotels",
-        "beauty"
+        "hotels"
       ],
       "listings": [
-        {
-          "id": "featured-breakfast",
-          "name": "Featured Breakfast (your business here)",
-          "featured": false,
-          "placeholder": true,
-          "subcategory": "Breakfast",
-          "summary": "Sample slot for a Falmouth breakfast. No café is named.",
-          "address": null,
-          "phone": null,
-          "website": null,
-          "booking": null,
-          "lat": null,
-          "lng": null
-        },
         {
           "id": "cape-island-cafe",
           "name": "Cape Island Café",
@@ -207,7 +193,7 @@
           "address": "316 Gifford Street, Falmouth, MA",
           "phone": "+1-774-247-5263",
           "phoneDisplay": "(774) 247-5263",
-          "website": null,
+          "website": "https://capeislandcafe.com/",
           "booking": null,
           "email": "CapeIslandCafe@gmail.com",
           "lat": 41.562274,
@@ -217,21 +203,1718 @@
             "Weekday lunch",
             "Alcohol-free and sober-friendly",
             "316 Gifford Street, Falmouth"
+          ],
+          "sources": [
+            "Local Wellness Maps Falmouth directory (platinum00001/local-wellness-maps, Oct 26, 2026)"
           ]
         },
         {
-          "id": "featured-dinner",
-          "name": "Featured Dinner (your business here)",
+          "id": "country-fare",
+          "name": "Country Fare",
           "featured": false,
-          "placeholder": true,
-          "subcategory": "Dinner",
-          "summary": "Sample slot for dinner. No restaurant is named.",
-          "address": null,
-          "phone": null,
-          "website": null,
+          "placeholder": false,
+          "subcategory": "Breakfast & lunch",
+          "summary": "Breakfast & lunch in Falmouth Village. Classic breakfast-and-lunch spot on Main Street. Call or check the restaurant's own site for hours and the current menu.",
+          "address": "319 Main St, Falmouth, MA 02540",
+          "phone": "+1-508-548-9020",
+          "phoneDisplay": "(508) 548-9020",
+          "website": "",
           "booking": null,
-          "lat": null,
-          "lng": null
+          "lat": 41.552045,
+          "lng": -70.613516,
+          "schemaType": "Restaurant",
+          "facts": [
+            "319 Main St, Falmouth, MA 02540",
+            "(508) 548-9020",
+            "Hours as published: Mon–Fri 6 AM–2 PM; Sat 7 AM–2 PM; Sun 7 AM–1 PM (check before you go)"
+          ],
+          "sources": [
+            "Restaurant Exchange Falmouth restaurant list (Oct 2026)",
+            "https://www.yelp.com/biz/country-fare-restaurant-falmouth",
+            "https://www.openstreetmap.org/node/14270704028"
+          ]
+        },
+        {
+          "id": "crabapples-restaurant",
+          "name": "Crabapples Restaurant",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Breakfast & lunch",
+          "summary": "Breakfast & lunch in Falmouth Village. Family restaurant known for breakfast. Call or check the restaurant's own site for hours and the current menu.",
+          "address": "553 Palmer Ave, Falmouth, MA 02540",
+          "phone": "+1-508-548-3355",
+          "phoneDisplay": "(508) 548-3355",
+          "website": "https://www.crabapplesrestaurant.com/",
+          "booking": null,
+          "lat": 41.567526,
+          "lng": -70.617085,
+          "schemaType": "Restaurant",
+          "facts": [
+            "553 Palmer Ave, Falmouth, MA 02540",
+            "(508) 548-3355",
+            "Hours as published: Sun–Wed 7:30 AM–3 PM; Thu–Sat 7:30 AM–9 PM (check before you go)"
+          ],
+          "sources": [
+            "Restaurant Exchange Falmouth restaurant list (Oct 2026)",
+            "https://www.crabapplesrestaurant.com/hours.html",
+            "https://web.falmouthchamber.com/Restaurants-Pubs"
+          ]
+        },
+        {
+          "id": "moonakis-cafe",
+          "name": "Moonakis Cafe",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Breakfast & lunch",
+          "summary": "Breakfast & lunch in Waquoit. Waquoit breakfast-and-lunch café. Call or check the restaurant's own site for hours and the current menu.",
+          "address": "460 Waquoit Hwy, Waquoit, MA 02536",
+          "phone": "+1-508-457-9630",
+          "phoneDisplay": "(508) 457-9630",
+          "website": "https://moonakiscafe.com/",
+          "booking": null,
+          "lat": 41.587798,
+          "lng": -70.517644,
+          "schemaType": "Restaurant",
+          "facts": [
+            "460 Waquoit Hwy, Waquoit, MA 02536",
+            "(508) 457-9630",
+            "Hours as published: Mon–Sat 7 AM–2 PM; Sun 7 AM–1 PM (check before you go)"
+          ],
+          "sources": [
+            "Restaurant Exchange Falmouth restaurant list (Oct 2026)",
+            "https://moonakiscafe.com/visit",
+            "https://www.openstreetmap.org/node/6015516393"
+          ]
+        },
+        {
+          "id": "persy-s-place",
+          "name": "Persy's Place",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Breakfast & lunch",
+          "summary": "Breakfast & lunch in Falmouth Village. Big-menu breakfast and lunch restaurant. Call or check the restaurant's own site for hours and the current menu.",
+          "address": "40 N Main St, Falmouth, MA 02540",
+          "phone": "+1-508-540-3500",
+          "phoneDisplay": "(508) 540-3500",
+          "website": "https://persysplace.com/",
+          "booking": null,
+          "lat": 41.555773,
+          "lng": -70.621912,
+          "schemaType": "Restaurant",
+          "facts": [
+            "40 N Main St, Falmouth, MA 02540",
+            "(508) 540-3500",
+            "Hours as published: Daily 7 AM–2 PM (check before you go)"
+          ],
+          "sources": [
+            "Restaurant Exchange Falmouth restaurant list (Oct 2026)",
+            "https://persysplace.com/locations/",
+            "https://www.openstreetmap.org/node/14271114623"
+          ]
+        },
+        {
+          "id": "pickle-jar-kitchen",
+          "name": "Pickle Jar Kitchen",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Breakfast & lunch",
+          "summary": "Breakfast & lunch in Falmouth Village. Comfort-food breakfast and lunch in a historic Main Street building. Call or check the restaurant's own site for hours and the current menu.",
+          "address": "170 Main St, Falmouth, MA 02540",
+          "phone": "+1-508-540-6760",
+          "phoneDisplay": "(508) 540-6760",
+          "website": "https://picklejarkitchen.com",
+          "booking": null,
+          "lat": 41.552727,
+          "lng": -70.617084,
+          "schemaType": "Restaurant",
+          "facts": [
+            "170 Main St, Falmouth, MA 02540",
+            "(508) 540-6760",
+            "Hours as published: Thu–Mon 9 AM–3 PM; closed Tue–Wed (check before you go)"
+          ],
+          "sources": [
+            "Restaurant Exchange Falmouth restaurant list (Oct 2026)",
+            "https://picklejarkitchen.com",
+            "https://web.falmouthchamber.com/Restaurants-Pubs"
+          ]
+        },
+        {
+          "id": "betsy-s-diner",
+          "name": "Betsy's Diner",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Diner",
+          "summary": "Diner in Falmouth Village. Classic diner serving breakfast and lunch. Call or check the restaurant's own site for hours and the current menu.",
+          "address": "457 Main St, Falmouth, MA 02540",
+          "phone": "+1-508-540-0060",
+          "phoneDisplay": "(508) 540-0060",
+          "website": "",
+          "booking": null,
+          "lat": 41.551956,
+          "lng": -70.609967,
+          "schemaType": "Restaurant",
+          "facts": [
+            "457 Main St, Falmouth, MA 02540",
+            "(508) 540-0060",
+            "Hours as published: Daily 7 AM–2 PM (check before you go)"
+          ],
+          "sources": [
+            "Restaurant Exchange Falmouth restaurant list (Oct 2026)",
+            "https://www.restaurantji.com/ma/falmouth/betsys-diner-/",
+            "https://www.openstreetmap.org/way/213072622"
+          ]
+        },
+        {
+          "id": "talk-of-the-town-diner",
+          "name": "Talk of the Town Diner",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Diner",
+          "summary": "Diner in North Falmouth. Breakfast and lunch diner. Call or check the restaurant's own site for hours and the current menu.",
+          "address": "362 N Falmouth Hwy, North Falmouth, MA 02556",
+          "phone": "+1-508-563-3041",
+          "phoneDisplay": "(508) 563-3041",
+          "website": "",
+          "booking": null,
+          "lat": 41.637096,
+          "lng": -70.617541,
+          "schemaType": "Restaurant",
+          "facts": [
+            "362 N Falmouth Hwy, North Falmouth, MA 02556",
+            "(508) 563-3041",
+            "Hours as published: Daily 7 AM–1:30 PM (check before you go)"
+          ],
+          "sources": [
+            "Restaurant Exchange Falmouth restaurant list (Oct 2026)",
+            "https://www.bestoncape.com/businesses/restaurants-and-cafes/talk-of-the-town-diner",
+            "https://www.openstreetmap.org/node/14274404017"
+          ]
+        },
+        {
+          "id": "bourbon-and-butter-sugar-shed",
+          "name": "Bourbon & Butter Sugar Shed",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Café & bakery",
+          "summary": "Café & bakery in Falmouth Village. Small-batch bakery shed near the Village Green. Call or check the restaurant's own site for hours and the current menu.",
+          "address": "68 Main St, Falmouth, MA 02540",
+          "phone": null,
+          "phoneDisplay": null,
+          "website": "https://www.bourbonbutterbakingco.com/",
+          "booking": null,
+          "lat": 41.554443,
+          "lng": -70.620812,
+          "schemaType": "Restaurant",
+          "facts": [
+            "68 Main St, Falmouth, MA 02540",
+            "Hours as published: Thu–Sat 12–5 PM; Sun 1–5 PM (check before you go)"
+          ],
+          "sources": [
+            "Restaurant Exchange Falmouth restaurant list (Oct 2026)",
+            "https://www.bourbonbutterbakingco.com/contact"
+          ]
+        },
+        {
+          "id": "cape-cod-bagel-co",
+          "name": "Cape Cod Bagel Co.",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Café & bakery",
+          "summary": "Café & bakery in Falmouth Village. Bagel shop for breakfast sandwiches and coffee. Call or check the restaurant's own site for hours and the current menu.",
+          "address": "419 Palmer Ave, Falmouth, MA 02540",
+          "phone": "+1-508-548-8485",
+          "phoneDisplay": "(508) 548-8485",
+          "website": "",
+          "booking": null,
+          "lat": 41.564771,
+          "lng": -70.618538,
+          "schemaType": "Restaurant",
+          "facts": [
+            "419 Palmer Ave, Falmouth, MA 02540",
+            "(508) 548-8485"
+          ],
+          "sources": [
+            "Restaurant Exchange Falmouth restaurant list (Oct 2026)",
+            "https://web.falmouthchamber.com/Restaurants-Pubs",
+            "https://web.falmouthchamber.com/Bakeries-Cafes"
+          ]
+        },
+        {
+          "id": "coffee-obsession-falmouth",
+          "name": "Coffee Obsession – Falmouth",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Café & bakery",
+          "summary": "Café & bakery in Falmouth Village. Local roaster's Falmouth café near the village. Call or check the restaurant's own site for hours and the current menu.",
+          "address": "110 Palmer Ave, Falmouth, MA 02540",
+          "phone": "+1-508-540-2233",
+          "phoneDisplay": "(508) 540-2233",
+          "website": "https://www.coffeeobsession.com/",
+          "booking": null,
+          "lat": 41.55605,
+          "lng": -70.62105,
+          "schemaType": "Restaurant",
+          "facts": [
+            "110 Palmer Ave, Falmouth, MA 02540",
+            "(508) 540-2233",
+            "Hours as published: Daily 6:30 AM–4:30 PM (check before you go)"
+          ],
+          "sources": [
+            "Restaurant Exchange Falmouth restaurant list (Oct 2026)",
+            "https://www.coffeeobsession.com/",
+            "https://web.falmouthchamber.com/Bakeries-Cafes"
+          ]
+        },
+        {
+          "id": "coffee-obsession-woods-hole",
+          "name": "Coffee Obsession – Woods Hole",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Café & bakery",
+          "summary": "Café & bakery in Woods Hole. Local coffee roaster's Woods Hole café. Call or check the restaurant's own site for hours and the current menu.",
+          "address": "38 Water St, Woods Hole, MA 02543",
+          "phone": "+1-508-540-8130",
+          "phoneDisplay": "(508) 540-8130",
+          "website": "https://www.coffeeobsession.com/",
+          "booking": null,
+          "lat": 41.523836,
+          "lng": -70.669708,
+          "schemaType": "Restaurant",
+          "facts": [
+            "38 Water St, Woods Hole, MA 02543",
+            "(508) 540-8130",
+            "Hours as published: Mon–Sat 6:30 AM–3 PM (check before you go)"
+          ],
+          "sources": [
+            "Restaurant Exchange Falmouth restaurant list (Oct 2026)",
+            "https://www.coffeeobsession.com/",
+            "https://web.falmouthchamber.com/Bakeries-Cafes"
+          ]
+        },
+        {
+          "id": "daily-brew-coffee-house-and-lounge",
+          "name": "Daily Brew Coffee House & Lounge",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Café & bakery",
+          "summary": "Café & bakery in North Falmouth. Coffee house and lounge in North Falmouth. Call or check the restaurant's own site for hours and the current menu.",
+          "address": "412 N Falmouth Hwy, North Falmouth, MA 02556",
+          "phone": "+1-508-564-4755",
+          "phoneDisplay": "(508) 564-4755",
+          "website": "",
+          "booking": null,
+          "lat": 41.6394,
+          "lng": -70.616445,
+          "schemaType": "Restaurant",
+          "facts": [
+            "412 N Falmouth Hwy, North Falmouth, MA 02556",
+            "(508) 564-4755"
+          ],
+          "sources": [
+            "Restaurant Exchange Falmouth restaurant list (Oct 2026)",
+            "https://www.northfalmouthvillageassociation.org/businessmember",
+            "https://www.openstreetmap.org/node/14274400018"
+          ]
+        },
+        {
+          "id": "mary-ellen-s-portuguese-bakery",
+          "name": "Mary Ellen's Portuguese Bakery",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Café & bakery",
+          "summary": "Café & bakery in Falmouth Village. Portuguese bakery with breakfast and lunch. Call or check the restaurant's own site for hours and the current menu.",
+          "address": "829 Main St, Falmouth, MA 02540",
+          "phone": "+1-508-540-9696",
+          "phoneDisplay": "(508) 540-9696",
+          "website": "",
+          "booking": null,
+          "lat": 41.554265,
+          "lng": -70.600929,
+          "schemaType": "Restaurant",
+          "facts": [
+            "829 Main St, Falmouth, MA 02540",
+            "(508) 540-9696",
+            "Hours as published: Mon–Sat 5 AM–2 PM; Sun 6 AM–2 PM (check before you go)"
+          ],
+          "sources": [
+            "Restaurant Exchange Falmouth restaurant list (Oct 2026)",
+            "https://www.yelp.com/biz/mary-ellens-portuguese-bakery-falmouth",
+            "https://www.openstreetmap.org/way/1191870537"
+          ]
+        },
+        {
+          "id": "pie-in-the-sky-bakery-and-cafe",
+          "name": "Pie in the Sky Bakery & Café",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Café & bakery",
+          "summary": "Café & bakery in Woods Hole. Year-round Woods Hole bakery-café with pastries, pies, sandwiches and coffee. Call or check the restaurant's own site for hours and the current menu.",
+          "address": "10 Water St, Woods Hole, MA 02543",
+          "phone": null,
+          "phoneDisplay": null,
+          "website": "https://www.piecoffee.com/",
+          "booking": null,
+          "lat": 41.523363,
+          "lng": -70.668856,
+          "schemaType": "Restaurant",
+          "facts": [
+            "10 Water St, Woods Hole, MA 02543",
+            "Hours as published: Year-round; early morning to evening (check before you go)"
+          ],
+          "sources": [
+            "Restaurant Exchange Falmouth restaurant list (Oct 2026)",
+            "https://www.piecoffee.com/",
+            "https://woodshole.com/whats-open/"
+          ]
+        },
+        {
+          "id": "the-black-dog-heights-cafe",
+          "name": "The Black Dog Heights Cafe",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Café & bakery",
+          "summary": "Café & bakery in Falmouth Heights. Breakfast and lunch café in Falmouth Heights. Call or check the restaurant's own site for hours and the current menu.",
+          "address": "465 Grand Ave, Falmouth, MA 02540",
+          "phone": "+1-508-540-4409",
+          "phoneDisplay": "(508) 540-4409",
+          "website": "https://theblackdog.com/pages/heights-cafe-falmouth",
+          "booking": null,
+          "lat": 41.545521,
+          "lng": -70.601589,
+          "schemaType": "Restaurant",
+          "facts": [
+            "465 Grand Ave, Falmouth, MA 02540",
+            "(508) 540-4409",
+            "Hours as published: Daily 7 AM–3 PM (check before you go)"
+          ],
+          "sources": [
+            "Restaurant Exchange Falmouth restaurant list (Oct 2026)",
+            "https://theblackdog.com/pages/heights-cafe-falmouth",
+            "https://web.falmouthchamber.com/Restaurants-Pubs"
+          ]
+        },
+        {
+          "id": "the-buffalo-jump-at-coonamessett-farm",
+          "name": "The Buffalo Jump at Coonamessett Farm",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Farm café",
+          "summary": "Farm café in Hatchville. Farm café at Coonamessett Farm. Call or check the restaurant's own site for hours and the current menu.",
+          "address": "277 Hatchville Rd, East Falmouth, MA 02536",
+          "phone": "+1-508-563-2560",
+          "phoneDisplay": "(508) 563-2560",
+          "website": "https://thebuffalojumpfalmouth.com/",
+          "booking": null,
+          "lat": 41.616722,
+          "lng": -70.57889,
+          "schemaType": "Restaurant",
+          "facts": [
+            "277 Hatchville Rd, East Falmouth, MA 02536",
+            "(508) 563-2560",
+            "Hours as published: Thu–Sun 10 AM–2 PM (counter-service lunch) (check before you go)"
+          ],
+          "sources": [
+            "Restaurant Exchange Falmouth restaurant list (Oct 2026)",
+            "https://thebuffalojumpfalmouth.com/counter-service-lunch",
+            "https://web.falmouthchamber.com/Restaurants-Pubs"
+          ]
+        },
+        {
+          "id": "chapoquoit-grill",
+          "name": "Chapoquoit Grill",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "American",
+          "summary": "American in West Falmouth. Neighborhood grill restaurant in West Falmouth. Call or check the restaurant's own site for hours and the current menu.",
+          "address": "410 W Falmouth Hwy, West Falmouth, MA 02574",
+          "phone": "+1-508-540-7794",
+          "phoneDisplay": "(508) 540-7794",
+          "website": "https://www.chapoquoitgrillwestfalmouth.com/",
+          "booking": null,
+          "lat": 41.592416,
+          "lng": -70.636103,
+          "schemaType": "Restaurant",
+          "facts": [
+            "410 W Falmouth Hwy, West Falmouth, MA 02574",
+            "(508) 540-7794",
+            "Hours as published: Tue–Thu 5–9 PM; Fri–Sat 5–10 PM; closed Sun–Mon (check before you go)"
+          ],
+          "sources": [
+            "Restaurant Exchange Falmouth restaurant list (Oct 2026)",
+            "https://www.chapoquoitgrillwestfalmouth.com/"
+          ]
+        },
+        {
+          "id": "dj-s-famous-wings-family-sports-pub",
+          "name": "DJ's Famous Wings – Family Sports Pub",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "American",
+          "summary": "American in Falmouth Village. Family sports pub known for wings. Call or check the restaurant's own site for hours and the current menu.",
+          "address": "872 Main St, Falmouth, MA 02540",
+          "phone": "+1-508-457-9464",
+          "phoneDisplay": "(508) 457-9464",
+          "website": "https://djsfamouswings.com/",
+          "booking": null,
+          "lat": 41.555507,
+          "lng": -70.600822,
+          "schemaType": "Restaurant",
+          "facts": [
+            "872 Main St, Falmouth, MA 02540",
+            "(508) 457-9464",
+            "Hours as published: Mon & Wed–Sun 11 AM–9 PM; closed Tue (check before you go)"
+          ],
+          "sources": [
+            "Restaurant Exchange Falmouth restaurant list (Oct 2026)",
+            "https://djsfamouswings.com/",
+            "https://web.falmouthchamber.com/Restaurants-Pubs"
+          ]
+        },
+        {
+          "id": "tap-city-grille",
+          "name": "Tap City Grille",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "American",
+          "summary": "American in Falmouth Village. Brewpub-style grille with a big tap list on Main Street. Call or check the restaurant's own site for hours and the current menu.",
+          "address": "285 Main St, Falmouth, MA 02540",
+          "phone": "+1-774-349-2776",
+          "phoneDisplay": "(774) 349-2776",
+          "website": "https://www.tapcitygrille.com/falmouth",
+          "booking": null,
+          "lat": 41.551989,
+          "lng": -70.614398,
+          "schemaType": "Restaurant",
+          "facts": [
+            "285 Main St, Falmouth, MA 02540",
+            "(774) 349-2776",
+            "Hours as published: Daily from 11:30 AM (check before you go)"
+          ],
+          "sources": [
+            "Restaurant Exchange Falmouth restaurant list (Oct 2026)",
+            "https://www.tapcitygrille.com/falmouth",
+            "https://www.openstreetmap.org/node/13096362198"
+          ]
+        },
+        {
+          "id": "sweet-rice",
+          "name": "Sweet Rice",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Asian",
+          "summary": "Asian in Teaticket. Pan-Asian restaurant on Teaticket Highway. Call or check the restaurant's own site for hours and the current menu.",
+          "address": "167 Teaticket Hwy, Teaticket, MA 02536",
+          "phone": "+1-508-444-6616",
+          "phoneDisplay": "(508) 444-6616",
+          "website": "https://www.sweetricecapecod.com/",
+          "booking": null,
+          "lat": 41.564833,
+          "lng": -70.595411,
+          "schemaType": "Restaurant",
+          "facts": [
+            "167 Teaticket Hwy, Teaticket, MA 02536",
+            "(508) 444-6616"
+          ],
+          "sources": [
+            "Restaurant Exchange Falmouth restaurant list (Oct 2026)",
+            "https://www.sweetricecapecod.com/contact-reservations",
+            "https://www.openstreetmap.org/node/14271587746"
+          ]
+        },
+        {
+          "id": "doggz-and-hoggz",
+          "name": "Doggz & Hoggz",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "BBQ",
+          "summary": "BBQ in Falmouth Village. Family barbecue, specialty hot dogs and sandwiches. Call or check the restaurant's own site for hours and the current menu.",
+          "address": "781 Main St, Falmouth, MA 02540",
+          "phone": "+1-508-548-3663",
+          "phoneDisplay": "(508) 548-3663",
+          "website": "https://www.doggzhoggz.com/",
+          "booking": null,
+          "lat": 41.554657,
+          "lng": -70.600673,
+          "schemaType": "Restaurant",
+          "facts": [
+            "781 Main St, Falmouth, MA 02540",
+            "(508) 548-3663",
+            "Hours as published: Tue–Wed & Sun 10 AM–4 PM; Thu–Sat 10 AM–6 PM; closed Mon (check before you go)"
+          ],
+          "sources": [
+            "Restaurant Exchange Falmouth restaurant list (Oct 2026)",
+            "https://www.doggzhoggz.com/hours.html",
+            "https://web.falmouthchamber.com/Restaurants-Pubs"
+          ]
+        },
+        {
+          "id": "asia-restaurant",
+          "name": "Asia Restaurant",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Chinese",
+          "summary": "Chinese in Falmouth Village. Chinese restaurant offering pickup and delivery. Call or check the restaurant's own site for hours and the current menu.",
+          "address": "452 Main St, Falmouth, MA 02540",
+          "phone": "+1-508-455-1083",
+          "phoneDisplay": "(508) 455-1083",
+          "website": "https://www.asiafalmouth.com/",
+          "booking": null,
+          "lat": 41.552585,
+          "lng": -70.610056,
+          "schemaType": "Restaurant",
+          "facts": [
+            "452 Main St, Falmouth, MA 02540",
+            "(508) 455-1083"
+          ],
+          "sources": [
+            "Restaurant Exchange Falmouth restaurant list (Oct 2026)",
+            "https://www.asiafalmouth.com/"
+          ]
+        },
+        {
+          "id": "golden-sails-chinese-restaurant",
+          "name": "Golden Sails Chinese Restaurant",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Chinese",
+          "summary": "Chinese in East Falmouth. Chinese restaurant and lounge on Route 28. Call or check the restaurant's own site for hours and the current menu.",
+          "address": "143 E Falmouth Hwy, East Falmouth, MA 02536",
+          "phone": "+1-508-548-3521",
+          "phoneDisplay": "(508) 548-3521",
+          "website": "",
+          "booking": null,
+          "lat": 41.57852,
+          "lng": -70.567745,
+          "schemaType": "Restaurant",
+          "facts": [
+            "143 E Falmouth Hwy, East Falmouth, MA 02536",
+            "(508) 548-3521",
+            "Hours as published: Closed Tue (check before you go)"
+          ],
+          "sources": [
+            "Restaurant Exchange Falmouth restaurant list (Oct 2026)",
+            "https://www.restaurantji.com/ma/falmouth/golden-sails-chinese-restaurant-/"
+          ]
+        },
+        {
+          "id": "cafe-grounded",
+          "name": "Café Grounded",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Healthy café",
+          "summary": "Healthy café on the walking map at 281 Main Street. The map dot is interpolated along Main Street, so it is approximate. Hours and a menu are not listed until the café confirms them.",
+          "address": "281 Main Street, Falmouth, MA",
+          "phone": "+1-774-612-3970",
+          "website": "http://cafe-grounded.com/",
+          "booking": null,
+          "lat": 41.552029,
+          "lng": -70.614525,
+          "schemaType": "LocalBusiness",
+          "facts": [
+            "281 Main Street",
+            "Hours as published: Mon–Sat 7 AM–4 PM; Sun 8 AM–4 PM (check before you go)"
+          ],
+          "approximate": true,
+          "phoneDisplay": "(774) 612-3970",
+          "sources": [
+            "Restaurant Exchange Falmouth restaurant list (Oct 2026)"
+          ]
+        },
+        {
+          "id": "holy-cow-ice-cream-cafe",
+          "name": "Holy Cow Ice Cream Cafe",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Ice Cream",
+          "summary": "Ice Cream in North Falmouth. Ice cream café in North Falmouth. Call or check the restaurant's own site for hours and the current menu.",
+          "address": "75 County Rd, Ste 5, North Falmouth, MA 02556",
+          "phone": "+1-508-356-3382",
+          "phoneDisplay": "(508) 356-3382",
+          "website": "https://holycowicecreamcafe.com/",
+          "booking": null,
+          "lat": 41.649161,
+          "lng": -70.616955,
+          "schemaType": "Restaurant",
+          "facts": [
+            "75 County Rd, Ste 5, North Falmouth, MA 02556",
+            "(508) 356-3382"
+          ],
+          "sources": [
+            "Restaurant Exchange Falmouth restaurant list (Oct 2026)",
+            "https://holycowicecreamcafe.com/"
+          ]
+        },
+        {
+          "id": "smitty-s-homemade-ice-cream",
+          "name": "Smitty's Homemade Ice Cream",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Ice Cream",
+          "summary": "Ice Cream in East Falmouth. Homemade ice cream stand. Call or check the restaurant's own site for hours and the current menu.",
+          "address": "326 E Falmouth Hwy, East Falmouth, MA 02536",
+          "phone": "+1-508-457-1060",
+          "phoneDisplay": "(508) 457-1060",
+          "website": "https://smittysicecreamcapecod.com/",
+          "booking": null,
+          "lat": 41.579156,
+          "lng": -70.56181,
+          "schemaType": "Restaurant",
+          "facts": [
+            "326 E Falmouth Hwy, East Falmouth, MA 02536",
+            "(508) 457-1060"
+          ],
+          "sources": [
+            "Restaurant Exchange Falmouth restaurant list (Oct 2026)",
+            "https://smittysicecreamcapecod.com/locations.html",
+            "https://web.falmouthchamber.com/ice-cream-candy"
+          ]
+        },
+        {
+          "id": "golden-swan-indian-cuisine",
+          "name": "Golden Swan Indian Cuisine",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Indian",
+          "summary": "Indian in Falmouth Village. Indian restaurant in downtown Falmouth. Call or check the restaurant's own site for hours and the current menu.",
+          "address": "323 Main St, Falmouth, MA 02540",
+          "phone": "+1-508-540-6580",
+          "phoneDisplay": "(508) 540-6580",
+          "website": "",
+          "booking": null,
+          "lat": 41.552032,
+          "lng": -70.613398,
+          "schemaType": "Restaurant",
+          "facts": [
+            "323 Main St, Falmouth, MA 02540",
+            "(508) 540-6580"
+          ],
+          "sources": [
+            "Restaurant Exchange Falmouth restaurant list (Oct 2026)",
+            "https://www.restaurantji.com/ma/falmouth/golden-swan-indian-cuisine-/",
+            "https://www.openstreetmap.org/node/9952849798"
+          ]
+        },
+        {
+          "id": "bucatino-restaurant-and-wine-bar",
+          "name": "Bucatino Restaurant & Wine Bar",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Italian",
+          "summary": "Italian in North Falmouth. Italian restaurant and wine bar in North Falmouth. Call or check the restaurant's own site for hours and the current menu.",
+          "address": "7 Nathan Ellis Hwy, North Falmouth, MA 02556",
+          "phone": "+1-508-566-8960",
+          "phoneDisplay": "(508) 566-8960",
+          "website": "https://www.bucawinebar.com/",
+          "booking": null,
+          "lat": 41.646254,
+          "lng": -70.612061,
+          "schemaType": "Restaurant",
+          "facts": [
+            "7 Nathan Ellis Hwy, North Falmouth, MA 02556",
+            "(508) 566-8960"
+          ],
+          "sources": [
+            "Restaurant Exchange Falmouth restaurant list (Oct 2026)",
+            "https://www.bucawinebar.com/",
+            "https://web.falmouthchamber.com/Restaurants-Pubs"
+          ]
+        },
+        {
+          "id": "la-cucina-sul-mare",
+          "name": "La Cucina Sul Mare",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Italian",
+          "summary": "Italian in Falmouth Village. Italian and seafood dining room in downtown Falmouth. Call or check the restaurant's own site for hours and the current menu.",
+          "address": "237 Main St, Falmouth, MA 02540",
+          "phone": "+1-508-548-5600",
+          "phoneDisplay": "(508) 548-5600",
+          "website": "https://www.lacucinasulmare.com/",
+          "booking": null,
+          "lat": 41.55206,
+          "lng": -70.615791,
+          "schemaType": "Restaurant",
+          "facts": [
+            "237 Main St, Falmouth, MA 02540",
+            "(508) 548-5600",
+            "Hours as published: Mon 4–10 PM; Tue–Sat 11:30 AM–10 PM; Sun 10:30 AM–10 PM (check before you go)"
+          ],
+          "sources": [
+            "Restaurant Exchange Falmouth restaurant list (Oct 2026)",
+            "https://www.lacucinasulmare.com/contact-us",
+            "https://web.falmouthchamber.com/Restaurants-Pubs"
+          ]
+        },
+        {
+          "id": "osteria-la-civetta",
+          "name": "Osteria La Civetta",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Italian",
+          "summary": "Italian in Falmouth Village. Family-run Italian osteria with handmade pasta on Main Street. Call or check the restaurant's own site for hours and the current menu.",
+          "address": "133 Main St, Falmouth, MA 02540",
+          "phone": "+1-508-540-1616",
+          "phoneDisplay": "(508) 540-1616",
+          "website": "https://www.osterialacivetta.com/",
+          "booking": null,
+          "lat": 41.552917,
+          "lng": -70.617934,
+          "schemaType": "Restaurant",
+          "facts": [
+            "133 Main St, Falmouth, MA 02540",
+            "(508) 540-1616",
+            "Hours as published: Wed–Thu 4–8 PM; Fri–Sat 12–8:30 PM; Sun 4–8 PM; closed Mon–Tue (check before you go)"
+          ],
+          "sources": [
+            "Restaurant Exchange Falmouth restaurant list (Oct 2026)",
+            "https://www.osterialacivetta.com/contact-2",
+            "https://www.openstreetmap.org/way/213076629"
+          ]
+        },
+        {
+          "id": "romeo-s",
+          "name": "Romeo's",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Italian",
+          "summary": "Italian in Falmouth. Italian-American dinner and Sunday brunch on Davis Straits. Call or check the restaurant's own site for hours and the current menu.",
+          "address": "75 Davis Straits, Falmouth, MA 02540",
+          "phone": "+1-774-392-7393",
+          "phoneDisplay": "(774) 392-7393",
+          "website": "https://romeosfalmouth.com/",
+          "booking": null,
+          "lat": 41.558946,
+          "lng": -70.599251,
+          "schemaType": "Restaurant",
+          "facts": [
+            "75 Davis Straits, Falmouth, MA 02540",
+            "(774) 392-7393",
+            "Hours as published: Mon & Wed–Sun 5–9 PM; Sun brunch 11 AM–3 PM; closed Tue (check before you go)"
+          ],
+          "sources": [
+            "Restaurant Exchange Falmouth restaurant list (Oct 2026)",
+            "https://romeosfalmouth.com/",
+            "https://web.falmouthchamber.com/Restaurants-Pubs"
+          ]
+        },
+        {
+          "id": "tiger-ramen",
+          "name": "Tiger Ramen",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Japanese",
+          "summary": "Japanese in Falmouth Village. Ramen and Japanese small plates. Call or check the restaurant's own site for hours and the current menu.",
+          "address": "587 Main St, Falmouth, MA 02540",
+          "phone": "+1-774-392-6621",
+          "phoneDisplay": "(774) 392-6621",
+          "website": "https://www.tigerramencapecod.com/",
+          "booking": null,
+          "lat": 41.552256,
+          "lng": -70.606776,
+          "schemaType": "Restaurant",
+          "facts": [
+            "587 Main St, Falmouth, MA 02540",
+            "(774) 392-6621"
+          ],
+          "sources": [
+            "Restaurant Exchange Falmouth restaurant list (Oct 2026)",
+            "https://www.tigerramencapecod.com/",
+            "https://www.openstreetmap.org/node/13112512540"
+          ]
+        },
+        {
+          "id": "asti",
+          "name": "Asti",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Mediterranean",
+          "summary": "Mediterranean in Falmouth Village. Main Street spot for Greek-Mediterranean plates and pizza. Call or check the restaurant's own site for hours and the current menu.",
+          "address": "117 Main St, Falmouth, MA 02540",
+          "phone": "+1-508-548-3300",
+          "phoneDisplay": "(508) 548-3300",
+          "website": "",
+          "booking": null,
+          "lat": 41.553137,
+          "lng": -70.618231,
+          "schemaType": "Restaurant",
+          "facts": [
+            "117 Main St, Falmouth, MA 02540",
+            "(508) 548-3300",
+            "Hours as published: Mon–Thu 11:30 AM–8 PM; Fri–Sat 11:30 AM–9 PM; Sun 11:30 AM–8 PM (check before you go)"
+          ],
+          "sources": [
+            "Restaurant Exchange Falmouth restaurant list (Oct 2026)",
+            "https://web.falmouthchamber.com/Restaurants-Pubs",
+            "https://www.openstreetmap.org/way/213076974"
+          ]
+        },
+        {
+          "id": "anejo-mexican-bistro",
+          "name": "Añejo Mexican Bistro",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Mexican",
+          "summary": "Mexican in Falmouth Village. Mexican bistro and tequila bar on Main Street. Call or check the restaurant's own site for hours and the current menu.",
+          "address": "188 Main St, Falmouth, MA 02540",
+          "phone": "+1-508-388-7631",
+          "phoneDisplay": "(508) 388-7631",
+          "website": "https://www.anejo.cc/falmouth",
+          "booking": null,
+          "lat": 41.552576,
+          "lng": -70.616772,
+          "schemaType": "Restaurant",
+          "facts": [
+            "188 Main St, Falmouth, MA 02540",
+            "(508) 388-7631",
+            "Hours as published: Mon–Sat 11:30 AM–11 PM; Sun 10:30 AM–11 PM (check before you go)"
+          ],
+          "sources": [
+            "Restaurant Exchange Falmouth restaurant list (Oct 2026)",
+            "https://www.anejo.cc/falmouth",
+            "https://web.falmouthchamber.com/Restaurants-Pubs"
+          ]
+        },
+        {
+          "id": "casa-vallarta",
+          "name": "Casa Vallarta",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Mexican",
+          "summary": "Mexican in Falmouth. Family Mexican restaurant on Route 28. Call or check the restaurant's own site for hours and the current menu.",
+          "address": "70 Davis Straits, Falmouth, MA 02540",
+          "phone": "+1-508-299-8177",
+          "phoneDisplay": "(508) 299-8177",
+          "website": "https://www.casavallarta.us/",
+          "booking": null,
+          "lat": 41.558772,
+          "lng": -70.599894,
+          "schemaType": "Restaurant",
+          "facts": [
+            "70 Davis Straits, Falmouth, MA 02540",
+            "(508) 299-8177",
+            "Hours as published: Sun–Thu 11 AM–10 PM; Fri–Sat 11 AM–11 PM (check before you go)"
+          ],
+          "sources": [
+            "Restaurant Exchange Falmouth restaurant list (Oct 2026)",
+            "https://www.casavallarta.us/",
+            "https://www.openstreetmap.org/way/213070385"
+          ]
+        },
+        {
+          "id": "quicks-hole-taqueria",
+          "name": "Quicks Hole Taqueria",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Mexican",
+          "summary": "Mexican in Woods Hole. Baja-meets-New England taqueria steps from the Martha's Vineyard ferry. Call or check the restaurant's own site for hours and the current menu.",
+          "address": "6 Luscombe Ave, Woods Hole, MA 02543",
+          "phone": "+1-508-495-0792",
+          "phoneDisplay": "(508) 495-0792",
+          "website": "https://quicksholetaqueria.com/",
+          "booking": null,
+          "lat": 41.52368,
+          "lng": -70.669542,
+          "schemaType": "Restaurant",
+          "facts": [
+            "6 Luscombe Ave, Woods Hole, MA 02543",
+            "(508) 495-0792",
+            "Hours as published: Thu–Tue 11 AM–8 PM; closed Wed (check before you go)"
+          ],
+          "sources": [
+            "Restaurant Exchange Falmouth restaurant list (Oct 2026)",
+            "https://quicksholetaqueria.com/",
+            "https://web.falmouthchamber.com/Restaurants-Pubs"
+          ]
+        },
+        {
+          "id": "taco-blanco",
+          "name": "Taco Blanco",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Mexican",
+          "summary": "Mexican in Falmouth Village. Tacos, burritos and bowls on east Main Street. Call or check the restaurant's own site for hours and the current menu.",
+          "address": "870 Main St, Falmouth, MA 02540",
+          "phone": "+1-508-540-8226",
+          "phoneDisplay": "(508) 540-8226",
+          "website": "https://www.tacoblanco.cc/",
+          "booking": null,
+          "lat": 41.555689,
+          "lng": -70.600618,
+          "schemaType": "Restaurant",
+          "facts": [
+            "870 Main St, Falmouth, MA 02540",
+            "(508) 540-8226",
+            "Hours as published: Daily 11:30 AM–9 PM (check before you go)"
+          ],
+          "sources": [
+            "Restaurant Exchange Falmouth restaurant list (Oct 2026)",
+            "https://www.tacoblanco.cc/contact",
+            "https://www.openstreetmap.org/node/14099858504"
+          ]
+        },
+        {
+          "id": "the-glass-onion",
+          "name": "The Glass Onion",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "New American",
+          "summary": "New American in Falmouth Village. Chef-driven New American dinner spot. Call or check the restaurant's own site for hours and the current menu.",
+          "address": "37 N Main St, Falmouth, MA 02540",
+          "phone": null,
+          "phoneDisplay": null,
+          "website": "",
+          "booking": null,
+          "lat": 41.555608,
+          "lng": -70.621578,
+          "schemaType": "Restaurant",
+          "facts": [
+            "37 N Main St, Falmouth, MA 02540",
+            "Hours as published: Tue–Sat 5–9 PM (check before you go)"
+          ],
+          "sources": [
+            "Restaurant Exchange Falmouth restaurant list (Oct 2026)",
+            "https://www.yelp.com/biz/the-glass-onion-falmouth"
+          ]
+        },
+        {
+          "id": "water-street-kitchen",
+          "name": "Water Street Kitchen",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "New American",
+          "summary": "New American in Woods Hole. Seasonal, scratch-made dinners with local seafood and produce in Woods Hole village. Call or check the restaurant's own site for hours and the current menu.",
+          "address": "56 Water St, Woods Hole, MA 02543",
+          "phone": "+1-508-540-5656",
+          "phoneDisplay": "(508) 540-5656",
+          "website": "https://www.waterstreetkitchen.com/",
+          "booking": null,
+          "lat": 41.524104,
+          "lng": -70.670163,
+          "schemaType": "Restaurant",
+          "facts": [
+            "56 Water St, Woods Hole, MA 02543",
+            "(508) 540-5656",
+            "Hours as published: Fall: Wed–Sun from 5 PM; closed Mon–Tue (check before you go)"
+          ],
+          "sources": [
+            "Restaurant Exchange Falmouth restaurant list (Oct 2026)",
+            "https://www.waterstreetkitchen.com/",
+            "https://www.openstreetmap.org/node/4335874553"
+          ]
+        },
+        {
+          "id": "jack-s-restaurant-and-bar",
+          "name": "Jack's Restaurant & Bar",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Pizza",
+          "summary": "Pizza in Falmouth Village. Neighborhood restaurant and bar known for pizza. Call or check the restaurant's own site for hours and the current menu.",
+          "address": "327 Gifford St, Falmouth, MA 02540",
+          "phone": "+1-508-540-5225",
+          "phoneDisplay": "(508) 540-5225",
+          "website": "https://www.jacksrestaurantfalmouth.com/",
+          "booking": null,
+          "lat": 41.561662,
+          "lng": -70.609623,
+          "schemaType": "Restaurant",
+          "facts": [
+            "327 Gifford St, Falmouth, MA 02540",
+            "(508) 540-5225",
+            "Hours as published: Tue–Thu 4–9 PM; Fri–Sat 4–10 PM; closed Sun–Mon (check before you go)"
+          ],
+          "sources": [
+            "Restaurant Exchange Falmouth restaurant list (Oct 2026)",
+            "https://www.jacksrestaurantfalmouth.com/",
+            "https://web.falmouthchamber.com/Restaurants-Pubs"
+          ]
+        },
+        {
+          "id": "little-rossa",
+          "name": "Little Rossa",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Pizza",
+          "summary": "Pizza in Falmouth Village. Pizzeria and espresso bar (formerly Simply Divine Pizza Co.). Call or check the restaurant's own site for hours and the current menu.",
+          "address": "261 Main St, Falmouth, MA 02540",
+          "phone": "+1-508-548-1222",
+          "phoneDisplay": "(508) 548-1222",
+          "website": "https://littlerossa.com/",
+          "booking": null,
+          "lat": 41.55202,
+          "lng": -70.61489,
+          "schemaType": "Restaurant",
+          "facts": [
+            "261 Main St, Falmouth, MA 02540",
+            "(508) 548-1222"
+          ],
+          "sources": [
+            "Restaurant Exchange Falmouth restaurant list (Oct 2026)",
+            "https://littlerossa.com/",
+            "https://www.divinepizza.com/"
+          ]
+        },
+        {
+          "id": "lobo-s-house-of-pizza",
+          "name": "Lobo's House of Pizza",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Pizza",
+          "summary": "Pizza in East Falmouth. House of pizza with subs and dinners. Call or check the restaurant's own site for hours and the current menu.",
+          "address": "338 E Falmouth Hwy, East Falmouth, MA 02536",
+          "phone": "+1-508-540-3595",
+          "phoneDisplay": "(508) 540-3595",
+          "website": "",
+          "booking": null,
+          "lat": 41.579141,
+          "lng": -70.56134,
+          "schemaType": "Restaurant",
+          "facts": [
+            "338 E Falmouth Hwy, East Falmouth, MA 02536",
+            "(508) 540-3595"
+          ],
+          "sources": [
+            "Restaurant Exchange Falmouth restaurant list (Oct 2026)",
+            "https://www.restaurantji.com/ma/falmouth/prime-time-house-of-pizza-/"
+          ]
+        },
+        {
+          "id": "moto-pizza",
+          "name": "Moto Pizza",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Pizza",
+          "summary": "Pizza in Waquoit. Pizza shop in Waquoit Village. Call or check the restaurant's own site for hours and the current menu.",
+          "address": "500 Waquoit Hwy, Waquoit, MA 02536",
+          "phone": "+1-508-388-6888",
+          "phoneDisplay": "(508) 388-6888",
+          "website": "https://www.moto-pizza.com/",
+          "booking": null,
+          "lat": 41.587847,
+          "lng": -70.516214,
+          "schemaType": "Restaurant",
+          "facts": [
+            "500 Waquoit Hwy, Waquoit, MA 02536",
+            "(508) 388-6888",
+            "Hours as published: Daily 11 AM–9 PM (Fri–Sat to 10 PM) (check before you go)"
+          ],
+          "sources": [
+            "Restaurant Exchange Falmouth restaurant list (Oct 2026)",
+            "https://www.moto-pizza.com/",
+            "https://www.openstreetmap.org/way/213047330"
+          ]
+        },
+        {
+          "id": "paul-s-pizza-and-seafood",
+          "name": "Paul's Pizza & Seafood",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Pizza",
+          "summary": "Pizza in Falmouth Village. Bar-room style pizza and fried seafood just off Main Street. Call or check the restaurant's own site for hours and the current menu.",
+          "address": "14 Benham Rd, Falmouth, MA 02540",
+          "phone": "+1-508-548-5838",
+          "phoneDisplay": "(508) 548-5838",
+          "website": "http://paulspizza.biz/",
+          "booking": null,
+          "lat": 41.55375,
+          "lng": -70.600989,
+          "schemaType": "Restaurant",
+          "facts": [
+            "14 Benham Rd, Falmouth, MA 02540",
+            "(508) 548-5838",
+            "Hours as published: Wed–Sun; closed Mon–Tue (check before you go)"
+          ],
+          "sources": [
+            "Restaurant Exchange Falmouth restaurant list (Oct 2026)",
+            "http://paulspizza.biz/",
+            "https://www.openstreetmap.org/way/213070735"
+          ]
+        },
+        {
+          "id": "silver-beach-pizza-and-seafood",
+          "name": "Silver Beach Pizza & Seafood",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Pizza",
+          "summary": "Pizza in North Falmouth. Pizza and seafood in North Falmouth. Call or check the restaurant's own site for hours and the current menu.",
+          "address": "557 N Falmouth Hwy, Unit A, North Falmouth, MA 02556",
+          "phone": "+1-508-563-5000",
+          "phoneDisplay": "(508) 563-5000",
+          "website": "https://www.silverbeachpizzacapecod.com/",
+          "booking": null,
+          "lat": 41.646803,
+          "lng": -70.612088,
+          "schemaType": "Restaurant",
+          "facts": [
+            "557 N Falmouth Hwy, Unit A, North Falmouth, MA 02556",
+            "(508) 563-5000",
+            "Hours as published: Daily 10:30 AM–10 PM (check before you go)"
+          ],
+          "sources": [
+            "Restaurant Exchange Falmouth restaurant list (Oct 2026)",
+            "https://www.silverbeachpizzacapecod.com/location-hours",
+            "https://www.openstreetmap.org/way/207990777"
+          ]
+        },
+        {
+          "id": "steve-s-pizzeria-and-more",
+          "name": "Steve's Pizzeria & More",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Pizza",
+          "summary": "Pizza in Falmouth Village. Counter-service pizza and grinders for dine-in, takeout or delivery. Call or check the restaurant's own site for hours and the current menu.",
+          "address": "374 Main St, Falmouth, MA 02540",
+          "phone": "+1-508-457-9454",
+          "phoneDisplay": "(508) 457-9454",
+          "website": "http://www.stevespizzeriaandmore.com/",
+          "booking": null,
+          "lat": 41.552289,
+          "lng": -70.612017,
+          "schemaType": "Restaurant",
+          "facts": [
+            "374 Main St, Falmouth, MA 02540",
+            "(508) 457-9454"
+          ],
+          "sources": [
+            "Restaurant Exchange Falmouth restaurant list (Oct 2026)",
+            "https://web.falmouthchamber.com/Restaurants-Pubs",
+            "https://www.openstreetmap.org/node/4365799322"
+          ]
+        },
+        {
+          "id": "supreme-pizza",
+          "name": "Supreme Pizza",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Pizza",
+          "summary": "Pizza in Teaticket. Pizza and subs for pickup and delivery. Call or check the restaurant's own site for hours and the current menu.",
+          "address": "147 Teaticket Hwy, Teaticket, MA 02536",
+          "phone": "+1-508-548-4200",
+          "phoneDisplay": "(508) 548-4200",
+          "website": "https://falmouthsupreme.com/",
+          "booking": null,
+          "lat": 41.564319,
+          "lng": -70.596003,
+          "schemaType": "Restaurant",
+          "facts": [
+            "147 Teaticket Hwy, Teaticket, MA 02536",
+            "(508) 548-4200"
+          ],
+          "sources": [
+            "Restaurant Exchange Falmouth restaurant list (Oct 2026)",
+            "https://falmouthsupreme.com/",
+            "https://www.openstreetmap.org/node/13411443395"
+          ]
+        },
+        {
+          "id": "anchor-ale-house",
+          "name": "Anchor Ale House",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Pub",
+          "summary": "Pub in Falmouth. Ale house with pub food on Davis Straits. Call or check the restaurant's own site for hours and the current menu.",
+          "address": "100 Davis Straits, Falmouth, MA 02540",
+          "phone": "+1-508-299-8200",
+          "phoneDisplay": "(508) 299-8200",
+          "website": "https://www.anchorale.com/",
+          "booking": null,
+          "lat": 41.56028,
+          "lng": -70.599822,
+          "schemaType": "Restaurant",
+          "facts": [
+            "100 Davis Straits, Falmouth, MA 02540",
+            "(508) 299-8200",
+            "Hours as published: Sun–Thu 2–10 PM; Fri–Sat 12 PM–1 AM (check before you go)"
+          ],
+          "sources": [
+            "Restaurant Exchange Falmouth restaurant list (Oct 2026)",
+            "https://www.anchorale.com/",
+            "https://www.openstreetmap.org/way/213070360"
+          ]
+        },
+        {
+          "id": "eli-s-tavern",
+          "name": "Eli's Tavern",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Pub",
+          "summary": "Pub in Falmouth Village. Tavern with New England fare at the Coonamessett. Call or check the restaurant's own site for hours and the current menu.",
+          "address": "311 Gifford St, Falmouth, MA 02540",
+          "phone": "+1-508-548-2300",
+          "phoneDisplay": "(508) 548-2300",
+          "website": "https://elis-tavern.squarespace.com/",
+          "booking": null,
+          "lat": 41.560859,
+          "lng": -70.609134,
+          "schemaType": "Restaurant",
+          "facts": [
+            "311 Gifford St, Falmouth, MA 02540",
+            "(508) 548-2300",
+            "Hours as published: Mon–Wed 11:30 AM–8 PM; Thu–Sat 11:30 AM–9 PM; Sun 11 AM–8 PM (check before you go)"
+          ],
+          "sources": [
+            "Restaurant Exchange Falmouth restaurant list (Oct 2026)",
+            "https://elis-tavern.squarespace.com/",
+            "https://web.falmouthchamber.com/Restaurants-Pubs"
+          ]
+        },
+        {
+          "id": "liam-maguire-s-irish-pub",
+          "name": "Liam Maguire's Irish Pub",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Pub",
+          "summary": "Pub in Falmouth Village. Irish pub and restaurant with live music on Main Street. Call or check the restaurant's own site for hours and the current menu.",
+          "address": "273 Main St, Falmouth, MA 02540",
+          "phone": "+1-508-548-0285",
+          "phoneDisplay": "(508) 548-0285",
+          "website": "https://liammaguire.com/",
+          "booking": null,
+          "lat": 41.552012,
+          "lng": -70.614664,
+          "schemaType": "Restaurant",
+          "facts": [
+            "273 Main St, Falmouth, MA 02540",
+            "(508) 548-0285",
+            "Hours as published: Tue–Sat 11:30 AM–1 AM; Sun 12 PM–1 AM; closed Mon (check before you go)"
+          ],
+          "sources": [
+            "Restaurant Exchange Falmouth restaurant list (Oct 2026)",
+            "https://liammaguire.com/contact",
+            "https://web.falmouthchamber.com/Restaurants-Pubs"
+          ]
+        },
+        {
+          "id": "quahog-republic-dive-bar",
+          "name": "Quahog Republic Dive Bar",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Pub",
+          "summary": "Pub in Falmouth. Local dive bar with pub food. Call or check the restaurant's own site for hours and the current menu.",
+          "address": "97 Spring Bars Rd, Falmouth, MA 02540",
+          "phone": "+1-508-540-4111",
+          "phoneDisplay": "(508) 540-4111",
+          "website": "https://www.quahogrepublic.com/divebar",
+          "booking": null,
+          "lat": 41.559365,
+          "lng": -70.593184,
+          "schemaType": "Restaurant",
+          "facts": [
+            "97 Spring Bars Rd, Falmouth, MA 02540",
+            "(508) 540-4111"
+          ],
+          "sources": [
+            "Restaurant Exchange Falmouth restaurant list (Oct 2026)",
+            "https://www.quahogrepublic.com/divebar",
+            "https://www.openstreetmap.org/node/9674531610"
+          ]
+        },
+        {
+          "id": "quahog-republic-leeside-pub",
+          "name": "Quahog Republic Leeside Pub",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Pub",
+          "summary": "Pub in Woods Hole. Casual Woods Hole pub by the ferry with bar food. Call or check the restaurant's own site for hours and the current menu.",
+          "address": "29 Railroad Ave, Woods Hole, MA 02543",
+          "phone": "+1-508-495-2984",
+          "phoneDisplay": "(508) 495-2984",
+          "website": "https://www.quahogrepublic.com/leeside",
+          "booking": null,
+          "lat": 41.52323,
+          "lng": -70.669549,
+          "schemaType": "Restaurant",
+          "facts": [
+            "29 Railroad Ave, Woods Hole, MA 02543",
+            "(508) 495-2984"
+          ],
+          "sources": [
+            "Restaurant Exchange Falmouth restaurant list (Oct 2026)",
+            "https://www.quahogrepublic.com/leeside",
+            "https://www.openstreetmap.org/node/14010917202"
+          ]
+        },
+        {
+          "id": "epic-oyster",
+          "name": "Epic Oyster",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Seafood",
+          "summary": "Seafood in North Falmouth. Oyster bar and seafood restaurant. Call or check the restaurant's own site for hours and the current menu.",
+          "address": "70 County Rd, North Falmouth, MA 02556",
+          "phone": "+1-508-563-3742",
+          "phoneDisplay": "(508) 563-3742",
+          "website": "https://www.eatepicoyster.com/",
+          "booking": null,
+          "lat": 41.64881,
+          "lng": -70.616803,
+          "schemaType": "Restaurant",
+          "facts": [
+            "70 County Rd, North Falmouth, MA 02556",
+            "(508) 563-3742",
+            "Hours as published: Tue–Thu 5–9 PM; Fri 4–9 PM; Sat 12–9 PM; closed Sun–Mon (check before you go)"
+          ],
+          "sources": [
+            "Restaurant Exchange Falmouth restaurant list (Oct 2026)",
+            "https://www.eatepicoyster.com/contact-us"
+          ]
+        },
+        {
+          "id": "falmouth-fish-market",
+          "name": "Falmouth Fish Market",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Seafood",
+          "summary": "Seafood in Teaticket. Seafood market with prepared take-out. Call or check the restaurant's own site for hours and the current menu.",
+          "address": "157 Teaticket Hwy, Teaticket, MA 02536",
+          "phone": "+1-508-540-0045",
+          "phoneDisplay": "(508) 540-0045",
+          "website": "",
+          "booking": null,
+          "lat": 41.564547,
+          "lng": -70.595704,
+          "schemaType": "Restaurant",
+          "facts": [
+            "157 Teaticket Hwy, Teaticket, MA 02536",
+            "(508) 540-0045"
+          ],
+          "sources": [
+            "Restaurant Exchange Falmouth restaurant list (Oct 2026)",
+            "https://www.bestoncape.com/businesses/provisions/falmouth-fish-market"
+          ]
+        },
+        {
+          "id": "falmouth-raw-bar",
+          "name": "Falmouth Raw Bar",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Seafood",
+          "summary": "Seafood in Falmouth Harbor. Seasonal harborside raw bar with live music. Call or check the restaurant's own site for hours and the current menu.",
+          "address": "56 Scranton Ave, Falmouth, MA 02540",
+          "phone": "+1-508-548-7729",
+          "phoneDisplay": "(508) 548-7729",
+          "website": "https://www.falmouthrawbar.com/",
+          "booking": null,
+          "lat": 41.552002,
+          "lng": -70.602252,
+          "schemaType": "Restaurant",
+          "facts": [
+            "56 Scranton Ave, Falmouth, MA 02540",
+            "(508) 548-7729",
+            "Hours as published: Seasonal (closed for the season after Oct 11) (check before you go)"
+          ],
+          "sources": [
+            "Restaurant Exchange Falmouth restaurant list (Oct 2026)",
+            "https://www.falmouthrawbar.com/",
+            "https://web.falmouthchamber.com/Restaurants-Pubs"
+          ]
+        },
+        {
+          "id": "flying-bridge-restaurant",
+          "name": "Flying Bridge Restaurant",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Seafood",
+          "summary": "Seafood in Falmouth Harbor. Seafood restaurant overlooking Falmouth Harbor. Call or check the restaurant's own site for hours and the current menu.",
+          "address": "220 Scranton Ave, Falmouth, MA 02540",
+          "phone": "+1-508-548-2700",
+          "phoneDisplay": "(508) 548-2700",
+          "website": "https://flyingbridgerestaurant.com/",
+          "booking": null,
+          "lat": 41.547691,
+          "lng": -70.603983,
+          "schemaType": "Restaurant",
+          "facts": [
+            "220 Scranton Ave, Falmouth, MA 02540",
+            "(508) 548-2700"
+          ],
+          "sources": [
+            "Restaurant Exchange Falmouth restaurant list (Oct 2026)",
+            "https://flyingbridgerestaurant.com/contact-us/",
+            "https://web.falmouthchamber.com/Restaurants-Pubs"
+          ]
+        },
+        {
+          "id": "green-pond-fish-market",
+          "name": "Green Pond Fish Market",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Seafood",
+          "summary": "Seafood in East Falmouth. Fish market with fried seafood and take-out. Call or check the restaurant's own site for hours and the current menu.",
+          "address": "East Falmouth Highway, East Falmouth, MA 02536",
+          "phone": "+1-508-548-2573",
+          "phoneDisplay": "(508) 548-2573",
+          "website": "https://www.greenpondfish.com/",
+          "booking": null,
+          "lat": 41.577054,
+          "lng": -70.5475,
+          "schemaType": "Restaurant",
+          "facts": [
+            "East Falmouth Highway, East Falmouth, MA 02536",
+            "(508) 548-2573",
+            "Hours as published: Mon–Thu 9 AM–6:30 PM; Fri–Sat 9 AM–7 PM; closed Sun (check before you go)"
+          ],
+          "sources": [
+            "Restaurant Exchange Falmouth restaurant list (Oct 2026)",
+            "https://www.greenpondfish.com/",
+            "https://www.openstreetmap.org/node/2971984495"
+          ]
+        },
+        {
+          "id": "jim-s-clam-shack",
+          "name": "Jim's Clam Shack",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Seafood",
+          "summary": "Seafood in Falmouth Harbor. Seasonal clam shack at the mouth of Falmouth Harbor. Call or check the restaurant's own site for hours and the current menu.",
+          "address": "227 Clinton Ave, Falmouth, MA 02540",
+          "phone": "+1-508-540-7758",
+          "phoneDisplay": "(508) 540-7758",
+          "website": "",
+          "booking": null,
+          "lat": 41.543899,
+          "lng": -70.607105,
+          "schemaType": "Restaurant",
+          "facts": [
+            "227 Clinton Ave, Falmouth, MA 02540",
+            "(508) 540-7758",
+            "Hours as published: Seasonal (check before you go)"
+          ],
+          "sources": [
+            "Restaurant Exchange Falmouth restaurant list (Oct 2026)",
+            "https://web.falmouthchamber.com/Restaurants-Pubs",
+            "https://www.openstreetmap.org/node/1361035174"
+          ]
+        },
+        {
+          "id": "landfall-restaurant",
+          "name": "Landfall Restaurant",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Seafood",
+          "summary": "Seafood in Woods Hole. Harborside seafood restaurant next to the Woods Hole ferry terminal. Call or check the restaurant's own site for hours and the current menu.",
+          "address": "9 Luscombe Ave, Woods Hole, MA 02543",
+          "phone": "+1-508-548-1758",
+          "phoneDisplay": "(508) 548-1758",
+          "website": "https://www.landfallwoodshole.com/",
+          "booking": null,
+          "lat": 41.523679,
+          "lng": -70.670092,
+          "schemaType": "Restaurant",
+          "facts": [
+            "9 Luscombe Ave, Woods Hole, MA 02543",
+            "(508) 548-1758",
+            "Hours as published: Thu–Sat 11:30 AM–8:30 PM; Sun 11:30 AM–7:30 PM (seasonal) (check before you go)"
+          ],
+          "sources": [
+            "Restaurant Exchange Falmouth restaurant list (Oct 2026)",
+            "https://www.landfallwoodshole.com/location/landfall-restaurant/",
+            "https://web.falmouthchamber.com/Restaurants-Pubs"
+          ]
+        },
+        {
+          "id": "seafood-sam-s",
+          "name": "Seafood Sam's",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Seafood",
+          "summary": "Seafood in Falmouth Village. Casual fried-seafood restaurant on Palmer Avenue. Call or check the restaurant's own site for hours and the current menu.",
+          "address": "356 Palmer Ave, Falmouth, MA 02540",
+          "phone": "+1-508-540-7877",
+          "phoneDisplay": "(508) 540-7877",
+          "website": "",
+          "booking": null,
+          "lat": 41.562611,
+          "lng": -70.61948,
+          "schemaType": "Restaurant",
+          "facts": [
+            "356 Palmer Ave, Falmouth, MA 02540",
+            "(508) 540-7877"
+          ],
+          "sources": [
+            "Restaurant Exchange Falmouth restaurant list (Oct 2026)",
+            "https://web.falmouthchamber.com/Restaurants-Pubs",
+            "https://www.openstreetmap.org/way/213077794"
+          ]
+        },
+        {
+          "id": "shipwrecked",
+          "name": "Shipwrecked",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Seafood",
+          "summary": "Seafood in Falmouth Heights. Seafood and sushi across from Falmouth Heights beach. Call or check the restaurant's own site for hours and the current menu.",
+          "address": "263 Grand Ave, Falmouth, MA 02540",
+          "phone": "+1-508-540-9600",
+          "phoneDisplay": "(508) 540-9600",
+          "website": "http://www.shipwreckedfalmouth.com/",
+          "booking": null,
+          "lat": 41.545276,
+          "lng": -70.596863,
+          "schemaType": "Restaurant",
+          "facts": [
+            "263 Grand Ave, Falmouth, MA 02540",
+            "(508) 540-9600",
+            "Hours as published: Daily from 11:30 AM (check before you go)"
+          ],
+          "sources": [
+            "Restaurant Exchange Falmouth restaurant list (Oct 2026)",
+            "http://www.shipwreckedfalmouth.com/",
+            "https://web.falmouthchamber.com/Restaurants-Pubs"
+          ]
+        },
+        {
+          "id": "shuckers-world-famous-raw-bar",
+          "name": "Shuckers World Famous Raw Bar",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Seafood",
+          "summary": "Seafood in Woods Hole. Dockside raw bar and lobster spot on the Woods Hole harbor since 1981. Call or check the restaurant's own site for hours and the current menu.",
+          "address": "91A Water St, Woods Hole, MA 02543",
+          "phone": "+1-508-540-3850",
+          "phoneDisplay": "(508) 540-3850",
+          "website": "https://www.shuckerswoodshole.com/",
+          "booking": null,
+          "lat": 41.524845,
+          "lng": -70.670825,
+          "schemaType": "Restaurant",
+          "facts": [
+            "91A Water St, Woods Hole, MA 02543",
+            "(508) 540-3850",
+            "Hours as published: Mon–Sat 11 AM–9 PM; Sun 12–9 PM; spring–Columbus Day (check before you go)"
+          ],
+          "sources": [
+            "Restaurant Exchange Falmouth restaurant list (Oct 2026)",
+            "https://www.shuckerswoodshole.com/",
+            "https://web.falmouthchamber.com/Restaurants-Pubs"
+          ]
+        },
+        {
+          "id": "the-captain-kidd",
+          "name": "The Captain Kidd",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Seafood",
+          "summary": "Seafood in Woods Hole. Waterfront Woods Hole pub and restaurant serving local seafood. Call or check the restaurant's own site for hours and the current menu.",
+          "address": "77 Water St, Woods Hole, MA 02543",
+          "phone": "+1-508-548-8563",
+          "phoneDisplay": "(508) 548-8563",
+          "website": "https://thecaptainkidd.com/",
+          "booking": null,
+          "lat": 41.524593,
+          "lng": -70.670706,
+          "schemaType": "Restaurant",
+          "facts": [
+            "77 Water St, Woods Hole, MA 02543",
+            "(508) 548-8563",
+            "Hours as published: Closed Wed; lunch 11:30 AM–5 PM; dinner from 5 PM (check before you go)"
+          ],
+          "sources": [
+            "Restaurant Exchange Falmouth restaurant list (Oct 2026)",
+            "https://thecaptainkidd.com/",
+            "https://web.falmouthchamber.com/Restaurants-Pubs"
+          ]
+        },
+        {
+          "id": "the-lantern-room",
+          "name": "The Lantern Room",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Seafood",
+          "summary": "Seafood in North Falmouth. Seafood restaurant and tavern in North Falmouth. Call or check the restaurant's own site for hours and the current menu.",
+          "address": "350 Quaker Rd, North Falmouth, MA 02556",
+          "phone": "+1-508-356-2129",
+          "phoneDisplay": "(508) 356-2129",
+          "website": "https://www.lanternroomcapecod.com/",
+          "booking": null,
+          "lat": 41.626003,
+          "lng": -70.639291,
+          "schemaType": "Restaurant",
+          "facts": [
+            "350 Quaker Rd, North Falmouth, MA 02556",
+            "(508) 356-2129",
+            "Hours as published: Breakfast 7–11 AM; lunch 11:30 AM–4 PM; dinner 4–9 PM daily (check before you go)"
+          ],
+          "sources": [
+            "Restaurant Exchange Falmouth restaurant list (Oct 2026)",
+            "https://www.lanternroomcapecod.com/"
+          ]
+        },
+        {
+          "id": "the-quarterdeck-restaurant",
+          "name": "The Quarterdeck Restaurant",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Seafood",
+          "summary": "Seafood in Falmouth Village. Long-running Main Street restaurant and bar serving seafood and American fare. Call or check the restaurant's own site for hours and the current menu.",
+          "address": "164 Main St, Falmouth, MA 02540",
+          "phone": "+1-508-548-9900",
+          "phoneDisplay": "(508) 548-9900",
+          "website": "",
+          "booking": null,
+          "lat": 41.552783,
+          "lng": -70.617198,
+          "schemaType": "Restaurant",
+          "facts": [
+            "164 Main St, Falmouth, MA 02540",
+            "(508) 548-9900"
+          ],
+          "sources": [
+            "Restaurant Exchange Falmouth restaurant list (Oct 2026)",
+            "https://web.falmouthchamber.com/Restaurants-Pubs",
+            "https://www.yelp.com/biz/the-quarterdeck-restaurant-falmouth"
+          ]
+        },
+        {
+          "id": "the-wharf-restaurant-and-bar",
+          "name": "The Wharf Restaurant & Bar",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Seafood",
+          "summary": "Seafood in Falmouth Heights. Beachfront restaurant and bar in Falmouth Heights. Call or check the restaurant's own site for hours and the current menu.",
+          "address": "286 Grand Ave, Falmouth, MA 02540",
+          "phone": "+1-508-548-7800",
+          "phoneDisplay": "(508) 548-7800",
+          "website": "https://www.thewharffalmouth.com/",
+          "booking": null,
+          "lat": 41.544682,
+          "lng": -70.597524,
+          "schemaType": "Restaurant",
+          "facts": [
+            "286 Grand Ave, Falmouth, MA 02540",
+            "(508) 548-7800",
+            "Hours as published: Tue–Thu 4:30–8:30 PM; Fri–Sat 4:30–9 PM; closed Sun–Mon (check before you go)"
+          ],
+          "sources": [
+            "Restaurant Exchange Falmouth restaurant list (Oct 2026)",
+            "https://www.thewharffalmouth.com/",
+            "https://web.falmouthchamber.com/Restaurants-Pubs"
+          ]
+        },
+        {
+          "id": "thai-kitchen",
+          "name": "Thai Kitchen",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Thai",
+          "summary": "Thai in Teaticket. Thai restaurant with pickup ordering. Call or check the restaurant's own site for hours and the current menu.",
+          "address": "258 Teaticket Hwy, Teaticket, MA 02536",
+          "phone": "+1-508-444-6660",
+          "phoneDisplay": "(508) 444-6660",
+          "website": "https://www.thaikitchenma.com/",
+          "booking": null,
+          "lat": 41.567342,
+          "lng": -70.595418,
+          "schemaType": "Restaurant",
+          "facts": [
+            "258 Teaticket Hwy, Teaticket, MA 02536",
+            "(508) 444-6660",
+            "Hours as published: Mon–Fri 11 AM–9 PM; Sat–Sun 12–9 PM (check before you go)"
+          ],
+          "sources": [
+            "Restaurant Exchange Falmouth restaurant list (Oct 2026)",
+            "https://www.thaikitchenma.com/",
+            "https://www.openstreetmap.org/node/13411443393"
+          ]
         },
         {
           "id": "featured-food-truck",
@@ -246,39 +1929,6 @@
           "booking": null,
           "lat": null,
           "lng": null
-        },
-        {
-          "id": "featured-farm-stand",
-          "name": "Featured Farm Stand (your business here)",
-          "featured": false,
-          "placeholder": true,
-          "subcategory": "Farm stand",
-          "summary": "Sample slot. No farm is named.",
-          "address": null,
-          "phone": null,
-          "website": null,
-          "booking": null,
-          "lat": null,
-          "lng": null
-        },
-        {
-          "id": "cafe-grounded",
-          "name": "Café Grounded",
-          "featured": false,
-          "placeholder": false,
-          "subcategory": "Healthy café",
-          "summary": "Healthy café on the walking map at 281 Main Street. The map dot is interpolated along Main Street, so it is approximate. Hours and a menu are not listed until the café confirms them.",
-          "address": "281 Main Street, Falmouth, MA",
-          "phone": null,
-          "website": null,
-          "booking": null,
-          "lat": 41.552029,
-          "lng": -70.614525,
-          "schemaType": "LocalBusiness",
-          "facts": [
-            "281 Main Street"
-          ],
-          "approximate": true
         }
       ]
     },
@@ -299,9 +1949,9 @@
         "If you are returning from an injury, ask the studio what they need from you before you book. This page is not medical advice."
       ],
       "related": [
-        "food",
-        "beauty",
-        "doctors"
+        "spa-recovery",
+        "nutrition",
+        "food"
       ],
       "listings": [
         {
@@ -358,14 +2008,204 @@
           "subcategory": "Pilates",
           "summary": "Pilates studio on the walking map at 27 Falmouth Heights Road. Session times and prices are not listed until the studio confirms them.",
           "address": "27 Falmouth Heights Road, Falmouth, MA",
-          "phone": null,
-          "website": null,
+          "phone": "+1-508-495-6500",
+          "website": "https://www.fitnessdirections.com/",
           "booking": null,
           "lat": 41.553307,
           "lng": -70.600428,
           "schemaType": "LocalBusiness",
           "facts": [
             "27 Falmouth Heights Road"
+          ],
+          "phoneDisplay": "(508) 495-6500",
+          "sources": [
+            "Local Wellness Maps Falmouth directory (platinum00001/local-wellness-maps, Oct 26, 2026)"
+          ]
+        },
+        {
+          "id": "lift-aerial-yoga-loft",
+          "name": "LIFT Aerial Yoga Loft",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Aerial yoga",
+          "summary": "Aerial yoga, mat yoga and kids' programs, 95 Club Valley Dr, East Falmouth. Call or check the business's own site for hours and services.",
+          "address": "95 Club Valley Dr, East Falmouth, MA 02536",
+          "phone": "+1-774-643-5438",
+          "phoneDisplay": "(774) 643-5438",
+          "website": "https://www.liftaerialyogaloft.com/",
+          "booking": null,
+          "lat": null,
+          "lng": null,
+          "schemaType": "LocalBusiness",
+          "facts": [
+            "95 Club Valley Dr, East Falmouth, MA 02536",
+            "(774) 643-5438"
+          ],
+          "sources": [
+            "Local Wellness Maps Falmouth directory (platinum00001/local-wellness-maps, Oct 26, 2026)"
+          ],
+          "geoNote": "No map pin: the address did not match OpenStreetMap.",
+          "town": "East Falmouth"
+        },
+        {
+          "id": "open-doors-yoga-studios-falmouth",
+          "name": "Open Doors Yoga Studios - Falmouth",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Yoga",
+          "summary": "Yoga studio, 205 Worcester Court, Falmouth. Call or check the business's own site for hours and services.",
+          "address": "205 Worcester Court, Falmouth, MA 02540",
+          "phone": "+1-508-695-9642",
+          "phoneDisplay": "(508) 695-9642",
+          "website": "https://www.opendoorsyogastudios.com/falmouth",
+          "booking": null,
+          "lat": 41.559289,
+          "lng": -70.596985,
+          "schemaType": "LocalBusiness",
+          "facts": [
+            "205 Worcester Court, Falmouth, MA 02540",
+            "(508) 695-9642"
+          ],
+          "sources": [
+            "Local Wellness Maps Falmouth directory (platinum00001/local-wellness-maps, Oct 26, 2026)"
+          ]
+        },
+        {
+          "id": "refuge-fitness",
+          "name": "Refuge Fitness",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Fitness studio",
+          "summary": "Fitness studio on Main Street, 367 Main St, Falmouth. Call or check the business's own site for hours and services.",
+          "address": "367 Main St, Falmouth, MA 02540",
+          "phone": "+1-508-665-3980",
+          "phoneDisplay": "(508) 665-3980",
+          "website": "https://myrefugefitness.com/",
+          "booking": null,
+          "lat": 41.552084,
+          "lng": -70.612382,
+          "schemaType": "LocalBusiness",
+          "facts": [
+            "367 Main St, Falmouth, MA 02540",
+            "(508) 665-3980"
+          ],
+          "sources": [
+            "Local Wellness Maps Falmouth directory (platinum00001/local-wellness-maps, Oct 26, 2026)"
+          ],
+          "approximate": true
+        },
+        {
+          "id": "rocky-s-gym-and-fitness",
+          "name": "Rocky's Gym & Fitness",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Gym",
+          "summary": "Gym with free weights, strength machines, cardio, boxing and personal training, 610 E Falmouth Hwy, East Falmouth. Call or check the business's own site for hours and services.",
+          "address": "610 E Falmouth Hwy, East Falmouth, MA 02536",
+          "phone": "+1-508-444-6421",
+          "phoneDisplay": "(508) 444-6421",
+          "website": null,
+          "booking": null,
+          "lat": 41.576984,
+          "lng": -70.552387,
+          "schemaType": "LocalBusiness",
+          "facts": [
+            "610 E Falmouth Hwy, East Falmouth, MA 02536",
+            "(508) 444-6421"
+          ],
+          "sources": [
+            "Local Wellness Maps Falmouth directory (platinum00001/local-wellness-maps, Oct 26, 2026)"
+          ],
+          "town": "East Falmouth"
+        },
+        {
+          "id": "falmouth-pilates",
+          "name": "Falmouth Pilates",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Pilates",
+          "summary": "Pilates studio, 24 Spring Bars Road, Suite B-100, Falmouth. Call or check the business's own site for hours and services.",
+          "address": "24 Spring Bars Road, Suite B-100, Falmouth, MA",
+          "phone": null,
+          "phoneDisplay": null,
+          "website": "https://falmouthpilates.com/",
+          "booking": null,
+          "lat": 41.55808,
+          "lng": -70.59808,
+          "schemaType": "LocalBusiness",
+          "facts": [
+            "24 Spring Bars Road, Suite B-100, Falmouth, MA"
+          ],
+          "sources": [
+            "Local Wellness Maps Falmouth directory (platinum00001/local-wellness-maps, Oct 26, 2026)"
+          ]
+        },
+        {
+          "id": "falmouth-sports-center",
+          "name": "Falmouth Sports Center",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Gym & tennis",
+          "summary": "Gym, tennis and fitness club, 33 Highfield Drive, Falmouth. Call or check the business's own site for hours and services.",
+          "address": "33 Highfield Drive, Falmouth, MA 02540",
+          "phone": "+1-508-548-7384",
+          "phoneDisplay": "(508) 548-7384",
+          "website": "https://falmouthsportscenter.com/",
+          "booking": null,
+          "lat": 41.557928,
+          "lng": -70.625179,
+          "schemaType": "LocalBusiness",
+          "facts": [
+            "33 Highfield Drive, Falmouth, MA 02540",
+            "(508) 548-7384"
+          ],
+          "sources": [
+            "Local Wellness Maps Falmouth directory (platinum00001/local-wellness-maps, Oct 26, 2026)"
+          ]
+        },
+        {
+          "id": "sweat-studio-cape-cod",
+          "name": "SWEAT Studio Cape Cod",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Fitness studio",
+          "summary": "Group fitness studio, 661 Main Street, Falmouth. Call or check the business's own site for hours and services.",
+          "address": "661 Main Street, Falmouth, MA 02540",
+          "phone": "+1-774-392-2686",
+          "phoneDisplay": "(774) 392-2686",
+          "website": "https://www.sweatstudiocapecod.fitness/",
+          "booking": null,
+          "lat": 41.552128,
+          "lng": -70.604851,
+          "schemaType": "LocalBusiness",
+          "facts": [
+            "661 Main Street, Falmouth, MA 02540",
+            "(774) 392-2686"
+          ],
+          "sources": [
+            "Local Wellness Maps Falmouth directory (platinum00001/local-wellness-maps, Oct 26, 2026)"
+          ]
+        },
+        {
+          "id": "uptownbody-cape-cod",
+          "name": "UptownBody Cape Cod",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Pilates",
+          "summary": "Private Pilates, by appointment, 417 Palmer Avenue, Unit 3, Falmouth. Call or check the business's own site for hours and services.",
+          "address": "417 Palmer Avenue, Unit 3, Falmouth, MA 02540",
+          "phone": null,
+          "phoneDisplay": null,
+          "website": "https://www.uptownbodycapecod.com/",
+          "booking": null,
+          "lat": 41.564151,
+          "lng": -70.618321,
+          "schemaType": "LocalBusiness",
+          "facts": [
+            "417 Palmer Avenue, Unit 3, Falmouth, MA 02540"
+          ],
+          "sources": [
+            "Local Wellness Maps Falmouth directory (platinum00001/local-wellness-maps, Oct 26, 2026)"
           ]
         }
       ]
@@ -387,9 +2227,9 @@
         "The Tanorama story in the magazine is a sample layout until the interview with Scott is finished."
       ],
       "related": [
+        "spa-recovery",
         "fitness",
-        "food",
-        "hotels"
+        "food"
       ],
       "listings": [
         {
@@ -398,10 +2238,10 @@
           "featured": true,
           "placeholder": false,
           "subcategory": "Tanning",
-          "summary": "Tanning salon at 365 Main Street, Falmouth. Owner Scott. Nearly three decades on Main Street. The map dot is interpolated along Main Street, so it is approximate. Hours, phone, website, and services are not listed until the salon confirms them.",
+          "summary": "Tanning salon at 365 Main Street, Falmouth: tanning beds, stand-ups, spray tan and red-light, plus a boutique. Owner Scott. Nearly three decades on Main Street. The map dot is approximate along Main Street. Call for hours and current services.",
           "address": "365 Main Street, Falmouth, MA",
-          "phone": null,
-          "website": null,
+          "phone": "+1-508-495-9905",
+          "website": "https://www.tanoramafalmouth.net/",
           "booking": null,
           "lat": 41.552083,
           "lng": -70.612413,
@@ -411,7 +2251,11 @@
             "Owner: Scott",
             "Nearly three decades on Main Street"
           ],
-          "approximate": true
+          "approximate": true,
+          "phoneDisplay": "(508) 495-9905",
+          "sources": [
+            "Local Wellness Maps Falmouth directory (platinum00001/local-wellness-maps, Oct 26, 2026)"
+          ]
         },
         {
           "id": "bellezza-salon",
@@ -421,8 +2265,8 @@
           "subcategory": "Hair salon",
           "summary": "Hair salon on the walking map at 221 Main Street. The map dot is interpolated along Main Street, so it is approximate. Hours and services are not listed until the salon confirms them.",
           "address": "221 Main Street, Falmouth, MA",
-          "phone": null,
-          "website": null,
+          "phone": "+1-508-299-8300",
+          "website": "https://spabellezza.com/",
           "booking": null,
           "lat": 41.551936,
           "lng": -70.616116,
@@ -430,7 +2274,11 @@
           "facts": [
             "221 Main Street"
           ],
-          "approximate": true
+          "approximate": true,
+          "phoneDisplay": "(508) 299-8300",
+          "sources": [
+            "Local Wellness Maps Falmouth directory (platinum00001/local-wellness-maps, Oct 26, 2026)"
+          ]
         },
         {
           "id": "spa-and-nails",
@@ -450,6 +2298,123 @@
             "669 Main Street"
           ],
           "approximate": true
+        },
+        {
+          "id": "cape-cod-medispa",
+          "name": "Cape Cod MediSpa (Cape Cod Aesthetics)",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Medical aesthetics",
+          "summary": "Medical aesthetics and skin care, 352 Main Street, Unit 6, Falmouth. Call or check the business's own site for hours and services.",
+          "address": "352 Main Street, Unit 6, Falmouth, MA 02540",
+          "phone": "+1-508-680-7004",
+          "phoneDisplay": "(508) 680-7004",
+          "website": "https://www.capecodaesthetics.com/",
+          "booking": null,
+          "lat": 41.552248,
+          "lng": -70.612404,
+          "schemaType": "LocalBusiness",
+          "facts": [
+            "352 Main Street, Unit 6, Falmouth, MA 02540",
+            "(508) 680-7004"
+          ],
+          "sources": [
+            "Local Wellness Maps Falmouth directory (platinum00001/local-wellness-maps, Oct 26, 2026)"
+          ],
+          "approximate": true
+        },
+        {
+          "id": "glow-by-the-sea",
+          "name": "Glow By The Sea",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Skin care",
+          "summary": "Skin care and massage, 8 Alphonse Street, Falmouth. Call or check the business's own site for hours and services.",
+          "address": "8 Alphonse Street, Falmouth, MA",
+          "phone": "+1-781-561-8150",
+          "phoneDisplay": "(781) 561-8150",
+          "website": "https://glowbeautybythesea.com",
+          "booking": null,
+          "lat": 41.567947,
+          "lng": -70.594149,
+          "schemaType": "LocalBusiness",
+          "facts": [
+            "8 Alphonse Street, Falmouth, MA",
+            "(781) 561-8150"
+          ],
+          "sources": [
+            "Local Wellness Maps Falmouth directory (platinum00001/local-wellness-maps, Oct 26, 2026)"
+          ]
+        },
+        {
+          "id": "headlines-salon-and-day-spa",
+          "name": "Headlines Salon and Day Spa",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Salon & day spa",
+          "summary": "Hair salon and day spa, 218 Main Street, Falmouth. Call or check the business's own site for hours and services.",
+          "address": "218 Main Street, Falmouth, MA 02540",
+          "phone": "+1-508-457-1100",
+          "phoneDisplay": "(508) 457-1100",
+          "website": "https://www.headlinessalonanddayspa.com/",
+          "booking": null,
+          "lat": 41.552029,
+          "lng": -70.61466,
+          "schemaType": "LocalBusiness",
+          "facts": [
+            "218 Main Street, Falmouth, MA 02540",
+            "(508) 457-1100"
+          ],
+          "sources": [
+            "Local Wellness Maps Falmouth directory (platinum00001/local-wellness-maps, Oct 26, 2026)"
+          ],
+          "approximate": true
+        },
+        {
+          "id": "k-nails-and-spa",
+          "name": "K Nails & Spa",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Nails",
+          "summary": "Nail salon, 6 Alphonse Street, Falmouth. Call or check the business's own site for hours and services.",
+          "address": "6 Alphonse Street, Falmouth, MA",
+          "phone": "+1-508-388-7171",
+          "phoneDisplay": "(508) 388-7171",
+          "website": "https://knailsfalmouth.com",
+          "booking": null,
+          "lat": 41.567991,
+          "lng": -70.594306,
+          "schemaType": "LocalBusiness",
+          "facts": [
+            "6 Alphonse Street, Falmouth, MA",
+            "(508) 388-7171"
+          ],
+          "sources": [
+            "Local Wellness Maps Falmouth directory (platinum00001/local-wellness-maps, Oct 26, 2026)"
+          ]
+        },
+        {
+          "id": "sl-sprays",
+          "name": "SL Sprays (Falmouth)",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Spray tanning",
+          "summary": "Spray tanning studio, 13 Falmouth Heights Road, Unit 6, Falmouth. Call or check the business's own site for hours and services.",
+          "address": "13 Falmouth Heights Road, Unit 6, Falmouth, MA 02536",
+          "phone": "+1-508-403-0050",
+          "phoneDisplay": "(508) 403-0050",
+          "website": "https://www.slsprays.com/",
+          "booking": null,
+          "lat": 41.55415,
+          "lng": -70.600306,
+          "schemaType": "LocalBusiness",
+          "facts": [
+            "13 Falmouth Heights Road, Unit 6, Falmouth, MA 02536",
+            "(508) 403-0050"
+          ],
+          "sources": [
+            "Local Wellness Maps Falmouth directory (platinum00001/local-wellness-maps, Oct 26, 2026)"
+          ]
         }
       ]
     },
@@ -581,17 +2546,24 @@
           "featured": false,
           "placeholder": false,
           "subcategory": "Senior center",
-          "summary": "The senior center at 300 Dillingham Avenue. Programs and phone numbers are published by the Town of Falmouth. A dedicated page URL was not confirmed for this listing, so the button goes to the town website.",
-          "address": "300 Dillingham Avenue, Falmouth, MA",
-          "phone": null,
-          "website": "https://www.falmouthma.gov/",
-          "websiteLabel": "Town website",
+          "summary": "The Falmouth Senior Center, run by the Town's Senior Services Department (Council on Aging), at 780 Main Street. Health services, referrals, fitness classes, education and recreation for residents 60 and older. Building hours Monday–Friday, 8:30 a.m.–4 p.m.",
+          "address": "780 Main Street, Falmouth, MA 02540",
+          "phone": "+1-508-540-0196",
+          "website": "https://www.falmouthma.gov/446/Monthly-Newsletter",
+          "websiteLabel": "Senior Happenings newsletter",
           "booking": null,
-          "lat": 41.55691,
-          "lng": -70.602504,
+          "lat": 41.553705,
+          "lng": -70.60262,
           "schemaType": "GovernmentOffice",
           "facts": [
-            "300 Dillingham Avenue, Falmouth"
+            "780 Main Street, Falmouth, MA 02540",
+            "(508) 540-0196 · Seniorcenter@falmouthma.gov",
+            "Source: Senior Happenings, September/October 2026 newsletter, Town of Falmouth (falmouthma.gov/DocumentCenter/View/21898)"
+          ],
+          "phoneDisplay": "(508) 540-0196",
+          "approximate": true,
+          "sources": [
+            "https://www.falmouthma.gov/DocumentCenter/View/21898/09102026-SENIOR-HAPPENINGS-NEWSLETTER"
           ]
         },
         {
@@ -768,7 +2740,11 @@
           "lng": -70.616636,
           "schemaType": "LocalBusiness",
           "facts": [
-            "17 Walker Street"
+            "17 Walker Street",
+            "Address checked Oct 28, 2026: the shop moved from Palmer Avenue to 17 Walker Street, which it shares with Falmouth Taxi's office."
+          ],
+          "sources": [
+            "Shop's Facebook page (via globuya.com) and Loc8NearMe listing, checked Oct 28, 2026"
           ]
         }
       ]
@@ -954,9 +2930,9 @@
         "The Shining Sea Bikeway is a separate town path. This page does not publish a trail map."
       ],
       "related": [
+        "getting-around",
         "fitness",
-        "transportation",
-        "community"
+        "transportation"
       ],
       "listings": [
         {
@@ -967,14 +2943,18 @@
           "subcategory": "Bike shop",
           "summary": "Bike shop on the walking map at 115 Palmer Avenue. Hours and rentals are not listed until the shop confirms them.",
           "address": "115 Palmer Avenue, Falmouth, MA",
-          "phone": null,
-          "website": null,
+          "phone": "+1-508-540-4195",
+          "website": "https://www.cornercycle.com/",
           "booking": null,
           "lat": 41.556346,
           "lng": -70.620947,
           "schemaType": "LocalBusiness",
           "facts": [
             "115 Palmer Avenue"
+          ],
+          "phoneDisplay": "(508) 540-4195",
+          "sources": [
+            "Local Wellness Maps Falmouth directory (platinum00001/local-wellness-maps, Oct 26, 2026)"
           ]
         }
       ]
@@ -1140,6 +3120,496 @@
           "schemaType": "LocalBusiness",
           "facts": [
             "194 Teaticket Highway"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "nutrition",
+      "short": "Nutrition",
+      "nav": "Health food, smoothies and supplements",
+      "title": "Falmouth MA Nutrition | Health Food, Smoothies & Supplements",
+      "h1": "Falmouth MA nutrition: health food, smoothie bars, and supplement shops",
+      "description": "Falmouth MA nutrition directory: a supplement and health food store, smoothie and acai bars, and eateries with gluten-free and vegan options. Listings link straight to each business.",
+      "intro": [
+        "This page is for the everyday side of eating well in Falmouth: a vitamin and health food store, a juice and smoothie bar, and lunch spots that cook with fresh ingredients.",
+        "The Falmouth Farmers Market runs Thursdays at Marine Park in season. The Featured slot on this page is open; listings below are directory entries, not paid placements."
+      ],
+      "tips": [
+        "Supplements are not medicine. Ask your doctor or pharmacist before you start one, especially with a prescription.",
+        "Menus and hours change with the season. Call or check the business's own site before you go.",
+        "Allergy questions belong with the kitchen. This directory does not make allergy or health claims for any business."
+      ],
+      "related": [
+        "food",
+        "fitness",
+        "spa-recovery"
+      ],
+      "listings": [
+        {
+          "id": "devour-eatery",
+          "name": "Devour Eatery",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Healthy eats",
+          "summary": "Eatery with smoothies, bowls, and gluten-free and vegan options, 352 Main Street, Falmouth. Call or check the business's own site for hours and services.",
+          "address": "352 Main Street, Falmouth, MA 02540",
+          "phone": "+1-508-540-5900",
+          "phoneDisplay": "(508) 540-5900",
+          "website": "https://www.devoureatery.com/",
+          "booking": null,
+          "lat": 41.552248,
+          "lng": -70.612404,
+          "schemaType": "LocalBusiness",
+          "facts": [
+            "352 Main Street, Falmouth, MA 02540",
+            "(508) 540-5900"
+          ],
+          "sources": [
+            "Local Wellness Maps Falmouth directory (platinum00001/local-wellness-maps, Oct 26, 2026)"
+          ],
+          "approximate": true
+        },
+        {
+          "id": "the-blended-berry",
+          "name": "The Blended Berry (Falmouth)",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Smoothies & juice",
+          "summary": "Juice, smoothie and acai bar, 56 Davis Straits, Falmouth. Call or check the business's own site for hours and services.",
+          "address": "56 Davis Straits, Falmouth, MA 02540",
+          "phone": "+1-508-388-7121",
+          "phoneDisplay": "(508) 388-7121",
+          "website": "https://www.theblendedberry.com/",
+          "booking": null,
+          "lat": 41.557932,
+          "lng": -70.60026,
+          "schemaType": "LocalBusiness",
+          "facts": [
+            "56 Davis Straits, Falmouth, MA 02540",
+            "(508) 388-7121"
+          ],
+          "sources": [
+            "Local Wellness Maps Falmouth directory (platinum00001/local-wellness-maps, Oct 26, 2026)"
+          ]
+        },
+        {
+          "id": "vital-nutrition",
+          "name": "Vital Nutrition",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Supplements & health food",
+          "summary": "Vitamin, supplement and health food store, 358 Gifford Street, Falmouth. Call or check the business's own site for hours and services.",
+          "address": "358 Gifford Street, Falmouth, MA 02540",
+          "phone": "+1-508-548-8862",
+          "phoneDisplay": "(508) 548-8862",
+          "website": "https://www.vitalnutritioncapecod.com/",
+          "booking": null,
+          "lat": 41.563614,
+          "lng": -70.609559,
+          "schemaType": "LocalBusiness",
+          "facts": [
+            "358 Gifford Street, Falmouth, MA 02540",
+            "(508) 548-8862"
+          ],
+          "sources": [
+            "Local Wellness Maps Falmouth directory (platinum00001/local-wellness-maps, Oct 26, 2026)"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "spa-recovery",
+      "short": "Spa & Recovery",
+      "nav": "Massage, physical therapy, chiropractic, day spas",
+      "title": "Falmouth MA Spa & Recovery | Massage, Physical Therapy & Chiropractic",
+      "h1": "Falmouth MA spa and recovery: massage, physical therapy, chiropractic, and day spas",
+      "description": "Falmouth MA spa and recovery directory: massage therapists, physical therapy, chiropractic, day spas, and a free recovery community. Each listing links to the business.",
+      "intro": [
+        "Recovery means different things: a massage after a long week, physical therapy after an injury, a chiropractic visit, or a peer community for people in recovery from substance use.",
+        "These are directory listings with their own phone numbers and websites. The Featured slot on this page is open. Nothing here is medical advice."
+      ],
+      "tips": [
+        "Physical therapy and chiropractic may need a referral or insurance approval. Ask your insurer before you book.",
+        "Massage therapists in Massachusetts are licensed. You can ask to see a license number.",
+        "If you or someone near you is in crisis, call or text 988, or dial 911. Free help is also listed on our Free Food & Help page."
+      ],
+      "related": [
+        "fitness",
+        "beauty",
+        "doctors"
+      ],
+      "listings": [
+        {
+          "id": "root-to-rise",
+          "name": "Root to Rise",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Recovery community",
+          "summary": "Free, complimentary recovery community for people in recovery and their families. Call or visit the website for meetings and programs. No street address is published.",
+          "address": null,
+          "phone": "+1-603-721-2088",
+          "phoneDisplay": "(603) 721-2088",
+          "website": "https://roottorisema.org/",
+          "booking": null,
+          "lat": null,
+          "lng": null,
+          "schemaType": "NGO",
+          "facts": [
+            "(603) 721-2088"
+          ],
+          "sources": [
+            "Local Wellness Maps Falmouth directory (platinum00001/local-wellness-maps, Oct 26, 2026)"
+          ]
+        },
+        {
+          "id": "bay-state-physical-therapy-falmouth",
+          "name": "Bay State Physical Therapy - Falmouth",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Physical therapy",
+          "summary": "Physical therapy clinic, 205 Worcester Court, Unit B3, Falmouth. Call or check the business's own site for hours and services.",
+          "address": "205 Worcester Court, Unit B3, Falmouth, MA 02540",
+          "phone": "+1-774-349-0026",
+          "phoneDisplay": "(774) 349-0026",
+          "website": "https://locations.baystatept.com/ma/falmouth/205-worcester-court",
+          "booking": null,
+          "lat": 41.559289,
+          "lng": -70.596985,
+          "schemaType": "LocalBusiness",
+          "facts": [
+            "205 Worcester Court, Unit B3, Falmouth, MA 02540",
+            "(774) 349-0026"
+          ],
+          "sources": [
+            "Local Wellness Maps Falmouth directory (platinum00001/local-wellness-maps, Oct 26, 2026)"
+          ]
+        },
+        {
+          "id": "calleen-s-day-spa",
+          "name": "Calleen's Day Spa",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Day spa",
+          "summary": "Day spa, 292 Teaticket Highway, Falmouth. Call or check the business's own site for hours and services.",
+          "address": "292 Teaticket Highway, Falmouth, MA 02536",
+          "phone": "+1-774-255-1043",
+          "phoneDisplay": "(774) 255-1043",
+          "website": "https://www.caleensdayspafalmouth.com",
+          "booking": null,
+          "lat": 41.568486,
+          "lng": -70.595384,
+          "schemaType": "LocalBusiness",
+          "facts": [
+            "292 Teaticket Highway, Falmouth, MA 02536",
+            "(774) 255-1043"
+          ],
+          "sources": [
+            "Local Wellness Maps Falmouth directory (platinum00001/local-wellness-maps, Oct 26, 2026)"
+          ]
+        },
+        {
+          "id": "falmouth-physical-therapy",
+          "name": "Falmouth Physical Therapy",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Physical therapy",
+          "summary": "Physical therapy clinic, 175 Palmer Avenue, Falmouth. Call or check the business's own site for hours and services.",
+          "address": "175 Palmer Avenue, Falmouth, MA 02540",
+          "phone": "+1-508-540-3588",
+          "phoneDisplay": "(508) 540-3588",
+          "website": "https://falmouthphysicaltherapy.com/",
+          "booking": null,
+          "lat": 41.55762,
+          "lng": -70.620009,
+          "schemaType": "LocalBusiness",
+          "facts": [
+            "175 Palmer Avenue, Falmouth, MA 02540",
+            "(508) 540-3588"
+          ],
+          "sources": [
+            "Local Wellness Maps Falmouth directory (platinum00001/local-wellness-maps, Oct 26, 2026)"
+          ]
+        },
+        {
+          "id": "gallagher-family-chiropractic",
+          "name": "Gallagher Family Chiropractic",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Chiropractic",
+          "summary": "Family chiropractic, 143 Palmer Avenue, Falmouth. Call or check the business's own site for hours and services.",
+          "address": "143 Palmer Avenue, Falmouth, MA 02540",
+          "phone": "+1-508-457-6000",
+          "phoneDisplay": "(508) 457-6000",
+          "website": "https://www.gallagherfamilychiropractic.net/",
+          "booking": null,
+          "lat": 41.556825,
+          "lng": -70.620599,
+          "schemaType": "LocalBusiness",
+          "facts": [
+            "143 Palmer Avenue, Falmouth, MA 02540",
+            "(508) 457-6000"
+          ],
+          "sources": [
+            "Local Wellness Maps Falmouth directory (platinum00001/local-wellness-maps, Oct 26, 2026)"
+          ]
+        },
+        {
+          "id": "holistic-massage-and-wellness",
+          "name": "Holistic Massage and Wellness (Lisa Jean Cotto, LMT)",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Massage",
+          "summary": "Massage therapy and holistic wellness (Lisa Jean Cotto, LMT), 200 Main Street, Suite 205, Room 1, Falmouth. Call or check the business's own site for hours and services.",
+          "address": "200 Main Street, Suite 205, Room 1, Falmouth, MA 02540",
+          "phone": "+1-508-815-6689",
+          "phoneDisplay": "(508) 815-6689",
+          "website": "https://www.holisticmassageandwellness.com/",
+          "booking": null,
+          "lat": 41.552605,
+          "lng": -70.616402,
+          "schemaType": "LocalBusiness",
+          "facts": [
+            "200 Main Street, Suite 205, Room 1, Falmouth, MA 02540",
+            "(508) 815-6689"
+          ],
+          "sources": [
+            "Local Wellness Maps Falmouth directory (platinum00001/local-wellness-maps, Oct 26, 2026)"
+          ]
+        },
+        {
+          "id": "relax-and-renew-day-spa",
+          "name": "Relax & Renew Day Spa",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Day spa",
+          "summary": "Day spa with massage and facials, 635 West Falmouth Highway, West Falmouth. Call or check the business's own site for hours and services.",
+          "address": "635 West Falmouth Highway, West Falmouth, MA 02574",
+          "phone": "+1-508-540-7775",
+          "phoneDisplay": "(508) 540-7775",
+          "website": "https://www.relaxandrenewdayspa.com/",
+          "booking": null,
+          "lat": 41.604407,
+          "lng": -70.63461,
+          "schemaType": "LocalBusiness",
+          "facts": [
+            "635 West Falmouth Highway, West Falmouth, MA 02574",
+            "(508) 540-7775"
+          ],
+          "sources": [
+            "Local Wellness Maps Falmouth directory (platinum00001/local-wellness-maps, Oct 26, 2026)"
+          ],
+          "town": "West Falmouth"
+        },
+        {
+          "id": "relaxing-therapeutic-massage",
+          "name": "Relaxing Therapeutic Massage",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Massage",
+          "summary": "Therapeutic massage, 200 Main Street (Rt. 28), Suite 205, Falmouth. Call or check the business's own site for hours and services.",
+          "address": "200 Main Street (Rt. 28), Suite 205, Falmouth, MA 02540",
+          "phone": "+1-774-269-8917",
+          "phoneDisplay": "(774) 269-8917",
+          "website": "https://relaxing.abmp.com/",
+          "booking": null,
+          "lat": 41.552605,
+          "lng": -70.616402,
+          "schemaType": "LocalBusiness",
+          "facts": [
+            "200 Main Street (Rt. 28), Suite 205, Falmouth, MA 02540",
+            "(774) 269-8917"
+          ],
+          "sources": [
+            "Local Wellness Maps Falmouth directory (platinum00001/local-wellness-maps, Oct 26, 2026)"
+          ]
+        },
+        {
+          "id": "thumbtastic-of-cape-cod",
+          "name": "Thumbtastic of Cape Cod",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Massage",
+          "summary": "Massage therapy, 95 Spring Bars Road, Unit 107, Falmouth. Call or check the business's own site for hours and services.",
+          "address": "95 Spring Bars Road, Unit 107, Falmouth, MA 02540",
+          "phone": "+1-508-360-7546",
+          "phoneDisplay": "(508) 360-7546",
+          "website": "https://www.thumbtasticofcapecod.com/",
+          "booking": null,
+          "lat": 41.559343,
+          "lng": -70.593101,
+          "schemaType": "LocalBusiness",
+          "facts": [
+            "95 Spring Bars Road, Unit 107, Falmouth, MA 02540",
+            "(508) 360-7546"
+          ],
+          "sources": [
+            "Local Wellness Maps Falmouth directory (platinum00001/local-wellness-maps, Oct 26, 2026)"
+          ]
+        },
+        {
+          "id": "walko-chiropractic-and-nutrition",
+          "name": "Walko Chiropractic & Nutrition",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Chiropractic",
+          "summary": "Chiropractic and nutrition, 69 Davis Straits, Falmouth. Call or check the business's own site for hours and services.",
+          "address": "69 Davis Straits, Falmouth, MA 02540",
+          "phone": "+1-508-540-4000",
+          "phoneDisplay": "(508) 540-4000",
+          "website": "https://walkochiro.com/",
+          "booking": null,
+          "lat": 41.558606,
+          "lng": -70.599332,
+          "schemaType": "LocalBusiness",
+          "facts": [
+            "69 Davis Straits, Falmouth, MA 02540",
+            "(508) 540-4000"
+          ],
+          "sources": [
+            "Local Wellness Maps Falmouth directory (platinum00001/local-wellness-maps, Oct 26, 2026)"
+          ]
+        },
+        {
+          "id": "woods-hole-wellbeing",
+          "name": "Woods Hole Wellbeing",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Wellbeing",
+          "summary": "Wellbeing studio in Woods Hole village, 28 Water Street, Unit A, Woods Hole. Call or check the business's own site for hours and services.",
+          "address": "28 Water Street, Unit A, Woods Hole, MA 02543",
+          "phone": "+1-508-274-2776",
+          "phoneDisplay": "(508) 274-2776",
+          "website": "https://www.woodsholewellbeing.com/",
+          "booking": null,
+          "lat": 41.523721,
+          "lng": -70.669353,
+          "schemaType": "LocalBusiness",
+          "facts": [
+            "28 Water Street, Unit A, Woods Hole, MA 02543",
+            "(508) 274-2776"
+          ],
+          "sources": [
+            "Local Wellness Maps Falmouth directory (platinum00001/local-wellness-maps, Oct 26, 2026)"
+          ],
+          "town": "Woods Hole"
+        }
+      ]
+    },
+    {
+      "slug": "dental",
+      "short": "Dental",
+      "nav": "Family and cosmetic dentistry",
+      "title": "Falmouth MA Dentists | Family & Cosmetic Dental Care",
+      "h1": "Falmouth MA dental: family, cosmetic, and implant dentistry",
+      "description": "Falmouth MA dental directory: family, preventive, cosmetic and implant dentistry at the Homeport office park on Jones Road. Calls and website links go straight to the office.",
+      "intro": [
+        "Dental care in Falmouth includes family and preventive visits, cosmetic work such as whitening, and implants.",
+        "The Featured slot on this page is open. Sliding-fee dental care at the Community Health Center is listed on our Free Food & Help page."
+      ],
+      "tips": [
+        "Check that the office takes your dental insurance before you book.",
+        "Ask for a written estimate before cosmetic or implant work.",
+        "For a dental emergency after hours, call the office first. Its voicemail usually gives the on-call number."
+      ],
+      "related": [
+        "doctors",
+        "beauty",
+        "community"
+      ],
+      "listings": [
+        {
+          "id": "falmouth-dental-associates",
+          "name": "Falmouth Dental Associates",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Family & cosmetic dentistry",
+          "summary": "Cosmetic, preventive, implant and family dentistry at the Homeport office park, 210 Jones Rd (Homeport Office Park), Falmouth. Call or check the business's own site for hours and services.",
+          "address": "210 Jones Rd (Homeport Office Park), Falmouth, MA 02540",
+          "phone": "+1-508-540-0303",
+          "phoneDisplay": "(508) 540-0303",
+          "website": "https://www.falmouthdental.com/",
+          "booking": null,
+          "lat": 41.561498,
+          "lng": -70.611734,
+          "schemaType": "LocalBusiness",
+          "facts": [
+            "210 Jones Rd (Homeport Office Park), Falmouth, MA 02540",
+            "(508) 540-0303"
+          ],
+          "sources": [
+            "Local Wellness Maps Falmouth directory (platinum00001/local-wellness-maps, Oct 26, 2026)"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "getting-around",
+      "short": "Getting Around",
+      "nav": "Taxi and bike rentals",
+      "title": "Falmouth MA Getting Around | Taxi & Bike Rentals",
+      "h1": "Falmouth MA getting around: taxi, bike rentals, and the Shining Sea Bikeway",
+      "description": "Getting around Falmouth MA: a 24-hour local taxi and bike rental shops near the Shining Sea Bikeway and Falmouth Heights. Listings link straight to each business.",
+      "intro": [
+        "Getting to your wellness stops is half the plan. Falmouth has a 24-hour local taxi and bike shops that rent bikes for the Shining Sea Bikeway, which runs between North Falmouth and Woods Hole.",
+        "Corner Cycle is listed on the Bike Shop page. The Transportation page holds our featured local guide. The Featured slot on this page is open."
+      ],
+      "tips": [
+        "Book airport and ferry rides ahead in summer.",
+        "Bike rental shops often need ID and a deposit. Ask about helmets and child seats when you call.",
+        "Bus routes and the ferry change by season. Check CCRTA and the Steamship Authority before you travel."
+      ],
+      "related": [
+        "transportation",
+        "bike-shop",
+        "hotels"
+      ],
+      "listings": [
+        {
+          "id": "falmouth-taxi",
+          "name": "Falmouth Taxi",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Taxi",
+          "summary": "24-hour local taxi and livery: local rides, airport, ferry and long-distance trips. Office at 17 Walker Street, Falmouth. Call to book.",
+          "address": "17 Walker Street, Falmouth, MA 02540",
+          "phone": "+1-508-548-3100",
+          "phoneDisplay": "(508) 548-3100",
+          "website": "https://www.falmouthtaxi.com/",
+          "booking": null,
+          "lat": 41.55179,
+          "lng": -70.616636,
+          "schemaType": "LocalBusiness",
+          "facts": [
+            "17 Walker Street, Falmouth, MA 02540",
+            "(508) 548-3100",
+            "Office at 17 Walker Street (the same building as Jacqueline's Gifts & Antiques; both checked Oct 28, 2026)"
+          ],
+          "sources": [
+            "Local Wellness Maps Falmouth directory (platinum00001/local-wellness-maps, Oct 26, 2026)"
+          ]
+        },
+        {
+          "id": "holiday-cycles",
+          "name": "Holiday Cycles",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Bike rentals",
+          "summary": "Bike rentals and repair in Falmouth Heights, 465 Grand Ave, Falmouth. Call or check the business's own site for hours and services.",
+          "address": "465 Grand Ave, Falmouth, MA 02540",
+          "phone": "+1-508-540-3549",
+          "phoneDisplay": "(508) 540-3549",
+          "website": "https://www.holidaycycles.net/",
+          "booking": null,
+          "lat": 41.545496,
+          "lng": -70.601535,
+          "schemaType": "LocalBusiness",
+          "facts": [
+            "465 Grand Ave, Falmouth, MA 02540",
+            "(508) 540-3549"
+          ],
+          "sources": [
+            "Local Wellness Maps Falmouth directory (platinum00001/local-wellness-maps, Oct 26, 2026)"
           ]
         }
       ]

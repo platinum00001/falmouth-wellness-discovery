@@ -38,6 +38,10 @@ CATEGORY_ART = {
     "bakery": "pillar-health-food.jpg",
     "local-market": "pillar-health-food.jpg",
     "garden-center": "pillar-health-food.jpg",
+    "nutrition": "pillar-health-food.jpg",
+    "spa-recovery": "pillar-soul.jpg",
+    "dental": "category-doctors-health.jpg",
+    "getting-around": "category-transportation.jpg",
 }
 
 
@@ -214,6 +218,7 @@ def chrome(root: str, current: str) -> str:
     {link("map.html", "Map", "map.html")}
     {link("guide.html", "Guide", "guide.html")}
     {link("directory.html", "Directory", "directory.html")}
+    {link("free-help.html", "Free Food &amp; Help", "free-help.html")}
     {link("partner.html", "Become a Partner", "partner.html")}
     <a class="btn btn-small" href="{root}signup.html">Get the magazine</a>
   </nav>
@@ -231,7 +236,7 @@ def footer(root: str) -> str:
     </div>
     <div>
       <h2>Explore</h2>
-      <p><a href="{root}magazine.html">Winter 2027 sample issue</a><br><a href="{root}map.html">Discovery map</a><br><a href="{root}guide.html">Visitor guide</a><br><a href="{root}directory.html">Service directory</a><br><a href="{root}credits.html">Image credits</a></p>
+      <p><a href="{root}magazine.html">Winter 2027 sample issue</a><br><a href="{root}map.html">Discovery map</a><br><a href="{root}guide.html">Visitor guide</a><br><a href="{root}directory.html">Service directory</a><br><a href="{root}free-help.html">Free food &amp; help</a><br><a href="{root}credits.html">Image credits</a></p>
     </div>
     <div>
       <h2>Partners</h2>

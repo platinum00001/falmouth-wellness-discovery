@@ -80,19 +80,142 @@
   ],
   "events": [
     {
-      "title": "Sample wellness walk",
-      "when": "A weekday in January, February, or March 2027 — date not set",
-      "detail": "Layout sample only. Not a town event and not on any official calendar."
+      "title": "Autumn Forest Paint-along with Ana Johnson Moore",
+      "when": "Fri Oct 30, 2026",
+      "status": "Confirmed",
+      "detail": "Falmouth Art Center workshop, 137 Gifford Street. Register at falmouthart.org."
     },
     {
-      "title": "Sample library note",
-      "when": "Winter 2027 — title not confirmed",
-      "detail": "Space for a program the Falmouth Public Library chooses to share. Nothing is listed until the library confirms it."
+      "title": "Falmouth Art Center opening reception",
+      "when": "Fri Nov 6, 2026 · 4–6 p.m.",
+      "status": "Confirmed",
+      "detail": "New exhibits in the three galleries. Free. 137 Gifford Street, 508-540-3304."
     },
     {
-      "title": "Sample partner open house",
-      "when": "Winter 2027 — host not confirmed",
-      "detail": "A partner can place a real open house here after it is confirmed. This line is a sample."
+      "title": "Ramen Night at Cape Island Café",
+      "when": "Sat Nov 7, 2026 · 5–8 p.m.",
+      "status": "Confirmed",
+      "detail": "One night only at 316 Gifford Street. Free RSVP; order off the Ramen Night menu. Details at capeislandcafe.com."
+    },
+    {
+      "title": "Felt Making with Silk and Wool (Nuno) with Wendy Bagley",
+      "when": "Sat Nov 21, 2026",
+      "status": "Confirmed",
+      "detail": "Falmouth Art Center workshop. Register at falmouthart.org."
+    },
+    {
+      "title": "Local Business Celebration Night",
+      "when": "By reservation · 5–7 p.m.",
+      "status": "Ask for dates",
+      "detail": "Cape Island Café hosts a local business, nonprofit, first-responder or team milestone night: samples from the kitchen ($20 suggested donation per person), your name on the screen, and 10% to the charity you choose. Reserve at capeislandcafe.com or 774-247-5263."
+    },
+    {
+      "title": "Call for Art: “These Shoes are Made for Walking… Or Not”",
+      "when": "November 2026",
+      "status": "Check date",
+      "detail": "Falmouth Art Center exhibit call. Deadlines are on falmouthart.org."
+    },
+    {
+      "title": "Falmouth in the Fall",
+      "when": "First Sunday in November",
+      "status": "Check date",
+      "detail": "From the Health & Wellness map calendar."
+    },
+    {
+      "title": "Chase the Turkey 5K",
+      "when": "Thanksgiving",
+      "status": "Check date",
+      "detail": "From the Health & Wellness map calendar."
+    },
+    {
+      "title": "Holidays by the Sea",
+      "when": "First weekend in December",
+      "status": "Check date",
+      "detail": "From the Health & Wellness map calendar."
+    },
+    {
+      "title": "Falmouth Christmas Parade",
+      "when": "Sun Dec 6, 2026 · noon",
+      "status": "Confirmed",
+      "detail": "Falmouth Chamber of Commerce, rain or shine."
+    },
+    {
+      "title": "Friday Night Five-Miler",
+      "when": "Every Friday · Town Hall Square",
+      "status": "Check date",
+      "detail": "Year-round group run, from the Health & Wellness map calendar."
+    },
+    {
+      "title": "Winter Farmers Market",
+      "when": "January–March · Sundays · Mullen Hall lot",
+      "status": "Check date",
+      "detail": "From the Health & Wellness map calendar."
+    },
+    {
+      "title": "Printmaking: Would You Do Wood? with Alice Galick",
+      "when": "Feb 18, 25 and Mar 4, 6",
+      "status": "Check date",
+      "detail": "Falmouth Art Center woodcut workshop. Year not printed on the listing."
+    },
+    {
+      "title": "Daffodil Daze at Spohr Gardens",
+      "when": "Mid to late April",
+      "status": "Check date",
+      "detail": "From the Health & Wellness map calendar."
+    },
+    {
+      "title": "Thursday Farmers Market",
+      "when": "May–October · Thursdays 11–3 · Marine Park",
+      "status": "Check date",
+      "detail": "From the Health & Wellness map calendar."
+    },
+    {
+      "title": "Arts Alive",
+      "when": "Mid-June",
+      "status": "Check date",
+      "detail": "From the Health & Wellness map calendar."
+    },
+    {
+      "title": "Falmouth Fireworks",
+      "when": "July 4, 2027",
+      "status": "Check date",
+      "detail": "From the Health & Wellness map calendar."
+    },
+    {
+      "title": "Arts & Crafts Street Fair",
+      "when": "Early July · Main Street",
+      "status": "Check date",
+      "detail": "From the Health & Wellness map calendar."
+    },
+    {
+      "title": "Falmouth Sprint Triathlon",
+      "when": "Mid-July · Surf Drive",
+      "status": "Check date",
+      "detail": "From the Health & Wellness map calendar."
+    },
+    {
+      "title": "Barnstable County Fair",
+      "when": "Late July",
+      "status": "Check date",
+      "detail": "From the Health & Wellness map calendar."
+    },
+    {
+      "title": "Woods Hole Film Festival",
+      "when": "Jul 31–Aug 7, 2027",
+      "status": "Check date",
+      "detail": "From the Health & Wellness map calendar."
+    },
+    {
+      "title": "ASICS Falmouth Road Race",
+      "when": "Aug 15, 2027 · 7 miles",
+      "status": "Check date",
+      "detail": "Date as printed on the Health & Wellness map. The 2026 race was Sunday, August 16."
+    },
+    {
+      "title": "Cape Cod Marathon",
+      "when": "Oct 9–10, 2027",
+      "status": "Check date",
+      "detail": "From the Health & Wellness map calendar."
     }
   ],
   "crossword": {
@@ -520,7 +643,7 @@
       "dek": "Desks for the town, not advertisements.",
       "paragraphs": [
         "These notes point to public places. Programs and phone numbers change, so this sample does not copy them. Confirm details with each desk or on its own site.",
-        "Falmouth Public Library is at 300 Main Street. Its site is falmouthpubliclibrary.org. The Falmouth Senior Center is at 300 Dillingham Avenue. Youth sports are not listed by league name until a program or the recreation department confirms the contact."
+        "Falmouth Public Library is at 300 Main Street. Its site is falmouthpubliclibrary.org. The Falmouth Senior Center is at 780 Main Street, (508) 540-0196 (source: Senior Happenings, September/October 2026, Town of Falmouth). Youth sports are not listed by league name until a program or the recreation department confirms the contact."
       ],
       "cards": [
         {
@@ -530,8 +653,8 @@
         },
         {
           "title": "Falmouth Senior Center",
-          "kicker": "300 Dillingham Avenue",
-          "text": "Programs are published by the Town of Falmouth. None are repeated here."
+          "kicker": "780 Main Street",
+          "text": "Run by the Town's Senior Services Department. Building hours Monday–Friday, 8:30 a.m.–4 p.m. Programs are in the Town's Senior Happenings newsletter. See Healthy Aging at 780 Main, two pages on."
         },
         {
           "title": "Youth sports (listing to be confirmed)",
@@ -548,6 +671,42 @@
     },
     {
       "kind": "story",
+      "kicker": "Body · Healthy Aging",
+      "title": "Healthy Aging at 780 Main",
+      "dek": "The Falmouth Senior Center is less a place to sit than a place to move, learn and play.",
+      "paragraphs": [
+        "Run by the Town's Senior Services Department (the Council on Aging), the Falmouth Senior Center at 780 Main Street serves Falmouth residents 60 and older with health services, referrals, education and recreation. The building is open Monday through Friday, 8:30 a.m. to 4 p.m.",
+        "The fall calendar reads like a gym schedule: chair yoga, gentle yoga, mat Pilates, qigong, line dancing and Sit & Get Fit, alongside bridge, cribbage, Scrabble, a knitting and needlework circle, and a book club led by Falmouth Public Library librarians.",
+        "Most programs ask you to pre-register by phone at (508) 540-0196. Details below are from the Town's Senior Happenings newsletter for September/October 2026. Call to confirm before you go."
+      ],
+      "cards": [
+        {
+          "title": "Coffee with the Chief",
+          "kicker": "Mon Nov 2 · 10:30 a.m.",
+          "text": "Officer Julia Massi on scams and community engagement, in the Senior Center's monthly series with the Police Chief."
+        },
+        {
+          "title": "RMV “Driving Decision” workshop",
+          "kicker": "Mon Nov 2 · 2 p.m.",
+          "text": "An interactive talk on older-driver safety, license renewal and planning for driving retirement. Pre-register at (508) 540-0196."
+        },
+        {
+          "title": "Book club",
+          "kicker": "Tue Nov 10 · 1 p.m.",
+          "text": "The Ride of Her Life by Elizabeth Letts, with Falmouth Public Library librarians. Drop in."
+        }
+      ],
+      "sources": [
+        "https://www.falmouthma.gov/DocumentCenter/View/21898/09102026-SENIOR-HAPPENINGS-NEWSLETTER"
+      ],
+      "banner": {
+        "src": "assets/img/v2/pillar-body.jpg",
+        "small": "assets/img/v2/pillar-body-800.jpg",
+        "alt": "Sea-glass green yoga mat rolled out on a quiet beach at morning, with a folded towel, navy water bottle and coral yoga block near the dunes."
+      }
+    },
+    {
+      "kind": "story",
       "kicker": "What's happening this quarter",
       "title": "Police, fire, Town Hall, Chamber",
       "dek": "Winter 2027 notes are not in yet. The frame is here.",
@@ -555,6 +714,33 @@
         "Each quarter these four desks can send a short 'what's happening' note. Issue 1 does not invent one. For emergencies, call 911.",
         "Falmouth Police Department is listed in OpenStreetMap at 750 Main Street. Falmouth Fire-Rescue publishes its stations through the town; this page does not treat one station as the only firehouse. Town Hall is at 59 Town Hall Square. The Falmouth Chamber of Commerce is on Katherine Lee Bates Road, and its public page is on the Cape Cod Chamber site.",
         "The town website is falmouthma.gov. That is the place for hours and non-emergency numbers. We are not copying them into a quarterly that will sit in a lobby after they change."
+      ]
+    },
+    {
+      "kind": "story",
+      "kicker": "Civic · Explainer",
+      "title": "Where will the new police station go?",
+      "dek": "Why 100 Brick Kiln Road is in question, and what the Select Board asked for next.",
+      "paragraphs": [
+        "Falmouth planned to build its new police station, and a wastewater lift station for the sewer project, on town land at 100 Brick Kiln Road. An outside legal opinion from the Boston firm Anderson & Kreiger found the parcel is likely protected under Article 97 of the Massachusetts Constitution, because the town used $1.5 million from its Land Bank fund toward the 2003 purchase. Land protected that way cannot be put to another use without meeting legal requirements that include a two-thirds vote of the state Legislature.",
+        "On Friday, October 9, the Select Board voted unanimously to release the opinion. Board members said they would prefer town staff to prioritize finding another location for the police station rather than pursue a long effort to clear the restrictions. The town asked its design consultant, Tecton Architects, to update cost estimates for alternative sites and for a one- or two-year delay.",
+        "About 35% of the $5.15 million Town Meeting set aside in November 2025 for police station design and project management, roughly $2.58 million, had been spent as of the meeting. Board member Douglas C. Brown noted that much of the architectural work could carry over to another site. Work on the lift station, a separate $16.7 million contract about a quarter complete, was continuing while its legal status is reviewed."
+      ],
+      "cards": [
+        {
+          "title": "What happens next",
+          "kicker": "To watch",
+          "text": "Staff are comparing town-owned and private sites, from flat parcels of about five acres to smaller sites that would need more redesign. Select Board agendas and minutes are posted on falmouthma.gov."
+        },
+        {
+          "title": "Sources",
+          "kicker": "Read more",
+          "text": "The Falmouth Enterprise, “Falmouth Select Board Releases Legal Opinion, Reassesses Police Station And Sewer Project Site,” October 14, 2026 (capenews.net). Status as of mid-October 2026."
+        }
+      ],
+      "sources": [
+        "https://www.capenews.net/falmouth/news/falmouth-select-board-releases-legal-opinion-reassesses-police-station-and-sewer-project-site/article_09913f51-44ff-4d10-851d-e6006e0b85d5.html",
+        "https://www.falmouthma.gov/DocumentCenter/View/22167/"
       ]
     },
     {
@@ -583,6 +769,34 @@
       "paragraphs": [
         "Every issue can give one local charity a page: what the group does, what it needs this quarter, and where to give time or money. Those facts have to come from the charity.",
         "Nothing is filled in for Winter 2027. A nonprofit that wants the spotlight can ask through the partner page. Gift-card portions of partner payments are planned for reader perks and host thank-yous, not as a claim that any charity has received them."
+      ]
+    },
+    {
+      "kind": "story",
+      "kicker": "Soul · Pets",
+      "title": "Good dogs, good neighbors",
+      "dek": "A volunteer-led shelter partner and a free dog park built by the community.",
+      "paragraphs": [
+        "Since 1990, Friends of Falmouth Dogs has made sure the town's stray and surrendered dogs are rehomed rather than forgotten. Founded by residents who started by walking dogs and raising money, the volunteer-led nonprofit now works with the Town of Falmouth to give every dog in the shelter system daily exercise, enrichment and care, and to match each one with the right family.",
+        "The help reaches owners too. Adopters and neighbors describe vouchers for vet care when money was tight, and support for owners during emergencies. Volunteers walk and socialize dogs, foster those who need a calmer place to recover, and help at events.",
+        "Once a dog is home, it needs somewhere to run. The Falmouth Dog Park at 257 Brick Kiln Road in East Falmouth is free, handicap-accessible and open from dawn to 8 p.m., with an all-dog area, a small-dog area and a time-out area for nervous newcomers. It is a nonprofit that runs on donations and volunteers, not town money, and it is looking for new board members."
+      ],
+      "pullquote": "A dog park is where a lot of Falmouth neighbors first learn each other's names. Usually the dog's first.",
+      "cards": [
+        {
+          "title": "Friends of Falmouth Dogs",
+          "kicker": "Adopt · Foster · Volunteer · Donate",
+          "text": "150 Blacksmith Shop Road, Falmouth · 508-548-7742 · friendsoffalmouthdogs.org. Call ahead before visiting."
+        },
+        {
+          "title": "Falmouth Dog Park",
+          "kicker": "Free · dawn to 8 p.m.",
+          "text": "257 Brick Kiln Road, East Falmouth · falmouthdogpark.com. Animal Control: 508-457-2552. Road work on Brick Kiln Road can slow access on weekdays; check the park's site."
+        }
+      ],
+      "sources": [
+        "https://friendsoffalmouthdogs.org",
+        "https://falmouthdogpark.com"
       ]
     },
     {
@@ -622,12 +836,59 @@
       "dek": "Two sample puzzles. Clues use public places and ordinary words, not claims about local businesses."
     },
     {
+      "kind": "story",
+      "kicker": "Community · News desk",
+      "title": "Falmouth news desk",
+      "dek": "Short, sourced notes from town, arts and community desks. Schedules change, so check the source.",
+      "paragraphs": [
+        "These items come from public sources and were current in late October 2026. Have good news or an event for next quarter? Email CapeIslandCafe@gmail.com with a link or flyer."
+      ],
+      "cards": [
+        {
+          "title": "Police station: the board looks at other sites",
+          "kicker": "Civic",
+          "text": "After an outside legal opinion on 100 Brick Kiln Road, the Select Board asked staff to prioritize another location. Full explainer earlier in this issue. Source: The Falmouth Enterprise, Oct 14, 2026."
+        },
+        {
+          "title": "Sewer lift station still under review",
+          "kicker": "Civic",
+          "text": "Work on the lift station on the same parcel continues while the town checks its legal status, given its importance to the sewer project. Source: The Falmouth Enterprise, Oct 14, 2026."
+        },
+        {
+          "title": "Coffee with the Chief",
+          "kicker": "Public safety · Mon Nov 2",
+          "text": "Scams and community engagement, 10:30 a.m. at the Senior Center, 780 Main Street. Source: Senior Happenings, Sept/Oct 2026."
+        },
+        {
+          "title": "Falmouth Art Center opening reception",
+          "kicker": "Arts · Fri Nov 6",
+          "text": "New exhibits, 4–6 p.m., free. 137 Gifford Street, 508-540-3304. Source: falmouthart.org."
+        },
+        {
+          "title": "Library-led book club at the Senior Center",
+          "kicker": "Library · Tue Nov 10",
+          "text": "Falmouth Public Library librarians lead the drop-in book club, 1 p.m. Source: Senior Happenings, Sept/Oct 2026."
+        },
+        {
+          "title": "Friends of Falmouth Dogs needs walkers",
+          "kicker": "Pets",
+          "text": "Adopters, fosters, walkers and donations are welcome. 150 Blacksmith Shop Road, 508-548-7742. Source: friendsoffalmouthdogs.org."
+        }
+      ],
+      "sources": [
+        "https://www.capenews.net/falmouth/news/falmouth-select-board-releases-legal-opinion-reassesses-police-station-and-sewer-project-site/article_09913f51-44ff-4d10-851d-e6006e0b85d5.html",
+        "https://www.falmouthma.gov/DocumentCenter/View/21898/09102026-SENIOR-HAPPENINGS-NEWSLETTER",
+        "https://falmouthart.org",
+        "https://friendsoffalmouthdogs.org"
+      ]
+    },
+    {
       "kind": "calendar",
       "kicker": "Winter 2027",
       "title": "Quarterly calendar",
-      "dek": "Sample entries only. This is not the town's official calendar.",
+      "dek": "Confirmed dates are marked. Anything marked “Check date” comes from last year's pattern or a secondary source, so confirm it with the organizer.",
       "paragraphs": [
-        "The printed calendar will list confirmed community dates for the quarter. The three lines below are labeled sample so they are not mistaken for real events."
+        "Local dates for the season ahead, then the year-round Falmouth wellness calendar from the Health & Wellness map. Dates change, so check the organizer's own site before you go."
       ]
     },
     {
@@ -1094,18 +1355,54 @@
       ],
       "events": [
         {
-          "id": "road-race",
-          "name": "ASICS Falmouth Road Race",
-          "ref": "Check date",
-          "qr": "guide.html#road-race",
-          "detail": "Seven-mile seaside race. The 54th running was published for Sunday, August 16, 2026, at 8:00 a.m. Next date: check date."
+          "id": "ramen-night",
+          "name": "Cape Island Café: Ramen Night · Business Night",
+          "ref": "Nov 7",
+          "detail": "Ramen Sat Nov 7, 5–8 p.m., free RSVP. Business Night 5–7 p.m. by reservation."
+        },
+        {
+          "id": "art-center-reception",
+          "name": "Falmouth Art Center reception",
+          "ref": "Nov 6",
+          "detail": "Fri Nov 6, 4–6 p.m., free. 137 Gifford St."
         },
         {
           "id": "christmas-parade",
           "name": "Falmouth Christmas Parade",
           "ref": "Dec 6",
           "qr": "guide.html#christmas-parade",
-          "detail": "Falmouth Chamber of Commerce. The 63rd annual parade is Sunday, December 6, 2026, at noon, rain or shine. It steps off from Dillingham Avenue onto Davis Straits, with staging from Gifford Street. A later year: check date."
+          "detail": "Falmouth Chamber of Commerce. Sun Dec 6, 2026, noon, rain or shine, from Dillingham Ave."
+        },
+        {
+          "id": "fall-holidays",
+          "name": "Marathon · Fall fest · Turkey 5K · Holidays by the Sea",
+          "ref": "Oct–Dec",
+          "detail": "Oct 9–10, 2027; Nov; Thanksgiving; Dec. Check dates."
+        },
+        {
+          "id": "winter-runs-markets",
+          "name": "Five-Miler · Winter Farmers Market",
+          "ref": "All yr",
+          "detail": "Fridays, Town Hall Sq; Sun Jan–Mar. Check dates."
+        },
+        {
+          "id": "spring-early-summer",
+          "name": "Daffodil Daze · Farmers Market · Arts Alive",
+          "ref": "Apr–Jun",
+          "detail": "Apr; Thu May–Oct, Marine Park; Jun. Check dates."
+        },
+        {
+          "id": "july",
+          "name": "Fireworks · Street Fair · Triathlon · Film Fest",
+          "ref": "Jul–Aug",
+          "detail": "July 4 through Aug 7, 2027 (film fest). Check dates."
+        },
+        {
+          "id": "road-race",
+          "name": "ASICS Falmouth Road Race",
+          "ref": "Aug",
+          "qr": "guide.html#road-race",
+          "detail": "Seven-mile seaside race. Map lists Aug 15, 2027 (2026 race was Aug 16). Check date."
         }
       ]
     },

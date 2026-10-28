@@ -18,7 +18,11 @@ const COLORS = {
   "garden-center": "#1c5a5e",
   "local-market": "#e07a2f",
   bakery: "#e07a2f",
-  "dry-cleaner": "#c43d78"
+  "dry-cleaner": "#c43d78",
+  nutrition: "#e07a2f",
+  "spa-recovery": "#1c5a5e",
+  dental: "#18343d",
+  "getting-around": "#18343d"
 };
 
 const PIN_BY_ID = {
@@ -92,6 +96,10 @@ async function bootMap() {
   const list = document.getElementById("pin-list");
   const active = new Set(Object.keys(COLORS));
 
+  function isPin(item) {
+    return Boolean(numbers[item.id]) || item.id === "cape-island-cafe" || item.placeholder;
+  }
+
   function icon(item) {
     const color = walkColor[item.id] || PIN_BY_ID[item.id] || COLORS[item.category] || "#18343d";
     const extra = item.id === "cape-island-cafe" ? " is-focus" : "";
@@ -112,6 +120,21 @@ async function bootMap() {
 
   listings.forEach(function (item) {
     if (item.lat == null || item.lng == null) return;
+    if (!isPin(item)) {
+      // Directory-only listings: a small dot at the mapped address, so the numbered walk pins stay readable.
+      const dot = L.circleMarker([item.lat, item.lng], {
+        radius: 6,
+        weight: 2,
+        color: "#fffdf9",
+        fillColor: COLORS[item.category] || "#18343d",
+        fillOpacity: 0.95
+      });
+      dot.bindPopup(popup(item));
+      dot.bindTooltip(item.name, { direction: "top" });
+      dot.item = item;
+      markers.push(dot);
+      return;
+    }
     const marker = L.marker([item.lat, item.lng], {
       icon: icon(item),
       title: item.name,
@@ -125,7 +148,7 @@ async function bootMap() {
 
   function layoutPins() {
     const visible = listings.filter(function (item) {
-      return item.lat != null && item.lng != null && active.has(item.category);
+      return item.lat != null && item.lng != null && active.has(item.category) && isPin(item);
     });
     spots = window.FWDWalk.spreadLatLngs(visible, walk.bounds || [[41.545, -70.632], [41.57, -70.59]], map);
     leaderLayer.clearLayers();
@@ -198,7 +221,7 @@ async function bootMap() {
   render();
   showDowntown();
   setTimeout(function () { map.invalidateSize(); showDowntown(); }, 200);
-  status.textContent = "Orange pin: Cape Island Cafe, 316 Gifford St. Pins that share a block are pulled apart, with a line back to the address. Beacon Gardens is north of the sheet, on Brick Kiln Road.";
+  status.textContent = "Orange pin: Cape Island Cafe, 316 Gifford St. Small dots are other directory listings; tap one for details. Pins that share a block are pulled apart, with a line back to the address. Beacon Gardens is north of the sheet, on Brick Kiln Road.";
 }
 
 bootMap();
