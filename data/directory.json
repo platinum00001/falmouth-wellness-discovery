@@ -2071,30 +2071,6 @@
           ]
         },
         {
-          "id": "refuge-fitness",
-          "name": "Refuge Fitness",
-          "featured": false,
-          "placeholder": false,
-          "subcategory": "Fitness studio",
-          "summary": "Fitness studio on Main Street, 367 Main St, Falmouth. Call or check the business's own site for hours and services.",
-          "address": "367 Main St, Falmouth, MA 02540",
-          "phone": "+1-508-665-3980",
-          "phoneDisplay": "(508) 665-3980",
-          "website": "https://myrefugefitness.com/",
-          "booking": null,
-          "lat": 41.552084,
-          "lng": -70.612382,
-          "schemaType": "LocalBusiness",
-          "facts": [
-            "367 Main St, Falmouth, MA 02540",
-            "(508) 665-3980"
-          ],
-          "sources": [
-            "Local Wellness Maps Falmouth directory (platinum00001/local-wellness-maps, Oct 26, 2026)"
-          ],
-          "approximate": true
-        },
-        {
           "id": "rocky-s-gym-and-fitness",
           "name": "Rocky's Gym & Fitness",
           "featured": false,
