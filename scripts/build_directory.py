@@ -20,36 +20,53 @@ ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data" / "directory.json"
 CONFIG = ROOT / "config.js"
 ART_MANIFEST = ROOT / "assets" / "img" / "v2" / "manifest.json"
+ART3_MANIFEST = ROOT / "assets" / "img" / "v3" / "manifest.json"
+
+import sys as _sys
+_sys.path.insert(0, str(Path(__file__).resolve().parent))
+from site_chrome import header as _hdr, footer as footer, stamp as _stamp  # noqa: E402
+
+
+def chrome(root: str, current: str) -> str:
+    return _hdr(root, current)
 
 # Header art for category pages (files live in assets/img/v2/, alt text comes from the manifest).
 CATEGORY_ART = {
-    "transportation": "category-transportation.jpg",
-    "home-remodeling": "category-home-remodeling.jpg",
-    "doctors": "category-doctors-health.jpg",
-    "hotels": "category-hotels.jpg",
-    "food": "category-food-trucks.jpg",
-    "community": "category-community.jpg",
-    "bookstore": "pillar-mind.jpg",
-    "fitness": "pillar-body.jpg",
-    "bike-shop": "home-hero.jpg",
-    "art-gallery": "pillar-soul.jpg",
-    "antiques": "pillar-soul.jpg",
-    "florist": "pillar-soul.jpg",
-    "bakery": "pillar-health-food.jpg",
-    "local-market": "pillar-health-food.jpg",
-    "garden-center": "pillar-health-food.jpg",
-    "nutrition": "pillar-health-food.jpg",
-    "spa-recovery": "pillar-soul.jpg",
-    "dental": "category-doctors-health.jpg",
-    "getting-around": "category-transportation.jpg",
+    "transportation": "v3/getting-around-dusk.jpg",
+    "home-remodeling": "v2/category-home-remodeling.jpg",
+    "doctors": "v2/category-doctors-health.jpg",
+    "hotels": "v2/category-hotels.jpg",
+    "food": "v3/cafe-lunch-bowl.jpg",
+    "community": "v3/charity-hands-boxes.jpg",
+    "bookstore": "v3/bookstore-interior.jpg",
+    "fitness": "v3/beach-yoga-sunrise.jpg",
+    "beauty": "v3/self-care-glow.jpg",
+    "golf": "v3/bike-shoreline-path.jpg",
+    "bike-shop": "v3/bike-shoreline-path.jpg",
+    "art-gallery": "v2/pillar-soul.jpg",
+    "antiques": "v3/antique-details.jpg",
+    "florist": "v3/farm-stand-produce.jpg",
+    "thrift": "v3/antique-details.jpg",
+    "music-lessons": "v3/village-main-street-autumn.jpg",
+    "bakery": "v3/cafe-counter-morning.jpg",
+    "local-market": "v3/farm-stand-produce.jpg",
+    "garden-center": "v3/farm-stand-produce.jpg",
+    "dry-cleaner": "v3/village-main-street-autumn.jpg",
+    "nutrition": "v3/nutrition-bowls.jpg",
+    "spa-recovery": "v3/spa-recovery.jpg",
+    "dental": "v3/dental-room.jpg",
+    "getting-around": "v3/bike-shoreline-path.jpg",
+    "shops": "v3/boutique-jewelry.jpg",
 }
 
 
 def art_alt() -> dict:
-    if not ART_MANIFEST.exists():
-        return {}
-    data = json.loads(ART_MANIFEST.read_text(encoding="utf-8"))
-    return {item["filename"]: item["alt"] for item in data.get("images", [])}
+    out = {}
+    for folder, man in (("v2", ART_MANIFEST), ("v3", ART3_MANIFEST)):
+        if man.exists():
+            data = json.loads(man.read_text(encoding="utf-8"))
+            out.update({folder + "/" + item["filename"]: item["alt"] for item in data.get("images", [])})
+    return out
 
 
 def site_base() -> str:
@@ -101,35 +118,52 @@ def buttons(item: dict, campaign: str) -> str:
         bits.append(
             f'<a class="btn btn-small btn-coral" href="{esc(with_utm(item["booking"], campaign))}" rel="noopener noreferrer">Book a ride</a>'
         )
-    elif campaign == "transportation" and not item.get("placeholder"):
-        bits.append(
-            '<button type="button" class="btn btn-small" disabled>Book a ride</button>'
-            '<p class="placeholder-note">Booking link not confirmed yet. This button is a placeholder, not a booking page.</p>'
-        )
-    if not bits and item.get("placeholder"):
-        return '<p class="placeholder-note">No call, website, or directions button. Those appear when the business confirms them.</p>'
+    if not bits:
+        return ""
     return f'<div class="actions">{"".join(bits)}</div>'
 
 
-def listing_card(item: dict, campaign: str) -> str:
-    tag = (
-        '<span class="tag sample">Sample slot</span>'
-        if item.get("placeholder")
-        else '<span class="tag real">Confirmed</span>'
-    )
-    if item.get("featured"):
-        tag += ' <span class="tag">Featured</span>'
-    facts = "".join(f"<li>{esc(fact)}</li>" for fact in item.get("facts") or [])
-    facts_html = f"<ul class='tips'>{facts}</ul>" if facts else ""
-    email = f"<p>Email: <a href='mailto:{esc(item['email'])}'>{esc(item['email'])}</a></p>" if item.get("email") else ""
-    phone_line = f"<p>{esc(item.get('phoneDisplay') or item.get('phone'))}</p>" if item.get("phone") else ""
-    address = f"<p>{esc(item['address'])}</p>" if item.get("address") else ""
+DISTRICT_LABEL = {"main-street": "Main Street", "homeport": "Homeport · Gifford St"}
+
+
+def partner_card(title: str, root: str = "../", note: str = "") -> str:
     return f"""
-    <article class="listing" id="{esc(item['id'])}">
-      <header>{tag}<span class="tag">{esc(item.get('subcategory') or '')}</span></header>
+    <article class="listing listing-open">
+      <header><span class="tag tag-open">Featured spot available</span></header>
+      <h3>{esc(title)}</h3>
+      <p>{esc(note or "One business per category gets the featured card here, on the walking map and in the magazine. Introductory pricing for founding partners.")}</p>
+      <div class="actions"><a class="btn btn-small btn-sun" href="{root}partner.html#inquire">Become a partner</a><a class="btn btn-small btn-ghost" href="{root}partner.html">See packages</a></div>
+    </article>
+    """
+
+
+def listing_card(item: dict, campaign: str) -> str:
+    if item.get("placeholder"):
+        name = re.sub(r"\s*\((your [^)]*)\)", "", item.get("name") or "Featured spot").strip()
+        name = name.replace("Featured ", "Featured ") if name else "Featured spot"
+        return partner_card(name + " — spot available")
+    tags = ""
+    if item.get("featured"):
+        tags += '<span class="tag tag-featured">Featured partner</span>'
+    if item.get("district") in DISTRICT_LABEL:
+        tags += f'<span class="tag tag-district">{DISTRICT_LABEL[item["district"]]}</span>'
+    if item.get("subcategory"):
+        tags += f'<span class="tag">{esc(item["subcategory"])}</span>'
+    email = f"<p class='meta'>Email: <a href='mailto:{esc(item['email'])}'>{esc(item['email'])}</a></p>" if item.get("email") else ""
+    phone_line = f"<p class='meta meta-phone'><a href='tel:{esc(item['phone'])}'>{esc(item.get('phoneDisplay') or item.get('phone'))}</a></p>" if item.get("phone") else ""
+    address = f"<p class='meta meta-addr'>{esc(item['address'])}</p>" if item.get("address") else ""
+    hours = esc(item.get("hours")) if item.get("hours") else ("Call ahead for current hours" if item.get("phone") else "See the website for current hours")
+    hours_line = f"<p class='meta meta-hours'>{hours}</p>"
+    if not item.get("phone") and not item.get("website") and not item.get("hours"):
+        # No public contact yet (founding partner): route questions to the publisher instead of a blank card.
+        hours_line = "<p class='meta meta-phone'>Ask the publisher: <a href='tel:+17742475263'>(774) 247-5263</a> · <a href='mailto:CapeIslandCafe@gmail.com'>CapeIslandCafe@gmail.com</a></p>"
+    cls = "listing" + (" is-featured" if item.get("featured") else "") + (" is-local" if item.get("district") else "")
+    return f"""
+    <article class="{cls}" id="{esc(item['id'])}">
+      <header>{tags}</header>
       <h3>{esc(item['name'])}</h3>
       <p>{esc(item.get('summary') or '')}</p>
-      {address}{phone_line}{email}{facts_html}
+      {address}{phone_line}{hours_line}{email}
       {buttons(item, campaign)}
     </article>
     """
@@ -199,7 +233,7 @@ def json_ld(cat: dict, base: str, by_slug: dict) -> str:
     return json.dumps({"@context": "https://schema.org", "@graph": graph}, ensure_ascii=False)
 
 
-def chrome(root: str, current: str) -> str:
+def _old_chrome(root: str, current: str) -> str:
     def link(href: str, label: str, path: str) -> str:
         current_attr = ' aria-current="page"' if path == current else ""
         return f'<a href="{root}{href}"{current_attr}>{label}</a>'
@@ -226,7 +260,7 @@ def chrome(root: str, current: str) -> str:
 """
 
 
-def footer(root: str) -> str:
+def _old_footer(root: str) -> str:
     return f"""
 <footer class="site-footer">
   <div class="wrap foot-grid">
@@ -295,8 +329,13 @@ def hero_html(cat: dict, intro: str) -> str:
   </div>"""
     alt = art_alt().get(art, "")
     stem = art[:-4]
+    if art.startswith("v3/"):
+        img = (f'<picture><source type="image/webp" srcset="../assets/img/{stem}-640.webp 640w, ../assets/img/{stem}.webp 1280w" sizes="100vw">'
+               f'<img src="../assets/img/{art}" srcset="../assets/img/{stem}-640.jpg 640w, ../assets/img/{art} 1280w" sizes="100vw" width="1280" height="720" alt="{esc(alt)}" fetchpriority="high" decoding="async"></picture>')
+    else:
+        img = f'<img src="../assets/img/{art}" srcset="../assets/img/{stem}-800.jpg 800w, ../assets/img/{art} 1600w" sizes="100vw" width="1600" height="900" alt="{esc(alt)}" fetchpriority="high" decoding="async">'
     return f"""  <section class="art-banner">
-    <img src="../assets/img/v2/{art}" srcset="../assets/img/v2/{stem}-800.jpg 800w, ../assets/img/v2/{art} 1600w" sizes="100vw" width="1600" height="900" alt="{esc(alt)}" fetchpriority="high" decoding="async">
+    {img}
     <div class="wrap art-banner-copy">
       {crumbs}
       {eyebrow}
@@ -313,7 +352,16 @@ def render_category(cat: dict, data: dict, base: str) -> str:
     by_slug = {c["slug"]: c for c in data["categories"]}
     tips = "".join(f"<li>{esc(tip)}</li>" for tip in cat["tips"])
     intro = "".join(f"<p>{esc(p)}</p>" for p in cat["intro"])
-    cards = "".join(listing_card(item, cat["slug"]) for item in cat["listings"])
+    real = [i for i in cat["listings"] if not i.get("placeholder")]
+    open_slots = [i for i in cat["listings"] if i.get("placeholder")]
+    has_featured = any(i.get("featured") for i in real)
+    cards = ""
+    if not has_featured:
+        cards += partner_card(f"Featured {cat['short']} spot", "../",
+                              f"This is the top spot on the {cat['short']} page, the walking map and the magazine. It is open for one Falmouth business.")
+        open_slots = [i for i in open_slots if not re.match(r"Featured", i.get("name") or "")] if len(open_slots) <= 1 else open_slots
+    cards += "".join(listing_card(item, cat["slug"]) for item in real)
+    cards += "".join(listing_card(item, cat["slug"]) for item in open_slots)
     related = "".join(
         f'<a class="btn btn-small btn-ghost" href="../{esc(slug)}/">{esc(by_slug[slug]["short"])}</a>'
         for slug in cat["related"]
@@ -366,7 +414,8 @@ def main() -> None:
     for cat in data["categories"]:
         folder = ROOT / cat["slug"]
         folder.mkdir(parents=True, exist_ok=True)
-        (folder / "index.html").write_text(render_category(cat, data, base), encoding="utf-8")
+        page = _stamp(render_category(cat, data, base), "../", cat["slug"] + "/")
+        (folder / "index.html").write_text(page, encoding="utf-8")
         print("wrote", cat["slug"] + "/index.html")
 
 

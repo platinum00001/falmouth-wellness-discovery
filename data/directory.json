@@ -1,163 +1,203 @@
 {
   "categories": [
     {
-      "slug": "transportation",
-      "short": "Transportation",
-      "nav": "Taxi, rides, and moving things",
-      "title": "Falmouth MA Transportation | Taxi, Rides & Local Moves",
-      "h1": "Falmouth MA transportation: rides, taxis, and moving things around town",
-      "description": "Falmouth MA transportation for rides, taxis, and moving things around town. Falmouth Transport is the featured local guide. Open taxi slots stay blank until a company confirms them.",
+      "slug": "shops",
+      "short": "Main Street Shops",
+      "nav": "Jewelry, boutiques, kids and home",
+      "title": "Falmouth MA Main Street Shops | Jewelry, Boutiques, Kids & Home",
+      "h1": "Falmouth Main Street and Homeport shops: jewelry, boutiques, kids and home",
+      "description": "Independent shops on Falmouth's Main Street and at Homeport on Gifford Street: local jewelers, women's and men's boutiques, a children's shop, home goods and a family insurance agency.",
       "intro": [
-        "Falmouth runs from the village and Main Street out to Woods Hole, East Falmouth, North Falmouth, and the beaches. People need a ride to the ferry, a taxi when the car is in the shop, or help moving something across town.",
-        "This page lists local transportation partners and sends you to them. Falmouth Transport is the featured guide. Taxi companies can take the open cards. Nothing is filled in until that company confirms the phone, the fare, and the booking link."
+        "Falmouth's Main Street runs from the Village Green past Town Hall Square and the library toward Davis Straits. Most of the shops here are owner-run, and many have been on the street for years.",
+        "Homeport is the cluster of offices and shops on Gifford Street at Jones Road, home to Cape Island Café, a dental group, a chiropractor, a nutrition shop and a family insurance agency."
       ],
       "tips": [
-        "Ask whether the ride is a taxi, a scheduled car, or help moving a piece of furniture. Those are different jobs.",
-        "For the Woods Hole ferry, leave time for the terminal. This page does not publish a ferry schedule.",
-        "If a card has no phone, the business has not given us one yet. Please do not guess a number from an old listing."
+        "Main Street parking is metered in season; the lots behind the library and off Town Hall Square are a short walk.",
+        "Hours change between summer and winter, so call ahead in the off-season.",
+        "Homeport has its own parking lot off Gifford Street."
       ],
       "related": [
-        "getting-around",
-        "hotels",
-        "community"
+        "bookstore",
+        "antiques",
+        "florist"
       ],
       "listings": [
         {
-          "id": "falmouth-transport",
-          "name": "Falmouth Transport",
-          "featured": true,
+          "id": "calfee-insurance",
+          "name": "Arthur D. Calfee Insurance Agency",
+          "featured": false,
           "placeholder": false,
-          "subcategory": "Rides and moving things",
-          "summary": "A new local guide to rides and moving things around Falmouth. Founding partner of Falmouth Wellness Discovery. Phone, website, street address, and a booking link are not published here until Falmouth Transport confirms them.",
-          "address": null,
-          "phone": null,
-          "website": null,
+          "subcategory": "Insurance agency (Homeport)",
+          "summary": "Family-run, second-generation independent insurance agency for home, auto, boat and business, at Homeport on Gifford Street. Weekdays 8:30 a.m. to 4:30 p.m.",
+          "address": "336 Gifford Street, Falmouth, MA 02540",
+          "phone": "+1-508-540-2601",
+          "phoneDisplay": "(508) 540-2601",
+          "website": "https://www.calfeeinsurance.com/",
           "booking": null,
-          "lat": null,
-          "lng": null,
+          "lat": 41.562179,
+          "lng": -70.610181,
           "schemaType": "LocalBusiness",
           "facts": [
-            "Founding partner",
-            "Local rides and moving things around Falmouth"
-          ]
+            "336 Gifford Street, Falmouth, MA 02540",
+            "(508) 540-2601"
+          ],
+          "sources": [
+            "calfeeinsurance.com (Homeport Plaza office, 336 Gifford Street), checked Oct 29, 2026"
+          ],
+          "district": "homeport",
+          "hours": "Mon–Fri 8:30 a.m.–4:30 p.m."
         },
         {
-          "id": "taxi-partner",
-          "name": "Taxi partner (your business here)",
+          "id": "falmouth-jewelry-shop",
+          "name": "Falmouth Jewelry Shop",
           "featured": false,
-          "placeholder": true,
-          "subcategory": "Taxi",
-          "summary": "Sample slot for a Falmouth taxi. No company is named. No phone, fare, or dispatch link is shown.",
-          "address": null,
-          "phone": null,
-          "website": null,
+          "placeholder": false,
+          "subcategory": "Jeweler",
+          "summary": "Gold and sterling jewelry, watches and gifts, with owner and local-artisan pieces and custom work, on Main Street.",
+          "address": "225 Main Street, Falmouth, MA 02540",
+          "phone": "+1-508-548-0487",
+          "phoneDisplay": "(508) 548-0487",
+          "website": "https://www.falmouthjewelryshop.com/",
           "booking": null,
-          "lat": null,
-          "lng": null
-        }
-      ]
-    },
-    {
-      "slug": "home-remodeling",
-      "short": "Home remodeling",
-      "nav": "Remodeling and renovations",
-      "title": "Falmouth MA Home Remodeling | Renovations & Contractors",
-      "h1": "Falmouth MA home remodeling",
-      "description": "Falmouth MA home remodeling directory for renovations and contractors. No firm is named until a partner confirms the listing. Questions to ask before you hire.",
-      "intro": [
-        "Cape houses live with salt air, older layouts, and winters when some work has to wait. A remodel goes better when the scope is written down and someone local is accountable for permits.",
-        "No remodeling firm is listed yet. The card below is an open slot, not a recommendation of a company we have not met."
-      ],
-      "tips": [
-        "Ask who pulls the permit and which Falmouth inspections the job needs.",
-        "Get the scope and the price in writing before demolition starts.",
-        "Ask for a recent Falmouth or Upper Cape reference, then call that person yourself."
-      ],
-      "related": [
-        "hotels",
-        "community",
-        "food"
-      ],
-      "listings": [
-        {
-          "id": "featured-remodeler",
-          "name": "Featured remodeler (your business here)",
-          "featured": false,
-          "placeholder": true,
-          "subcategory": "Home remodeling",
-          "summary": "Sample slot. No contractor is named and no license number is invented.",
-          "address": null,
-          "phone": null,
-          "website": null,
-          "booking": null,
-          "lat": null,
-          "lng": null
-        }
-      ]
-    },
-    {
-      "slug": "doctors",
-      "short": "Doctors",
-      "nav": "Visits, urgent care, dental",
-      "title": "Falmouth MA Doctors | Visits, Urgent Care & Dental",
-      "h1": "Falmouth MA doctors, urgent care, and dental visits",
-      "description": "Falmouth MA doctors directory for routine visits, urgent care, and dental care. This is not medical advice. No practice is named until it confirms a listing.",
-      "intro": [
-        "This page is a directory, not medical advice, and it does not rank clinicians. For an emergency, call 911.",
-        "Routine visits, urgent care, and dental care will each have a featured partner when a practice confirms its name, address, and phone. Until then the cards stay blank. We do not copy names out of an old phone book."
-      ],
-      "tips": [
-        "Call 911 for an emergency. Do not use this page as a substitute for emergency care.",
-        "Ask a clinic what to bring: insurance card, medication list, and the reason for the visit.",
-        "Urgent care and the emergency department are not the same door. The practice can tell you which one fits."
-      ],
-      "related": [
-        "dental",
-        "spa-recovery",
-        "fitness"
-      ],
-      "listings": [
-        {
-          "id": "featured-doctor",
-          "name": "Featured doctor visits (your practice here)",
-          "featured": false,
-          "placeholder": true,
-          "subcategory": "Doctor visits",
-          "summary": "Sample slot for routine visits. No physician or practice is named.",
-          "address": null,
-          "phone": null,
-          "website": null,
-          "booking": null,
-          "lat": null,
-          "lng": null
+          "lat": 41.551594,
+          "lng": -70.615704,
+          "schemaType": "LocalBusiness",
+          "facts": [
+            "225 Main Street, Falmouth, MA 02540",
+            "(508) 548-0487"
+          ],
+          "sources": [
+            "Falmouth Chamber of Commerce member directory (web.falmouthchamber.com), checked Oct 29, 2026",
+            "Falmouth Village Association board listing",
+            "Scenic Shopping Falmouth guide (scenicshopping.com), checked Oct 29, 2026"
+          ],
+          "district": "main-street"
         },
         {
-          "id": "featured-urgent-care",
-          "name": "Featured urgent care (your clinic here)",
+          "id": "coast-goldworks",
+          "name": "Coast GoldWorks",
           "featured": false,
-          "placeholder": true,
-          "subcategory": "Urgent care",
-          "summary": "Sample slot. No clinic is named and no wait time is claimed.",
-          "address": null,
-          "phone": null,
-          "website": null,
+          "placeholder": false,
+          "subcategory": "Jeweler",
+          "summary": "Handcrafted fine jewelry with nautical and one-of-a-kind designs, on Main Street.",
+          "address": "261-C Main Street, Falmouth, MA 02540",
+          "phone": "+1-774-392-6233",
+          "phoneDisplay": "(774) 392-6233",
+          "website": "https://www.coastgoldworks.com/",
           "booking": null,
-          "lat": null,
-          "lng": null
+          "lat": 41.551983,
+          "lng": -70.615015,
+          "schemaType": "LocalBusiness",
+          "facts": [
+            "261-C Main Street, Falmouth, MA 02540",
+            "(774) 392-6233"
+          ],
+          "sources": [
+            "coastgoldworks.com (store address and phone), checked Oct 29, 2026"
+          ],
+          "district": "main-street",
+          "approximate": true
         },
         {
-          "id": "featured-dental",
-          "name": "Featured dental practice (your office here)",
+          "id": "story-falmouth",
+          "name": "story.",
           "featured": false,
-          "placeholder": true,
-          "subcategory": "Dental",
-          "summary": "Sample slot. No dentist is named.",
-          "address": null,
-          "phone": null,
-          "website": null,
+          "placeholder": false,
+          "subcategory": "Women's boutique",
+          "summary": "Women's boutique with contemporary clothing, jewelry and curated gifts, on Main Street.",
+          "address": "352 Main Street, Falmouth, MA 02540",
+          "phone": "+1-774-763-5451",
+          "phoneDisplay": "(774) 763-5451",
+          "website": "https://www.storyfalmouth.com/",
           "booking": null,
-          "lat": null,
-          "lng": null
+          "lat": 41.552248,
+          "lng": -70.612404,
+          "schemaType": "LocalBusiness",
+          "facts": [
+            "352 Main Street, Falmouth, MA 02540",
+            "(774) 763-5451"
+          ],
+          "sources": [
+            "storyfalmouth.com, checked Oct 29, 2026",
+            "Falmouth Chamber of Commerce member directory (web.falmouthchamber.com), checked Oct 29, 2026"
+          ],
+          "district": "main-street",
+          "approximate": true
+        },
+        {
+          "id": "caline-for-kids",
+          "name": "Caline for Kids",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Children's boutique",
+          "summary": "Children's clothing and footwear boutique, infant to size 14, on Main Street.",
+          "address": "149 Main Street, Falmouth, MA 02540",
+          "phone": "+1-508-548-2533",
+          "phoneDisplay": "(508) 548-2533",
+          "website": "https://calineforkids.com/",
+          "booking": null,
+          "lat": 41.552739,
+          "lng": -70.617659,
+          "schemaType": "LocalBusiness",
+          "facts": [
+            "149 Main Street, Falmouth, MA 02540",
+            "(508) 548-2533"
+          ],
+          "sources": [
+            "calineforkids.com, checked Oct 29, 2026",
+            "Falmouth Chamber of Commerce member directory (web.falmouthchamber.com), checked Oct 29, 2026"
+          ],
+          "district": "main-street"
+        },
+        {
+          "id": "nest-and-feathers",
+          "name": "Nest and Feathers",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Home goods",
+          "summary": "Home goods shop with bed and kitchen linens, dishes, glassware, rugs, throws and seasonal decor, on Main Street.",
+          "address": "189 Main Street, Falmouth, MA 02540",
+          "phone": "+1-774-612-3123",
+          "phoneDisplay": "(774) 612-3123",
+          "website": "https://www.nestandfeathers.com/",
+          "booking": null,
+          "lat": 41.55227,
+          "lng": -70.616885,
+          "schemaType": "LocalBusiness",
+          "facts": [
+            "189 Main Street, Falmouth, MA 02540",
+            "(774) 612-3123"
+          ],
+          "sources": [
+            "nestandfeathers.com (address and phone), checked Oct 29, 2026",
+            "Scenic Shopping Falmouth guide (scenicshopping.com), checked Oct 29, 2026"
+          ],
+          "district": "main-street"
+        },
+        {
+          "id": "maxwell-and-co",
+          "name": "Maxwell & Co.",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Men's and women's clothing",
+          "summary": "Men's and women's clothing, footwear and accessories, casual to formal, on Main Street.",
+          "address": "200 Main Street, Falmouth, MA 02540",
+          "phone": "+1-508-540-8752",
+          "phoneDisplay": "(508) 540-8752",
+          "website": "https://www.maxwellandco.com/",
+          "booking": null,
+          "lat": 41.552605,
+          "lng": -70.616402,
+          "schemaType": "LocalBusiness",
+          "facts": [
+            "200 Main Street, Falmouth, MA 02540",
+            "(508) 540-8752"
+          ],
+          "sources": [
+            "maxwellandco.com (address and phone), checked Oct 29, 2026",
+            "Scenic Shopping Falmouth guide (scenicshopping.com), checked Oct 29, 2026"
+          ],
+          "district": "main-street"
         }
       ]
     },
@@ -170,7 +210,7 @@
       "description": "Falmouth MA food directory: breakfast and lunch spots, cafés and bakeries, diners, seafood, pizza, and dinner. Cape Island Café is the featured weekday lunch. Each listing links to the restaurant.",
       "intro": [
         "Falmouth eats on Main Street, around the harbor, in Woods Hole and out in the villages. This page lists local restaurants, cafés and bakeries with their own phone numbers and websites.",
-        "The featured lunch partner is Cape Island Café, an alcohol-free, sober-friendly weekday lunch café at 316 Gifford Street. A food truck is still an open sample slot. Hours shown are as published by each restaurant and change by season, so call ahead."
+        "The featured lunch partner is Cape Island Café, an alcohol-free, sober-friendly weekday lunch café at 316 Gifford Street (Homeport), open Monday to Friday, 11 a.m. to 3 p.m. Main Street and Homeport spots are listed first. Hours change by season, so call ahead."
       ],
       "tips": [
         "Weekday lunch at Cape Island is alcohol-free and sober-friendly. The menu is the café's to publish, not ours to invent.",
@@ -206,7 +246,8 @@
           ],
           "sources": [
             "Local Wellness Maps Falmouth directory (platinum00001/local-wellness-maps, Oct 26, 2026)"
-          ]
+          ],
+          "district": "homeport"
         },
         {
           "id": "country-fare",
@@ -232,6 +273,617 @@
             "Restaurant Exchange Falmouth restaurant list (Oct 2026)",
             "https://www.yelp.com/biz/country-fare-restaurant-falmouth",
             "https://www.openstreetmap.org/node/14270704028"
+          ],
+          "district": "main-street"
+        },
+        {
+          "id": "persy-s-place",
+          "name": "Persy's Place",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Breakfast & lunch",
+          "summary": "Breakfast & lunch in Falmouth Village. Big-menu breakfast and lunch restaurant. Call or check the restaurant's own site for hours and the current menu.",
+          "address": "40 N Main St, Falmouth, MA 02540",
+          "phone": "+1-508-540-3500",
+          "phoneDisplay": "(508) 540-3500",
+          "website": "https://persysplace.com/",
+          "booking": null,
+          "lat": 41.555773,
+          "lng": -70.621912,
+          "schemaType": "Restaurant",
+          "facts": [
+            "40 N Main St, Falmouth, MA 02540",
+            "(508) 540-3500",
+            "Hours as published: Daily 7 AM–2 PM (check before you go)"
+          ],
+          "sources": [
+            "Restaurant Exchange Falmouth restaurant list (Oct 2026)",
+            "https://persysplace.com/locations/",
+            "https://www.openstreetmap.org/node/14271114623"
+          ],
+          "district": "main-street"
+        },
+        {
+          "id": "pickle-jar-kitchen",
+          "name": "Pickle Jar Kitchen",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Breakfast & lunch",
+          "summary": "Breakfast & lunch in Falmouth Village. Comfort-food breakfast and lunch in a historic Main Street building. Call or check the restaurant's own site for hours and the current menu.",
+          "address": "170 Main St, Falmouth, MA 02540",
+          "phone": "+1-508-540-6760",
+          "phoneDisplay": "(508) 540-6760",
+          "website": "https://picklejarkitchen.com",
+          "booking": null,
+          "lat": 41.552727,
+          "lng": -70.617084,
+          "schemaType": "Restaurant",
+          "facts": [
+            "170 Main St, Falmouth, MA 02540",
+            "(508) 540-6760",
+            "Hours as published: Thu–Mon 9 AM–3 PM; closed Tue–Wed (check before you go)"
+          ],
+          "sources": [
+            "Restaurant Exchange Falmouth restaurant list (Oct 2026)",
+            "https://picklejarkitchen.com",
+            "https://web.falmouthchamber.com/Restaurants-Pubs"
+          ],
+          "district": "main-street"
+        },
+        {
+          "id": "betsy-s-diner",
+          "name": "Betsy's Diner",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Diner",
+          "summary": "Diner in Falmouth Village. Classic diner serving breakfast and lunch. Call or check the restaurant's own site for hours and the current menu.",
+          "address": "457 Main St, Falmouth, MA 02540",
+          "phone": "+1-508-540-0060",
+          "phoneDisplay": "(508) 540-0060",
+          "website": "",
+          "booking": null,
+          "lat": 41.551956,
+          "lng": -70.609967,
+          "schemaType": "Restaurant",
+          "facts": [
+            "457 Main St, Falmouth, MA 02540",
+            "(508) 540-0060",
+            "Hours as published: Daily 7 AM–2 PM (check before you go)"
+          ],
+          "sources": [
+            "Restaurant Exchange Falmouth restaurant list (Oct 2026)",
+            "https://www.restaurantji.com/ma/falmouth/betsys-diner-/",
+            "https://www.openstreetmap.org/way/213072622"
+          ],
+          "district": "main-street"
+        },
+        {
+          "id": "bourbon-and-butter-sugar-shed",
+          "name": "Bourbon & Butter Sugar Shed",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Café & bakery",
+          "summary": "Café & bakery in Falmouth Village. Small-batch bakery shed near the Village Green. Call or check the restaurant's own site for hours and the current menu.",
+          "address": "68 Main St, Falmouth, MA 02540",
+          "phone": null,
+          "phoneDisplay": null,
+          "website": "https://www.bourbonbutterbakingco.com/",
+          "booking": null,
+          "lat": 41.554443,
+          "lng": -70.620812,
+          "schemaType": "Restaurant",
+          "facts": [
+            "68 Main St, Falmouth, MA 02540",
+            "Hours as published: Thu–Sat 12–5 PM; Sun 1–5 PM (check before you go)"
+          ],
+          "sources": [
+            "Restaurant Exchange Falmouth restaurant list (Oct 2026)",
+            "https://www.bourbonbutterbakingco.com/contact"
+          ],
+          "district": "main-street"
+        },
+        {
+          "id": "mary-ellen-s-portuguese-bakery",
+          "name": "Mary Ellen's Portuguese Bakery",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Café & bakery",
+          "summary": "Café & bakery in Falmouth Village. Portuguese bakery with breakfast and lunch. Call or check the restaurant's own site for hours and the current menu.",
+          "address": "829 Main St, Falmouth, MA 02540",
+          "phone": "+1-508-540-9696",
+          "phoneDisplay": "(508) 540-9696",
+          "website": "",
+          "booking": null,
+          "lat": 41.554265,
+          "lng": -70.600929,
+          "schemaType": "Restaurant",
+          "facts": [
+            "829 Main St, Falmouth, MA 02540",
+            "(508) 540-9696",
+            "Hours as published: Mon–Sat 5 AM–2 PM; Sun 6 AM–2 PM (check before you go)"
+          ],
+          "sources": [
+            "Restaurant Exchange Falmouth restaurant list (Oct 2026)",
+            "https://www.yelp.com/biz/mary-ellens-portuguese-bakery-falmouth",
+            "https://www.openstreetmap.org/way/1191870537"
+          ],
+          "district": "main-street"
+        },
+        {
+          "id": "dj-s-famous-wings-family-sports-pub",
+          "name": "DJ's Famous Wings – Family Sports Pub",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "American",
+          "summary": "American in Falmouth Village. Family sports pub known for wings. Call or check the restaurant's own site for hours and the current menu.",
+          "address": "872 Main St, Falmouth, MA 02540",
+          "phone": "+1-508-457-9464",
+          "phoneDisplay": "(508) 457-9464",
+          "website": "https://djsfamouswings.com/",
+          "booking": null,
+          "lat": 41.555507,
+          "lng": -70.600822,
+          "schemaType": "Restaurant",
+          "facts": [
+            "872 Main St, Falmouth, MA 02540",
+            "(508) 457-9464",
+            "Hours as published: Mon & Wed–Sun 11 AM–9 PM; closed Tue (check before you go)"
+          ],
+          "sources": [
+            "Restaurant Exchange Falmouth restaurant list (Oct 2026)",
+            "https://djsfamouswings.com/",
+            "https://web.falmouthchamber.com/Restaurants-Pubs"
+          ],
+          "district": "main-street"
+        },
+        {
+          "id": "tap-city-grille",
+          "name": "Tap City Grille",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "American",
+          "summary": "American in Falmouth Village. Brewpub-style grille with a big tap list on Main Street. Call or check the restaurant's own site for hours and the current menu.",
+          "address": "285 Main St, Falmouth, MA 02540",
+          "phone": "+1-774-349-2776",
+          "phoneDisplay": "(774) 349-2776",
+          "website": "https://www.tapcitygrille.com/falmouth",
+          "booking": null,
+          "lat": 41.551989,
+          "lng": -70.614398,
+          "schemaType": "Restaurant",
+          "facts": [
+            "285 Main St, Falmouth, MA 02540",
+            "(774) 349-2776",
+            "Hours as published: Daily from 11:30 AM (check before you go)"
+          ],
+          "sources": [
+            "Restaurant Exchange Falmouth restaurant list (Oct 2026)",
+            "https://www.tapcitygrille.com/falmouth",
+            "https://www.openstreetmap.org/node/13096362198"
+          ],
+          "district": "main-street"
+        },
+        {
+          "id": "doggz-and-hoggz",
+          "name": "Doggz & Hoggz",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "BBQ",
+          "summary": "BBQ in Falmouth Village. Family barbecue, specialty hot dogs and sandwiches. Call or check the restaurant's own site for hours and the current menu.",
+          "address": "781 Main St, Falmouth, MA 02540",
+          "phone": "+1-508-548-3663",
+          "phoneDisplay": "(508) 548-3663",
+          "website": "https://www.doggzhoggz.com/",
+          "booking": null,
+          "lat": 41.554657,
+          "lng": -70.600673,
+          "schemaType": "Restaurant",
+          "facts": [
+            "781 Main St, Falmouth, MA 02540",
+            "(508) 548-3663",
+            "Hours as published: Tue–Wed & Sun 10 AM–4 PM; Thu–Sat 10 AM–6 PM; closed Mon (check before you go)"
+          ],
+          "sources": [
+            "Restaurant Exchange Falmouth restaurant list (Oct 2026)",
+            "https://www.doggzhoggz.com/hours.html",
+            "https://web.falmouthchamber.com/Restaurants-Pubs"
+          ],
+          "district": "main-street"
+        },
+        {
+          "id": "asia-restaurant",
+          "name": "Asia Restaurant",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Chinese",
+          "summary": "Chinese in Falmouth Village. Chinese restaurant offering pickup and delivery. Call or check the restaurant's own site for hours and the current menu.",
+          "address": "452 Main St, Falmouth, MA 02540",
+          "phone": "+1-508-455-1083",
+          "phoneDisplay": "(508) 455-1083",
+          "website": "https://www.asiafalmouth.com/",
+          "booking": null,
+          "lat": 41.552585,
+          "lng": -70.610056,
+          "schemaType": "Restaurant",
+          "facts": [
+            "452 Main St, Falmouth, MA 02540",
+            "(508) 455-1083"
+          ],
+          "sources": [
+            "Restaurant Exchange Falmouth restaurant list (Oct 2026)",
+            "https://www.asiafalmouth.com/"
+          ],
+          "district": "main-street"
+        },
+        {
+          "id": "cafe-grounded",
+          "name": "Café Grounded",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Healthy café",
+          "summary": "Healthy café on the walking map at 281 Main Street. The map dot is interpolated along Main Street, so it is approximate. Hours and a menu are not listed until the café confirms them.",
+          "address": "281 Main Street, Falmouth, MA",
+          "phone": "+1-774-612-3970",
+          "website": "http://cafe-grounded.com/",
+          "booking": null,
+          "lat": 41.552029,
+          "lng": -70.614525,
+          "schemaType": "LocalBusiness",
+          "facts": [
+            "281 Main Street",
+            "Hours as published: Mon–Sat 7 AM–4 PM; Sun 8 AM–4 PM (check before you go)"
+          ],
+          "approximate": true,
+          "phoneDisplay": "(774) 612-3970",
+          "sources": [
+            "Restaurant Exchange Falmouth restaurant list (Oct 2026)"
+          ],
+          "district": "main-street"
+        },
+        {
+          "id": "golden-swan-indian-cuisine",
+          "name": "Golden Swan Indian Cuisine",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Indian",
+          "summary": "Indian in Falmouth Village. Indian restaurant in downtown Falmouth. Call or check the restaurant's own site for hours and the current menu.",
+          "address": "323 Main St, Falmouth, MA 02540",
+          "phone": "+1-508-540-6580",
+          "phoneDisplay": "(508) 540-6580",
+          "website": "",
+          "booking": null,
+          "lat": 41.552032,
+          "lng": -70.613398,
+          "schemaType": "Restaurant",
+          "facts": [
+            "323 Main St, Falmouth, MA 02540",
+            "(508) 540-6580"
+          ],
+          "sources": [
+            "Restaurant Exchange Falmouth restaurant list (Oct 2026)",
+            "https://www.restaurantji.com/ma/falmouth/golden-swan-indian-cuisine-/",
+            "https://www.openstreetmap.org/node/9952849798"
+          ],
+          "district": "main-street"
+        },
+        {
+          "id": "la-cucina-sul-mare",
+          "name": "La Cucina Sul Mare",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Italian",
+          "summary": "Italian in Falmouth Village. Italian and seafood dining room in downtown Falmouth. Call or check the restaurant's own site for hours and the current menu.",
+          "address": "237 Main St, Falmouth, MA 02540",
+          "phone": "+1-508-548-5600",
+          "phoneDisplay": "(508) 548-5600",
+          "website": "https://www.lacucinasulmare.com/",
+          "booking": null,
+          "lat": 41.55206,
+          "lng": -70.615791,
+          "schemaType": "Restaurant",
+          "facts": [
+            "237 Main St, Falmouth, MA 02540",
+            "(508) 548-5600",
+            "Hours as published: Mon 4–10 PM; Tue–Sat 11:30 AM–10 PM; Sun 10:30 AM–10 PM (check before you go)"
+          ],
+          "sources": [
+            "Restaurant Exchange Falmouth restaurant list (Oct 2026)",
+            "https://www.lacucinasulmare.com/contact-us",
+            "https://web.falmouthchamber.com/Restaurants-Pubs"
+          ],
+          "district": "main-street"
+        },
+        {
+          "id": "osteria-la-civetta",
+          "name": "Osteria La Civetta",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Italian",
+          "summary": "Italian in Falmouth Village. Family-run Italian osteria with handmade pasta on Main Street. Call or check the restaurant's own site for hours and the current menu.",
+          "address": "133 Main St, Falmouth, MA 02540",
+          "phone": "+1-508-540-1616",
+          "phoneDisplay": "(508) 540-1616",
+          "website": "https://www.osterialacivetta.com/",
+          "booking": null,
+          "lat": 41.552917,
+          "lng": -70.617934,
+          "schemaType": "Restaurant",
+          "facts": [
+            "133 Main St, Falmouth, MA 02540",
+            "(508) 540-1616",
+            "Hours as published: Wed–Thu 4–8 PM; Fri–Sat 12–8:30 PM; Sun 4–8 PM; closed Mon–Tue (check before you go)"
+          ],
+          "sources": [
+            "Restaurant Exchange Falmouth restaurant list (Oct 2026)",
+            "https://www.osterialacivetta.com/contact-2",
+            "https://www.openstreetmap.org/way/213076629"
+          ],
+          "district": "main-street"
+        },
+        {
+          "id": "tiger-ramen",
+          "name": "Tiger Ramen",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Japanese",
+          "summary": "Japanese in Falmouth Village. Ramen and Japanese small plates. Call or check the restaurant's own site for hours and the current menu.",
+          "address": "587 Main St, Falmouth, MA 02540",
+          "phone": "+1-774-392-6621",
+          "phoneDisplay": "(774) 392-6621",
+          "website": null,
+          "booking": null,
+          "lat": 41.552256,
+          "lng": -70.606776,
+          "schemaType": "Restaurant",
+          "facts": [
+            "587 Main St, Falmouth, MA 02540",
+            "(774) 392-6621"
+          ],
+          "sources": [
+            "Restaurant Exchange Falmouth restaurant list (Oct 2026)",
+            "https://www.tigerramencapecod.com/",
+            "https://www.openstreetmap.org/node/13112512540"
+          ],
+          "district": "main-street",
+          "notes": [
+            "2026-10-29: website https://www.tigerramencapecod.com/ unreachable (404/expired certificate/server error); link removed, phone kept."
+          ]
+        },
+        {
+          "id": "asti",
+          "name": "Asti",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Mediterranean",
+          "summary": "Mediterranean in Falmouth Village. Main Street spot for Greek-Mediterranean plates and pizza. Call or check the restaurant's own site for hours and the current menu.",
+          "address": "117 Main St, Falmouth, MA 02540",
+          "phone": "+1-508-548-3300",
+          "phoneDisplay": "(508) 548-3300",
+          "website": "",
+          "booking": null,
+          "lat": 41.553137,
+          "lng": -70.618231,
+          "schemaType": "Restaurant",
+          "facts": [
+            "117 Main St, Falmouth, MA 02540",
+            "(508) 548-3300",
+            "Hours as published: Mon–Thu 11:30 AM–8 PM; Fri–Sat 11:30 AM–9 PM; Sun 11:30 AM–8 PM (check before you go)"
+          ],
+          "sources": [
+            "Restaurant Exchange Falmouth restaurant list (Oct 2026)",
+            "https://web.falmouthchamber.com/Restaurants-Pubs",
+            "https://www.openstreetmap.org/way/213076974"
+          ],
+          "district": "main-street"
+        },
+        {
+          "id": "anejo-mexican-bistro",
+          "name": "Añejo Mexican Bistro",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Mexican",
+          "summary": "Mexican in Falmouth Village. Mexican bistro and tequila bar on Main Street. Call or check the restaurant's own site for hours and the current menu.",
+          "address": "188 Main St, Falmouth, MA 02540",
+          "phone": "+1-508-388-7631",
+          "phoneDisplay": "(508) 388-7631",
+          "website": "https://www.anejo.cc/falmouth",
+          "booking": null,
+          "lat": 41.552576,
+          "lng": -70.616772,
+          "schemaType": "Restaurant",
+          "facts": [
+            "188 Main St, Falmouth, MA 02540",
+            "(508) 388-7631",
+            "Hours as published: Mon–Sat 11:30 AM–11 PM; Sun 10:30 AM–11 PM (check before you go)"
+          ],
+          "sources": [
+            "Restaurant Exchange Falmouth restaurant list (Oct 2026)",
+            "https://www.anejo.cc/falmouth",
+            "https://web.falmouthchamber.com/Restaurants-Pubs"
+          ],
+          "district": "main-street"
+        },
+        {
+          "id": "taco-blanco",
+          "name": "Taco Blanco",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Mexican",
+          "summary": "Mexican in Falmouth Village. Tacos, burritos and bowls on east Main Street. Call or check the restaurant's own site for hours and the current menu.",
+          "address": "870 Main St, Falmouth, MA 02540",
+          "phone": "+1-508-540-8226",
+          "phoneDisplay": "(508) 540-8226",
+          "website": "https://www.tacoblanco.cc/",
+          "booking": null,
+          "lat": 41.555689,
+          "lng": -70.600618,
+          "schemaType": "Restaurant",
+          "facts": [
+            "870 Main St, Falmouth, MA 02540",
+            "(508) 540-8226",
+            "Hours as published: Daily 11:30 AM–9 PM (check before you go)"
+          ],
+          "sources": [
+            "Restaurant Exchange Falmouth restaurant list (Oct 2026)",
+            "https://www.tacoblanco.cc/contact",
+            "https://www.openstreetmap.org/node/14099858504"
+          ],
+          "district": "main-street"
+        },
+        {
+          "id": "the-glass-onion",
+          "name": "The Glass Onion",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "New American",
+          "summary": "New American in Falmouth Village. Chef-driven New American dinner spot. Call or check the restaurant's own site for hours and the current menu.",
+          "address": "37 N Main St, Falmouth, MA 02540",
+          "phone": null,
+          "phoneDisplay": null,
+          "website": "",
+          "booking": null,
+          "lat": 41.555608,
+          "lng": -70.621578,
+          "schemaType": "Restaurant",
+          "facts": [
+            "37 N Main St, Falmouth, MA 02540",
+            "Hours as published: Tue–Sat 5–9 PM (check before you go)"
+          ],
+          "sources": [
+            "Restaurant Exchange Falmouth restaurant list (Oct 2026)",
+            "https://www.yelp.com/biz/the-glass-onion-falmouth"
+          ],
+          "district": "main-street"
+        },
+        {
+          "id": "little-rossa",
+          "name": "Little Rossa",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Pizza",
+          "summary": "Pizza in Falmouth Village. Pizzeria and espresso bar (formerly Simply Divine Pizza Co.). Call or check the restaurant's own site for hours and the current menu.",
+          "address": "261 Main St, Falmouth, MA 02540",
+          "phone": "+1-508-548-1222",
+          "phoneDisplay": "(508) 548-1222",
+          "website": "https://littlerossa.com/",
+          "booking": null,
+          "lat": 41.55202,
+          "lng": -70.61489,
+          "schemaType": "Restaurant",
+          "facts": [
+            "261 Main St, Falmouth, MA 02540",
+            "(508) 548-1222"
+          ],
+          "sources": [
+            "Restaurant Exchange Falmouth restaurant list (Oct 2026)",
+            "https://littlerossa.com/",
+            "https://www.divinepizza.com/"
+          ],
+          "district": "main-street"
+        },
+        {
+          "id": "steve-s-pizzeria-and-more",
+          "name": "Steve's Pizzeria & More",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Pizza",
+          "summary": "Pizza in Falmouth Village. Counter-service pizza and grinders for dine-in, takeout or delivery. Call or check the restaurant's own site for hours and the current menu.",
+          "address": "374 Main St, Falmouth, MA 02540",
+          "phone": "+1-508-457-9454",
+          "phoneDisplay": "(508) 457-9454",
+          "website": "http://www.stevespizzeriaandmore.com/",
+          "booking": null,
+          "lat": 41.552289,
+          "lng": -70.612017,
+          "schemaType": "Restaurant",
+          "facts": [
+            "374 Main St, Falmouth, MA 02540",
+            "(508) 457-9454"
+          ],
+          "sources": [
+            "Restaurant Exchange Falmouth restaurant list (Oct 2026)",
+            "https://web.falmouthchamber.com/Restaurants-Pubs",
+            "https://www.openstreetmap.org/node/4365799322"
+          ],
+          "district": "main-street"
+        },
+        {
+          "id": "liam-maguire-s-irish-pub",
+          "name": "Liam Maguire's Irish Pub",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Pub",
+          "summary": "Pub in Falmouth Village. Irish pub and restaurant with live music on Main Street. Call or check the restaurant's own site for hours and the current menu.",
+          "address": "273 Main St, Falmouth, MA 02540",
+          "phone": "+1-508-548-0285",
+          "phoneDisplay": "(508) 548-0285",
+          "website": "https://liammaguire.com/",
+          "booking": null,
+          "lat": 41.552012,
+          "lng": -70.614664,
+          "schemaType": "Restaurant",
+          "facts": [
+            "273 Main St, Falmouth, MA 02540",
+            "(508) 548-0285",
+            "Hours as published: Tue–Sat 11:30 AM–1 AM; Sun 12 PM–1 AM; closed Mon (check before you go)"
+          ],
+          "sources": [
+            "Restaurant Exchange Falmouth restaurant list (Oct 2026)",
+            "https://liammaguire.com/contact",
+            "https://web.falmouthchamber.com/Restaurants-Pubs"
+          ],
+          "district": "main-street"
+        },
+        {
+          "id": "the-quarterdeck-restaurant",
+          "name": "The Quarterdeck Restaurant",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Seafood",
+          "summary": "Seafood in Falmouth Village. Long-running Main Street restaurant and bar serving seafood and American fare. Call or check the restaurant's own site for hours and the current menu.",
+          "address": "164 Main St, Falmouth, MA 02540",
+          "phone": "+1-508-548-9900",
+          "phoneDisplay": "(508) 548-9900",
+          "website": "",
+          "booking": null,
+          "lat": 41.552783,
+          "lng": -70.617198,
+          "schemaType": "Restaurant",
+          "facts": [
+            "164 Main St, Falmouth, MA 02540",
+            "(508) 548-9900"
+          ],
+          "sources": [
+            "Restaurant Exchange Falmouth restaurant list (Oct 2026)",
+            "https://web.falmouthchamber.com/Restaurants-Pubs",
+            "https://www.yelp.com/biz/the-quarterdeck-restaurant-falmouth"
+          ],
+          "district": "main-street"
+        },
+        {
+          "id": "jack-s-restaurant-and-bar",
+          "name": "Jack's Restaurant & Bar",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Pizza",
+          "summary": "Pizza in Falmouth Village. Neighborhood restaurant and bar known for pizza. Call or check the restaurant's own site for hours and the current menu.",
+          "address": "327 Gifford St, Falmouth, MA 02540",
+          "phone": "+1-508-540-5225",
+          "phoneDisplay": "(508) 540-5225",
+          "website": "https://www.jacksrestaurantfalmouth.com/",
+          "booking": null,
+          "lat": 41.561662,
+          "lng": -70.609623,
+          "schemaType": "Restaurant",
+          "facts": [
+            "327 Gifford St, Falmouth, MA 02540",
+            "(508) 540-5225",
+            "Hours as published: Tue–Thu 4–9 PM; Fri–Sat 4–10 PM; closed Sun–Mon (check before you go)"
+          ],
+          "sources": [
+            "Restaurant Exchange Falmouth restaurant list (Oct 2026)",
+            "https://www.jacksrestaurantfalmouth.com/",
+            "https://web.falmouthchamber.com/Restaurants-Pubs"
           ]
         },
         {
@@ -287,84 +939,6 @@
           ]
         },
         {
-          "id": "persy-s-place",
-          "name": "Persy's Place",
-          "featured": false,
-          "placeholder": false,
-          "subcategory": "Breakfast & lunch",
-          "summary": "Breakfast & lunch in Falmouth Village. Big-menu breakfast and lunch restaurant. Call or check the restaurant's own site for hours and the current menu.",
-          "address": "40 N Main St, Falmouth, MA 02540",
-          "phone": "+1-508-540-3500",
-          "phoneDisplay": "(508) 540-3500",
-          "website": "https://persysplace.com/",
-          "booking": null,
-          "lat": 41.555773,
-          "lng": -70.621912,
-          "schemaType": "Restaurant",
-          "facts": [
-            "40 N Main St, Falmouth, MA 02540",
-            "(508) 540-3500",
-            "Hours as published: Daily 7 AM–2 PM (check before you go)"
-          ],
-          "sources": [
-            "Restaurant Exchange Falmouth restaurant list (Oct 2026)",
-            "https://persysplace.com/locations/",
-            "https://www.openstreetmap.org/node/14271114623"
-          ]
-        },
-        {
-          "id": "pickle-jar-kitchen",
-          "name": "Pickle Jar Kitchen",
-          "featured": false,
-          "placeholder": false,
-          "subcategory": "Breakfast & lunch",
-          "summary": "Breakfast & lunch in Falmouth Village. Comfort-food breakfast and lunch in a historic Main Street building. Call or check the restaurant's own site for hours and the current menu.",
-          "address": "170 Main St, Falmouth, MA 02540",
-          "phone": "+1-508-540-6760",
-          "phoneDisplay": "(508) 540-6760",
-          "website": "https://picklejarkitchen.com",
-          "booking": null,
-          "lat": 41.552727,
-          "lng": -70.617084,
-          "schemaType": "Restaurant",
-          "facts": [
-            "170 Main St, Falmouth, MA 02540",
-            "(508) 540-6760",
-            "Hours as published: Thu–Mon 9 AM–3 PM; closed Tue–Wed (check before you go)"
-          ],
-          "sources": [
-            "Restaurant Exchange Falmouth restaurant list (Oct 2026)",
-            "https://picklejarkitchen.com",
-            "https://web.falmouthchamber.com/Restaurants-Pubs"
-          ]
-        },
-        {
-          "id": "betsy-s-diner",
-          "name": "Betsy's Diner",
-          "featured": false,
-          "placeholder": false,
-          "subcategory": "Diner",
-          "summary": "Diner in Falmouth Village. Classic diner serving breakfast and lunch. Call or check the restaurant's own site for hours and the current menu.",
-          "address": "457 Main St, Falmouth, MA 02540",
-          "phone": "+1-508-540-0060",
-          "phoneDisplay": "(508) 540-0060",
-          "website": "",
-          "booking": null,
-          "lat": 41.551956,
-          "lng": -70.609967,
-          "schemaType": "Restaurant",
-          "facts": [
-            "457 Main St, Falmouth, MA 02540",
-            "(508) 540-0060",
-            "Hours as published: Daily 7 AM–2 PM (check before you go)"
-          ],
-          "sources": [
-            "Restaurant Exchange Falmouth restaurant list (Oct 2026)",
-            "https://www.restaurantji.com/ma/falmouth/betsys-diner-/",
-            "https://www.openstreetmap.org/way/213072622"
-          ]
-        },
-        {
           "id": "talk-of-the-town-diner",
           "name": "Talk of the Town Diner",
           "featured": false,
@@ -388,30 +962,6 @@
             "Restaurant Exchange Falmouth restaurant list (Oct 2026)",
             "https://www.bestoncape.com/businesses/restaurants-and-cafes/talk-of-the-town-diner",
             "https://www.openstreetmap.org/node/14274404017"
-          ]
-        },
-        {
-          "id": "bourbon-and-butter-sugar-shed",
-          "name": "Bourbon & Butter Sugar Shed",
-          "featured": false,
-          "placeholder": false,
-          "subcategory": "Café & bakery",
-          "summary": "Café & bakery in Falmouth Village. Small-batch bakery shed near the Village Green. Call or check the restaurant's own site for hours and the current menu.",
-          "address": "68 Main St, Falmouth, MA 02540",
-          "phone": null,
-          "phoneDisplay": null,
-          "website": "https://www.bourbonbutterbakingco.com/",
-          "booking": null,
-          "lat": 41.554443,
-          "lng": -70.620812,
-          "schemaType": "Restaurant",
-          "facts": [
-            "68 Main St, Falmouth, MA 02540",
-            "Hours as published: Thu–Sat 12–5 PM; Sun 1–5 PM (check before you go)"
-          ],
-          "sources": [
-            "Restaurant Exchange Falmouth restaurant list (Oct 2026)",
-            "https://www.bourbonbutterbakingco.com/contact"
           ]
         },
         {
@@ -517,32 +1067,6 @@
           ]
         },
         {
-          "id": "mary-ellen-s-portuguese-bakery",
-          "name": "Mary Ellen's Portuguese Bakery",
-          "featured": false,
-          "placeholder": false,
-          "subcategory": "Café & bakery",
-          "summary": "Café & bakery in Falmouth Village. Portuguese bakery with breakfast and lunch. Call or check the restaurant's own site for hours and the current menu.",
-          "address": "829 Main St, Falmouth, MA 02540",
-          "phone": "+1-508-540-9696",
-          "phoneDisplay": "(508) 540-9696",
-          "website": "",
-          "booking": null,
-          "lat": 41.554265,
-          "lng": -70.600929,
-          "schemaType": "Restaurant",
-          "facts": [
-            "829 Main St, Falmouth, MA 02540",
-            "(508) 540-9696",
-            "Hours as published: Mon–Sat 5 AM–2 PM; Sun 6 AM–2 PM (check before you go)"
-          ],
-          "sources": [
-            "Restaurant Exchange Falmouth restaurant list (Oct 2026)",
-            "https://www.yelp.com/biz/mary-ellens-portuguese-bakery-falmouth",
-            "https://www.openstreetmap.org/way/1191870537"
-          ]
-        },
-        {
           "id": "pie-in-the-sky-bakery-and-cafe",
           "name": "Pie in the Sky Bakery & Café",
           "featured": false,
@@ -645,58 +1169,6 @@
           ]
         },
         {
-          "id": "dj-s-famous-wings-family-sports-pub",
-          "name": "DJ's Famous Wings – Family Sports Pub",
-          "featured": false,
-          "placeholder": false,
-          "subcategory": "American",
-          "summary": "American in Falmouth Village. Family sports pub known for wings. Call or check the restaurant's own site for hours and the current menu.",
-          "address": "872 Main St, Falmouth, MA 02540",
-          "phone": "+1-508-457-9464",
-          "phoneDisplay": "(508) 457-9464",
-          "website": "https://djsfamouswings.com/",
-          "booking": null,
-          "lat": 41.555507,
-          "lng": -70.600822,
-          "schemaType": "Restaurant",
-          "facts": [
-            "872 Main St, Falmouth, MA 02540",
-            "(508) 457-9464",
-            "Hours as published: Mon & Wed–Sun 11 AM–9 PM; closed Tue (check before you go)"
-          ],
-          "sources": [
-            "Restaurant Exchange Falmouth restaurant list (Oct 2026)",
-            "https://djsfamouswings.com/",
-            "https://web.falmouthchamber.com/Restaurants-Pubs"
-          ]
-        },
-        {
-          "id": "tap-city-grille",
-          "name": "Tap City Grille",
-          "featured": false,
-          "placeholder": false,
-          "subcategory": "American",
-          "summary": "American in Falmouth Village. Brewpub-style grille with a big tap list on Main Street. Call or check the restaurant's own site for hours and the current menu.",
-          "address": "285 Main St, Falmouth, MA 02540",
-          "phone": "+1-774-349-2776",
-          "phoneDisplay": "(774) 349-2776",
-          "website": "https://www.tapcitygrille.com/falmouth",
-          "booking": null,
-          "lat": 41.551989,
-          "lng": -70.614398,
-          "schemaType": "Restaurant",
-          "facts": [
-            "285 Main St, Falmouth, MA 02540",
-            "(774) 349-2776",
-            "Hours as published: Daily from 11:30 AM (check before you go)"
-          ],
-          "sources": [
-            "Restaurant Exchange Falmouth restaurant list (Oct 2026)",
-            "https://www.tapcitygrille.com/falmouth",
-            "https://www.openstreetmap.org/node/13096362198"
-          ]
-        },
-        {
           "id": "sweet-rice",
           "name": "Sweet Rice",
           "featured": false,
@@ -722,56 +1194,6 @@
           ]
         },
         {
-          "id": "doggz-and-hoggz",
-          "name": "Doggz & Hoggz",
-          "featured": false,
-          "placeholder": false,
-          "subcategory": "BBQ",
-          "summary": "BBQ in Falmouth Village. Family barbecue, specialty hot dogs and sandwiches. Call or check the restaurant's own site for hours and the current menu.",
-          "address": "781 Main St, Falmouth, MA 02540",
-          "phone": "+1-508-548-3663",
-          "phoneDisplay": "(508) 548-3663",
-          "website": "https://www.doggzhoggz.com/",
-          "booking": null,
-          "lat": 41.554657,
-          "lng": -70.600673,
-          "schemaType": "Restaurant",
-          "facts": [
-            "781 Main St, Falmouth, MA 02540",
-            "(508) 548-3663",
-            "Hours as published: Tue–Wed & Sun 10 AM–4 PM; Thu–Sat 10 AM–6 PM; closed Mon (check before you go)"
-          ],
-          "sources": [
-            "Restaurant Exchange Falmouth restaurant list (Oct 2026)",
-            "https://www.doggzhoggz.com/hours.html",
-            "https://web.falmouthchamber.com/Restaurants-Pubs"
-          ]
-        },
-        {
-          "id": "asia-restaurant",
-          "name": "Asia Restaurant",
-          "featured": false,
-          "placeholder": false,
-          "subcategory": "Chinese",
-          "summary": "Chinese in Falmouth Village. Chinese restaurant offering pickup and delivery. Call or check the restaurant's own site for hours and the current menu.",
-          "address": "452 Main St, Falmouth, MA 02540",
-          "phone": "+1-508-455-1083",
-          "phoneDisplay": "(508) 455-1083",
-          "website": "https://www.asiafalmouth.com/",
-          "booking": null,
-          "lat": 41.552585,
-          "lng": -70.610056,
-          "schemaType": "Restaurant",
-          "facts": [
-            "452 Main St, Falmouth, MA 02540",
-            "(508) 455-1083"
-          ],
-          "sources": [
-            "Restaurant Exchange Falmouth restaurant list (Oct 2026)",
-            "https://www.asiafalmouth.com/"
-          ]
-        },
-        {
           "id": "golden-sails-chinese-restaurant",
           "name": "Golden Sails Chinese Restaurant",
           "featured": false,
@@ -794,30 +1216,6 @@
           "sources": [
             "Restaurant Exchange Falmouth restaurant list (Oct 2026)",
             "https://www.restaurantji.com/ma/falmouth/golden-sails-chinese-restaurant-/"
-          ]
-        },
-        {
-          "id": "cafe-grounded",
-          "name": "Café Grounded",
-          "featured": false,
-          "placeholder": false,
-          "subcategory": "Healthy café",
-          "summary": "Healthy café on the walking map at 281 Main Street. The map dot is interpolated along Main Street, so it is approximate. Hours and a menu are not listed until the café confirms them.",
-          "address": "281 Main Street, Falmouth, MA",
-          "phone": "+1-774-612-3970",
-          "website": "http://cafe-grounded.com/",
-          "booking": null,
-          "lat": 41.552029,
-          "lng": -70.614525,
-          "schemaType": "LocalBusiness",
-          "facts": [
-            "281 Main Street",
-            "Hours as published: Mon–Sat 7 AM–4 PM; Sun 8 AM–4 PM (check before you go)"
-          ],
-          "approximate": true,
-          "phoneDisplay": "(774) 612-3970",
-          "sources": [
-            "Restaurant Exchange Falmouth restaurant list (Oct 2026)"
           ]
         },
         {
@@ -870,31 +1268,6 @@
           ]
         },
         {
-          "id": "golden-swan-indian-cuisine",
-          "name": "Golden Swan Indian Cuisine",
-          "featured": false,
-          "placeholder": false,
-          "subcategory": "Indian",
-          "summary": "Indian in Falmouth Village. Indian restaurant in downtown Falmouth. Call or check the restaurant's own site for hours and the current menu.",
-          "address": "323 Main St, Falmouth, MA 02540",
-          "phone": "+1-508-540-6580",
-          "phoneDisplay": "(508) 540-6580",
-          "website": "",
-          "booking": null,
-          "lat": 41.552032,
-          "lng": -70.613398,
-          "schemaType": "Restaurant",
-          "facts": [
-            "323 Main St, Falmouth, MA 02540",
-            "(508) 540-6580"
-          ],
-          "sources": [
-            "Restaurant Exchange Falmouth restaurant list (Oct 2026)",
-            "https://www.restaurantji.com/ma/falmouth/golden-swan-indian-cuisine-/",
-            "https://www.openstreetmap.org/node/9952849798"
-          ]
-        },
-        {
           "id": "bucatino-restaurant-and-wine-bar",
           "name": "Bucatino Restaurant & Wine Bar",
           "featured": false,
@@ -920,58 +1293,6 @@
           ]
         },
         {
-          "id": "la-cucina-sul-mare",
-          "name": "La Cucina Sul Mare",
-          "featured": false,
-          "placeholder": false,
-          "subcategory": "Italian",
-          "summary": "Italian in Falmouth Village. Italian and seafood dining room in downtown Falmouth. Call or check the restaurant's own site for hours and the current menu.",
-          "address": "237 Main St, Falmouth, MA 02540",
-          "phone": "+1-508-548-5600",
-          "phoneDisplay": "(508) 548-5600",
-          "website": "https://www.lacucinasulmare.com/",
-          "booking": null,
-          "lat": 41.55206,
-          "lng": -70.615791,
-          "schemaType": "Restaurant",
-          "facts": [
-            "237 Main St, Falmouth, MA 02540",
-            "(508) 548-5600",
-            "Hours as published: Mon 4–10 PM; Tue–Sat 11:30 AM–10 PM; Sun 10:30 AM–10 PM (check before you go)"
-          ],
-          "sources": [
-            "Restaurant Exchange Falmouth restaurant list (Oct 2026)",
-            "https://www.lacucinasulmare.com/contact-us",
-            "https://web.falmouthchamber.com/Restaurants-Pubs"
-          ]
-        },
-        {
-          "id": "osteria-la-civetta",
-          "name": "Osteria La Civetta",
-          "featured": false,
-          "placeholder": false,
-          "subcategory": "Italian",
-          "summary": "Italian in Falmouth Village. Family-run Italian osteria with handmade pasta on Main Street. Call or check the restaurant's own site for hours and the current menu.",
-          "address": "133 Main St, Falmouth, MA 02540",
-          "phone": "+1-508-540-1616",
-          "phoneDisplay": "(508) 540-1616",
-          "website": "https://www.osterialacivetta.com/",
-          "booking": null,
-          "lat": 41.552917,
-          "lng": -70.617934,
-          "schemaType": "Restaurant",
-          "facts": [
-            "133 Main St, Falmouth, MA 02540",
-            "(508) 540-1616",
-            "Hours as published: Wed–Thu 4–8 PM; Fri–Sat 12–8:30 PM; Sun 4–8 PM; closed Mon–Tue (check before you go)"
-          ],
-          "sources": [
-            "Restaurant Exchange Falmouth restaurant list (Oct 2026)",
-            "https://www.osterialacivetta.com/contact-2",
-            "https://www.openstreetmap.org/way/213076629"
-          ]
-        },
-        {
           "id": "romeo-s",
           "name": "Romeo's",
           "featured": false,
@@ -994,83 +1315,6 @@
           "sources": [
             "Restaurant Exchange Falmouth restaurant list (Oct 2026)",
             "https://romeosfalmouth.com/",
-            "https://web.falmouthchamber.com/Restaurants-Pubs"
-          ]
-        },
-        {
-          "id": "tiger-ramen",
-          "name": "Tiger Ramen",
-          "featured": false,
-          "placeholder": false,
-          "subcategory": "Japanese",
-          "summary": "Japanese in Falmouth Village. Ramen and Japanese small plates. Call or check the restaurant's own site for hours and the current menu.",
-          "address": "587 Main St, Falmouth, MA 02540",
-          "phone": "+1-774-392-6621",
-          "phoneDisplay": "(774) 392-6621",
-          "website": "https://www.tigerramencapecod.com/",
-          "booking": null,
-          "lat": 41.552256,
-          "lng": -70.606776,
-          "schemaType": "Restaurant",
-          "facts": [
-            "587 Main St, Falmouth, MA 02540",
-            "(774) 392-6621"
-          ],
-          "sources": [
-            "Restaurant Exchange Falmouth restaurant list (Oct 2026)",
-            "https://www.tigerramencapecod.com/",
-            "https://www.openstreetmap.org/node/13112512540"
-          ]
-        },
-        {
-          "id": "asti",
-          "name": "Asti",
-          "featured": false,
-          "placeholder": false,
-          "subcategory": "Mediterranean",
-          "summary": "Mediterranean in Falmouth Village. Main Street spot for Greek-Mediterranean plates and pizza. Call or check the restaurant's own site for hours and the current menu.",
-          "address": "117 Main St, Falmouth, MA 02540",
-          "phone": "+1-508-548-3300",
-          "phoneDisplay": "(508) 548-3300",
-          "website": "",
-          "booking": null,
-          "lat": 41.553137,
-          "lng": -70.618231,
-          "schemaType": "Restaurant",
-          "facts": [
-            "117 Main St, Falmouth, MA 02540",
-            "(508) 548-3300",
-            "Hours as published: Mon–Thu 11:30 AM–8 PM; Fri–Sat 11:30 AM–9 PM; Sun 11:30 AM–8 PM (check before you go)"
-          ],
-          "sources": [
-            "Restaurant Exchange Falmouth restaurant list (Oct 2026)",
-            "https://web.falmouthchamber.com/Restaurants-Pubs",
-            "https://www.openstreetmap.org/way/213076974"
-          ]
-        },
-        {
-          "id": "anejo-mexican-bistro",
-          "name": "Añejo Mexican Bistro",
-          "featured": false,
-          "placeholder": false,
-          "subcategory": "Mexican",
-          "summary": "Mexican in Falmouth Village. Mexican bistro and tequila bar on Main Street. Call or check the restaurant's own site for hours and the current menu.",
-          "address": "188 Main St, Falmouth, MA 02540",
-          "phone": "+1-508-388-7631",
-          "phoneDisplay": "(508) 388-7631",
-          "website": "https://www.anejo.cc/falmouth",
-          "booking": null,
-          "lat": 41.552576,
-          "lng": -70.616772,
-          "schemaType": "Restaurant",
-          "facts": [
-            "188 Main St, Falmouth, MA 02540",
-            "(508) 388-7631",
-            "Hours as published: Mon–Sat 11:30 AM–11 PM; Sun 10:30 AM–11 PM (check before you go)"
-          ],
-          "sources": [
-            "Restaurant Exchange Falmouth restaurant list (Oct 2026)",
-            "https://www.anejo.cc/falmouth",
             "https://web.falmouthchamber.com/Restaurants-Pubs"
           ]
         },
@@ -1127,56 +1371,6 @@
           ]
         },
         {
-          "id": "taco-blanco",
-          "name": "Taco Blanco",
-          "featured": false,
-          "placeholder": false,
-          "subcategory": "Mexican",
-          "summary": "Mexican in Falmouth Village. Tacos, burritos and bowls on east Main Street. Call or check the restaurant's own site for hours and the current menu.",
-          "address": "870 Main St, Falmouth, MA 02540",
-          "phone": "+1-508-540-8226",
-          "phoneDisplay": "(508) 540-8226",
-          "website": "https://www.tacoblanco.cc/",
-          "booking": null,
-          "lat": 41.555689,
-          "lng": -70.600618,
-          "schemaType": "Restaurant",
-          "facts": [
-            "870 Main St, Falmouth, MA 02540",
-            "(508) 540-8226",
-            "Hours as published: Daily 11:30 AM–9 PM (check before you go)"
-          ],
-          "sources": [
-            "Restaurant Exchange Falmouth restaurant list (Oct 2026)",
-            "https://www.tacoblanco.cc/contact",
-            "https://www.openstreetmap.org/node/14099858504"
-          ]
-        },
-        {
-          "id": "the-glass-onion",
-          "name": "The Glass Onion",
-          "featured": false,
-          "placeholder": false,
-          "subcategory": "New American",
-          "summary": "New American in Falmouth Village. Chef-driven New American dinner spot. Call or check the restaurant's own site for hours and the current menu.",
-          "address": "37 N Main St, Falmouth, MA 02540",
-          "phone": null,
-          "phoneDisplay": null,
-          "website": "",
-          "booking": null,
-          "lat": 41.555608,
-          "lng": -70.621578,
-          "schemaType": "Restaurant",
-          "facts": [
-            "37 N Main St, Falmouth, MA 02540",
-            "Hours as published: Tue–Sat 5–9 PM (check before you go)"
-          ],
-          "sources": [
-            "Restaurant Exchange Falmouth restaurant list (Oct 2026)",
-            "https://www.yelp.com/biz/the-glass-onion-falmouth"
-          ]
-        },
-        {
           "id": "water-street-kitchen",
           "name": "Water Street Kitchen",
           "featured": false,
@@ -1200,57 +1394,6 @@
             "Restaurant Exchange Falmouth restaurant list (Oct 2026)",
             "https://www.waterstreetkitchen.com/",
             "https://www.openstreetmap.org/node/4335874553"
-          ]
-        },
-        {
-          "id": "jack-s-restaurant-and-bar",
-          "name": "Jack's Restaurant & Bar",
-          "featured": false,
-          "placeholder": false,
-          "subcategory": "Pizza",
-          "summary": "Pizza in Falmouth Village. Neighborhood restaurant and bar known for pizza. Call or check the restaurant's own site for hours and the current menu.",
-          "address": "327 Gifford St, Falmouth, MA 02540",
-          "phone": "+1-508-540-5225",
-          "phoneDisplay": "(508) 540-5225",
-          "website": "https://www.jacksrestaurantfalmouth.com/",
-          "booking": null,
-          "lat": 41.561662,
-          "lng": -70.609623,
-          "schemaType": "Restaurant",
-          "facts": [
-            "327 Gifford St, Falmouth, MA 02540",
-            "(508) 540-5225",
-            "Hours as published: Tue–Thu 4–9 PM; Fri–Sat 4–10 PM; closed Sun–Mon (check before you go)"
-          ],
-          "sources": [
-            "Restaurant Exchange Falmouth restaurant list (Oct 2026)",
-            "https://www.jacksrestaurantfalmouth.com/",
-            "https://web.falmouthchamber.com/Restaurants-Pubs"
-          ]
-        },
-        {
-          "id": "little-rossa",
-          "name": "Little Rossa",
-          "featured": false,
-          "placeholder": false,
-          "subcategory": "Pizza",
-          "summary": "Pizza in Falmouth Village. Pizzeria and espresso bar (formerly Simply Divine Pizza Co.). Call or check the restaurant's own site for hours and the current menu.",
-          "address": "261 Main St, Falmouth, MA 02540",
-          "phone": "+1-508-548-1222",
-          "phoneDisplay": "(508) 548-1222",
-          "website": "https://littlerossa.com/",
-          "booking": null,
-          "lat": 41.55202,
-          "lng": -70.61489,
-          "schemaType": "Restaurant",
-          "facts": [
-            "261 Main St, Falmouth, MA 02540",
-            "(508) 548-1222"
-          ],
-          "sources": [
-            "Restaurant Exchange Falmouth restaurant list (Oct 2026)",
-            "https://littlerossa.com/",
-            "https://www.divinepizza.com/"
           ]
         },
         {
@@ -1356,31 +1499,6 @@
           ]
         },
         {
-          "id": "steve-s-pizzeria-and-more",
-          "name": "Steve's Pizzeria & More",
-          "featured": false,
-          "placeholder": false,
-          "subcategory": "Pizza",
-          "summary": "Pizza in Falmouth Village. Counter-service pizza and grinders for dine-in, takeout or delivery. Call or check the restaurant's own site for hours and the current menu.",
-          "address": "374 Main St, Falmouth, MA 02540",
-          "phone": "+1-508-457-9454",
-          "phoneDisplay": "(508) 457-9454",
-          "website": "http://www.stevespizzeriaandmore.com/",
-          "booking": null,
-          "lat": 41.552289,
-          "lng": -70.612017,
-          "schemaType": "Restaurant",
-          "facts": [
-            "374 Main St, Falmouth, MA 02540",
-            "(508) 457-9454"
-          ],
-          "sources": [
-            "Restaurant Exchange Falmouth restaurant list (Oct 2026)",
-            "https://web.falmouthchamber.com/Restaurants-Pubs",
-            "https://www.openstreetmap.org/node/4365799322"
-          ]
-        },
-        {
           "id": "supreme-pizza",
           "name": "Supreme Pizza",
           "featured": false,
@@ -1441,7 +1559,7 @@
           "address": "311 Gifford St, Falmouth, MA 02540",
           "phone": "+1-508-548-2300",
           "phoneDisplay": "(508) 548-2300",
-          "website": "https://elis-tavern.squarespace.com/",
+          "website": null,
           "booking": null,
           "lat": 41.560859,
           "lng": -70.609134,
@@ -1455,32 +1573,9 @@
             "Restaurant Exchange Falmouth restaurant list (Oct 2026)",
             "https://elis-tavern.squarespace.com/",
             "https://web.falmouthchamber.com/Restaurants-Pubs"
-          ]
-        },
-        {
-          "id": "liam-maguire-s-irish-pub",
-          "name": "Liam Maguire's Irish Pub",
-          "featured": false,
-          "placeholder": false,
-          "subcategory": "Pub",
-          "summary": "Pub in Falmouth Village. Irish pub and restaurant with live music on Main Street. Call or check the restaurant's own site for hours and the current menu.",
-          "address": "273 Main St, Falmouth, MA 02540",
-          "phone": "+1-508-548-0285",
-          "phoneDisplay": "(508) 548-0285",
-          "website": "https://liammaguire.com/",
-          "booking": null,
-          "lat": 41.552012,
-          "lng": -70.614664,
-          "schemaType": "Restaurant",
-          "facts": [
-            "273 Main St, Falmouth, MA 02540",
-            "(508) 548-0285",
-            "Hours as published: Tue–Sat 11:30 AM–1 AM; Sun 12 PM–1 AM; closed Mon (check before you go)"
           ],
-          "sources": [
-            "Restaurant Exchange Falmouth restaurant list (Oct 2026)",
-            "https://liammaguire.com/contact",
-            "https://web.falmouthchamber.com/Restaurants-Pubs"
+          "notes": [
+            "2026-10-29: website https://elis-tavern.squarespace.com/ unreachable (404/expired certificate/server error); link removed, phone kept."
           ]
         },
         {
@@ -1643,7 +1738,7 @@
           "address": "East Falmouth Highway, East Falmouth, MA 02536",
           "phone": "+1-508-548-2573",
           "phoneDisplay": "(508) 548-2573",
-          "website": "https://www.greenpondfish.com/",
+          "website": null,
           "booking": null,
           "lat": 41.577054,
           "lng": -70.5475,
@@ -1657,6 +1752,9 @@
             "Restaurant Exchange Falmouth restaurant list (Oct 2026)",
             "https://www.greenpondfish.com/",
             "https://www.openstreetmap.org/node/2971984495"
+          ],
+          "notes": [
+            "2026-10-29: website https://www.greenpondfish.com/ unreachable (404/expired certificate/server error); link removed, phone kept."
           ]
         },
         {
@@ -1840,31 +1938,6 @@
           ]
         },
         {
-          "id": "the-quarterdeck-restaurant",
-          "name": "The Quarterdeck Restaurant",
-          "featured": false,
-          "placeholder": false,
-          "subcategory": "Seafood",
-          "summary": "Seafood in Falmouth Village. Long-running Main Street restaurant and bar serving seafood and American fare. Call or check the restaurant's own site for hours and the current menu.",
-          "address": "164 Main St, Falmouth, MA 02540",
-          "phone": "+1-508-548-9900",
-          "phoneDisplay": "(508) 548-9900",
-          "website": "",
-          "booking": null,
-          "lat": 41.552783,
-          "lng": -70.617198,
-          "schemaType": "Restaurant",
-          "facts": [
-            "164 Main St, Falmouth, MA 02540",
-            "(508) 548-9900"
-          ],
-          "sources": [
-            "Restaurant Exchange Falmouth restaurant list (Oct 2026)",
-            "https://web.falmouthchamber.com/Restaurants-Pubs",
-            "https://www.yelp.com/biz/the-quarterdeck-restaurant-falmouth"
-          ]
-        },
-        {
           "id": "the-wharf-restaurant-and-bar",
           "name": "The Wharf Restaurant & Bar",
           "featured": false,
@@ -1874,7 +1947,7 @@
           "address": "286 Grand Ave, Falmouth, MA 02540",
           "phone": "+1-508-548-7800",
           "phoneDisplay": "(508) 548-7800",
-          "website": "https://www.thewharffalmouth.com/",
+          "website": null,
           "booking": null,
           "lat": 41.544682,
           "lng": -70.597524,
@@ -1888,6 +1961,9 @@
             "Restaurant Exchange Falmouth restaurant list (Oct 2026)",
             "https://www.thewharffalmouth.com/",
             "https://web.falmouthchamber.com/Restaurants-Pubs"
+          ],
+          "notes": [
+            "2026-10-29: website https://www.thewharffalmouth.com/ unreachable (404/expired certificate/server error); link removed, phone kept."
           ]
         },
         {
@@ -1922,13 +1998,424 @@
           "featured": false,
           "placeholder": true,
           "subcategory": "Food truck",
-          "summary": "Sample slot. No truck, corner, or schedule is invented.",
+          "summary": "Featured spot available to one local business in this category.",
           "address": null,
           "phone": null,
           "website": null,
           "booking": null,
           "lat": null,
           "lng": null
+        }
+      ]
+    },
+    {
+      "slug": "bookstore",
+      "short": "Bookstore",
+      "nav": "Books and a quiet hour",
+      "title": "Falmouth MA Bookstore | Mind",
+      "h1": "Falmouth MA bookstore",
+      "description": "Falmouth MA bookstore. Eight Cousins Books, 199 Main Street, is on the walking map. The Main Street dot is approximate.",
+      "intro": [
+        "Eight Cousins Books is at 199 Main Street. The phone published with this pin is 508-548-5548, and the website is eightcousins.com.",
+        "Eight Cousins is on Main Street in the village, a short walk from the library and the Village Green. Call ahead for current hours."
+      ],
+      "tips": [
+        "Ask whether the shop hosts readings, or is simply a place to browse.",
+        "A listing without a confirmed address does not get a numbered pin.",
+        "Winter hours are the shop's to publish. We will not guess them."
+      ],
+      "related": [
+        "community",
+        "food",
+        "beauty"
+      ],
+      "listings": [
+        {
+          "id": "eight-cousins",
+          "name": "Eight Cousins Books",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Bookstore",
+          "summary": "Bookstore at 199 Main Street. Phone 508-548-5548. Website eightcousins.com. The map dot is interpolated along Main Street, so it is approximate. Hours are not listed until the shop confirms them.",
+          "address": "199 Main Street, Falmouth, MA",
+          "phone": "+1-508-548-5548",
+          "website": "https://eightcousins.com",
+          "booking": null,
+          "lat": 41.55223,
+          "lng": -70.616636,
+          "schemaType": "LocalBusiness",
+          "facts": [
+            "199 Main Street, Falmouth",
+            "508-548-5548",
+            "eightcousins.com"
+          ],
+          "phoneDisplay": "508-548-5548",
+          "approximate": true,
+          "websiteLabel": "eightcousins.com",
+          "district": "main-street"
+        }
+      ]
+    },
+    {
+      "slug": "antiques",
+      "short": "Antiques & Vintage",
+      "nav": "Antiques and vintage",
+      "title": "Falmouth MA Antiques & Vintage | Soul",
+      "h1": "Falmouth MA antiques and vintage",
+      "description": "Falmouth MA antiques and vintage. Jacqueline's Gifts & Antiques, 17 Walker Street, is on the walking map.",
+      "intro": [
+        "Jacqueline's Gifts & Antiques is at 17 Walker Street, on the walking map.",
+        "Jacqueline's is on Walker Street, just off Main Street. Call ahead for current hours."
+      ],
+      "tips": [
+        "Ask what the shop actually sells. Antiques and vintage are not the same promise.",
+        "A listing without a confirmed address does not get a numbered pin.",
+        "Call for hours. A quarterly page goes stale if we invent them."
+      ],
+      "related": [
+        "beauty",
+        "community",
+        "hotels"
+      ],
+      "listings": [
+        {
+          "id": "jacquelines-gifts",
+          "name": "Jacqueline's Gifts & Antiques",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Antiques and vintage",
+          "summary": "Antiques and gifts at 17 Walker Street, on the walking map. Hours and a phone number are not listed until the shop confirms them.",
+          "address": "17 Walker Street, Falmouth, MA",
+          "phone": "+1-508-548-4648",
+          "website": null,
+          "booking": null,
+          "lat": 41.55179,
+          "lng": -70.616636,
+          "schemaType": "LocalBusiness",
+          "facts": [
+            "17 Walker Street, Falmouth, MA",
+            "(508) 548-4648"
+          ],
+          "sources": [
+            "Shop's Facebook page (via globuya.com) and Loc8NearMe listing, checked Oct 28, 2026",
+            "Falmouth business listings (exa.ai place record, loc8nearme), checked Oct 29, 2026"
+          ],
+          "phoneDisplay": "(508) 548-4648",
+          "district": "main-street"
+        }
+      ]
+    },
+    {
+      "slug": "florist",
+      "short": "Florist",
+      "nav": "Flowers on Main Street",
+      "title": "Falmouth MA Florist | The Salty Florist & More",
+      "h1": "Falmouth MA florist",
+      "description": "The Salty Florist & More, 362 Main Street, on the Falmouth walking map. The Main Street dot is approximate.",
+      "intro": [
+        "The Salty Florist & More is at 362 Main Street.",
+        "The Salty Florist is on Main Street in the village. Call the shop or order on its website."
+      ],
+      "tips": [
+        "Ask what is available that day. A quarterly page cannot keep a cooler list.",
+        "Call the shop for hours. None are printed here."
+      ],
+      "related": [
+        "antiques",
+        "bookstore",
+        "food"
+      ],
+      "listings": [
+        {
+          "id": "salty-florist",
+          "name": "The Salty Florist & More",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Florist",
+          "summary": "Florist at 362 Main Street, on the walking map. The map dot is interpolated along Main Street, so it is approximate. Hours and a phone number are not listed until the shop confirms them.",
+          "address": "362 Main Street, Falmouth, MA",
+          "phone": "+1-774-255-1793",
+          "website": "https://www.thesaltyflorist.com/",
+          "booking": null,
+          "lat": 41.552251,
+          "lng": -70.612338,
+          "schemaType": "LocalBusiness",
+          "facts": [
+            "362 Main Street, Falmouth, MA",
+            "(774) 255-1793"
+          ],
+          "approximate": true,
+          "phoneDisplay": "(774) 255-1793",
+          "sources": [
+            "thesaltyflorist.com, checked Oct 29, 2026"
+          ],
+          "district": "main-street"
+        }
+      ]
+    },
+    {
+      "slug": "bakery",
+      "short": "Bakery",
+      "nav": "A bakery on Main Street",
+      "title": "Falmouth MA Bakery | Maison Villatte",
+      "h1": "Falmouth MA bakery",
+      "description": "Maison Villatte, 267 Main Street, on the Falmouth walking map. The Main Street dot is approximate.",
+      "intro": [
+        "Maison Villatte is at 267 Main Street.",
+        "Maison Villatte is on Main Street in the village. Call ahead to ask what is in the case today."
+      ],
+      "tips": [
+        "Café Grounded is nearby at 281 Main Street. The two pins are pulled apart on the map so both names fit.",
+        "Ask what is sold out before you walk over. This page does not publish a menu."
+      ],
+      "related": [
+        "food",
+        "local-market",
+        "bookstore"
+      ],
+      "listings": [
+        {
+          "id": "maison-villatte",
+          "name": "Maison Villatte",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Bakery",
+          "summary": "Bakery at 267 Main Street, on the walking map. The map dot is interpolated along Main Street, so it is approximate. Hours are not listed until the bakery confirms them.",
+          "address": "267 Main Street, Falmouth, MA",
+          "phone": "+1-774-255-1855",
+          "website": null,
+          "booking": null,
+          "lat": 41.552029,
+          "lng": -70.614537,
+          "schemaType": "LocalBusiness",
+          "facts": [
+            "267 Main Street, Falmouth, MA",
+            "(774) 255-1855"
+          ],
+          "approximate": true,
+          "phoneDisplay": "(774) 255-1855",
+          "sources": [
+            "Falmouth Chamber of Commerce member directory (web.falmouthchamber.com), checked Oct 29, 2026"
+          ],
+          "district": "main-street"
+        }
+      ]
+    },
+    {
+      "slug": "beauty",
+      "short": "Beauty",
+      "nav": "Tanning, hair, and nails",
+      "title": "Falmouth MA Beauty | Tanning, Hair & Nails",
+      "h1": "Falmouth MA beauty: tanning, hair, and nails",
+      "description": "Falmouth MA beauty directory: Tanorama, Bellezza Salon Medspa, Spa & Nails and more on Main Street, with phone numbers and websites.",
+      "intro": [
+        "Tanorama is the featured tanning salon at 365 Main Street. Owner Scott has kept it on Main Street for nearly three decades. A phone, a website, and hours are not shown, because Tanorama has not confirmed them for this directory.",
+        "Bellezza Salon Medspa is at 221 Main Street, and Spa & Nails is at 669 Main Street. Call each salon for services and prices."
+      ],
+      "tips": [
+        "Call the salon for hours. We do not print a guessed closing time.",
+        "Ask what a first visit includes before you book.",
+        "Tanorama, on Main Street for nearly three decades, is the featured beauty business in the Winter 2027 issue."
+      ],
+      "related": [
+        "spa-recovery",
+        "fitness",
+        "food"
+      ],
+      "listings": [
+        {
+          "id": "tanorama",
+          "name": "Tanorama",
+          "featured": true,
+          "placeholder": false,
+          "subcategory": "Tanning",
+          "summary": "Tanning salon at 365 Main Street, Falmouth: tanning beds, stand-ups, spray tan and red-light, plus a boutique. Owner Scott. Nearly three decades on Main Street. The map dot is approximate along Main Street. Call for hours and current services.",
+          "address": "365 Main Street, Falmouth, MA",
+          "phone": "+1-508-495-9905",
+          "website": "https://www.tanoramafalmouth.net/",
+          "booking": null,
+          "lat": 41.552083,
+          "lng": -70.612413,
+          "schemaType": "LocalBusiness",
+          "facts": [
+            "365 Main Street, Falmouth",
+            "Owner: Scott",
+            "Nearly three decades on Main Street"
+          ],
+          "approximate": true,
+          "phoneDisplay": "(508) 495-9905",
+          "sources": [
+            "Local Wellness Maps Falmouth directory (platinum00001/local-wellness-maps, Oct 26, 2026)"
+          ],
+          "district": "main-street"
+        },
+        {
+          "id": "bellezza-salon",
+          "name": "Bellezza Salon Medspa",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Hair salon",
+          "summary": "Hair salon on the walking map at 221 Main Street. The map dot is interpolated along Main Street, so it is approximate. Hours and services are not listed until the salon confirms them.",
+          "address": "221 Main Street, Falmouth, MA",
+          "phone": "+1-508-299-8300",
+          "website": "https://spabellezza.com/",
+          "booking": null,
+          "lat": 41.551936,
+          "lng": -70.616116,
+          "schemaType": "LocalBusiness",
+          "facts": [
+            "221 Main Street"
+          ],
+          "approximate": true,
+          "phoneDisplay": "(508) 299-8300",
+          "sources": [
+            "Local Wellness Maps Falmouth directory (platinum00001/local-wellness-maps, Oct 26, 2026)"
+          ],
+          "district": "main-street"
+        },
+        {
+          "id": "spa-and-nails",
+          "name": "Spa & Nails",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Nail salon",
+          "summary": "Nail salon on the walking map at 669 Main Street. The map dot is interpolated along Main Street, so it is approximate. Hours and services are not listed until the salon confirms them.",
+          "address": "669 Main Street, Falmouth, MA",
+          "phone": "+1-508-495-0861",
+          "website": null,
+          "booking": null,
+          "lat": 41.552693,
+          "lng": -70.604668,
+          "schemaType": "LocalBusiness",
+          "facts": [
+            "669 Main Street, Falmouth, MA",
+            "(508) 495-0861"
+          ],
+          "approximate": true,
+          "phoneDisplay": "(508) 495-0861",
+          "sources": [
+            "Falmouth business listings (bestprosintown, conprofi), checked Oct 29, 2026"
+          ],
+          "district": "main-street"
+        },
+        {
+          "id": "cape-cod-medispa",
+          "name": "Cape Cod MediSpa (Cape Cod Aesthetics)",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Medical aesthetics",
+          "summary": "Medical aesthetics and skin care, 352 Main Street, Unit 6, Falmouth. Call or check the business's own site for hours and services.",
+          "address": "352 Main Street, Unit 6, Falmouth, MA 02540",
+          "phone": "+1-508-680-7004",
+          "phoneDisplay": "(508) 680-7004",
+          "website": "https://www.capecodaesthetics.com/",
+          "booking": null,
+          "lat": 41.552248,
+          "lng": -70.612404,
+          "schemaType": "LocalBusiness",
+          "facts": [
+            "352 Main Street, Unit 6, Falmouth, MA 02540",
+            "(508) 680-7004"
+          ],
+          "sources": [
+            "Local Wellness Maps Falmouth directory (platinum00001/local-wellness-maps, Oct 26, 2026)"
+          ],
+          "approximate": true,
+          "district": "main-street"
+        },
+        {
+          "id": "headlines-salon-and-day-spa",
+          "name": "Headlines Salon and Day Spa",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Salon & day spa",
+          "summary": "Hair salon and day spa, 218 Main Street, Falmouth. Call or check the business's own site for hours and services.",
+          "address": "218 Main Street, Falmouth, MA 02540",
+          "phone": "+1-508-457-1100",
+          "phoneDisplay": "(508) 457-1100",
+          "website": "https://www.headlinessalonanddayspa.com/",
+          "booking": null,
+          "lat": 41.552029,
+          "lng": -70.61466,
+          "schemaType": "LocalBusiness",
+          "facts": [
+            "218 Main Street, Falmouth, MA 02540",
+            "(508) 457-1100"
+          ],
+          "sources": [
+            "Local Wellness Maps Falmouth directory (platinum00001/local-wellness-maps, Oct 26, 2026)"
+          ],
+          "approximate": true,
+          "district": "main-street"
+        },
+        {
+          "id": "glow-by-the-sea",
+          "name": "Glow By The Sea",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Skin care",
+          "summary": "Skin care and massage, 8 Alphonse Street, Falmouth. Call or check the business's own site for hours and services.",
+          "address": "8 Alphonse Street, Falmouth, MA",
+          "phone": "+1-781-561-8150",
+          "phoneDisplay": "(781) 561-8150",
+          "website": "https://glowbeautybythesea.com",
+          "booking": null,
+          "lat": 41.567947,
+          "lng": -70.594149,
+          "schemaType": "LocalBusiness",
+          "facts": [
+            "8 Alphonse Street, Falmouth, MA",
+            "(781) 561-8150"
+          ],
+          "sources": [
+            "Local Wellness Maps Falmouth directory (platinum00001/local-wellness-maps, Oct 26, 2026)"
+          ]
+        },
+        {
+          "id": "k-nails-and-spa",
+          "name": "K Nails & Spa",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Nails",
+          "summary": "Nail salon, 6 Alphonse Street, Falmouth. Call or check the business's own site for hours and services.",
+          "address": "6 Alphonse Street, Falmouth, MA",
+          "phone": "+1-508-388-7171",
+          "phoneDisplay": "(508) 388-7171",
+          "website": "https://knailsfalmouth.com",
+          "booking": null,
+          "lat": 41.567991,
+          "lng": -70.594306,
+          "schemaType": "LocalBusiness",
+          "facts": [
+            "6 Alphonse Street, Falmouth, MA",
+            "(508) 388-7171"
+          ],
+          "sources": [
+            "Local Wellness Maps Falmouth directory (platinum00001/local-wellness-maps, Oct 26, 2026)"
+          ]
+        },
+        {
+          "id": "sl-sprays",
+          "name": "SL Sprays (Falmouth)",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Spray tanning",
+          "summary": "Spray tanning studio, 13 Falmouth Heights Road, Unit 6, Falmouth. Call or check the business's own site for hours and services.",
+          "address": "13 Falmouth Heights Road, Unit 6, Falmouth, MA 02536",
+          "phone": "+1-508-403-0050",
+          "phoneDisplay": "(508) 403-0050",
+          "website": "https://www.slsprays.com/",
+          "booking": null,
+          "lat": 41.55415,
+          "lng": -70.600306,
+          "schemaType": "LocalBusiness",
+          "facts": [
+            "13 Falmouth Heights Road, Unit 6, Falmouth, MA 02536",
+            "(508) 403-0050"
+          ],
+          "sources": [
+            "Local Wellness Maps Falmouth directory (platinum00001/local-wellness-maps, Oct 26, 2026)"
+          ]
         }
       ]
     },
@@ -1941,7 +2428,7 @@
       "description": "Falmouth MA fitness directory. rooted Hot Yoga and Fitness Directions are on the walking map. The gym and personal-trainer cards stay open.",
       "intro": [
         "A gym, a yoga class, and a session with a trainer are different promises. This page will feature one confirmed business in each, with a button that goes to that business.",
-        "rooted Hot Yoga is on the walking map at 80 Davis Straits. Fitness Directions, a pilates studio, is at 27 Falmouth Heights Road. Class times and prices are not guessed. The gym and personal-trainer cards are still sample slots."
+        "rooted Hot Yoga is on the walking map at 80 Davis Straits, and Fitness Directions, a Pilates studio, is at 27 Falmouth Heights Road. Check each studio's website for class times. Featured gym and trainer spots are open to partners."
       ],
       "tips": [
         "Ask what a first visit includes and whether you can pay for one class before a membership.",
@@ -1955,18 +2442,28 @@
       ],
       "listings": [
         {
-          "id": "featured-gym",
-          "name": "Featured Gym (your business here)",
+          "id": "sweat-studio-cape-cod",
+          "name": "SWEAT Studio Cape Cod",
           "featured": false,
-          "placeholder": true,
-          "subcategory": "Gym",
-          "summary": "Sample slot. No gym is named.",
-          "address": null,
-          "phone": null,
-          "website": null,
+          "placeholder": false,
+          "subcategory": "Fitness studio",
+          "summary": "Group fitness studio, 661 Main Street, Falmouth. Call or check the business's own site for hours and services.",
+          "address": "661 Main Street, Falmouth, MA 02540",
+          "phone": "+1-774-392-2686",
+          "phoneDisplay": "(774) 392-2686",
+          "website": "https://www.sweatstudiocapecod.fitness/",
           "booking": null,
-          "lat": null,
-          "lng": null
+          "lat": 41.552128,
+          "lng": -70.604851,
+          "schemaType": "LocalBusiness",
+          "facts": [
+            "661 Main Street, Falmouth, MA 02540",
+            "(774) 392-2686"
+          ],
+          "sources": [
+            "Local Wellness Maps Falmouth directory (platinum00001/local-wellness-maps, Oct 26, 2026)"
+          ],
+          "district": "main-street"
         },
         {
           "id": "rooted-hot-yoga",
@@ -1975,30 +2472,21 @@
           "placeholder": false,
           "subcategory": "Yoga",
           "summary": "Yoga studio on the walking map at 80 Davis Straits. Class times are not listed until the studio confirms them.",
-          "address": "80 Davis Straits, Falmouth, MA",
-          "phone": null,
-          "website": null,
+          "address": "80 Davis Straits, Unit 103, Falmouth, MA 02540",
+          "phone": "+1-508-314-6073",
+          "website": "https://www.rootedhotyogafalmouth.com/",
           "booking": null,
           "lat": 41.559296,
           "lng": -70.600074,
           "schemaType": "LocalBusiness",
           "facts": [
-            "80 Davis Straits"
+            "80 Davis Straits, Unit 103, Falmouth, MA 02540",
+            "(508) 314-6073"
+          ],
+          "phoneDisplay": "(508) 314-6073",
+          "sources": [
+            "rootedhotyogafalmouth.com, checked Oct 29, 2026"
           ]
-        },
-        {
-          "id": "featured-trainer",
-          "name": "Featured Personal Trainer (your business here)",
-          "featured": false,
-          "placeholder": true,
-          "subcategory": "Personal training",
-          "summary": "Sample slot. No trainer is named.",
-          "address": null,
-          "phone": null,
-          "website": null,
-          "booking": null,
-          "lat": null,
-          "lng": null
         },
         {
           "id": "fitness-directions",
@@ -2034,17 +2522,17 @@
           "phoneDisplay": "(774) 643-5438",
           "website": "https://www.liftaerialyogaloft.com/",
           "booking": null,
-          "lat": null,
-          "lng": null,
+          "lat": 41.627222,
+          "lng": -70.541851,
           "schemaType": "LocalBusiness",
           "facts": [
             "95 Club Valley Dr, East Falmouth, MA 02536",
             "(774) 643-5438"
           ],
           "sources": [
-            "Local Wellness Maps Falmouth directory (platinum00001/local-wellness-maps, Oct 26, 2026)"
+            "Local Wellness Maps Falmouth directory (platinum00001/local-wellness-maps, Oct 26, 2026)",
+            "Geocoded Oct 29, 2026: Nominatim/OpenStreetMap and U.S. Census geocoder both match 95 Club Valley Dr, East Falmouth"
           ],
-          "geoNote": "No map pin: the address did not match OpenStreetMap.",
           "town": "East Falmouth"
         },
         {
@@ -2102,18 +2590,20 @@
           "subcategory": "Pilates",
           "summary": "Pilates studio, 24 Spring Bars Road, Suite B-100, Falmouth. Call or check the business's own site for hours and services.",
           "address": "24 Spring Bars Road, Suite B-100, Falmouth, MA",
-          "phone": null,
-          "phoneDisplay": null,
+          "phone": "+1-646-207-1719",
+          "phoneDisplay": "(646) 207-1719",
           "website": "https://falmouthpilates.com/",
           "booking": null,
           "lat": 41.55808,
           "lng": -70.59808,
           "schemaType": "LocalBusiness",
           "facts": [
-            "24 Spring Bars Road, Suite B-100, Falmouth, MA"
+            "24 Spring Bars Road, Suite B-100, Falmouth, MA",
+            "(646) 207-1719"
           ],
           "sources": [
-            "Local Wellness Maps Falmouth directory (platinum00001/local-wellness-maps, Oct 26, 2026)"
+            "Local Wellness Maps Falmouth directory (platinum00001/local-wellness-maps, Oct 26, 2026)",
+            "falmouthpilates.com, checked Oct 29, 2026"
           ]
         },
         {
@@ -2126,7 +2616,7 @@
           "address": "33 Highfield Drive, Falmouth, MA 02540",
           "phone": "+1-508-548-7384",
           "phoneDisplay": "(508) 548-7384",
-          "website": "https://falmouthsportscenter.com/",
+          "website": null,
           "booking": null,
           "lat": 41.557928,
           "lng": -70.625179,
@@ -2137,29 +2627,9 @@
           ],
           "sources": [
             "Local Wellness Maps Falmouth directory (platinum00001/local-wellness-maps, Oct 26, 2026)"
-          ]
-        },
-        {
-          "id": "sweat-studio-cape-cod",
-          "name": "SWEAT Studio Cape Cod",
-          "featured": false,
-          "placeholder": false,
-          "subcategory": "Fitness studio",
-          "summary": "Group fitness studio, 661 Main Street, Falmouth. Call or check the business's own site for hours and services.",
-          "address": "661 Main Street, Falmouth, MA 02540",
-          "phone": "+1-774-392-2686",
-          "phoneDisplay": "(774) 392-2686",
-          "website": "https://www.sweatstudiocapecod.fitness/",
-          "booking": null,
-          "lat": 41.552128,
-          "lng": -70.604851,
-          "schemaType": "LocalBusiness",
-          "facts": [
-            "661 Main Street, Falmouth, MA 02540",
-            "(774) 392-2686"
           ],
-          "sources": [
-            "Local Wellness Maps Falmouth directory (platinum00001/local-wellness-maps, Oct 26, 2026)"
+          "notes": [
+            "2026-10-29: website https://falmouthsportscenter.com/ unreachable (404/expired certificate/server error); link removed, phone kept."
           ]
         },
         {
@@ -2170,385 +2640,29 @@
           "subcategory": "Pilates",
           "summary": "Private Pilates, by appointment, 417 Palmer Avenue, Unit 3, Falmouth. Call or check the business's own site for hours and services.",
           "address": "417 Palmer Avenue, Unit 3, Falmouth, MA 02540",
-          "phone": null,
-          "phoneDisplay": null,
+          "phone": "+1-508-548-2857",
+          "phoneDisplay": "(508) 548-2857",
           "website": "https://www.uptownbodycapecod.com/",
           "booking": null,
           "lat": 41.564151,
           "lng": -70.618321,
           "schemaType": "LocalBusiness",
           "facts": [
-            "417 Palmer Avenue, Unit 3, Falmouth, MA 02540"
+            "417 Palmer Avenue, Unit 3, Falmouth, MA 02540",
+            "(508) 548-2857"
           ],
           "sources": [
-            "Local Wellness Maps Falmouth directory (platinum00001/local-wellness-maps, Oct 26, 2026)"
-          ]
-        }
-      ]
-    },
-    {
-      "slug": "beauty",
-      "short": "Beauty",
-      "nav": "Tanning, hair, and nails",
-      "title": "Falmouth MA Beauty | Tanning, Hair & Nails",
-      "h1": "Falmouth MA beauty: tanning, hair, and nails",
-      "description": "Falmouth MA beauty directory. Tanorama, Bellezza Salon Medspa, and Spa & Nails are on the walking map. Main Street dots are approximate. Hours are not invented.",
-      "intro": [
-        "Tanorama is the featured tanning salon at 365 Main Street. Owner Scott has kept it on Main Street for nearly three decades. A phone, a website, and hours are not shown, because Tanorama has not confirmed them for this directory.",
-        "Bellezza Salon Medspa is at 221 Main Street, and Spa & Nails is at 669 Main Street. Both Main Street dots are approximate. Services and prices stay off this page until each salon confirms them."
-      ],
-      "tips": [
-        "Call the salon for hours. We do not print a guessed closing time.",
-        "Ask what a first visit includes before you book.",
-        "The Tanorama story in the magazine is a sample layout until the interview with Scott is finished."
-      ],
-      "related": [
-        "spa-recovery",
-        "fitness",
-        "food"
-      ],
-      "listings": [
-        {
-          "id": "tanorama",
-          "name": "Tanorama",
-          "featured": true,
-          "placeholder": false,
-          "subcategory": "Tanning",
-          "summary": "Tanning salon at 365 Main Street, Falmouth: tanning beds, stand-ups, spray tan and red-light, plus a boutique. Owner Scott. Nearly three decades on Main Street. The map dot is approximate along Main Street. Call for hours and current services.",
-          "address": "365 Main Street, Falmouth, MA",
-          "phone": "+1-508-495-9905",
-          "website": "https://www.tanoramafalmouth.net/",
-          "booking": null,
-          "lat": 41.552083,
-          "lng": -70.612413,
-          "schemaType": "LocalBusiness",
-          "facts": [
-            "365 Main Street, Falmouth",
-            "Owner: Scott",
-            "Nearly three decades on Main Street"
-          ],
-          "approximate": true,
-          "phoneDisplay": "(508) 495-9905",
-          "sources": [
-            "Local Wellness Maps Falmouth directory (platinum00001/local-wellness-maps, Oct 26, 2026)"
+            "Local Wellness Maps Falmouth directory (platinum00001/local-wellness-maps, Oct 26, 2026)",
+            "uptownbodycapecod.com/contact, checked Oct 29, 2026"
           ]
         },
         {
-          "id": "bellezza-salon",
-          "name": "Bellezza Salon Medspa",
-          "featured": false,
-          "placeholder": false,
-          "subcategory": "Hair salon",
-          "summary": "Hair salon on the walking map at 221 Main Street. The map dot is interpolated along Main Street, so it is approximate. Hours and services are not listed until the salon confirms them.",
-          "address": "221 Main Street, Falmouth, MA",
-          "phone": "+1-508-299-8300",
-          "website": "https://spabellezza.com/",
-          "booking": null,
-          "lat": 41.551936,
-          "lng": -70.616116,
-          "schemaType": "LocalBusiness",
-          "facts": [
-            "221 Main Street"
-          ],
-          "approximate": true,
-          "phoneDisplay": "(508) 299-8300",
-          "sources": [
-            "Local Wellness Maps Falmouth directory (platinum00001/local-wellness-maps, Oct 26, 2026)"
-          ]
-        },
-        {
-          "id": "spa-and-nails",
-          "name": "Spa & Nails",
-          "featured": false,
-          "placeholder": false,
-          "subcategory": "Nail salon",
-          "summary": "Nail salon on the walking map at 669 Main Street. The map dot is interpolated along Main Street, so it is approximate. Hours and services are not listed until the salon confirms them.",
-          "address": "669 Main Street, Falmouth, MA",
-          "phone": null,
-          "website": null,
-          "booking": null,
-          "lat": 41.552693,
-          "lng": -70.604668,
-          "schemaType": "LocalBusiness",
-          "facts": [
-            "669 Main Street"
-          ],
-          "approximate": true
-        },
-        {
-          "id": "cape-cod-medispa",
-          "name": "Cape Cod MediSpa (Cape Cod Aesthetics)",
-          "featured": false,
-          "placeholder": false,
-          "subcategory": "Medical aesthetics",
-          "summary": "Medical aesthetics and skin care, 352 Main Street, Unit 6, Falmouth. Call or check the business's own site for hours and services.",
-          "address": "352 Main Street, Unit 6, Falmouth, MA 02540",
-          "phone": "+1-508-680-7004",
-          "phoneDisplay": "(508) 680-7004",
-          "website": "https://www.capecodaesthetics.com/",
-          "booking": null,
-          "lat": 41.552248,
-          "lng": -70.612404,
-          "schemaType": "LocalBusiness",
-          "facts": [
-            "352 Main Street, Unit 6, Falmouth, MA 02540",
-            "(508) 680-7004"
-          ],
-          "sources": [
-            "Local Wellness Maps Falmouth directory (platinum00001/local-wellness-maps, Oct 26, 2026)"
-          ],
-          "approximate": true
-        },
-        {
-          "id": "glow-by-the-sea",
-          "name": "Glow By The Sea",
-          "featured": false,
-          "placeholder": false,
-          "subcategory": "Skin care",
-          "summary": "Skin care and massage, 8 Alphonse Street, Falmouth. Call or check the business's own site for hours and services.",
-          "address": "8 Alphonse Street, Falmouth, MA",
-          "phone": "+1-781-561-8150",
-          "phoneDisplay": "(781) 561-8150",
-          "website": "https://glowbeautybythesea.com",
-          "booking": null,
-          "lat": 41.567947,
-          "lng": -70.594149,
-          "schemaType": "LocalBusiness",
-          "facts": [
-            "8 Alphonse Street, Falmouth, MA",
-            "(781) 561-8150"
-          ],
-          "sources": [
-            "Local Wellness Maps Falmouth directory (platinum00001/local-wellness-maps, Oct 26, 2026)"
-          ]
-        },
-        {
-          "id": "headlines-salon-and-day-spa",
-          "name": "Headlines Salon and Day Spa",
-          "featured": false,
-          "placeholder": false,
-          "subcategory": "Salon & day spa",
-          "summary": "Hair salon and day spa, 218 Main Street, Falmouth. Call or check the business's own site for hours and services.",
-          "address": "218 Main Street, Falmouth, MA 02540",
-          "phone": "+1-508-457-1100",
-          "phoneDisplay": "(508) 457-1100",
-          "website": "https://www.headlinessalonanddayspa.com/",
-          "booking": null,
-          "lat": 41.552029,
-          "lng": -70.61466,
-          "schemaType": "LocalBusiness",
-          "facts": [
-            "218 Main Street, Falmouth, MA 02540",
-            "(508) 457-1100"
-          ],
-          "sources": [
-            "Local Wellness Maps Falmouth directory (platinum00001/local-wellness-maps, Oct 26, 2026)"
-          ],
-          "approximate": true
-        },
-        {
-          "id": "k-nails-and-spa",
-          "name": "K Nails & Spa",
-          "featured": false,
-          "placeholder": false,
-          "subcategory": "Nails",
-          "summary": "Nail salon, 6 Alphonse Street, Falmouth. Call or check the business's own site for hours and services.",
-          "address": "6 Alphonse Street, Falmouth, MA",
-          "phone": "+1-508-388-7171",
-          "phoneDisplay": "(508) 388-7171",
-          "website": "https://knailsfalmouth.com",
-          "booking": null,
-          "lat": 41.567991,
-          "lng": -70.594306,
-          "schemaType": "LocalBusiness",
-          "facts": [
-            "6 Alphonse Street, Falmouth, MA",
-            "(508) 388-7171"
-          ],
-          "sources": [
-            "Local Wellness Maps Falmouth directory (platinum00001/local-wellness-maps, Oct 26, 2026)"
-          ]
-        },
-        {
-          "id": "sl-sprays",
-          "name": "SL Sprays (Falmouth)",
-          "featured": false,
-          "placeholder": false,
-          "subcategory": "Spray tanning",
-          "summary": "Spray tanning studio, 13 Falmouth Heights Road, Unit 6, Falmouth. Call or check the business's own site for hours and services.",
-          "address": "13 Falmouth Heights Road, Unit 6, Falmouth, MA 02536",
-          "phone": "+1-508-403-0050",
-          "phoneDisplay": "(508) 403-0050",
-          "website": "https://www.slsprays.com/",
-          "booking": null,
-          "lat": 41.55415,
-          "lng": -70.600306,
-          "schemaType": "LocalBusiness",
-          "facts": [
-            "13 Falmouth Heights Road, Unit 6, Falmouth, MA 02536",
-            "(508) 403-0050"
-          ],
-          "sources": [
-            "Local Wellness Maps Falmouth directory (platinum00001/local-wellness-maps, Oct 26, 2026)"
-          ]
-        }
-      ]
-    },
-    {
-      "slug": "hotels",
-      "short": "Hotels",
-      "nav": "Where to stay",
-      "title": "Falmouth MA Hotels | Where to Stay",
-      "h1": "Falmouth MA hotels: where to stay",
-      "description": "Falmouth MA hotels. Palmer House Inn, 81 Palmer Avenue, is on the walking map. Rates and a booking link are not invented.",
-      "intro": [
-        "Palmer House Inn is on the walking map at 81 Palmer Avenue. Rates, amenities, and a booking link are not listed until the inn confirms them.",
-        "Other hotels can still take an open card. Nothing else is named here."
-      ],
-      "tips": [
-        "Ask whether the rate is for the room you will actually sleep in, and what is closed in winter.",
-        "If you want to walk to Main Street, ask how far the door is. We will not guess a walk time.",
-        "Book on the hotel's own link when we have one, so the hotel can see the visit."
-      ],
-      "related": [
-        "food",
-        "transportation",
-        "golf"
-      ],
-      "listings": [
-        {
-          "id": "palmer-house-inn",
-          "name": "Palmer House Inn",
-          "featured": false,
-          "placeholder": false,
-          "subcategory": "Hotel",
-          "summary": "Inn on the walking map at 81 Palmer Avenue. Rates and a booking link are not listed until the inn confirms them.",
-          "address": "81 Palmer Avenue, Falmouth, MA",
-          "phone": null,
-          "website": null,
-          "booking": null,
-          "lat": 41.555924,
-          "lng": -70.620102,
-          "schemaType": "LocalBusiness",
-          "facts": [
-            "81 Palmer Avenue"
-          ]
-        }
-      ]
-    },
-    {
-      "slug": "golf",
-      "short": "Golf",
-      "nav": "Golf",
-      "title": "Falmouth MA Golf | Courses & Tee Times",
-      "h1": "Falmouth MA golf",
-      "description": "Falmouth MA golf directory for a featured course or club. No course is named until it confirms tee times, address, and a booking link.",
-      "intro": [
-        "Golf around Falmouth depends on the season, the tee sheet, and whether a course is public that week. This page will feature one confirmed course or club and link out for tee times.",
-        "No course is named in this launch edition. A listing without a confirmed address does not get a map pin."
-      ],
-      "tips": [
-        "Ask if the tee time is walking or cart, and what the weather policy is.",
-        "Public and private play are different invitations. The course should say which one the listing is.",
-        "Winter hours are the course's to publish. We will not copy a summer schedule into a winter magazine."
-      ],
-      "related": [
-        "hotels",
-        "food",
-        "fitness"
-      ],
-      "listings": [
-        {
-          "id": "featured-golf",
-          "name": "Featured Golf (your business here)",
+          "id": "featured-gym",
+          "name": "Featured Gym (your business here)",
           "featured": false,
           "placeholder": true,
-          "subcategory": "Golf",
-          "summary": "Sample slot. No course or club is named.",
-          "address": null,
-          "phone": null,
-          "website": null,
-          "booking": null,
-          "lat": null,
-          "lng": null
-        }
-      ]
-    },
-    {
-      "slug": "community",
-      "short": "Community",
-      "nav": "Library, senior center, youth sports, Town Hall, Chamber",
-      "title": "Falmouth MA Community | Library, Senior Center, Town Hall & Chamber",
-      "h1": "Falmouth MA community: library, senior center, youth sports, Town Hall, and the Chamber",
-      "description": "Falmouth MA community desks: the public library, senior center, youth sports, Town Hall, and the Chamber of Commerce. Programs are not copied here. Confirm them with each desk.",
-      "intro": [
-        "These are public desks, not paid ads. The magazine gives them a quarterly 'what's happening' space. This directory lists where they are and links to the sites they already run.",
-        "Hours, program names, and phone extensions change. They are not repeated here. Youth sports stay unnamed until a league or the recreation department confirms a contact.",
-        "Two more walking-map pins sit with this page: Falmouth Elks Lodge #2380 at 140 Palmer Avenue, and Tommy's Place, listed as a charity, at 26 Elm Arch Way. Events and programs are not copied here."
-      ],
-      "tips": [
-        "For an emergency, call 911. This page is not a dispatch line.",
-        "Library events belong on falmouthpubliclibrary.org. We will add a quarterly note only when the library sends one.",
-        "Town Hall business starts at falmouthma.gov. Bring the document the department asked for."
-      ],
-      "related": [
-        "transportation",
-        "food",
-        "doctors"
-      ],
-      "listings": [
-        {
-          "id": "falmouth-public-library",
-          "name": "Falmouth Public Library",
-          "featured": false,
-          "placeholder": false,
-          "subcategory": "Library",
-          "summary": "The town public library at 300 Main Street. Hours and the event calendar stay on the library's own site so this page does not go stale.",
-          "address": "300 Main Street, Falmouth, MA 02540",
-          "phone": null,
-          "website": "https://www.falmouthpubliclibrary.org/",
-          "websiteLabel": "Website",
-          "booking": null,
-          "lat": 41.5528547,
-          "lng": -70.614079,
-          "schemaType": "Library",
-          "facts": [
-            "300 Main Street, Falmouth"
-          ]
-        },
-        {
-          "id": "falmouth-senior-center",
-          "name": "Falmouth Senior Center",
-          "featured": false,
-          "placeholder": false,
-          "subcategory": "Senior center",
-          "summary": "The Falmouth Senior Center, run by the Town's Senior Services Department (Council on Aging), at 780 Main Street. Health services, referrals, fitness classes, education and recreation for residents 60 and older. Building hours Monday–Friday, 8:30 a.m.–4 p.m.",
-          "address": "780 Main Street, Falmouth, MA 02540",
-          "phone": "+1-508-540-0196",
-          "website": "https://www.falmouthma.gov/446/Monthly-Newsletter",
-          "websiteLabel": "Senior Happenings newsletter",
-          "booking": null,
-          "lat": 41.553705,
-          "lng": -70.60262,
-          "schemaType": "GovernmentOffice",
-          "facts": [
-            "780 Main Street, Falmouth, MA 02540",
-            "(508) 540-0196 · Seniorcenter@falmouthma.gov",
-            "Source: Senior Happenings, September/October 2026 newsletter, Town of Falmouth (falmouthma.gov/DocumentCenter/View/21898)"
-          ],
-          "phoneDisplay": "(508) 540-0196",
-          "approximate": true,
-          "sources": [
-            "https://www.falmouthma.gov/DocumentCenter/View/21898/09102026-SENIOR-HAPPENINGS-NEWSLETTER"
-          ]
-        },
-        {
-          "id": "youth-sports",
-          "name": "Youth sports (your program here)",
-          "featured": false,
-          "placeholder": true,
-          "subcategory": "Youth sports",
-          "summary": "Sample slot. No league is named and no field address is guessed. A program can send its own quarterly note.",
+          "subcategory": "Gym",
+          "summary": "Featured spot available to one local business in this category.",
           "address": null,
           "phone": null,
           "website": null,
@@ -2557,640 +2671,18 @@
           "lng": null
         },
         {
-          "id": "falmouth-town-hall",
-          "name": "Falmouth Town Hall",
+          "id": "featured-trainer",
+          "name": "Featured Personal Trainer (your business here)",
           "featured": false,
-          "placeholder": false,
-          "subcategory": "Town Hall",
-          "summary": "Town Hall at 59 Town Hall Square. Department hours and phone numbers stay on the town website.",
-          "address": "59 Town Hall Square, Falmouth, MA 02540",
-          "phone": null,
-          "website": "https://www.falmouthma.gov/",
-          "websiteLabel": "Town website",
-          "booking": null,
-          "lat": 41.5513766,
-          "lng": -70.6184645,
-          "schemaType": "GovernmentOffice",
-          "facts": [
-            "59 Town Hall Square, Falmouth"
-          ]
-        },
-        {
-          "id": "falmouth-chamber",
-          "name": "Falmouth Chamber of Commerce",
-          "featured": false,
-          "placeholder": false,
-          "subcategory": "Chamber",
-          "summary": "The Chamber's public page is on the Cape Cod Chamber site. OpenStreetMap places the office on Katherine Lee Bates Road without a street number, so none is added here.",
-          "address": "Katherine Lee Bates Road, Falmouth, MA",
-          "phone": null,
-          "website": "https://www.capecodchamber.org/falmouth-chamber/",
-          "websiteLabel": "Website",
-          "booking": null,
-          "lat": 41.5531612,
-          "lng": -70.6163061,
-          "schemaType": "Organization",
-          "facts": [
-            "Katherine Lee Bates Road, Falmouth"
-          ]
-        },
-        {
-          "id": "falmouth-elks",
-          "name": "Falmouth Elks Lodge #2380",
-          "featured": false,
-          "placeholder": false,
-          "subcategory": "Social club",
-          "summary": "Social club on the walking map at 140 Palmer Avenue. Membership and events are the lodge's to publish.",
-          "address": "140 Palmer Avenue, Falmouth, MA",
+          "placeholder": true,
+          "subcategory": "Personal training",
+          "summary": "Featured spot available to one local business in this category.",
+          "address": null,
           "phone": null,
           "website": null,
           "booking": null,
-          "lat": 41.556906,
-          "lng": -70.621386,
-          "schemaType": "LocalBusiness",
-          "facts": [
-            "140 Palmer Avenue"
-          ]
-        },
-        {
-          "id": "tommys-place",
-          "name": "Tommy's Place",
-          "featured": false,
-          "placeholder": false,
-          "subcategory": "Charity",
-          "summary": "Listed on the walking map as a charity, at 26 Elm Arch Way. Programs and hours are not copied here.",
-          "address": "26 Elm Arch Way, Falmouth, MA",
-          "phone": null,
-          "website": null,
-          "booking": null,
-          "lat": 41.551313,
-          "lng": -70.61506,
-          "schemaType": "LocalBusiness",
-          "facts": [
-            "26 Elm Arch Way"
-          ]
-        }
-      ]
-    },
-    {
-      "slug": "bookstore",
-      "short": "Bookstore",
-      "nav": "Books and a quiet hour",
-      "title": "Falmouth MA Bookstore | Mind",
-      "h1": "Falmouth MA bookstore",
-      "description": "Falmouth MA bookstore. Eight Cousins Books, 199 Main Street, is on the walking map. The Main Street dot is approximate.",
-      "intro": [
-        "Eight Cousins Books is at 199 Main Street. The phone published with this pin is 508-548-5548, and the website is eightcousins.com.",
-        "The map dot is interpolated along Main Street, so it is approximate. Hours are not listed until the shop confirms them."
-      ],
-      "tips": [
-        "Ask whether the shop hosts readings, or is simply a place to browse.",
-        "A listing without a confirmed address does not get a numbered pin.",
-        "Winter hours are the shop's to publish. We will not guess them."
-      ],
-      "related": [
-        "community",
-        "food",
-        "beauty"
-      ],
-      "listings": [
-        {
-          "id": "eight-cousins",
-          "name": "Eight Cousins Books",
-          "featured": false,
-          "placeholder": false,
-          "subcategory": "Bookstore",
-          "summary": "Bookstore at 199 Main Street. Phone 508-548-5548. Website eightcousins.com. The map dot is interpolated along Main Street, so it is approximate. Hours are not listed until the shop confirms them.",
-          "address": "199 Main Street, Falmouth, MA",
-          "phone": "+1-508-548-5548",
-          "website": "https://eightcousins.com",
-          "booking": null,
-          "lat": 41.55223,
-          "lng": -70.616636,
-          "schemaType": "LocalBusiness",
-          "facts": [
-            "199 Main Street, Falmouth",
-            "508-548-5548",
-            "eightcousins.com"
-          ],
-          "phoneDisplay": "508-548-5548",
-          "approximate": true,
-          "websiteLabel": "eightcousins.com"
-        }
-      ]
-    },
-    {
-      "slug": "antiques",
-      "short": "Antiques & Vintage",
-      "nav": "Antiques and vintage",
-      "title": "Falmouth MA Antiques & Vintage | Soul",
-      "h1": "Falmouth MA antiques and vintage",
-      "description": "Falmouth MA antiques and vintage. Jacqueline's Gifts & Antiques, 17 Walker Street, is on the walking map.",
-      "intro": [
-        "Jacqueline's Gifts & Antiques is at 17 Walker Street, on the walking map.",
-        "Hours and a phone number are not listed until the shop confirms them."
-      ],
-      "tips": [
-        "Ask what the shop actually sells. Antiques and vintage are not the same promise.",
-        "A listing without a confirmed address does not get a numbered pin.",
-        "Call for hours. A quarterly page goes stale if we invent them."
-      ],
-      "related": [
-        "beauty",
-        "community",
-        "hotels"
-      ],
-      "listings": [
-        {
-          "id": "jacquelines-gifts",
-          "name": "Jacqueline's Gifts & Antiques",
-          "featured": false,
-          "placeholder": false,
-          "subcategory": "Antiques and vintage",
-          "summary": "Antiques and gifts at 17 Walker Street, on the walking map. Hours and a phone number are not listed until the shop confirms them.",
-          "address": "17 Walker Street, Falmouth, MA",
-          "phone": null,
-          "website": null,
-          "booking": null,
-          "lat": 41.55179,
-          "lng": -70.616636,
-          "schemaType": "LocalBusiness",
-          "facts": [
-            "17 Walker Street",
-            "Address checked Oct 28, 2026: the shop moved from Palmer Avenue to 17 Walker Street, which it shares with Falmouth Taxi's office."
-          ],
-          "sources": [
-            "Shop's Facebook page (via globuya.com) and Loc8NearMe listing, checked Oct 28, 2026"
-          ]
-        }
-      ]
-    },
-    {
-      "slug": "florist",
-      "short": "Florist",
-      "nav": "Flowers on Main Street",
-      "title": "Falmouth MA Florist | The Salty Florist & More",
-      "h1": "Falmouth MA florist",
-      "description": "The Salty Florist & More, 362 Main Street, on the Falmouth walking map. The Main Street dot is approximate.",
-      "intro": [
-        "The Salty Florist & More is at 362 Main Street.",
-        "The map dot is interpolated along Main Street, so it is approximate. Hours and a phone number are not listed until the shop confirms them."
-      ],
-      "tips": [
-        "Ask what is available that day. A quarterly page cannot keep a cooler list.",
-        "Call the shop for hours. None are printed here."
-      ],
-      "related": [
-        "antiques",
-        "bookstore",
-        "food"
-      ],
-      "listings": [
-        {
-          "id": "salty-florist",
-          "name": "The Salty Florist & More",
-          "featured": false,
-          "placeholder": false,
-          "subcategory": "Florist",
-          "summary": "Florist at 362 Main Street, on the walking map. The map dot is interpolated along Main Street, so it is approximate. Hours and a phone number are not listed until the shop confirms them.",
-          "address": "362 Main Street, Falmouth, MA",
-          "phone": null,
-          "website": null,
-          "booking": null,
-          "lat": 41.552251,
-          "lng": -70.612338,
-          "schemaType": "LocalBusiness",
-          "facts": [
-            "362 Main Street"
-          ],
-          "approximate": true
-        }
-      ]
-    },
-    {
-      "slug": "art-gallery",
-      "short": "Art Gallery",
-      "nav": "A gallery on Gifford Street",
-      "title": "Falmouth MA Art Gallery | Falmouth Art Center",
-      "h1": "Falmouth MA art gallery",
-      "description": "Falmouth Art Center, 137 Gifford Street, on the Falmouth walking map.",
-      "intro": [
-        "Falmouth Art Center is at 137 Gifford Street, on the walking map.",
-        "Shows, class times, and a phone number are not listed until the center confirms them."
-      ],
-      "tips": [
-        "Ask what is on the walls this month. This page does not copy an exhibition calendar.",
-        "Ask whether a class needs a sign-up before you go."
-      ],
-      "related": [
-        "music-lessons",
-        "florist",
-        "community"
-      ],
-      "listings": [
-        {
-          "id": "falmouth-art-center",
-          "name": "Falmouth Art Center",
-          "featured": false,
-          "placeholder": false,
-          "subcategory": "Art gallery",
-          "summary": "Art gallery on the walking map at 137 Gifford Street. Shows and class times are not listed until the center confirms them.",
-          "address": "137 Gifford Street, Falmouth, MA",
-          "phone": null,
-          "website": null,
-          "booking": null,
-          "lat": 41.555662,
-          "lng": -70.610386,
-          "schemaType": "LocalBusiness",
-          "facts": [
-            "137 Gifford Street"
-          ]
-        }
-      ]
-    },
-    {
-      "slug": "thrift",
-      "short": "Thrift/Resale",
-      "nav": "The hospital auxiliary shop",
-      "title": "Falmouth MA Thrift Shop | Hospital Auxiliary",
-      "h1": "Falmouth MA thrift and resale",
-      "description": "Falmouth Hospital Auxiliary Thrift Shop, 432 Palmer Avenue, on the Falmouth walking map.",
-      "intro": [
-        "The Falmouth Hospital Auxiliary Thrift Shop is at 432 Palmer Avenue, on the walking map.",
-        "Hours and what is on the racks are not listed until the shop confirms them."
-      ],
-      "tips": [
-        "Call for the day's hours. A quarterly page will not guess them.",
-        "Ask what the shop can and cannot take before you drop a bag off."
-      ],
-      "related": [
-        "antiques",
-        "community",
-        "food"
-      ],
-      "listings": [
-        {
-          "id": "hospital-auxiliary-thrift",
-          "name": "Falmouth Hospital Auxiliary Thrift Shop",
-          "featured": false,
-          "placeholder": false,
-          "subcategory": "Thrift",
-          "summary": "Thrift shop on the walking map at 432 Palmer Avenue. Hours are not listed until the shop confirms them.",
-          "address": "432 Palmer Avenue, Falmouth, MA",
-          "phone": null,
-          "website": null,
-          "booking": null,
-          "lat": 41.564434,
-          "lng": -70.619021,
-          "schemaType": "LocalBusiness",
-          "facts": [
-            "432 Palmer Avenue"
-          ]
-        }
-      ]
-    },
-    {
-      "slug": "music-lessons",
-      "short": "Music Lessons",
-      "nav": "Lessons at Highfield",
-      "title": "Falmouth MA Music Lessons | Cape Symphony Conservatory",
-      "h1": "Falmouth MA music lessons",
-      "description": "Cape Symphony Conservatory, 60 Highfield Drive, on the Falmouth walking map.",
-      "intro": [
-        "Cape Symphony Conservatory is at 60 Highfield Drive, on the walking map.",
-        "Lesson times, instruments, and a phone number are not listed until the conservatory confirms them."
-      ],
-      "tips": [
-        "Ask which instruments are taught before you call it a fit.",
-        "Ask where a lesson actually happens. This page does not guess a room."
-      ],
-      "related": [
-        "art-gallery",
-        "bookstore",
-        "community"
-      ],
-      "listings": [
-        {
-          "id": "cape-symphony-conservatory",
-          "name": "Cape Symphony Conservatory",
-          "featured": false,
-          "placeholder": false,
-          "subcategory": "Music lessons",
-          "summary": "Music lessons on the walking map at 60 Highfield Drive. Schedules are not listed until the conservatory confirms them.",
-          "address": "60 Highfield Drive, Falmouth, MA",
-          "phone": null,
-          "website": null,
-          "booking": null,
-          "lat": 41.558498,
-          "lng": -70.630111,
-          "schemaType": "LocalBusiness",
-          "facts": [
-            "60 Highfield Drive"
-          ]
-        }
-      ]
-    },
-    {
-      "slug": "bike-shop",
-      "short": "Bike Shop",
-      "nav": "Bikes on Palmer Avenue",
-      "title": "Falmouth MA Bike Shop | Corner Cycle",
-      "h1": "Falmouth MA bike shop",
-      "description": "Corner Cycle, 115 Palmer Avenue, on the Falmouth walking map.",
-      "intro": [
-        "Corner Cycle is at 115 Palmer Avenue, on the walking map.",
-        "Rentals, repairs, and hours are not listed until the shop confirms them."
-      ],
-      "tips": [
-        "Ask whether you need a repair, a rental, or a bike of your own. Those are different visits.",
-        "The Shining Sea Bikeway is a separate town path. This page does not publish a trail map."
-      ],
-      "related": [
-        "getting-around",
-        "fitness",
-        "transportation"
-      ],
-      "listings": [
-        {
-          "id": "corner-cycle",
-          "name": "Corner Cycle",
-          "featured": false,
-          "placeholder": false,
-          "subcategory": "Bike shop",
-          "summary": "Bike shop on the walking map at 115 Palmer Avenue. Hours and rentals are not listed until the shop confirms them.",
-          "address": "115 Palmer Avenue, Falmouth, MA",
-          "phone": "+1-508-540-4195",
-          "website": "https://www.cornercycle.com/",
-          "booking": null,
-          "lat": 41.556346,
-          "lng": -70.620947,
-          "schemaType": "LocalBusiness",
-          "facts": [
-            "115 Palmer Avenue"
-          ],
-          "phoneDisplay": "(508) 540-4195",
-          "sources": [
-            "Local Wellness Maps Falmouth directory (platinum00001/local-wellness-maps, Oct 26, 2026)"
-          ]
-        }
-      ]
-    },
-    {
-      "slug": "garden-center",
-      "short": "Garden Center",
-      "nav": "North of the walking map",
-      "title": "Falmouth MA Garden Center | Beacon Gardens",
-      "h1": "Falmouth MA garden center",
-      "description": "Beacon Gardens, 254 Brick Kiln Road, is north of the walking-map sheet. An arrow on the top edge points that way.",
-      "intro": [
-        "Beacon Gardens is at 254 Brick Kiln Road. That address is north of the centerfold, so the sheet uses an arrow instead of a pin inside the frame.",
-        "Hours and a phone number are not listed until the garden center confirms them."
-      ],
-      "tips": [
-        "The walking map's north edge is Jones Road. Brick Kiln Road is beyond it.",
-        "Ask what is in season. This page does not invent a plant list."
-      ],
-      "related": [
-        "florist",
-        "home-remodeling",
-        "food"
-      ],
-      "listings": [
-        {
-          "id": "beacon-gardens",
-          "name": "Beacon Gardens",
-          "featured": false,
-          "placeholder": false,
-          "subcategory": "Garden center",
-          "summary": "Garden center at 254 Brick Kiln Road, north of the walking-map sheet. Hours are not listed until the center confirms them.",
-          "address": "254 Brick Kiln Road, Falmouth, MA",
-          "phone": null,
-          "website": null,
-          "booking": null,
-          "lat": 41.58195,
-          "lng": -70.595348,
-          "schemaType": "LocalBusiness",
-          "facts": [
-            "254 Brick Kiln Road"
-          ]
-        }
-      ]
-    },
-    {
-      "slug": "local-market",
-      "short": "Local Market",
-      "nav": "A market on Scranton Avenue",
-      "title": "Falmouth MA Local Market | Windfall Market",
-      "h1": "Falmouth MA local market",
-      "description": "Windfall Market, 77 Scranton Avenue, on the Falmouth walking map.",
-      "intro": [
-        "Windfall Market is at 77 Scranton Avenue, on the walking map.",
-        "What the market carries, and its hours, are not listed until the market confirms them."
-      ],
-      "tips": [
-        "Ask what is in the case that day. A quarterly page cannot keep a stock list.",
-        "Call for hours. None are printed here."
-      ],
-      "related": [
-        "bakery",
-        "food",
-        "florist"
-      ],
-      "listings": [
-        {
-          "id": "windfall-market",
-          "name": "Windfall Market",
-          "featured": false,
-          "placeholder": false,
-          "subcategory": "Local market",
-          "summary": "Local market on the walking map at 77 Scranton Avenue. Hours are not listed until the market confirms them.",
-          "address": "77 Scranton Avenue, Falmouth, MA",
-          "phone": null,
-          "website": null,
-          "booking": null,
-          "lat": 41.551452,
-          "lng": -70.603742,
-          "schemaType": "LocalBusiness",
-          "facts": [
-            "77 Scranton Avenue"
-          ]
-        }
-      ]
-    },
-    {
-      "slug": "bakery",
-      "short": "Bakery",
-      "nav": "A bakery on Main Street",
-      "title": "Falmouth MA Bakery | Maison Villatte",
-      "h1": "Falmouth MA bakery",
-      "description": "Maison Villatte, 267 Main Street, on the Falmouth walking map. The Main Street dot is approximate.",
-      "intro": [
-        "Maison Villatte is at 267 Main Street.",
-        "The map dot is interpolated along Main Street, so it is approximate. Hours and what is in the case are not listed until the bakery confirms them."
-      ],
-      "tips": [
-        "Café Grounded is nearby at 281 Main Street. The two pins are pulled apart on the map so both names fit.",
-        "Ask what is sold out before you walk over. This page does not publish a menu."
-      ],
-      "related": [
-        "food",
-        "local-market",
-        "bookstore"
-      ],
-      "listings": [
-        {
-          "id": "maison-villatte",
-          "name": "Maison Villatte",
-          "featured": false,
-          "placeholder": false,
-          "subcategory": "Bakery",
-          "summary": "Bakery at 267 Main Street, on the walking map. The map dot is interpolated along Main Street, so it is approximate. Hours are not listed until the bakery confirms them.",
-          "address": "267 Main Street, Falmouth, MA",
-          "phone": null,
-          "website": null,
-          "booking": null,
-          "lat": 41.552029,
-          "lng": -70.614537,
-          "schemaType": "LocalBusiness",
-          "facts": [
-            "267 Main Street"
-          ],
-          "approximate": true
-        }
-      ]
-    },
-    {
-      "slug": "dry-cleaner",
-      "short": "Dry cleaner",
-      "nav": "Cleaning on Teaticket Highway",
-      "title": "Falmouth MA Dry Cleaner | Golden Crown Cleaners",
-      "h1": "Falmouth MA dry cleaner",
-      "description": "Golden Crown Cleaners, 194 Teaticket Highway, on the Falmouth walking map.",
-      "intro": [
-        "Golden Crown Cleaners is at 194 Teaticket Highway, on the walking map.",
-        "Hours and prices are not listed until the shop confirms them."
-      ],
-      "tips": [
-        "Ask about turnaround before you leave a garment.",
-        "This page does not publish a price list."
-      ],
-      "related": [
-        "beauty",
-        "hotels",
-        "community"
-      ],
-      "listings": [
-        {
-          "id": "golden-crown-cleaners",
-          "name": "Golden Crown Cleaners",
-          "featured": false,
-          "placeholder": false,
-          "subcategory": "Dry cleaner",
-          "summary": "Dry cleaner on the walking map at 194 Teaticket Highway. Hours and prices are not listed until the shop confirms them.",
-          "address": "194 Teaticket Highway, Falmouth, MA",
-          "phone": null,
-          "website": null,
-          "booking": null,
-          "lat": 41.565604,
-          "lng": -70.596282,
-          "schemaType": "LocalBusiness",
-          "facts": [
-            "194 Teaticket Highway"
-          ]
-        }
-      ]
-    },
-    {
-      "slug": "nutrition",
-      "short": "Nutrition",
-      "nav": "Health food, smoothies and supplements",
-      "title": "Falmouth MA Nutrition | Health Food, Smoothies & Supplements",
-      "h1": "Falmouth MA nutrition: health food, smoothie bars, and supplement shops",
-      "description": "Falmouth MA nutrition directory: a supplement and health food store, smoothie and acai bars, and eateries with gluten-free and vegan options. Listings link straight to each business.",
-      "intro": [
-        "This page is for the everyday side of eating well in Falmouth: a vitamin and health food store, a juice and smoothie bar, and lunch spots that cook with fresh ingredients.",
-        "The Falmouth Farmers Market runs Thursdays at Marine Park in season. The Featured slot on this page is open; listings below are directory entries, not paid placements."
-      ],
-      "tips": [
-        "Supplements are not medicine. Ask your doctor or pharmacist before you start one, especially with a prescription.",
-        "Menus and hours change with the season. Call or check the business's own site before you go.",
-        "Allergy questions belong with the kitchen. This directory does not make allergy or health claims for any business."
-      ],
-      "related": [
-        "food",
-        "fitness",
-        "spa-recovery"
-      ],
-      "listings": [
-        {
-          "id": "devour-eatery",
-          "name": "Devour Eatery",
-          "featured": false,
-          "placeholder": false,
-          "subcategory": "Healthy eats",
-          "summary": "Eatery with smoothies, bowls, and gluten-free and vegan options, 352 Main Street, Falmouth. Call or check the business's own site for hours and services.",
-          "address": "352 Main Street, Falmouth, MA 02540",
-          "phone": "+1-508-540-5900",
-          "phoneDisplay": "(508) 540-5900",
-          "website": "https://www.devoureatery.com/",
-          "booking": null,
-          "lat": 41.552248,
-          "lng": -70.612404,
-          "schemaType": "LocalBusiness",
-          "facts": [
-            "352 Main Street, Falmouth, MA 02540",
-            "(508) 540-5900"
-          ],
-          "sources": [
-            "Local Wellness Maps Falmouth directory (platinum00001/local-wellness-maps, Oct 26, 2026)"
-          ],
-          "approximate": true
-        },
-        {
-          "id": "the-blended-berry",
-          "name": "The Blended Berry (Falmouth)",
-          "featured": false,
-          "placeholder": false,
-          "subcategory": "Smoothies & juice",
-          "summary": "Juice, smoothie and acai bar, 56 Davis Straits, Falmouth. Call or check the business's own site for hours and services.",
-          "address": "56 Davis Straits, Falmouth, MA 02540",
-          "phone": "+1-508-388-7121",
-          "phoneDisplay": "(508) 388-7121",
-          "website": "https://www.theblendedberry.com/",
-          "booking": null,
-          "lat": 41.557932,
-          "lng": -70.60026,
-          "schemaType": "LocalBusiness",
-          "facts": [
-            "56 Davis Straits, Falmouth, MA 02540",
-            "(508) 388-7121"
-          ],
-          "sources": [
-            "Local Wellness Maps Falmouth directory (platinum00001/local-wellness-maps, Oct 26, 2026)"
-          ]
-        },
-        {
-          "id": "vital-nutrition",
-          "name": "Vital Nutrition",
-          "featured": false,
-          "placeholder": false,
-          "subcategory": "Supplements & health food",
-          "summary": "Vitamin, supplement and health food store, 358 Gifford Street, Falmouth. Call or check the business's own site for hours and services.",
-          "address": "358 Gifford Street, Falmouth, MA 02540",
-          "phone": "+1-508-548-8862",
-          "phoneDisplay": "(508) 548-8862",
-          "website": "https://www.vitalnutritioncapecod.com/",
-          "booking": null,
-          "lat": 41.563614,
-          "lng": -70.609559,
-          "schemaType": "LocalBusiness",
-          "facts": [
-            "358 Gifford Street, Falmouth, MA 02540",
-            "(508) 548-8862"
-          ],
-          "sources": [
-            "Local Wellness Maps Falmouth directory (platinum00001/local-wellness-maps, Oct 26, 2026)"
-          ]
+          "lat": null,
+          "lng": null
         }
       ]
     },
@@ -3217,26 +2709,126 @@
       ],
       "listings": [
         {
+          "id": "harmony-network-chiropractic",
+          "name": "Harmony Network Chiropractic",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Chiropractic (Homeport)",
+          "summary": "Network chiropractic care with Dr. Susan Aberle, at Homeport on Gifford Street.",
+          "address": "346 Gifford Street, Unit 1, Falmouth, MA 02540",
+          "phone": "+1-774-392-8454",
+          "phoneDisplay": "(774) 392-8454",
+          "website": "http://www.harmonynetworkchiro.com/",
+          "booking": null,
+          "lat": 41.562797,
+          "lng": -70.609968,
+          "schemaType": "LocalBusiness",
+          "facts": [
+            "346 Gifford Street, Unit 1, Falmouth, MA 02540",
+            "(774) 392-8454"
+          ],
+          "sources": [
+            "harmonynetworkchiro.com/contact, checked Oct 29, 2026"
+          ],
+          "district": "homeport"
+        },
+        {
+          "id": "holistic-massage-and-wellness",
+          "name": "Holistic Massage and Wellness (Lisa Jean Cotto, LMT)",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Massage",
+          "summary": "Massage therapy and holistic wellness (Lisa Jean Cotto, LMT), 200 Main Street, Suite 205, Room 1, Falmouth. Call or check the business's own site for hours and services.",
+          "address": "200 Main Street, Suite 205, Room 1, Falmouth, MA 02540",
+          "phone": "+1-508-815-6689",
+          "phoneDisplay": "(508) 815-6689",
+          "website": "https://www.holisticmassageandwellness.com/",
+          "booking": null,
+          "lat": 41.552605,
+          "lng": -70.616402,
+          "schemaType": "LocalBusiness",
+          "facts": [
+            "200 Main Street, Suite 205, Room 1, Falmouth, MA 02540",
+            "(508) 815-6689"
+          ],
+          "sources": [
+            "Local Wellness Maps Falmouth directory (platinum00001/local-wellness-maps, Oct 26, 2026)"
+          ],
+          "district": "main-street"
+        },
+        {
+          "id": "relaxing-therapeutic-massage",
+          "name": "Relaxing Therapeutic Massage",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Massage",
+          "summary": "Therapeutic massage, 200 Main Street (Rt. 28), Suite 205, Falmouth. Call or check the business's own site for hours and services.",
+          "address": "200 Main Street (Rt. 28), Suite 205, Falmouth, MA 02540",
+          "phone": "+1-774-269-8917",
+          "phoneDisplay": "(774) 269-8917",
+          "website": "https://relaxing.abmp.com/",
+          "booking": null,
+          "lat": 41.552605,
+          "lng": -70.616402,
+          "schemaType": "LocalBusiness",
+          "facts": [
+            "200 Main Street (Rt. 28), Suite 205, Falmouth, MA 02540",
+            "(774) 269-8917"
+          ],
+          "sources": [
+            "Local Wellness Maps Falmouth directory (platinum00001/local-wellness-maps, Oct 26, 2026)"
+          ],
+          "district": "main-street"
+        },
+        {
+          "id": "acupuncture-health-services-falmouth",
+          "name": "Acupuncture Health Services of Falmouth",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Acupuncture",
+          "summary": "Acupuncture, cupping and community acupuncture, a short walk off Main Street near Palmer Avenue. Open Monday to Friday, 10 a.m. to 5 p.m.",
+          "address": "15 Simpson Lane, Suite 2B, Falmouth, MA 02540",
+          "phone": "+1-508-687-0786",
+          "phoneDisplay": "(508) 687-0786",
+          "website": "https://falmouth.acupuncturehealthservices.com/",
+          "booking": null,
+          "lat": 41.554071,
+          "lng": -70.623626,
+          "schemaType": "LocalBusiness",
+          "facts": [
+            "15 Simpson Lane, Suite 2B, Falmouth, MA 02540",
+            "(508) 687-0786"
+          ],
+          "sources": [
+            "falmouth.acupuncturehealthservices.com, checked Oct 29, 2026"
+          ],
+          "district": "main-street",
+          "hours": "Mon–Fri 10 a.m.–5 p.m."
+        },
+        {
           "id": "root-to-rise",
           "name": "Root to Rise",
           "featured": false,
           "placeholder": false,
           "subcategory": "Recovery community",
-          "summary": "Free, complimentary recovery community for people in recovery and their families. Call or visit the website for meetings and programs. No street address is published.",
-          "address": null,
+          "summary": "Free recovery community at Cape Island Café's Recovery Café: talk with a recovery coach over coffee, with free or low-cost meals for people in recovery. A program of Inspiration Is Everywhere, a 501(c)(3) nonprofit.",
+          "address": "316 Gifford Street (at Cape Island Café), Falmouth, MA 02540",
           "phone": "+1-603-721-2088",
           "phoneDisplay": "(603) 721-2088",
           "website": "https://roottorisema.org/",
           "booking": null,
-          "lat": null,
-          "lng": null,
+          "lat": 41.562274,
+          "lng": -70.611104,
           "schemaType": "NGO",
           "facts": [
             "(603) 721-2088"
           ],
           "sources": [
-            "Local Wellness Maps Falmouth directory (platinum00001/local-wellness-maps, Oct 26, 2026)"
-          ]
+            "Local Wellness Maps Falmouth directory (platinum00001/local-wellness-maps, Oct 26, 2026)",
+            "capeislandcafe.com/recovery-cafe.html (checked 2026-10-29)"
+          ],
+          "district": "homeport",
+          "email": "roottorisema@gmail.com"
         },
         {
           "id": "bay-state-physical-therapy-falmouth",
@@ -3331,29 +2923,6 @@
           ]
         },
         {
-          "id": "holistic-massage-and-wellness",
-          "name": "Holistic Massage and Wellness (Lisa Jean Cotto, LMT)",
-          "featured": false,
-          "placeholder": false,
-          "subcategory": "Massage",
-          "summary": "Massage therapy and holistic wellness (Lisa Jean Cotto, LMT), 200 Main Street, Suite 205, Room 1, Falmouth. Call or check the business's own site for hours and services.",
-          "address": "200 Main Street, Suite 205, Room 1, Falmouth, MA 02540",
-          "phone": "+1-508-815-6689",
-          "phoneDisplay": "(508) 815-6689",
-          "website": "https://www.holisticmassageandwellness.com/",
-          "booking": null,
-          "lat": 41.552605,
-          "lng": -70.616402,
-          "schemaType": "LocalBusiness",
-          "facts": [
-            "200 Main Street, Suite 205, Room 1, Falmouth, MA 02540",
-            "(508) 815-6689"
-          ],
-          "sources": [
-            "Local Wellness Maps Falmouth directory (platinum00001/local-wellness-maps, Oct 26, 2026)"
-          ]
-        },
-        {
           "id": "relax-and-renew-day-spa",
           "name": "Relax & Renew Day Spa",
           "featured": false,
@@ -3376,29 +2945,6 @@
             "Local Wellness Maps Falmouth directory (platinum00001/local-wellness-maps, Oct 26, 2026)"
           ],
           "town": "West Falmouth"
-        },
-        {
-          "id": "relaxing-therapeutic-massage",
-          "name": "Relaxing Therapeutic Massage",
-          "featured": false,
-          "placeholder": false,
-          "subcategory": "Massage",
-          "summary": "Therapeutic massage, 200 Main Street (Rt. 28), Suite 205, Falmouth. Call or check the business's own site for hours and services.",
-          "address": "200 Main Street (Rt. 28), Suite 205, Falmouth, MA 02540",
-          "phone": "+1-774-269-8917",
-          "phoneDisplay": "(774) 269-8917",
-          "website": "https://relaxing.abmp.com/",
-          "booking": null,
-          "lat": 41.552605,
-          "lng": -70.616402,
-          "schemaType": "LocalBusiness",
-          "facts": [
-            "200 Main Street (Rt. 28), Suite 205, Falmouth, MA 02540",
-            "(774) 269-8917"
-          ],
-          "sources": [
-            "Local Wellness Maps Falmouth directory (platinum00001/local-wellness-maps, Oct 26, 2026)"
-          ]
         },
         {
           "id": "thumbtastic-of-cape-cod",
@@ -3473,6 +3019,102 @@
       ]
     },
     {
+      "slug": "nutrition",
+      "short": "Nutrition",
+      "nav": "Health food, smoothies and supplements",
+      "title": "Falmouth MA Nutrition | Health Food, Smoothies & Supplements",
+      "h1": "Falmouth MA nutrition: health food, smoothie bars, and supplement shops",
+      "description": "Falmouth MA nutrition directory: a supplement and health food store, smoothie and acai bars, and eateries with gluten-free and vegan options. Listings link straight to each business.",
+      "intro": [
+        "This page is for the everyday side of eating well in Falmouth: a vitamin and health food store, a juice and smoothie bar, and lunch spots that cook with fresh ingredients.",
+        "The Falmouth Farmers Market runs Thursdays at Marine Park in season. The Featured slot on this page is open; listings below are directory entries, not paid placements."
+      ],
+      "tips": [
+        "Supplements are not medicine. Ask your doctor or pharmacist before you start one, especially with a prescription.",
+        "Menus and hours change with the season. Call or check the business's own site before you go.",
+        "Allergy questions belong with the kitchen. This directory does not make allergy or health claims for any business."
+      ],
+      "related": [
+        "food",
+        "fitness",
+        "spa-recovery"
+      ],
+      "listings": [
+        {
+          "id": "vital-nutrition",
+          "name": "Vital Nutrition",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Supplements & health food",
+          "summary": "Vitamin, supplement and health food store, 358 Gifford Street, Falmouth. Call or check the business's own site for hours and services.",
+          "address": "358 Gifford Street, Falmouth, MA 02540",
+          "phone": "+1-508-548-8862",
+          "phoneDisplay": "(508) 548-8862",
+          "website": "https://www.vitalnutritioncapecod.com/",
+          "booking": null,
+          "lat": 41.563614,
+          "lng": -70.609559,
+          "schemaType": "LocalBusiness",
+          "facts": [
+            "358 Gifford Street, Falmouth, MA 02540",
+            "(508) 548-8862"
+          ],
+          "sources": [
+            "Local Wellness Maps Falmouth directory (platinum00001/local-wellness-maps, Oct 26, 2026)"
+          ],
+          "district": "homeport"
+        },
+        {
+          "id": "devour-eatery",
+          "name": "Devour Eatery",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Healthy eats",
+          "summary": "Eatery with smoothies, bowls, and gluten-free and vegan options, 352 Main Street, Falmouth. Call or check the business's own site for hours and services.",
+          "address": "352 Main Street, Falmouth, MA 02540",
+          "phone": "+1-508-540-5900",
+          "phoneDisplay": "(508) 540-5900",
+          "website": "https://www.devoureatery.com/",
+          "booking": null,
+          "lat": 41.552248,
+          "lng": -70.612404,
+          "schemaType": "LocalBusiness",
+          "facts": [
+            "352 Main Street, Falmouth, MA 02540",
+            "(508) 540-5900"
+          ],
+          "sources": [
+            "Local Wellness Maps Falmouth directory (platinum00001/local-wellness-maps, Oct 26, 2026)"
+          ],
+          "approximate": true,
+          "district": "main-street"
+        },
+        {
+          "id": "the-blended-berry",
+          "name": "The Blended Berry (Falmouth)",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Smoothies & juice",
+          "summary": "Juice, smoothie and acai bar, 56 Davis Straits, Falmouth. Call or check the business's own site for hours and services.",
+          "address": "56 Davis Straits, Falmouth, MA 02540",
+          "phone": "+1-508-388-7121",
+          "phoneDisplay": "(508) 388-7121",
+          "website": "https://www.theblendedberry.com/",
+          "booking": null,
+          "lat": 41.557932,
+          "lng": -70.60026,
+          "schemaType": "LocalBusiness",
+          "facts": [
+            "56 Davis Straits, Falmouth, MA 02540",
+            "(508) 388-7121"
+          ],
+          "sources": [
+            "Local Wellness Maps Falmouth directory (platinum00001/local-wellness-maps, Oct 26, 2026)"
+          ]
+        }
+      ]
+    },
+    {
       "slug": "dental",
       "short": "Dental",
       "nav": "Family and cosmetic dentistry",
@@ -3515,7 +3157,33 @@
           ],
           "sources": [
             "Local Wellness Maps Falmouth directory (platinum00001/local-wellness-maps, Oct 26, 2026)"
-          ]
+          ],
+          "district": "homeport"
+        },
+        {
+          "id": "dental-group-of-falmouth",
+          "name": "Dental Group of Falmouth",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "General dentistry (Homeport)",
+          "summary": "General and family dentistry at Homeport on Gifford Street. Monday to Thursday, 8 a.m. to 5 p.m.",
+          "address": "344 Gifford Street, Unit A, Falmouth, MA 02540",
+          "phone": "+1-508-524-3732",
+          "phoneDisplay": "(508) 524-3732",
+          "website": "https://www.dentalgroupfalmouth.com/",
+          "booking": null,
+          "lat": 41.562814,
+          "lng": -70.610169,
+          "schemaType": "LocalBusiness",
+          "facts": [
+            "344 Gifford Street, Unit A, Falmouth, MA 02540",
+            "(508) 524-3732"
+          ],
+          "sources": [
+            "dentalgroupfalmouth.com/contact-us, checked Oct 29, 2026"
+          ],
+          "district": "homeport",
+          "hours": "Mon–Thu 8 a.m.–5 p.m."
         }
       ]
     },
@@ -3551,7 +3219,7 @@
           "address": "17 Walker Street, Falmouth, MA 02540",
           "phone": "+1-508-548-3100",
           "phoneDisplay": "(508) 548-3100",
-          "website": "https://www.falmouthtaxi.com/",
+          "website": null,
           "booking": null,
           "lat": 41.55179,
           "lng": -70.616636,
@@ -3563,6 +3231,10 @@
           ],
           "sources": [
             "Local Wellness Maps Falmouth directory (platinum00001/local-wellness-maps, Oct 26, 2026)"
+          ],
+          "district": "main-street",
+          "notes": [
+            "2026-10-29: website https://www.falmouthtaxi.com/ unreachable (404/expired certificate/server error); link removed, phone kept."
           ]
         },
         {
@@ -3575,7 +3247,7 @@
           "address": "465 Grand Ave, Falmouth, MA 02540",
           "phone": "+1-508-540-3549",
           "phoneDisplay": "(508) 540-3549",
-          "website": "https://www.holidaycycles.net/",
+          "website": null,
           "booking": null,
           "lat": 41.545496,
           "lng": -70.601535,
@@ -3586,31 +3258,771 @@
           ],
           "sources": [
             "Local Wellness Maps Falmouth directory (platinum00001/local-wellness-maps, Oct 26, 2026)"
+          ],
+          "notes": [
+            "2026-10-29: website https://www.holidaycycles.net/ unreachable (404/expired certificate/server error); link removed, phone kept."
           ]
         }
       ]
-    }
-  ],
-  "mapOnly": [
-    {
-      "id": "featured-pharmacy",
-      "name": "Featured Pharmacy (your business here)",
-      "placeholder": true,
-      "category": "food",
-      "categoryName": "Pharmacy",
-      "summary": "Sample slot in the magazine. Not a real pharmacy.",
-      "lat": null,
-      "lng": null
     },
     {
-      "id": "featured-social-club",
-      "name": "Featured Social Club (your business here)",
-      "placeholder": true,
-      "category": "community",
-      "categoryName": "Social club",
-      "summary": "Sample slot in the magazine. No club is named.",
-      "lat": null,
-      "lng": null
+      "slug": "transportation",
+      "short": "Transportation",
+      "nav": "Taxi, rides, and moving things",
+      "title": "Falmouth MA Transportation | Taxi, Rides & Local Moves",
+      "h1": "Falmouth MA transportation: rides, taxis, and moving things around town",
+      "description": "Falmouth MA transportation for rides, taxis, and moving things around town. Falmouth Transport is the featured local guide, with a featured taxi spot open to partners.",
+      "intro": [
+        "Falmouth runs from the village and Main Street out to Woods Hole, East Falmouth, North Falmouth, and the beaches. People need a ride to the ferry, a taxi when the car is in the shop, or help moving something across town.",
+        "This page lists local transportation partners and sends you to them. Falmouth Transport is the featured guide, and a featured taxi spot is open to partners. Taxis and bike rentals are on the Getting Around page."
+      ],
+      "tips": [
+        "Ask whether the ride is a taxi, a scheduled car, or help moving a piece of furniture. Those are different jobs.",
+        "For the Woods Hole ferry, leave time for the terminal. This page does not publish a ferry schedule.",
+        "If a card has no phone, the business has not given us one yet. Please do not guess a number from an old listing."
+      ],
+      "related": [
+        "getting-around",
+        "hotels",
+        "community"
+      ],
+      "listings": [
+        {
+          "id": "falmouth-transport",
+          "name": "Falmouth Transport",
+          "featured": true,
+          "placeholder": false,
+          "subcategory": "Rides and moving things",
+          "summary": "A new local guide to rides and moving things around Falmouth, and a founding partner of this magazine.",
+          "address": null,
+          "phone": null,
+          "website": null,
+          "booking": null,
+          "lat": null,
+          "lng": null,
+          "schemaType": "LocalBusiness",
+          "facts": [
+            "Founding partner",
+            "Local rides and moving things around Falmouth"
+          ]
+        },
+        {
+          "id": "taxi-partner",
+          "name": "Taxi partner (your business here)",
+          "featured": false,
+          "placeholder": true,
+          "subcategory": "Taxi",
+          "summary": "Featured spot available to one local business in this category.",
+          "address": null,
+          "phone": null,
+          "website": null,
+          "booking": null,
+          "lat": null,
+          "lng": null
+        }
+      ]
+    },
+    {
+      "slug": "home-remodeling",
+      "short": "Home remodeling",
+      "nav": "Remodeling and renovations",
+      "title": "Falmouth MA Home Remodeling | Renovations & Contractors",
+      "h1": "Falmouth MA home remodeling",
+      "description": "Falmouth MA home remodeling directory for renovations and contractors, with questions to ask before you hire and a featured spot open to local firms.",
+      "intro": [
+        "Cape houses live with salt air, older layouts, and winters when some work has to wait. A remodel goes better when the scope is written down and someone local is accountable for permits.",
+        "No remodeling firm is listed yet. The card below is an open slot, not a recommendation of a company we have not met."
+      ],
+      "tips": [
+        "Ask who pulls the permit and which Falmouth inspections the job needs.",
+        "Get the scope and the price in writing before demolition starts.",
+        "Ask for a recent Falmouth or Upper Cape reference, then call that person yourself."
+      ],
+      "related": [
+        "hotels",
+        "community",
+        "food"
+      ],
+      "listings": [
+        {
+          "id": "featured-remodeler",
+          "name": "Featured remodeler (your business here)",
+          "featured": false,
+          "placeholder": true,
+          "subcategory": "Home remodeling",
+          "summary": "Featured spot available to one local business in this category.",
+          "address": null,
+          "phone": null,
+          "website": null,
+          "booking": null,
+          "lat": null,
+          "lng": null
+        }
+      ]
+    },
+    {
+      "slug": "doctors",
+      "short": "Doctors",
+      "nav": "Visits, urgent care, dental",
+      "title": "Falmouth MA Doctors | Visits, Urgent Care & Dental",
+      "h1": "Falmouth MA doctors, urgent care, and dental visits",
+      "description": "Falmouth MA doctors directory for routine visits, urgent care, and dental care. This is not medical advice. Featured spots are open to local practices.",
+      "intro": [
+        "This page is a directory, not medical advice, and it does not rank clinicians. For an emergency, call 911.",
+        "Routine visits, urgent care, and dental care each get one featured partner. Dental offices at Homeport are listed on the Dental page."
+      ],
+      "tips": [
+        "Call 911 for an emergency. Do not use this page as a substitute for emergency care.",
+        "Ask a clinic what to bring: insurance card, medication list, and the reason for the visit.",
+        "Urgent care and the emergency department are not the same door. The practice can tell you which one fits."
+      ],
+      "related": [
+        "dental",
+        "spa-recovery",
+        "fitness"
+      ],
+      "listings": [
+        {
+          "id": "featured-doctor",
+          "name": "Featured doctor visits (your practice here)",
+          "featured": false,
+          "placeholder": true,
+          "subcategory": "Doctor visits",
+          "summary": "Featured spot available to one local business in this category.",
+          "address": null,
+          "phone": null,
+          "website": null,
+          "booking": null,
+          "lat": null,
+          "lng": null
+        },
+        {
+          "id": "featured-urgent-care",
+          "name": "Featured urgent care (your clinic here)",
+          "featured": false,
+          "placeholder": true,
+          "subcategory": "Urgent care",
+          "summary": "Featured spot available to one local business in this category.",
+          "address": null,
+          "phone": null,
+          "website": null,
+          "booking": null,
+          "lat": null,
+          "lng": null
+        },
+        {
+          "id": "featured-dental",
+          "name": "Featured dental practice (your office here)",
+          "featured": false,
+          "placeholder": true,
+          "subcategory": "Dental",
+          "summary": "Featured spot available to one local business in this category.",
+          "address": null,
+          "phone": null,
+          "website": null,
+          "booking": null,
+          "lat": null,
+          "lng": null
+        }
+      ]
+    },
+    {
+      "slug": "hotels",
+      "short": "Hotels",
+      "nav": "Where to stay",
+      "title": "Falmouth MA Hotels | Where to Stay",
+      "h1": "Falmouth MA hotels: where to stay",
+      "description": "Falmouth MA hotels: Palmer House Inn at 81 Palmer Avenue is on the walking map, with a featured spot open to local inns.",
+      "intro": [
+        "Palmer House Inn is on the walking map at 81 Palmer Avenue. Call the inn or book on its website.",
+        "A featured stay spot is open to other local inns and hotels."
+      ],
+      "tips": [
+        "Ask whether the rate is for the room you will actually sleep in, and what is closed in winter.",
+        "If you want to walk to Main Street, ask how far the door is. We will not guess a walk time.",
+        "Book on the hotel's own link when we have one, so the hotel can see the visit."
+      ],
+      "related": [
+        "food",
+        "transportation",
+        "golf"
+      ],
+      "listings": [
+        {
+          "id": "palmer-house-inn",
+          "name": "Palmer House Inn",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Hotel",
+          "summary": "Inn on the walking map at 81 Palmer Avenue. Rates and a booking link are not listed until the inn confirms them.",
+          "address": "81 Palmer Avenue, Falmouth, MA",
+          "phone": "+1-508-548-1230",
+          "website": "https://www.palmerhouseinn.com/",
+          "booking": null,
+          "lat": 41.555924,
+          "lng": -70.620102,
+          "schemaType": "LocalBusiness",
+          "facts": [
+            "81 Palmer Avenue, Falmouth, MA",
+            "(508) 548-1230"
+          ],
+          "phoneDisplay": "(508) 548-1230",
+          "sources": [
+            "palmerhouseinn.com; Falmouth Chamber of Commerce member directory (web.falmouthchamber.com), checked Oct 29, 2026"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "golf",
+      "short": "Golf",
+      "nav": "Golf",
+      "title": "Falmouth MA Golf | Courses & Tee Times",
+      "h1": "Falmouth MA golf",
+      "description": "Falmouth MA golf directory for a featured course or club, open to a local course that wants the spot.",
+      "intro": [
+        "Golf around Falmouth depends on the season, the tee sheet, and whether a course is public that week. This page will feature one confirmed course or club and link out for tee times.",
+        "A local course or club can take the featured spot, with its address, tee times and booking link."
+      ],
+      "tips": [
+        "Ask if the tee time is walking or cart, and what the weather policy is.",
+        "Public and private play are different invitations. The course should say which one the listing is.",
+        "Winter hours are the course's to publish. We will not copy a summer schedule into a winter magazine."
+      ],
+      "related": [
+        "hotels",
+        "food",
+        "fitness"
+      ],
+      "listings": [
+        {
+          "id": "featured-golf",
+          "name": "Featured Golf (your business here)",
+          "featured": false,
+          "placeholder": true,
+          "subcategory": "Golf",
+          "summary": "Featured spot available to one local business in this category.",
+          "address": null,
+          "phone": null,
+          "website": null,
+          "booking": null,
+          "lat": null,
+          "lng": null
+        }
+      ]
+    },
+    {
+      "slug": "community",
+      "short": "Community",
+      "nav": "Library, senior center, youth sports, Town Hall, Chamber",
+      "title": "Falmouth MA Community | Library, Senior Center, Town Hall & Chamber",
+      "h1": "Falmouth MA community: library, senior center, youth sports, Town Hall, and the Chamber",
+      "description": "Falmouth MA community desks: the public library, senior center, youth sports, Town Hall, and the Chamber of Commerce. Programs are not copied here. Confirm them with each desk.",
+      "intro": [
+        "These are public desks, not paid ads. The magazine gives them a quarterly 'what's happening' space. This directory lists where they are and links to the sites they already run.",
+        "Hours and programs change, so check each organization's site before you go. A youth league can list its season here for free.",
+        "Two more walking-map pins sit with this page: Falmouth Elks Lodge #2380 at 140 Palmer Avenue, and Tommy's Place, listed as a charity, at 26 Elm Arch Way. Events and programs are not copied here."
+      ],
+      "tips": [
+        "For an emergency, call 911. This page is not a dispatch line.",
+        "Library events belong on falmouthpubliclibrary.org. We will add a quarterly note only when the library sends one.",
+        "Town Hall business starts at falmouthma.gov. Bring the document the department asked for."
+      ],
+      "related": [
+        "transportation",
+        "food",
+        "doctors"
+      ],
+      "listings": [
+        {
+          "id": "falmouth-public-library",
+          "name": "Falmouth Public Library",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Library",
+          "summary": "The town public library at 300 Main Street. Hours and the event calendar stay on the library's own site so this page does not go stale.",
+          "address": "300 Main Street, Falmouth, MA 02540",
+          "phone": "+1-508-457-2555",
+          "website": "https://www.falmouthpubliclibrary.org/",
+          "websiteLabel": "Website",
+          "booking": null,
+          "lat": 41.5528547,
+          "lng": -70.614079,
+          "schemaType": "Library",
+          "facts": [
+            "300 Main Street, Falmouth, MA 02540",
+            "(508) 457-2555"
+          ],
+          "phoneDisplay": "(508) 457-2555",
+          "sources": [
+            "falmouthpubliclibrary.org/about/locations-hours, checked Oct 29, 2026"
+          ],
+          "district": "main-street"
+        },
+        {
+          "id": "falmouth-senior-center",
+          "name": "Falmouth Senior Center",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Senior center",
+          "summary": "The Falmouth Senior Center, run by the Town's Senior Services Department (Council on Aging), at 780 Main Street. Health services, referrals, fitness classes, education and recreation for residents 60 and older. Building hours Monday–Friday, 8:30 a.m.–4 p.m.",
+          "address": "780 Main Street, Falmouth, MA 02540",
+          "phone": "+1-508-540-0196",
+          "website": "https://www.falmouthma.gov/446/Monthly-Newsletter",
+          "websiteLabel": "Senior Happenings newsletter",
+          "booking": null,
+          "lat": 41.553705,
+          "lng": -70.60262,
+          "schemaType": "GovernmentOffice",
+          "facts": [
+            "780 Main Street, Falmouth, MA 02540",
+            "(508) 540-0196 · Seniorcenter@falmouthma.gov",
+            "Source: Senior Happenings, September/October 2026 newsletter, Town of Falmouth (falmouthma.gov/DocumentCenter/View/21898)"
+          ],
+          "phoneDisplay": "(508) 540-0196",
+          "approximate": true,
+          "sources": [
+            "https://www.falmouthma.gov/DocumentCenter/View/21898/09102026-SENIOR-HAPPENINGS-NEWSLETTER"
+          ],
+          "district": "main-street"
+        },
+        {
+          "id": "falmouth-town-hall",
+          "name": "Falmouth Town Hall",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Town Hall",
+          "summary": "Town Hall at 59 Town Hall Square. Department hours and phone numbers stay on the town website.",
+          "address": "59 Town Hall Square, Falmouth, MA 02540",
+          "phone": "+1-508-548-7611",
+          "website": "https://www.falmouthma.gov/",
+          "websiteLabel": "Town website",
+          "booking": null,
+          "lat": 41.5513766,
+          "lng": -70.6184645,
+          "schemaType": "GovernmentOffice",
+          "facts": [
+            "59 Town Hall Square, Falmouth, MA 02540",
+            "(508) 548-7611"
+          ],
+          "phoneDisplay": "(508) 548-7611",
+          "sources": [
+            "falmouthma.gov staff directory, checked Oct 29, 2026"
+          ],
+          "district": "main-street"
+        },
+        {
+          "id": "falmouth-chamber",
+          "name": "Falmouth Chamber of Commerce",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Chamber",
+          "summary": "The Chamber's public page is on the Cape Cod Chamber site. OpenStreetMap places the office on Katherine Lee Bates Road without a street number, so none is added here.",
+          "address": "20 Academy Lane, Falmouth, MA 02540",
+          "phone": "+1-508-548-8500",
+          "website": "https://www.capecodchamber.org/falmouth-chamber/",
+          "websiteLabel": "Website",
+          "booking": null,
+          "lat": 41.5531612,
+          "lng": -70.6163061,
+          "schemaType": "Organization",
+          "facts": [
+            "20 Academy Lane, Falmouth, MA 02540",
+            "(508) 548-8500"
+          ],
+          "phoneDisplay": "(508) 548-8500",
+          "sources": [
+            "capecodchamber.org Falmouth Chamber contact page, checked Oct 29, 2026"
+          ],
+          "district": "main-street"
+        },
+        {
+          "id": "falmouth-elks",
+          "name": "Falmouth Elks Lodge #2380",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Social club",
+          "summary": "Social club on the walking map at 140 Palmer Avenue. Membership and events are the lodge's to publish.",
+          "address": "140 Palmer Avenue, Falmouth, MA",
+          "phone": "+1-508-548-2380",
+          "website": "https://www.elks.org/lodges/home.cfm?lodgenumber=2380",
+          "booking": null,
+          "lat": 41.556906,
+          "lng": -70.621386,
+          "schemaType": "LocalBusiness",
+          "facts": [
+            "140 Palmer Avenue, Falmouth, MA",
+            "(508) 548-2380"
+          ],
+          "phoneDisplay": "(508) 548-2380",
+          "sources": [
+            "elks.org Lodge #2380 contact page, checked Oct 29, 2026"
+          ]
+        },
+        {
+          "id": "tommys-place",
+          "name": "Tommy's Place",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Charity",
+          "summary": "Listed on the walking map as a charity, at 26 Elm Arch Way. Programs and hours are not copied here.",
+          "address": "26 Elm Arch Way, Falmouth, MA",
+          "phone": "+1-617-249-4462",
+          "website": "https://tommysplace.org/",
+          "booking": null,
+          "lat": 41.551313,
+          "lng": -70.61506,
+          "schemaType": "LocalBusiness",
+          "facts": [
+            "26 Elm Arch Way, Falmouth, MA",
+            "(617) 249-4462"
+          ],
+          "phoneDisplay": "(617) 249-4462",
+          "sources": [
+            "tommysplace.org, checked Oct 29, 2026"
+          ]
+        },
+        {
+          "id": "youth-sports",
+          "name": "Youth sports (your program here)",
+          "featured": false,
+          "placeholder": true,
+          "subcategory": "Youth sports",
+          "summary": "Featured spot available to one local business in this category.",
+          "address": null,
+          "phone": null,
+          "website": null,
+          "booking": null,
+          "lat": null,
+          "lng": null
+        }
+      ]
+    },
+    {
+      "slug": "art-gallery",
+      "short": "Art Gallery",
+      "nav": "A gallery on Gifford Street",
+      "title": "Falmouth MA Art Gallery | Falmouth Art Center",
+      "h1": "Falmouth MA art gallery",
+      "description": "Falmouth Art Center, 137 Gifford Street, on the Falmouth walking map.",
+      "intro": [
+        "Falmouth Art Center is at 137 Gifford Street, on the walking map.",
+        "Call the center or check its website for current shows and classes."
+      ],
+      "tips": [
+        "Ask what is on the walls this month. This page does not copy an exhibition calendar.",
+        "Ask whether a class needs a sign-up before you go."
+      ],
+      "related": [
+        "music-lessons",
+        "florist",
+        "community"
+      ],
+      "listings": [
+        {
+          "id": "falmouth-art-center",
+          "name": "Falmouth Art Center",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Art gallery",
+          "summary": "Art gallery on the walking map at 137 Gifford Street. Shows and class times are not listed until the center confirms them.",
+          "address": "137 Gifford Street, Falmouth, MA",
+          "phone": "+1-508-540-3304",
+          "website": "https://falmouthart.org/",
+          "booking": null,
+          "lat": 41.555662,
+          "lng": -70.610386,
+          "schemaType": "LocalBusiness",
+          "facts": [
+            "137 Gifford Street, Falmouth, MA",
+            "(508) 540-3304"
+          ],
+          "phoneDisplay": "(508) 540-3304",
+          "sources": [
+            "falmouthart.org/contactdirections, checked Oct 29, 2026"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "thrift",
+      "short": "Thrift/Resale",
+      "nav": "The hospital auxiliary shop",
+      "title": "Falmouth MA Thrift Shop | Hospital Auxiliary",
+      "h1": "Falmouth MA thrift and resale",
+      "description": "Falmouth Hospital Auxiliary Thrift Shop, 432 Palmer Avenue, on the Falmouth walking map.",
+      "intro": [
+        "The Falmouth Hospital Auxiliary Thrift Shop is at 432 Palmer Avenue, on the walking map.",
+        "Open Tuesday to Saturday, 11 a.m. to 3 p.m. Call ahead for anything else."
+      ],
+      "tips": [
+        "Call for the day's hours. A quarterly page will not guess them.",
+        "Ask what the shop can and cannot take before you drop a bag off."
+      ],
+      "related": [
+        "antiques",
+        "community",
+        "food"
+      ],
+      "listings": [
+        {
+          "id": "hospital-auxiliary-thrift",
+          "name": "Falmouth Hospital Auxiliary Thrift Shop",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Thrift",
+          "summary": "Thrift shop on the walking map at 432 Palmer Avenue. Hours are not listed until the shop confirms them.",
+          "address": "432 Palmer Avenue, Falmouth, MA",
+          "phone": "+1-508-457-7799",
+          "website": "https://www.capecodhealth.org/locations-and-directions/profile/falmouth-hospital-auxiliary-thrift-shop/",
+          "booking": null,
+          "lat": 41.564434,
+          "lng": -70.619021,
+          "schemaType": "LocalBusiness",
+          "facts": [
+            "432 Palmer Avenue, Falmouth, MA",
+            "(508) 457-7799",
+            "Tue–Sat 11 a.m.–3 p.m."
+          ],
+          "phoneDisplay": "(508) 457-7799",
+          "websiteLabel": "Hours & info",
+          "hours": "Tue–Sat 11 a.m.–3 p.m.",
+          "sources": [
+            "capecodhealth.org location profile, checked Oct 29, 2026"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "music-lessons",
+      "short": "Music Lessons",
+      "nav": "Lessons at Highfield",
+      "title": "Falmouth MA Music Lessons | Cape Symphony Conservatory",
+      "h1": "Falmouth MA music lessons",
+      "description": "Cape Symphony Conservatory, 60 Highfield Drive, on the Falmouth walking map.",
+      "intro": [
+        "Cape Symphony Conservatory is at 60 Highfield Drive, on the walking map.",
+        "Call the conservatory for lesson times and instruments."
+      ],
+      "tips": [
+        "Ask which instruments are taught before you call it a fit.",
+        "Ask where a lesson actually happens. This page does not guess a room."
+      ],
+      "related": [
+        "art-gallery",
+        "bookstore",
+        "community"
+      ],
+      "listings": [
+        {
+          "id": "cape-symphony-conservatory",
+          "name": "Cape Symphony Conservatory",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Music lessons",
+          "summary": "Music lessons on the walking map at 60 Highfield Drive. Schedules are not listed until the conservatory confirms them.",
+          "address": "60 Highfield Drive, Falmouth, MA",
+          "phone": "+1-508-540-0611",
+          "website": "https://www.capesymphony.org/",
+          "booking": null,
+          "lat": 41.558498,
+          "lng": -70.630111,
+          "schemaType": "LocalBusiness",
+          "facts": [
+            "60 Highfield Drive, Falmouth, MA",
+            "(508) 540-0611"
+          ],
+          "phoneDisplay": "(508) 540-0611",
+          "sources": [
+            "capesymphony.org/contact-us, checked Oct 29, 2026"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "bike-shop",
+      "short": "Bike Shop",
+      "nav": "Bikes on Palmer Avenue",
+      "title": "Falmouth MA Bike Shop | Corner Cycle",
+      "h1": "Falmouth MA bike shop",
+      "description": "Corner Cycle, 115 Palmer Avenue, on the Falmouth walking map.",
+      "intro": [
+        "Corner Cycle is at 115 Palmer Avenue, on the walking map.",
+        "Call the shop for rentals, repairs and current hours."
+      ],
+      "tips": [
+        "Ask whether you need a repair, a rental, or a bike of your own. Those are different visits.",
+        "The Shining Sea Bikeway is a separate town path. This page does not publish a trail map."
+      ],
+      "related": [
+        "getting-around",
+        "fitness",
+        "transportation"
+      ],
+      "listings": [
+        {
+          "id": "corner-cycle",
+          "name": "Corner Cycle",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Bike shop",
+          "summary": "Bike shop on the walking map at 115 Palmer Avenue. Hours and rentals are not listed until the shop confirms them.",
+          "address": "115 Palmer Avenue, Falmouth, MA",
+          "phone": "+1-508-540-4195",
+          "website": "https://www.cornercycle.com/",
+          "booking": null,
+          "lat": 41.556346,
+          "lng": -70.620947,
+          "schemaType": "LocalBusiness",
+          "facts": [
+            "115 Palmer Avenue"
+          ],
+          "phoneDisplay": "(508) 540-4195",
+          "sources": [
+            "Local Wellness Maps Falmouth directory (platinum00001/local-wellness-maps, Oct 26, 2026)"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "garden-center",
+      "short": "Garden Center",
+      "nav": "North of the walking map",
+      "title": "Falmouth MA Garden Center | Beacon Gardens",
+      "h1": "Falmouth MA garden center",
+      "description": "Beacon Gardens, 254 Brick Kiln Road, is north of the walking-map sheet. An arrow on the top edge points that way.",
+      "intro": [
+        "Beacon Gardens is at 254 Brick Kiln Road. That address is north of the centerfold, so the sheet uses an arrow instead of a pin inside the frame.",
+        "Call ahead for seasonal hours."
+      ],
+      "tips": [
+        "The walking map's north edge is Jones Road. Brick Kiln Road is beyond it.",
+        "Ask what is in season. This page does not invent a plant list."
+      ],
+      "related": [
+        "florist",
+        "home-remodeling",
+        "food"
+      ],
+      "listings": [
+        {
+          "id": "beacon-gardens",
+          "name": "Beacon Gardens",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Garden center",
+          "summary": "Garden center at 254 Brick Kiln Road, north of the walking-map sheet. Hours are not listed until the center confirms them.",
+          "address": "254 Brick Kiln Road, Falmouth, MA",
+          "phone": "+1-508-648-9256",
+          "website": "https://beacongardens.com/pages/welcome-to-beacon-gardens-at-brick-kiln",
+          "booking": null,
+          "lat": 41.58195,
+          "lng": -70.595348,
+          "schemaType": "LocalBusiness",
+          "facts": [
+            "254 Brick Kiln Road, Falmouth, MA",
+            "(508) 648-9256",
+            "Mon–Sat 7:30 a.m.–5 p.m."
+          ],
+          "phoneDisplay": "(508) 648-9256",
+          "hours": "Mon–Sat 7:30 a.m.–5 p.m.",
+          "sources": [
+            "beacongardens.com (Brick Kiln location), checked Oct 29, 2026"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "local-market",
+      "short": "Local Market",
+      "nav": "A market on Scranton Avenue",
+      "title": "Falmouth MA Local Market | Windfall Market",
+      "h1": "Falmouth MA local market",
+      "description": "Windfall Market, 77 Scranton Avenue, on the Falmouth walking map.",
+      "intro": [
+        "Windfall Market is at 77 Scranton Avenue, on the walking map.",
+        "Call ahead for current hours."
+      ],
+      "tips": [
+        "Ask what is in the case that day. A quarterly page cannot keep a stock list.",
+        "Call for hours. None are printed here."
+      ],
+      "related": [
+        "bakery",
+        "food",
+        "florist"
+      ],
+      "listings": [
+        {
+          "id": "windfall-market",
+          "name": "Windfall Market",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Local market",
+          "summary": "Local market on the walking map at 77 Scranton Avenue. Hours are not listed until the market confirms them.",
+          "address": "77 Scranton Avenue, Falmouth, MA",
+          "phone": "+1-508-548-0099",
+          "website": "https://www.windfallmarket.com/",
+          "booking": null,
+          "lat": 41.551452,
+          "lng": -70.603742,
+          "schemaType": "LocalBusiness",
+          "facts": [
+            "77 Scranton Avenue, Falmouth, MA",
+            "(508) 548-0099"
+          ],
+          "phoneDisplay": "(508) 548-0099",
+          "sources": [
+            "windfallmarket.com/contact, checked Oct 29, 2026"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "dry-cleaner",
+      "short": "Dry cleaner",
+      "nav": "Cleaning on Teaticket Highway",
+      "title": "Falmouth MA Dry Cleaner | Golden Crown Cleaners",
+      "h1": "Falmouth MA dry cleaner",
+      "description": "Golden Crown Cleaners, 194 Teaticket Highway, on the Falmouth walking map.",
+      "intro": [
+        "Golden Crown Cleaners is at 194 Teaticket Highway, on the walking map.",
+        "Call ahead for hours and prices."
+      ],
+      "tips": [
+        "Ask about turnaround before you leave a garment.",
+        "This page does not publish a price list."
+      ],
+      "related": [
+        "beauty",
+        "hotels",
+        "community"
+      ],
+      "listings": [
+        {
+          "id": "golden-crown-cleaners",
+          "name": "Golden Crown Cleaners",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Dry cleaner",
+          "summary": "Dry cleaner on the walking map at 194 Teaticket Highway. Hours and prices are not listed until the shop confirms them.",
+          "address": "196 Teaticket Highway, East Falmouth, MA 02536",
+          "phone": "+1-774-612-3824",
+          "website": "https://www.goldencrowncleaners.com/",
+          "booking": null,
+          "lat": 41.566229,
+          "lng": -70.595622,
+          "schemaType": "LocalBusiness",
+          "facts": [
+            "196 Teaticket Highway, East Falmouth, MA 02536",
+            "(774) 612-3824"
+          ],
+          "phoneDisplay": "(774) 612-3824",
+          "sources": [
+            "goldencrowncleaners.com/contact-us (address 196 Teaticket Hwy), checked Oct 29, 2026"
+          ]
+        }
+      ]
     }
   ]
 }

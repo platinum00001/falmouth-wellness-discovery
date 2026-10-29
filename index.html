@@ -16,167 +16,200 @@
 <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,600;0,9..40,700;1,9..40,400&family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;1,9..144,500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,600;0,9..40,700;1,9..40,400&family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;1,9..144,500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/styles.css">
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"WebSite","name":"Falmouth Wellness Discovery","url":"https://platinum00001.github.io/falmouth-wellness-discovery/","description":"Quarterly health and wellness magazine and discovery map for Falmouth, Massachusetts.","publisher":{"@type":"Organization","name":"Falmouth Wellness Discovery","address":{"@type":"PostalAddress","streetAddress":"316 Gifford Street","addressLocality":"Falmouth","addressRegion":"MA","addressCountry":"US"}}}
 </script>
+<link rel="stylesheet" href="css/polish.css">
 </head>
 <body data-path="">
 <a class="skip" href="#main">Skip to content</a>
 <header class="site-header">
   <a class="brand" href="index.html">
     <svg class="mark" viewBox="0 0 48 48" aria-hidden="true"><rect width="48" height="48" rx="12" fill="#1C5A5E"/><circle cx="30" cy="16" r="7" fill="#F4A259"/><path d="M8 34c6-6 10-6 16 0s10 6 16 0" fill="none" stroke="#A8D8CE" stroke-width="3" stroke-linecap="round"/></svg>
-    <span><span class="brand-kicker">Falmouth, Massachusetts</span><span class="brand-name">Wellness <em>Discovery</em></span></span>
+    <span><span class="brand-kicker">Falmouth · Cape Cod</span><span class="brand-name">Wellness <em>Discovery</em></span></span>
   </a>
   <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav"><span class="sr-only">Menu</span><span class="burger" aria-hidden="true"></span></button>
   <nav id="site-nav" class="site-nav" aria-label="Primary">
-    <a href="index.html" aria-current="page">Home</a>
-    <a href="magazine.html">Magazine</a>
-    <a href="map.html">Map</a>
-    <a href="guide.html">Guide</a>
-    <a href="directory.html">Directory</a>
-    <a href="free-help.html">Free Food &amp; Help</a>
-    <a href="partner.html">Become a Partner</a>
-    <a class="btn btn-small" href="signup.html">Get the magazine</a>
+    <a href="index.html">Home</a> <a href="magazine.html">Magazine</a> <a href="map.html">Map</a> <a href="shops/">Main Street</a> <a href="directory.html">Directory</a> <a href="guide.html">Visitor Guide</a> <a href="free-help.html">Free Help</a> <a href="partner.html">Partner</a>
+    <a class="btn btn-sun btn-small" href="signup.html">Get the magazine</a>
   </nav>
 </header>
 <main id="main">
-  <section class="hero">
-    <div class="hero-media">
-      <img src="assets/img/v2/home-hero.jpg" srcset="assets/img/v2/home-hero-800.jpg 800w, assets/img/v2/home-hero.jpg 1600w" sizes="100vw" width="1600" height="900" alt="Weathered wooden boardwalk through dune grass at sunrise, with a cream bicycle and a navy-striped tote in its wicker basket overlooking a calm sea." fetchpriority="high" decoding="async">
-      <div class="hero-scrim" aria-hidden="true"></div>
-    </div>
-    <div class="wrap hero-copy">
+  <section class="hero-x">
+    <picture><source type="image/webp" srcset="assets/img/v3/village-main-street-autumn-640.webp 640w, assets/img/v3/village-main-street-autumn.webp 1280w" sizes="100vw"><img src="assets/img/v3/village-main-street-autumn.jpg" srcset="assets/img/v3/village-main-street-autumn-640.jpg 640w, assets/img/v3/village-main-street-autumn.jpg 1280w" sizes="100vw" width="1280" height="720" alt="A New England village main street in autumn: clapboard and shingled shopfronts with awnings and flower boxes of mums, maple trees in color and a white steeple in the distance." fetchpriority="high" decoding="async"></picture>
+    <div class="wrap">
       <p class="eyebrow">Winter 2027 · Founding issue</p>
       <h1>Falmouth’s health &amp; wellness discovery guide</h1>
-      <p class="lede">A quarterly magazine and a fold-out discovery map. One thousand copies, free, placed where Falmouth already waits.</p>
+      <p class="lede">A free quarterly magazine and fold-out walking map, starting on Main Street and at Homeport on Gifford Street. One thousand copies, placed where Falmouth already waits.</p>
       <div class="cta-row">
-        <a class="btn" href="signup.html">Get the magazine</a>
-        <a class="btn btn-coral" href="partner.html">Become a Partner</a>
+        <a class="btn btn-sun" href="magazine.html">Read the flipbook</a>
+        <a class="btn btn-outline-light" href="map.html">Open the walking map</a>
       </div>
       <ul class="hero-meta">
-        <li>Mind, Body, Soul, Health &amp; Food</li>
-        <li>Waiting rooms, lobbies, Chamber, library</li>
-        <li>Sample issue is on this site</li>
+        <li>Mind · Body · Soul · Health &amp; Food</li>
+        <li>Main Street &amp; Homeport first</li>
+        <li>Free in waiting rooms, lobbies and the library</li>
       </ul>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="main-street">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <p class="eyebrow">Start here</p>
+        <h2>Main Street &amp; Homeport</h2>
+        <div class="rule"><i></i></div>
+        <p>Two short walks hold most of what this issue covers: the shops, salons and studios along Falmouth’s Main Street, and the offices and lunch counter at Homeport, Gifford Street at Jones Road.</p>
+      </div>
+      <!-- HL:start -->
+      <div class="local-grid">
+        <article class="local-col reveal">
+          <div class="photo"><picture><source type="image/webp" srcset="assets/img/v3/cafe-counter-morning-640.webp 640w, assets/img/v3/cafe-counter-morning.webp 1280w" sizes="(min-width: 900px) 50vw, 100vw"><img src="assets/img/v3/cafe-counter-morning.jpg" srcset="assets/img/v3/cafe-counter-morning-640.jpg 640w, assets/img/v3/cafe-counter-morning.jpg 1280w" sizes="(min-width: 900px) 50vw, 100vw" width="1280" height="720" alt="A bright café counter with a bowl of lemons, halved wraps on a board, a jar of iced mint tea and trailing plants by a window with a sea view." loading="lazy" decoding="async"></picture></div>
+          <div class="local-body">
+            <p class="eyebrow">Gifford Street at Jones Road</p>
+            <h3>Homeport</h3>
+            <p>The magazine’s home base. Lunch, two dental offices, a chiropractor, a nutrition shop and a family insurance agency share one parking lot.</p>
+            <ul class="local-list"><li class="home-base"><a href="food/#cape-island-cafe">Cape Island Café</a><small>Lunch · 316 Gifford Street</small></li><li><a href="dental/#falmouth-dental-associates">Falmouth Dental Associates</a><small>Family &amp; cosmetic dentistry · 210 Jones Rd (Homeport Office Park)</small></li><li><a href="spa-recovery/#root-to-rise">Root to Rise</a><small>Recovery community · 316 Gifford Street (at Cape Island Café)</small></li><li><a href="shops/#calfee-insurance">Arthur D. Calfee Insurance Agency</a><small>Insurance agency (Homeport) · 336 Gifford Street</small></li><li><a href="dental/#dental-group-of-falmouth">Dental Group of Falmouth</a><small>General dentistry (Homeport) · 344 Gifford Street</small></li><li><a href="spa-recovery/#harmony-network-chiropractic">Harmony Network Chiropractic</a><small>Chiropractic (Homeport) · 346 Gifford Street</small></li><li><a href="nutrition/#vital-nutrition">Vital Nutrition</a><small>Supplements &amp; health food · 358 Gifford Street</small></li></ul>
+            <a class="btn btn-small" href="map.html?area=homeport">See Homeport on the map</a>
+          </div>
+        </article>
+        <article class="local-col reveal">
+          <div class="photo"><picture><source type="image/webp" srcset="assets/img/v3/village-main-street-autumn-640.webp 640w, assets/img/v3/village-main-street-autumn.webp 1280w" sizes="(min-width: 900px) 50vw, 100vw"><img src="assets/img/v3/village-main-street-autumn.jpg" srcset="assets/img/v3/village-main-street-autumn-640.jpg 640w, assets/img/v3/village-main-street-autumn.jpg 1280w" sizes="(min-width: 900px) 50vw, 100vw" width="1280" height="720" alt="A New England village main street in autumn: clapboard and shingled shopfronts with awnings and flower boxes of mums, maple trees in color and a white steeple in the distance." loading="lazy" decoding="async"></picture></div>
+          <div class="local-body">
+            <p class="eyebrow">Falmouth village</p>
+            <h3>Main Street</h3>
+            <p>From the Village Green to Davis Straits: the library, Town Hall Square, bookshop, jewelers, boutiques, salons and studios. 25 wellness and shopping stops, in walking order.</p>
+            <ul class="local-list"><li><a href="spa-recovery/#acupuncture-health-services-falmouth">Acupuncture Health Services of Falmouth</a><small>Acupuncture · 15 Simpson Lane</small></li><li><a href="antiques/#jacquelines-gifts">Jacqueline&#x27;s Gifts &amp; Antiques</a><small>Antiques and vintage · 17 Walker Street</small></li><li><a href="getting-around/#falmouth-taxi">Falmouth Taxi</a><small>Taxi · 17 Walker Street</small></li><li><a href="community/#falmouth-chamber">Falmouth Chamber of Commerce</a><small>Chamber · 20 Academy Lane</small></li><li><a href="community/#falmouth-town-hall">Falmouth Town Hall</a><small>Town Hall · 59 Town Hall Square</small></li><li><a href="shops/#caline-for-kids">Caline for Kids</a><small>Children&#x27;s boutique · 149 Main Street</small></li><li><a href="shops/#nest-and-feathers">Nest and Feathers</a><small>Home goods · 189 Main Street</small></li><li><a href="bookstore/#eight-cousins">Eight Cousins Books</a><small>Bookstore · 199 Main Street</small></li><li><a href="shops/#maxwell-and-co">Maxwell &amp; Co.</a><small>Men&#x27;s and women&#x27;s clothing · 200 Main Street</small></li><li><a href="spa-recovery/#holistic-massage-and-wellness">Holistic Massage and Wellness (Lisa Jean Cotto, LMT)</a><small>Massage · 200 Main Street</small></li></ul>
+            <a class="btn btn-small" href="map.html?area=main-street">Walk Main Street on the map</a> <a class="btn btn-small btn-ghost" href="shops/">All Main Street shops</a>
+          </div>
+        </article>
+      </div>
+      <!-- HL:end -->
     </div>
   </section>
 
   <section class="section">
     <div class="wrap">
-      <div class="section-head">
-        <h2>What it is</h2>
-        <p>Falmouth Wellness Discovery is a local quarterly: stories people pick up and keep, plus a map that shows where to go next. Copies are free to readers.</p>
+      <div class="sec-head reveal">
+        <p class="eyebrow">What it is</p>
+        <h2>A local quarterly people keep</h2>
+        <div class="rule"><i></i></div>
+        <p>Stories you pick up in a waiting room and take home, plus a map that shows where to go next. Free to readers, paid for by local partners.</p>
       </div>
-      <div class="stats">
+      <div class="stats reveal">
         <article class="stat"><b>1,000</b> free copies each quarter</article>
         <article class="stat"><b>4×</b> a year: Winter, Spring, Summer, Fall</article>
         <article class="stat"><b>Free</b> in the rooms where people wait</article>
-        <article class="stat"><b>11×17</b> fold-out discovery map inside</article>
+        <article class="stat"><b>11×17</b> fold-out walking map inside</article>
       </div>
-      <p style="margin-top:1rem">Copies are placed by hand in waiting rooms, hotel lobbies, the Chamber, the library, and other local stops that agree to host them. We do not mail the magazine into a pile of bills.</p>
     </div>
   </section>
 
-  <section class="section" style="padding-top:0">
+  <section class="section section-alt" style="padding-top:0;padding-top:clamp(2rem,5vw,4rem)">
     <div class="wrap">
-      <div class="section-head">
+      <div class="sec-head reveal">
+        <p class="eyebrow">Every issue</p>
         <h2>Four pillars</h2>
-        <p>Every issue is health, food, fitness, mind, and soul. General town news lives somewhere else.</p>
+        <div class="rule"><i></i></div>
+        <p>Health, food, fitness, mind and soul. General town news lives somewhere else.</p>
       </div>
       <div class="pillars">
-        <article class="pillar mind has-art"><img class="pillar-art" src="assets/img/v2/pillar-mind.jpg" srcset="assets/img/v2/pillar-mind-800.jpg 800w, assets/img/v2/pillar-mind.jpg 1600w" sizes="(min-width: 800px) 25vw, 100vw" width="1600" height="900" alt="Sunlit window-seat reading nook with linen pillows, a navy throw, stacked books, an open book and a mug of tea beside a sea-glass bottle and an ocean view." loading="lazy" decoding="async"><div class="pillar-body"><h3>Mind</h3><p>Innovators, learning, and the people trying something new.</p></div></article>
-        <article class="pillar body has-art"><img class="pillar-art" src="assets/img/v2/pillar-body.jpg" srcset="assets/img/v2/pillar-body-800.jpg 800w, assets/img/v2/pillar-body.jpg 1600w" sizes="(min-width: 800px) 25vw, 100vw" width="1600" height="900" alt="Sea-glass green yoga mat rolled out on a quiet beach at morning, with a folded towel, navy water bottle and coral yoga block near the dunes." loading="lazy" decoding="async"><div class="pillar-body"><h3>Body</h3><p>Fitness, yoga, movement, and the sports kids are actually playing.</p></div></article>
-        <article class="pillar soul has-art"><img class="pillar-art" src="assets/img/v2/pillar-soul.jpg" srcset="assets/img/v2/pillar-soul-800.jpg 800w, assets/img/v2/pillar-soul.jpg 1600w" sizes="(min-width: 800px) 25vw, 100vw" width="1600" height="900" alt="Artist&#x27;s table by a sea-view window with a watercolor palette, brushes, a loose seascape painting, an antique compass and coral peonies in a blue-and-white pitcher." loading="lazy" decoding="async"><div class="pillar-body"><h3>Soul</h3><p>Family stories, good deeds, a charity spotlight, and pets.</p></div></article>
-        <article class="pillar food has-art"><img class="pillar-art" src="assets/img/v2/pillar-health-food.jpg" srcset="assets/img/v2/pillar-health-food-800.jpg 800w, assets/img/v2/pillar-health-food.jpg 1600w" sizes="(min-width: 800px) 25vw, 100vw" width="1600" height="900" alt="Farm stand table with a colorful bowl of fresh greens, tomatoes and berries beside a crusty sourdough loaf, with crates of local produce and the coast behind." loading="lazy" decoding="async"><div class="pillar-body"><h3>Health &amp; Food</h3><p>Breakfast through dinner, farm stands, and the pharmacy counter.</p></div></article>
+        <article class="pillar mind has-art reveal"><picture><source type="image/webp" srcset="assets/img/v3/bookstore-interior-640.webp 640w, assets/img/v3/bookstore-interior.webp 1280w" sizes="(min-width: 800px) 25vw, 100vw"><img class="pillar-art" src="assets/img/v3/bookstore-interior.jpg" srcset="assets/img/v3/bookstore-interior-640.jpg 640w, assets/img/v3/bookstore-interior.jpg 1280w" sizes="(min-width: 800px) 25vw, 100vw" width="1280" height="720" alt="A cozy independent bookstore with tall wooden shelves, a rolling ladder, warm pendant lamps and a reading armchair by a rainy autumn window." loading="lazy" decoding="async"></picture><div class="pillar-body"><h3>Mind</h3><p>Innovators, learning, a good bookshop and the people trying something new.</p></div></article>
+        <article class="pillar body has-art reveal"><picture><source type="image/webp" srcset="assets/img/v3/beach-yoga-sunrise-640.webp 640w, assets/img/v3/beach-yoga-sunrise.webp 1280w" sizes="(min-width: 800px) 25vw, 100vw"><img class="pillar-art" src="assets/img/v3/beach-yoga-sunrise.jpg" srcset="assets/img/v3/beach-yoga-sunrise-640.jpg 640w, assets/img/v3/beach-yoga-sunrise.jpg 1280w" sizes="(min-width: 800px) 25vw, 100vw" width="1280" height="720" alt="A person seen from behind holds a warrior yoga pose on a green mat on a quiet Cape Cod beach at sunrise, mist over calm water and dune grass in the foreground." loading="lazy" decoding="async"></picture><div class="pillar-body"><h3>Body</h3><p>Yoga, pilates, recovery, healthy aging and the sports kids are actually playing.</p></div></article>
+        <article class="pillar soul has-art reveal"><picture><source type="image/webp" srcset="assets/img/v3/charity-hands-boxes-640.webp 640w, assets/img/v3/charity-hands-boxes.webp 1280w" sizes="(min-width: 800px) 25vw, 100vw"><img class="pillar-art" src="assets/img/v3/charity-hands-boxes.jpg" srcset="assets/img/v3/charity-hands-boxes-640.jpg 640w, assets/img/v3/charity-hands-boxes.jpg 1280w" sizes="(min-width: 800px) 25vw, 100vw" width="1280" height="720" alt="Volunteers' hands pack donation boxes with apples, bread, pasta and canned goods on a long wooden table in a sunlit hall." loading="lazy" decoding="async"></picture><div class="pillar-body"><h3>Soul</h3><p>Family stories, good deeds, a charity spotlight and adoptable pets.</p></div></article>
+        <article class="pillar food has-art reveal"><picture><source type="image/webp" srcset="assets/img/v3/cafe-lunch-bowl-640.webp 640w, assets/img/v3/cafe-lunch-bowl.webp 1280w" sizes="(min-width: 800px) 25vw, 100vw"><img class="pillar-art" src="assets/img/v3/cafe-lunch-bowl.jpg" srcset="assets/img/v3/cafe-lunch-bowl-640.jpg 640w, assets/img/v3/cafe-lunch-bowl.jpg 1280w" sizes="(min-width: 800px) 25vw, 100vw" width="1280" height="720" alt="A healthy lunch bowl of seared salmon, sliced avocado, brown rice, spinach, cucumber and red onion with a lime wedge, beside a cup of tomato soup on a sunny wooden table." loading="lazy" decoding="async"></picture><div class="pillar-body"><h3>Health &amp; Food</h3><p>Breakfast through dinner, farm stands, nutrition and the pharmacy counter.</p></div></article>
       </div>
     </div>
   </section>
 
-  <section class="section" style="padding-top:0">
+  <section class="section">
     <div class="wrap split">
-      <figure class="cover-card">
-        <picture>
+      <figure class="cover-card reveal">
+        <a href="magazine.html" aria-label="Open the Winter 2027 flipbook"><picture>
           <source type="image/webp" srcset="assets/img/cover-winter-2027-900.webp 900w, assets/img/cover-winter-2027.webp 1600w">
           <source type="image/jpeg" srcset="assets/img/cover-winter-2027-900.jpg 900w, assets/img/cover-winter-2027.jpg 1600w">
-          <img src="assets/img/cover-winter-2027.jpg" width="900" height="1200" alt="Winter 2027 cover of Falmouth Wellness Discovery. Nobska Light, a white lighthouse and dark-roofed keeper’s house in Woods Hole, under a pale sky, with the magazine masthead. Photo by Giacomo Barbaro, CC BY-SA 3.0, via Wikimedia Commons, modified with added text.">
-        </picture>
-        <figcaption>Issue 1 cover. Nobska Light cover photo: Giacomo Barbaro, CC BY-SA 3.0, via Wikimedia Commons; modified with added text. <a href="credits.html">Credits</a></figcaption>
+          <img src="assets/img/cover-winter-2027.jpg" width="900" height="1200" loading="lazy" alt="Winter 2027 cover of Falmouth Wellness Discovery. Nobska Light, a white lighthouse and dark-roofed keeper’s house in Woods Hole, under a pale sky, with the magazine masthead. Photo by Giacomo Barbaro, CC BY-SA 3.0, via Wikimedia Commons, modified with added text.">
+        </picture></a>
+        <figcaption>Issue 1 cover. Nobska Light photo: Giacomo Barbaro, CC BY-SA 3.0, via Wikimedia Commons; modified with added text. <a href="credits.html">Credits</a></figcaption>
       </figure>
-      <div>
+      <div class="reveal">
         <p class="eyebrow">Read it now</p>
-        <h2>Winter 2027 is a sample you can turn page by page</h2>
-        <p>The digital issue has the cover, a letter, Tanorama on Main Street, founding partners Cape Island Café and Falmouth Transport, and a pull-out you can tear out: a wellness map on the front and a Falmouth visitor guide on the back. Open cards, a crossword, a sample calendar, and the audio-update code are still in the issue.</p>
-        <p>Real picks replace the “your business here” cards later. The copy lives in one file, <code>data/issue1.json</code>, so a confirmed story can be dropped in without rebuilding the site.</p>
+        <h2>Turn the pages of Winter 2027</h2>
+        <p>The flipbook turns like a real magazine: the publisher’s letter, Main Street’s Tanorama, founding partners Cape Island Café and Falmouth Transport, healthy aging at the Senior Center, a crossword, and the pull-out walking map at the center spread with a visitor guide on the back.</p>
+        <p>Swipe or use the arrow keys, open the page index, zoom in, go full screen, or download the issue as a PDF.</p>
         <div class="cta-row">
-          <a class="btn" href="magazine.html">Open the sample issue</a>
-          <a class="btn btn-ghost" href="map.html">Open the map</a>
+          <a class="btn" href="magazine.html">Open the flipbook</a>
+          <a class="btn btn-ghost" href="magazine.html?page=12">Jump to the centerfold map</a>
         </div>
       </div>
     </div>
   </section>
 
-  <section class="section" style="padding-top:0">
+  <section class="section section-alt">
     <div class="wrap">
-      <div class="section-head">
+      <div class="sec-head reveal">
+        <p class="eyebrow">Directory</p>
         <h2>Find a Falmouth service</h2>
-        <p>Category pages are built to be found in search, then hand the visit to the partner. Unconfirmed businesses stay labeled as sample slots.</p>
+        <div class="rule"><i></i></div>
+        <p>Every listing has a real address and a way to reach the business. Main Street and Homeport businesses are listed first on each page.</p>
       </div>
       <div class="dir-grid">
-        <a class="dir-link" href="transportation/"><strong>Transportation</strong><span>Rides, taxis, moving things</span></a>
-        <a class="dir-link" href="home-remodeling/"><strong>Home remodeling</strong><span>Renovations, still an open slot</span></a>
-        <a class="dir-link" href="doctors/"><strong>Doctors</strong><span>Visits, urgent care, dental</span></a>
-        <a class="dir-link" href="food/"><strong>Food</strong><span>Cape Island Café and Café Grounded</span></a>
-        <a class="dir-link" href="fitness/"><strong>Fitness</strong><span>Yoga and pilates on the map</span></a>
-        <a class="dir-link" href="beauty/"><strong>Beauty</strong><span>Tanning, hair, and nails</span></a>
-        <a class="dir-link" href="hotels/"><strong>Hotels</strong><span>Palmer House Inn</span></a>
-        <a class="dir-link" href="golf/"><strong>Golf</strong><span>A course, when one confirms</span></a>
-        <a class="dir-link" href="community/"><strong>Community</strong><span>Library, Town Hall, Elks, Tommy's Place</span></a>
-        <a class="dir-link" href="bookstore/"><strong>Bookstore</strong><span>Eight Cousins Books</span></a>
-        <a class="dir-link" href="antiques/"><strong>Antiques &amp; Vintage</strong><span>Jacqueline's, Walker Street</span></a>
-        <a class="dir-link" href="florist/"><strong>Florist</strong><span>The Salty Florist &amp; More</span></a>
-        <a class="dir-link" href="art-gallery/"><strong>Art Gallery</strong><span>Falmouth Art Center</span></a>
-        <a class="dir-link" href="thrift/"><strong>Thrift/Resale</strong><span>Hospital auxiliary shop</span></a>
-        <a class="dir-link" href="music-lessons/"><strong>Music Lessons</strong><span>Cape Symphony Conservatory</span></a>
-        <a class="dir-link" href="bike-shop/"><strong>Bike Shop</strong><span>Corner Cycle</span></a>
-        <a class="dir-link" href="garden-center/"><strong>Garden Center</strong><span>Beacon Gardens, north of the sheet</span></a>
-        <a class="dir-link" href="local-market/"><strong>Local Market</strong><span>Windfall Market</span></a>
-        <a class="dir-link" href="bakery/"><strong>Bakery</strong><span>Maison Villatte</span></a>
-        <a class="dir-link" href="dry-cleaner/"><strong>Dry cleaner</strong><span>Golden Crown Cleaners</span></a>
+        <a class="dir-link is-local" href="shops/"><strong>Main Street Shops</strong><span>Jewelers, boutiques, kids and home, plus Homeport</span></a>
+        <a class="dir-link" href="food/"><strong>Food</strong><span>Cape Island Café, Main Street lunch and dinner</span></a>
+        <a class="dir-link" href="nutrition/"><strong>Nutrition</strong><span>Vital Nutrition at Homeport, smoothies, health food</span></a>
+        <a class="dir-link" href="spa-recovery/"><strong>Spa &amp; Recovery</strong><span>Massage, chiropractic, acupuncture, physical therapy</span></a>
+        <a class="dir-link" href="dental/"><strong>Dental</strong><span>Two dental offices at Homeport</span></a>
+        <a class="dir-link" href="fitness/"><strong>Fitness</strong><span>Yoga, pilates, aerial yoga and gyms</span></a>
+        <a class="dir-link" href="beauty/"><strong>Beauty</strong><span>Tanorama, salons and nails on Main Street</span></a>
+        <a class="dir-link" href="bookstore/"><strong>Bookstore</strong><span>Eight Cousins Books, 199 Main Street</span></a>
+        <a class="dir-link" href="community/"><strong>Community</strong><span>Library, Senior Center, Town Hall, Tommy’s Place</span></a>
+        <a class="dir-link" href="getting-around/"><strong>Getting Around</strong><span>24-hour taxi and bike rentals</span></a>
+        <a class="dir-link" href="hotels/"><strong>Hotels</strong><span>Palmer House Inn, steps from Main Street</span></a>
+        <a class="dir-link" href="directory.html"><strong>All categories</strong><span>Florist, antiques, art, bakery, market and more</span></a>
       </div>
     </div>
   </section>
 
-  <section class="band">
-    <div class="wrap section">
-      <h2>Partners keep it printing</h2>
-      <p>The core Featured package is $500 a month, billed monthly, one business per category. Founding partners take 25% off. Prices are introductory and subject to change.</p>
-      <div class="cta-row">
-        <a class="btn" href="partner.html" style="background:#fff;color:#1c5a5e">See the packages</a>
-        <a class="btn btn-ghost" href="poster.html" style="color:#fff;border-color:#fff">Print a counter card</a>
+  <section class="section section-navy">
+    <div class="wrap feature-split">
+      <div class="photo reveal"><picture><source type="image/webp" srcset="assets/img/v3/cafe-counter-morning-640.webp 640w, assets/img/v3/cafe-counter-morning.webp 1280w" sizes="(min-width: 900px) 50vw, 100vw"><img src="assets/img/v3/cafe-counter-morning.jpg" srcset="assets/img/v3/cafe-counter-morning-640.jpg 640w, assets/img/v3/cafe-counter-morning.jpg 1280w" sizes="(min-width: 900px) 50vw, 100vw" width="1280" height="720" alt="A bright café counter with a bowl of lemons, halved wraps on a board, a jar of iced mint tea and trailing plants by a window with a sea view." loading="lazy" decoding="async"></picture></div>
+      <div class="reveal">
+        <p class="eyebrow">For local businesses</p>
+        <h2>Partners keep it printing</h2>
+        <p>The core Featured package is $500 a month, billed monthly, one business per category. Founding partners take 25% off. You get the featured card on your category page, a numbered pin on the walking map and a place in the magazine. Prices are introductory and subject to change.</p>
+        <div class="cta-row">
+          <a class="btn btn-sun" href="partner.html">See the packages</a>
+          <a class="btn btn-outline-light" href="poster.html">Print a counter card</a>
+        </div>
       </div>
     </div>
   </section>
 </main>
 <footer class="site-footer">
   <div class="wrap foot-grid">
-    <div>
-      <h2>Cape Island</h2>
-      <p>316 Gifford Street, Falmouth, MA<br><a href="tel:+17742475263">(774) 247-5263</a><br><a href="mailto:CapeIslandCafe@gmail.com">CapeIslandCafe@gmail.com</a></p>
+    <div class="foot-brand">
+      <a class="brand brand-light" href="index.html"><svg class="mark" viewBox="0 0 48 48" aria-hidden="true"><rect width="48" height="48" rx="12" fill="#1C5A5E"/><circle cx="30" cy="16" r="7" fill="#F4A259"/><path d="M8 34c6-6 10-6 16 0s10 6 16 0" fill="none" stroke="#A8D8CE" stroke-width="3" stroke-linecap="round"/></svg><span><span class="brand-kicker">Falmouth · Cape Cod</span><span class="brand-name">Wellness <em>Discovery</em></span></span></a>
+      <p>A free quarterly health and wellness magazine and walking map for Falmouth, Massachusetts. Published from Homeport, Gifford Street at Jones Road.</p>
     </div>
     <div>
-      <h2>Explore</h2>
-      <p><a href="magazine.html">Winter 2027 sample issue</a><br><a href="map.html">Discovery map</a><br><a href="guide.html">Visitor guide</a><br><a href="map-print.html">17×11 pull-out</a><br><a href="directory.html">Service directory</a><br><a href="free-help.html">Free food &amp; help</a><br><a href="audio.html">Audio update</a><br><a href="credits.html">Image credits</a></p>
+      <h2>Read</h2>
+      <p><a href="magazine.html">Winter 2027 flipbook</a><br><a href="map.html">Discovery map</a><br><a href="guide.html">Visitor guide</a><br><a href="map-print.html">17×11 pull-out</a><br><a href="audio.html">Audio update</a></p>
     </div>
     <div>
-      <h2>Partners</h2>
-      <p><a href="partner.html">Become a partner</a><br><a href="poster.html">Counter QR poster</a><br><a href="pitch/">Pitch deck</a><br><a href="signup.html">Reader sign-up</a></p>
+      <h2>Find</h2>
+      <p><a href="shops/">Main Street &amp; Homeport shops</a><br><a href="directory.html">Service directory</a><br><a href="free-help.html">Free food &amp; help</a><br><a href="credits.html">Image credits</a></p>
+    </div>
+    <div>
+      <h2>Publisher</h2>
+      <p>Cape Island<br>316 Gifford Street, Falmouth, MA 02540<br><a href="tel:+17742475263">(774) 247-5263</a><br><a href="mailto:CapeIslandCafe@gmail.com">CapeIslandCafe@gmail.com</a></p>
+      <p><a class="btn btn-sun btn-small" href="partner.html">Become a partner</a></p>
     </div>
   </div>
   <div class="wrap credit-line">
-    <p>Nobska Light cover photo: Giacomo Barbaro, CC BY-SA 3.0, via Wikimedia Commons (<a href="https://commons.wikimedia.org/wiki/File:Nobska_Lighthouse.jpg">https://commons.wikimedia.org/wiki/File:Nobska_Lighthouse.jpg</a>); modified with added text.</p>
-    <p>Issue 1 and unconfirmed directory cards are samples. Placeholder businesses are not real listings.</p>
+    <p>Nobska Light cover photo: Giacomo Barbaro, CC BY-SA 3.0, via Wikimedia Commons (<a href="https://commons.wikimedia.org/wiki/File:Nobska_Lighthouse.jpg">source</a>); modified with added text. Other photographs are generated editorial images of generic scenes, not real people or storefronts.</p>
+    <p>© 2026 Falmouth Wellness Discovery · Winter 2027 · Issue 1 · <a href="partner.html">Advertise</a> · <a href="signup.html">Get the magazine</a></p>
   </div>
 </footer>
 <script src="config.js"></script>

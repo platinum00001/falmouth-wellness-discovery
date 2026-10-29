@@ -1,0 +1,178 @@
+{
+  "front": {
+    "src": "assets/img/mag/centerfold-front.jpg",
+    "webp": "assets/img/mag/centerfold-front.webp",
+    "small": "assets/img/mag/centerfold-front-1200.jpg",
+    "width": 2400,
+    "height": 1553,
+    "pins": [
+      {
+        "n": "1",
+        "x": 49.958,
+        "y": 38.574,
+        "color": "#e07a2f",
+        "focus": true,
+        "title": "Cape Island Caf\u00e9"
+      },
+      {
+        "n": "2",
+        "x": 44.872,
+        "y": 50.222,
+        "color": "#18343d",
+        "focus": false,
+        "title": "Eight Cousins Books"
+      },
+      {
+        "n": "3",
+        "x": 44.688,
+        "y": 57.892,
+        "color": "#c43d78",
+        "focus": false,
+        "title": "Jacqueline's Gifts & Antiques"
+      },
+      {
+        "n": "4",
+        "x": 52.286,
+        "y": 53.347,
+        "color": "#c43d78",
+        "focus": false,
+        "title": "The Salty Florist & More"
+      },
+      {
+        "n": "5",
+        "x": 50.448,
+        "y": 48.328,
+        "color": "#c43d78",
+        "focus": false,
+        "title": "Falmouth Art Center"
+      },
+      {
+        "n": "6",
+        "x": 36.416,
+        "y": 44.161,
+        "color": "#18343d",
+        "focus": false,
+        "title": "Cape Symphony Conservatory"
+      },
+      {
+        "n": "7",
+        "x": 42.421,
+        "y": 50.506,
+        "color": "#1c5a5e",
+        "focus": false,
+        "title": "Corner Cycle"
+      },
+      {
+        "n": "8",
+        "x": 55.227,
+        "y": 55.62,
+        "color": "#e07a2f",
+        "focus": false,
+        "title": "Windfall Market"
+      },
+      {
+        "n": "9",
+        "x": 44.872,
+        "y": 54.105,
+        "color": "#e07a2f",
+        "focus": false,
+        "title": "Maison Villatte"
+      },
+      {
+        "n": "10",
+        "x": 44.321,
+        "y": 35.449,
+        "color": "#c43d78",
+        "focus": false,
+        "title": "Falmouth Hospital Auxiliary Thrift Shop"
+      },
+      {
+        "n": "11",
+        "x": 49.835,
+        "y": 53.726,
+        "color": "#e07a2f",
+        "focus": false,
+        "title": "Caf\u00e9 Grounded"
+      },
+      {
+        "n": "12",
+        "x": 47.384,
+        "y": 50.601,
+        "color": "#1c5a5e",
+        "focus": false,
+        "title": "Tanorama"
+      },
+      {
+        "n": "13",
+        "x": 47.691,
+        "y": 58.271,
+        "color": "#1c5a5e",
+        "focus": false,
+        "title": "Bellezza Salon Medspa"
+      },
+      {
+        "n": "14",
+        "x": 57.862,
+        "y": 43.025,
+        "color": "#1c5a5e",
+        "focus": false,
+        "title": "rooted Hot Yoga"
+      },
+      {
+        "n": "15",
+        "x": 54.737,
+        "y": 51.737,
+        "color": "#1c5a5e",
+        "focus": false,
+        "title": "Spa & Nails"
+      },
+      {
+        "n": "16",
+        "x": 60.558,
+        "y": 33.65,
+        "color": "#c43d78",
+        "focus": false,
+        "title": "Golden Crown Cleaners"
+      },
+      {
+        "n": "17",
+        "x": 42.605,
+        "y": 42.646,
+        "color": "#c43d78",
+        "focus": false,
+        "title": "Falmouth Elks Lodge #2380"
+      },
+      {
+        "n": "18",
+        "x": 43.524,
+        "y": 46.434,
+        "color": "#18343d",
+        "focus": false,
+        "title": "Palmer House Inn"
+      },
+      {
+        "n": "19",
+        "x": 47.384,
+        "y": 54.483,
+        "color": "#c43d78",
+        "focus": false,
+        "title": "Tommy's Place"
+      },
+      {
+        "n": "20",
+        "x": 57.556,
+        "y": 51.737,
+        "color": "#1c5a5e",
+        "focus": false,
+        "title": "Fitness Directions"
+      }
+    ]
+  },
+  "back": {
+    "src": "assets/img/mag/centerfold-back.jpg",
+    "webp": "assets/img/mag/centerfold-back.webp",
+    "small": "assets/img/mag/centerfold-back-1200.jpg",
+    "width": 2400,
+    "height": 1553
+  }
+}

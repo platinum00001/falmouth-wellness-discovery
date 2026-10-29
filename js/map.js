@@ -22,12 +22,23 @@ const COLORS = {
   nutrition: "#e07a2f",
   "spa-recovery": "#1c5a5e",
   dental: "#18343d",
-  "getting-around": "#18343d"
+  "getting-around": "#18343d",
+  shops: "#c98a3d"
+};
+
+const AREAS = {
+  homeport: { label: "Homeport", center: [41.5626, -70.6104], radius: 190 },
+  "main-street": { label: "Main Street", center: [41.5521, -70.6145], radius: 0 }
 };
 
 const PIN_BY_ID = {
   "cape-island-cafe": "#e07a2f"
 };
+
+function fmtPhone(p) {
+  const d = String(p || "").replace(/\D/g, "").replace(/^1(?=\d{10}$)/, "");
+  return d.length === 10 ? "(" + d.slice(0, 3) + ") " + d.slice(3, 6) + "-" + d.slice(6) : String(p || "");
+}
 
 function esc(value) {
   return String(value ?? "").replace(/[&<>"]/g, function (ch) {
@@ -68,7 +79,10 @@ async function bootMap() {
       listings.push(Object.assign({ category: cat.slug, categoryName: cat.short }, item));
     });
   });
-  (data.mapOnly || []).forEach(function (item) { listings.push(item); });
+  // Main Street and Homeport first, then everything else (placeholders are not mapped).
+  const rank = function (item) { return item.district === "homeport" ? 0 : item.district === "main-street" ? 1 : 2; };
+  for (let i = listings.length - 1; i >= 0; i--) if (listings[i].placeholder) listings.splice(i, 1);
+  listings.sort(function (a, b) { return rank(a) - rank(b); });
 
   const map = L.map("discovery-map", { scrollWheelZoom: false });
   L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
@@ -108,13 +122,15 @@ async function bootMap() {
 
   function popup(item) {
     const bits = ["<strong>" + esc(item.name) + "</strong>", "<div>" + esc(item.categoryName || item.category) + "</div>", "<p>" + esc(item.summary || "") + "</p>"];
+    if (item.district) bits.push('<p class="pop-area">' + (item.district === "homeport" ? "Homeport" : "Main Street") + "</p>");
     if (item.address) bits.push("<p>" + esc(item.address) + "</p>");
+    if (item.phone) bits.push('<p><a href="tel:' + esc(String(item.phone).replace(/[^+\d]/g, "")) + '">' + esc(fmtPhone(item.phone)) + "</a></p>");
+    if (item.website) bits.push('<p><a href="' + esc(item.website) + '" target="_blank" rel="noopener">Website</a></p>');
     if (!item.placeholder && item.category) {
       bits.push('<p><a href="' + esc(item.category) + '/">Open the ' + esc(item.categoryName || "category") + " page</a></p>");
     }
     if (item.approximate) bits.push("<p>Main Street position is approximate.</p>");
     if (spots[item.id] && spots[item.id].moved) bits.push("<p>The pin is shifted so it stays readable. The dot is the mapped address.</p>");
-    if (item.placeholder) bits.push("<p>Sample slot. No address is shown until a business confirms it.</p>");
     return bits.join("");
   }
 
@@ -122,9 +138,10 @@ async function bootMap() {
     if (item.lat == null || item.lng == null) return;
     if (!isPin(item)) {
       // Directory-only listings: a small dot at the mapped address, so the numbered walk pins stay readable.
+      const local = item.district === "homeport" || item.district === "main-street";
       const dot = L.circleMarker([item.lat, item.lng], {
-        radius: 6,
-        weight: 2,
+        radius: local ? 8 : 5,
+        weight: local ? 3 : 2,
         color: "#fffdf9",
         fillColor: COLORS[item.category] || "#18343d",
         fillOpacity: 0.95
@@ -176,8 +193,8 @@ async function bootMap() {
       button.type = "button";
       const num = numbers[item.id] ? numbers[item.id] + ". " : "";
       button.innerHTML = esc(num + item.name) + "<small>" + esc(item.categoryName || item.category) +
-        (item.placeholder ? " · sample slot" : "") +
-        (item.lat == null ? " · pin waiting on a confirmed address" : "") + "</small>";
+        (item.district === "homeport" ? " · Homeport" : item.district === "main-street" ? " · Main Street" : "") + "</small>";
+      if (item.district) button.classList.add("is-local");
       button.addEventListener("click", function () {
         const marker = markers.find(function (m) { return m.item.id === item.id; });
         if (!marker) return;
@@ -210,7 +227,23 @@ async function bootMap() {
     map.setView([41.558, -70.62], 12);
   });
 
-  const preset = new URLSearchParams(location.search).get("cat") || (location.hash || "").replace("#", "");
+  // Homeport and Main Street emphasis
+  const hp = AREAS.homeport;
+  L.circle(hp.center, { radius: hp.radius, color: "#e07a2f", weight: 2, dashArray: "6 6", fillColor: "#f4a259", fillOpacity: 0.12, interactive: false }).addTo(map);
+  L.marker([hp.center[0] + 0.0021, hp.center[1]], { interactive: false, icon: L.divIcon({ className: "area-label", html: "<span>Homeport</span>", iconSize: [110, 24], iconAnchor: [55, 12] }) }).addTo(map);
+  L.marker([41.5508, -70.6150], { interactive: false, icon: L.divIcon({ className: "area-label is-main", html: "<span>Main Street</span>", iconSize: [120, 24], iconAnchor: [60, 12] }) }).addTo(map);
+  function showArea(key) {
+    const pts = listings.filter(function (item) { return item.district === key && item.lat != null; }).map(function (item) { return [item.lat, item.lng]; });
+    if (!pts.length) return;
+    map.fitBounds(L.latLngBounds(pts), { padding: [40, 40], maxZoom: 17, animate: true });
+    layoutPins();
+  }
+  document.querySelectorAll("[data-area]").forEach(function (btn) {
+    btn.addEventListener("click", function () { showArea(btn.dataset.area); });
+  });
+
+  const params = new URLSearchParams(location.search);
+  const preset = params.get("cat") || (location.hash || "").replace("#", "");
   if (preset && COLORS[preset]) {
     active.clear();
     active.add(preset);
@@ -219,9 +252,11 @@ async function bootMap() {
     });
   }
   render();
-  showDowntown();
-  setTimeout(function () { map.invalidateSize(); showDowntown(); }, 200);
-  status.textContent = "Orange pin: Cape Island Cafe, 316 Gifford St. Small dots are other directory listings; tap one for details. Pins that share a block are pulled apart, with a line back to the address. Beacon Gardens is north of the sheet, on Brick Kiln Road.";
+  const area = params.get("area");
+  const start = function () { if (area && AREAS[area]) showArea(area); else showDowntown(); };
+  start();
+  setTimeout(function () { map.invalidateSize(); start(); }, 200);
+  status.textContent = "Orange pin: Cape Island Café at Homeport, 316 Gifford St. Larger dots are Main Street and Homeport businesses; small dots are other directory listings. Tap any pin or dot for details.";
 }
 
 bootMap();

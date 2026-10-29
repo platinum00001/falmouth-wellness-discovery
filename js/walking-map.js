@@ -509,6 +509,13 @@
       height: size,
       correctLevel: QRCode.CorrectLevel.M
     });
+    qrAlt(box, "QR code: open the Falmouth Wellness discovery map");
+  }
+
+  function qrAlt(box, text) {
+    box.setAttribute("role", "img");
+    box.setAttribute("aria-label", text);
+    box.querySelectorAll("img").forEach(function (img) { img.alt = text; });
   }
 
   function drawQrSlots(root) {
@@ -523,10 +530,12 @@
         height: size,
         correctLevel: QRCode.CorrectLevel.L
       });
+      qrAlt(box, box.getAttribute("title") || "QR code link");
     });
   }
 
   global.FWDWalk = {
+    qrAlt: qrAlt,
     PILLARS: PILLARS,
     esc: esc,
     colorFor: colorFor,

@@ -25,6 +25,7 @@ function draw() {
     return;
   }
   new QRCode(box, { text: url, width: 220, height: 220, correctLevel: QRCode.CorrectLevel.M });
+  box.querySelectorAll("img").forEach(function (img) { img.alt = "QR code: " + url; });
 }
 
 const params = new URLSearchParams(location.search);

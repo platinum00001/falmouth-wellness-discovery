@@ -3,79 +3,104 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Winter 2027 Sample Issue | Falmouth Wellness Discovery</title>
-<meta name="description" content="Turn the pages of the Winter 2027 sample issue of Falmouth Wellness Discovery, a health and wellness magazine for Falmouth, Massachusetts.">
+<title>Winter 2027 Flipbook | Falmouth Wellness Discovery</title>
+<meta name="description" content="Turn the pages of the Winter 2027 issue of Falmouth Wellness Discovery, a health and wellness magazine for Falmouth, Massachusetts.">
 <link rel="canonical" href="https://platinum00001.github.io/falmouth-wellness-discovery/magazine.html">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Winter 2027 sample issue">
-<meta property="og:description" content="A page-turn sample of Falmouth Wellness Discovery, Issue 1.">
+<meta property="og:title" content="Winter 2027 flipbook">
+<meta property="og:description" content="A page-turn flipbook of Falmouth Wellness Discovery, Issue 1.">
 <meta property="og:url" content="https://platinum00001.github.io/falmouth-wellness-discovery/magazine.html">
 <meta property="og:image" content="https://platinum00001.github.io/falmouth-wellness-discovery/assets/img/cover-winter-2027.jpg" data-abs-img="assets/img/cover-winter-2027.jpg">
 <meta name="theme-color" content="#2C7F7B">
 <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,600;0,9..40,700;1,9..40,400&family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;1,9..144,500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,600;0,9..40,700;1,9..40,400&family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;1,9..144,500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/styles.css">
-<link rel="stylesheet" href="css/magazine.css">
-<link rel="stylesheet" href="css/map.css">
-<link rel="stylesheet" href="assets/vendor/leaflet/leaflet.css">
+<link rel="stylesheet" href="css/polish.css">
+<link rel="stylesheet" href="css/flipbook.css">
 </head>
 <body data-path="magazine.html">
 <a class="skip" href="#main">Skip to content</a>
 <header class="site-header">
   <a class="brand" href="index.html">
     <svg class="mark" viewBox="0 0 48 48" aria-hidden="true"><rect width="48" height="48" rx="12" fill="#1C5A5E"/><circle cx="30" cy="16" r="7" fill="#F4A259"/><path d="M8 34c6-6 10-6 16 0s10 6 16 0" fill="none" stroke="#A8D8CE" stroke-width="3" stroke-linecap="round"/></svg>
-    <span><span class="brand-kicker">Falmouth, Massachusetts</span><span class="brand-name">Wellness <em>Discovery</em></span></span>
+    <span><span class="brand-kicker">Falmouth · Cape Cod</span><span class="brand-name">Wellness <em>Discovery</em></span></span>
   </a>
   <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav"><span class="sr-only">Menu</span><span class="burger" aria-hidden="true"></span></button>
   <nav id="site-nav" class="site-nav" aria-label="Primary">
-    <a href="index.html">Home</a>
-    <a href="magazine.html" aria-current="page">Magazine</a>
-    <a href="map.html">Map</a>
-    <a href="guide.html">Guide</a>
-    <a href="directory.html">Directory</a>
-    <a href="free-help.html">Free Food &amp; Help</a>
-    <a href="partner.html">Become a Partner</a>
-    <a class="btn btn-small" href="signup.html">Get the magazine</a>
+    <a href="index.html">Home</a> <a href="magazine.html" aria-current="page">Magazine</a> <a href="map.html">Map</a> <a href="shops/">Main Street</a> <a href="directory.html">Directory</a> <a href="guide.html">Visitor Guide</a> <a href="free-help.html">Free Help</a> <a href="partner.html">Partner</a>
+    <a class="btn btn-sun btn-small" href="signup.html">Get the magazine</a>
   </nav>
 </header>
-<main id="main" class="reader wrap-l">
-  <div class="reader-bar">
+<main id="main" class="reader">
+  <section class="mag-intro wrap-l">
     <div>
-      <p class="eyebrow">Sample issue</p>
-      <h1>Winter 2027</h1>
-      <p>Use Previous and Next, the arrow keys, or a swipe. On a wide screen the issue opens as a spread. The walking-map pull-out opens as one landscape sheet, and the next sheet is the visitor guide on the back.</p>
+      <p class="eyebrow">Winter 2027 · Issue 1</p>
+      <h1>The flipbook</h1>
+      <p>Drag a page corner, click a page edge, swipe, or use the arrow keys. Pages 12–15 are the pull-out: the walking map, then the visitor guide on the back.</p>
     </div>
-    <div class="pager">
-      <button id="prev-page" class="btn btn-small" type="button">Previous</button>
-      <button id="next-page" class="btn btn-small" type="button">Next</button>
-      <button id="open-toc" class="btn btn-small btn-ghost" type="button">Contents</button>
-      <p id="page-label">Loading</p>
+    <p class="mag-intro-cta"><a class="btn btn-navy btn-small" href="magazine.html?page=12">Jump to the walking map</a> <a class="btn btn-sun btn-small" id="pdf-btn" href="assets/fwd-winter-2027.pdf" download>Download the PDF</a></p>
+  </section>
+  <div class="mag-stage" id="mag-stage">
+    <div class="mag-bar" id="mag-bar">
+      <button id="prev-page" class="mag-icon" type="button" aria-label="Previous page"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg></button>
+      <p id="page-label" aria-hidden="true">Loading</p>
+      <button id="next-page" class="mag-icon" type="button" aria-label="Next page"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg></button>
+      <span class="mag-bar-sep" aria-hidden="true"></span>
+      <button id="thumbs-btn" class="mag-icon" type="button" aria-label="All pages"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="4" width="6" height="7" rx="1"/><rect x="14" y="4" width="6" height="7" rx="1"/><rect x="4" y="14" width="6" height="7" rx="1"/><rect x="14" y="14" width="6" height="7" rx="1"/></svg><span>Pages</span></button>
+      <button id="zoom-btn" class="mag-icon" type="button" aria-label="Zoom in on these pages"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6"/><path d="M20 20l-4.5-4.5M11 8v6M8 11h6"/></svg><span>Zoom</span></button>
+      <button id="full-btn" class="mag-icon" type="button" aria-label="Full screen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/></svg><span>Full screen</span></button>
+      <div class="mag-progress" aria-hidden="true"><i id="mag-progress"></i></div>
     </div>
+    <p id="reader-status" role="status">Loading the issue…</p>
+    <p id="reader-live" class="sr-only" aria-live="polite"></p>
+    <div class="book-stage"><div class="book-box" id="book-box"><div class="book" id="book" aria-label="Magazine pages"></div></div></div>
+    <p class="mag-hint" aria-hidden="true">Drag a corner or swipe to turn the page</p>
   </div>
-  <p id="reader-status" role="status">Loading the sample issue…</p>
-  <p id="reader-live" class="sr-only" aria-live="polite"></p>
-  <div class="book-wrap"><div class="book" id="book" tabindex="0" aria-label="Magazine pages"></div></div>
-  <p class="fine">The Nobska Light credit is printed on the cover image. Nobska Light cover photo: Giacomo Barbaro, CC BY-SA 3.0, via Wikimedia Commons (<a href="https://commons.wikimedia.org/wiki/File:Nobska_Lighthouse.jpg">File:Nobska_Lighthouse.jpg</a>); modified with added text.</p>
-  <noscript><p>This reader needs JavaScript to turn pages. The cover image is assets/img/cover-winter-2027.jpg and the words are in data/issue1.json.</p></noscript>
-  <dialog id="toc-dialog" class="dialog">
-    <h2>Contents</h2>
-    <div id="toc-jump" class="toc-jump"></div>
-    <form method="dialog"><button class="btn btn-small" type="submit">Close</button></form>
+  <p class="fine wrap-l">Nobska Light cover photo: Giacomo Barbaro, CC BY-SA 3.0, via Wikimedia Commons (<a href="https://commons.wikimedia.org/wiki/File:Nobska_Lighthouse.jpg">File:Nobska_Lighthouse.jpg</a>); modified with added text. Other photographs are generated editorial images of generic scenes. Map data © OpenStreetMap contributors.</p>
+  <noscript><p class="wrap-l">This flipbook needs JavaScript. <a href="assets/fwd-winter-2027.pdf">Download the PDF of the issue</a> instead.</p></noscript>
+  <dialog id="thumbs-dialog" class="mag-dialog thumbs" aria-labelledby="thumbs-h">
+    <div class="mag-dialog-head"><h2 id="thumbs-h">All pages</h2><form method="dialog"><button class="mag-icon" type="submit" aria-label="Close"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button></form></div>
+    <div id="thumbs-grid" class="thumbs-grid"></div>
+  </dialog>
+  <dialog id="zoom-dialog" class="mag-dialog zoom" aria-labelledby="zoom-title">
+    <div class="mag-dialog-head"><h2 id="zoom-title">Zoom</h2>
+      <div class="zoom-tools"><button id="zoom-out" class="mag-icon" type="button" aria-label="Zoom out"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 12h12"/></svg></button><span id="zoom-level">100%</span><button id="zoom-in" class="mag-icon" type="button" aria-label="Zoom in"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 12h12M12 6v12"/></svg></button>
+      <form method="dialog"><button class="mag-icon" type="submit" aria-label="Close"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button></form></div></div>
+    <div id="zoom-body" class="zoom-body"></div>
   </dialog>
 </main>
 <footer class="site-footer">
+  <div class="wrap foot-grid">
+    <div class="foot-brand">
+      <a class="brand brand-light" href="index.html"><svg class="mark" viewBox="0 0 48 48" aria-hidden="true"><rect width="48" height="48" rx="12" fill="#1C5A5E"/><circle cx="30" cy="16" r="7" fill="#F4A259"/><path d="M8 34c6-6 10-6 16 0s10 6 16 0" fill="none" stroke="#A8D8CE" stroke-width="3" stroke-linecap="round"/></svg><span><span class="brand-kicker">Falmouth · Cape Cod</span><span class="brand-name">Wellness <em>Discovery</em></span></span></a>
+      <p>A free quarterly health and wellness magazine and walking map for Falmouth, Massachusetts. Published from Homeport, Gifford Street at Jones Road.</p>
+    </div>
+    <div>
+      <h2>Read</h2>
+      <p><a href="magazine.html">Winter 2027 flipbook</a><br><a href="map.html">Discovery map</a><br><a href="guide.html">Visitor guide</a><br><a href="map-print.html">17×11 pull-out</a><br><a href="audio.html">Audio update</a></p>
+    </div>
+    <div>
+      <h2>Find</h2>
+      <p><a href="shops/">Main Street &amp; Homeport shops</a><br><a href="directory.html">Service directory</a><br><a href="free-help.html">Free food &amp; help</a><br><a href="credits.html">Image credits</a></p>
+    </div>
+    <div>
+      <h2>Publisher</h2>
+      <p>Cape Island<br>316 Gifford Street, Falmouth, MA 02540<br><a href="tel:+17742475263">(774) 247-5263</a><br><a href="mailto:CapeIslandCafe@gmail.com">CapeIslandCafe@gmail.com</a></p>
+      <p><a class="btn btn-sun btn-small" href="partner.html">Become a partner</a></p>
+    </div>
+  </div>
   <div class="wrap credit-line">
-    <p><a href="index.html">Home</a> · <a href="map.html">Map</a> · <a href="guide.html">Visitor guide</a> · <a href="partner.html">Become a Partner</a> · <a href="credits.html">Credits</a></p>
-    <p>Nobska Light cover photo: Giacomo Barbaro, CC BY-SA 3.0, via Wikimedia Commons (<a href="https://commons.wikimedia.org/wiki/File:Nobska_Lighthouse.jpg">https://commons.wikimedia.org/wiki/File:Nobska_Lighthouse.jpg</a>); modified with added text.</p>
+    <p>Nobska Light cover photo: Giacomo Barbaro, CC BY-SA 3.0, via Wikimedia Commons (<a href="https://commons.wikimedia.org/wiki/File:Nobska_Lighthouse.jpg">source</a>); modified with added text. Other photographs are generated editorial images of generic scenes, not real people or storefronts.</p>
+    <p>© 2026 Falmouth Wellness Discovery · Winter 2027 · Issue 1 · <a href="partner.html">Advertise</a> · <a href="signup.html">Get the magazine</a></p>
   </div>
 </footer>
 <script src="config.js"></script>
 <script src="js/main.js"></script>
-<script src="assets/vendor/leaflet/leaflet.js"></script>
 <script src="assets/vendor/qrcode/qrcode.min.js"></script>
-<script src="js/walking-map.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/page-flip@2.0.7/dist/js/page-flip.browser.js"></script>
+<script>window.St || document.write('<script src="assets/vendor/page-flip/page-flip.browser.js"><\/script>')</script>
 <script src="js/magazine.js"></script>
 </body>
 </html>

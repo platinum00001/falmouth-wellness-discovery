@@ -44,8 +44,8 @@ function squareButton(id) {
   const label = "Start subscription (Square checkout)";
   if (!url) {
     return (
-      '<button type="button" class="btn btn-small" disabled>' + label + "</button>" +
-      '<p class="square-help">Placeholder. Add the Square checkout link for this package in config.js. No card fields live on this site.</p>'
+      '<a class="btn btn-small" href="#inquire" data-pick="' + id + '">Reserve this package</a>' +
+      '<p class="square-help">Send the short form below and we confirm your spot, ad size and first invoice by email. Payment runs through a secure Square invoice; no card details are collected on this site.</p>'
     );
   }
   return (
@@ -127,3 +127,11 @@ function initCalc() {
 
 mountPackageButtons();
 initCalc();
+
+// "Reserve this package" pre-selects the package in the inquiry form.
+document.addEventListener("click", function (event) {
+  const link = event.target.closest("[data-pick]");
+  if (!link) return;
+  const select = document.querySelector('#partner-form select[name="package"]');
+  if (select) select.value = link.getAttribute("data-pick");
+});
