@@ -2,7 +2,7 @@
 """Build the flipbook's page thumbnails and the downloadable PDF from
 magazine.html?print=1 (every page laid out at 8.5x11 in).
 Needs a local server in the site root: python3 -m http.server 8765
-Outputs: assets/img/mag/thumbs/pNN.jpg, assets/fwd-winter-2027.pdf"""
+Outputs: assets/img/mag/thumbs/pNN.jpg, assets/fwd-winter-2026.pdf"""
 import io, pathlib, sys
 from playwright.sync_api import sync_playwright
 from PIL import Image
@@ -21,16 +21,16 @@ with sync_playwright() as p:
         im = im.resize((240, round(240 * im.height / im.width)), Image.LANCZOS)
         im.save(TH / f"p{i + 1:02d}.jpg", quality=78, optimize=True, progressive=True)
     pg.emulate_media(media="print")
-    pg.pdf(path=str(ROOT / "assets/fwd-winter-2027.pdf"), width="8.5in", height="11in", print_background=True,
+    pg.pdf(path=str(ROOT / "assets/fwd-winter-2026.pdf"), width="8.5in", height="11in", print_background=True,
            prefer_css_page_size=True, margin={"top": "0", "bottom": "0", "left": "0", "right": "0"})
     b.close()
-print(len(pages), "pages;", (ROOT / "assets/fwd-winter-2027.pdf").stat().st_size // 1024, "KB PDF")
+print(len(pages), "pages;", (ROOT / "assets/fwd-winter-2026.pdf").stat().st_size // 1024, "KB PDF")
 
 # Chrome stores photos losslessly; recompress them as JPEG so the PDF stays small.
 try:
     import pikepdf
     from pikepdf import PdfImage, Name
-    path = ROOT / "assets/fwd-winter-2027.pdf"
+    path = ROOT / "assets/fwd-winter-2026.pdf"
     pdf = pikepdf.open(path, allow_overwriting_input=True)
     seen = set()
     for page in pdf.pages:

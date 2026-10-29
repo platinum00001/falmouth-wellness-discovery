@@ -1,4 +1,4 @@
-/* Winter 2027 flipbook (StPageFlip). Pages are laid out in em units that
+/* Winter 2026 flipbook (StPageFlip). Pages are laid out in em units that
    scale with the page width (container query units), so a spread reads the
    same on a laptop, a phone, and in the 8.5×11 PDF. */
 .reader { padding: 0 0 3rem; }

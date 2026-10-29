@@ -1,4 +1,4 @@
-/* Falmouth Wellness Discovery — Winter 2027 flipbook.
+/* Falmouth Wellness Discovery — Winter 2026 flipbook.
    Page-turn reader built on StPageFlip (page-flip@2.0.7, MIT).
    ?page=N deep links (centerfold = ?page=12), thumbnails, zoom, fullscreen,
    keyboard / swipe / click navigation, PDF download. ?print=1 lays every page
@@ -9,7 +9,7 @@
   const PARAMS = new URLSearchParams(location.search);
   const PRINT = PARAMS.get("print") === "1";
   const RATIO = 8.5 / 11;
-  const PDF = "assets/fwd-winter-2027.pdf";
+  const PDF = "assets/fwd-winter-2026.pdf";
   const THUMB = function (i) { return "assets/img/mag/thumbs/p" + String(i + 1).padStart(2, "0") + ".jpg"; };
   let issue, fold, pf = null, pages = [];
 

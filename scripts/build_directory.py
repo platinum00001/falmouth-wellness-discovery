@@ -270,7 +270,7 @@ def _old_footer(root: str) -> str:
     </div>
     <div>
       <h2>Explore</h2>
-      <p><a href="{root}magazine.html">Winter 2027 sample issue</a><br><a href="{root}map.html">Discovery map</a><br><a href="{root}guide.html">Visitor guide</a><br><a href="{root}directory.html">Service directory</a><br><a href="{root}free-help.html">Free food &amp; help</a><br><a href="{root}credits.html">Image credits</a></p>
+      <p><a href="{root}magazine.html">Winter 2026 sample issue</a><br><a href="{root}map.html">Discovery map</a><br><a href="{root}guide.html">Visitor guide</a><br><a href="{root}directory.html">Service directory</a><br><a href="{root}free-help.html">Free food &amp; help</a><br><a href="{root}credits.html">Image credits</a></p>
     </div>
     <div>
       <h2>Partners</h2>
@@ -302,7 +302,7 @@ def head(cat: dict, base: str, root: str, ld: str) -> str:
 <meta property="og:title" content="{esc(title)}">
 <meta property="og:description" content="{esc(desc)}">
 <meta property="og:url" content="{esc(url)}">
-<meta property="og:image" content="{esc(base)}/assets/img/cover-winter-2027.jpg" data-abs-img="assets/img/cover-winter-2027.jpg">
+<meta property="og:image" content="{esc(base)}/assets/img/cover-winter-2026.jpg" data-abs-img="assets/img/cover-winter-2026.jpg">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="theme-color" content="#2C7F7B">
 <link rel="icon" href="{root}assets/favicon.svg" type="image/svg+xml">

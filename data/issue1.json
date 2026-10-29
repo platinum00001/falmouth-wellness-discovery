@@ -1,17 +1,17 @@
 {
   "issue": {
-    "id": "winter-2027",
+    "id": "winter-2026",
     "name": "Falmouth Wellness Discovery",
-    "season": "Winter 2027",
+    "season": "Winter 2026",
     "number": 1,
     "sample": true,
     "tagline": "A quarterly health and wellness magazine and discovery map for Falmouth, Massachusetts."
   },
   "images": {
     "cover": {
-      "src": "assets/img/cover-winter-2027.jpg",
-      "webp": "assets/img/cover-winter-2027.webp",
-      "alt": "Winter 2027 cover of Falmouth Wellness Discovery. Nobska Light, a white lighthouse and dark-roofed keeper's house in Woods Hole, under a pale sky, with the magazine masthead in the sky. Photo by Giacomo Barbaro, CC BY-SA 3.0, via Wikimedia Commons, modified with added text.",
+      "src": "assets/img/cover-winter-2026.jpg",
+      "webp": "assets/img/cover-winter-2026.webp",
+      "alt": "Winter 2026 cover of Falmouth Wellness Discovery. Nobska Light, a white lighthouse and dark-roofed keeper's house in Woods Hole, under a pale sky, with the magazine masthead in the sky. Photo by Giacomo Barbaro, CC BY-SA 3.0, via Wikimedia Commons, modified with added text.",
       "credit": "Nobska Light cover photo: Giacomo Barbaro, CC BY-SA 3.0, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Nobska_Lighthouse.jpg); modified with added text."
     },
     "hero": {
@@ -323,7 +323,7 @@
       "title": "A magazine for the time you spend waiting",
       "lead": "Falmouth already gathers in waiting rooms, hotel lobbies, the Chamber, and the library. This magazine is for that time.",
       "paragraphs": [
-        "Falmouth Wellness Discovery is a quarterly health and wellness magazine with a fold-out discovery map. We print 1,000 copies and place them free. Winter 2027 is the founding issue, and this digital flipbook is a preview of that issue.",
+        "Falmouth Wellness Discovery is a quarterly health and wellness magazine with a fold-out discovery map. We print 1,000 copies and place them free. Winter 2026 is the founding issue, and this digital flipbook is a preview of that issue.",
         "The pages follow four pillars: Mind, Body, Soul, and Health & Food. Stories are written from interviews. Open spots are marked as available and link to the partner page.",
         "The printed magazine is letter size, made from 11×17 sheets. Tear out the walking-map sheet: the front is the wellness map, with partner boxes around the edge, and the back is a Falmouth visitor guide. On a wide screen those two sides open as landscape spreads.",
         "Come by Cape Island Café at 316 Gifford Street if you want to talk about a story or a partnership. The phone is (774) 247-5263 and the email is CapeIslandCafe@gmail.com."
@@ -1036,7 +1036,7 @@
     },
     {
       "kind": "calendar",
-      "kicker": "Winter 2027",
+      "kicker": "Winter 2026",
       "title": "Quarterly calendar",
       "dek": "Confirmed dates are marked. Anything marked “Check date” comes from last year's pattern or a secondary source, so confirm it with the organizer.",
       "paragraphs": [

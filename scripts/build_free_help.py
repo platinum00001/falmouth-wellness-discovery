@@ -215,7 +215,7 @@ def build() -> None:
 <meta property="og:title" content="{esc(title)}">
 <meta property="og:description" content="{esc(desc)}">
 <meta property="og:url" content="{esc(url)}">
-<meta property="og:image" content="{esc(base)}/assets/img/cover-winter-2027.jpg" data-abs-img="assets/img/cover-winter-2027.jpg">
+<meta property="og:image" content="{esc(base)}/assets/img/cover-winter-2026.jpg" data-abs-img="assets/img/cover-winter-2026.jpg">
 <meta name="theme-color" content="#2C7F7B">
 <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
