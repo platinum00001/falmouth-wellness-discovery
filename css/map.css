@@ -581,3 +581,15 @@
 @media screen and (max-width: 800px) {
   .walk-sheet.is-print .map-well.fwd-frame { --u: clamp(2px, 0.6vw, 3.2px); }
 }
+
+/* pull-out map grid index (guide.html) */
+.pullout-index { margin: 2rem auto 1.5rem; }
+.pullout-index .guide-head h2 { font-size: 1.7rem; }
+.pullout-index .guide-head p { font-size: 0.95rem; max-width: 62rem; line-height: 1.5; }
+.pullout-index-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr)); gap: 1rem 1.5rem; margin-top: 1rem; }
+.pullout-group h3 { font-size: 1.05rem; margin: 0 0 0.4rem; color: #1c2a4d; }
+.pullout-group ul { list-style: none; margin: 0; padding: 0; }
+.pullout-group li { display: grid; grid-template-columns: 2.4rem 1fr; gap: 0.5rem; align-items: baseline; padding: 0.3rem 0; border-bottom: 1px solid #e6e1d6; font-size: 0.92rem; }
+.pullout-group .grid-ref { display: inline-grid; place-items: center; min-width: 2.1rem; height: 1.6rem; border-radius: 0.8rem; background: #1d2a4d; color: #fff; font-size: 0.8rem; }
+.pullout-group em { display: block; font-style: normal; color: #5d6b70; font-size: 0.8rem; }
+.pullout-ref { font-size: 0.82rem; color: #1d2a4d; }

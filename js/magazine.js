@@ -1,6 +1,6 @@
-/* Falmouth Wellness Discovery — Winter 2026 flipbook.
+/* Falmouth Wellness Discovery — January 2027 flipbook.
    Page-turn reader built on StPageFlip (page-flip@2.0.7, MIT).
-   ?page=N deep links (centerfold = ?page=12), thumbnails, zoom, fullscreen,
+   ?page=N deep links (pull-out map insert = ?page=12, back = ?page=14), thumbnails, zoom, fullscreen,
    keyboard / swipe / click navigation, PDF download. ?print=1 lays every page
    out at 8.5×11 in for the PDF and thumbnail build (scripts/build_flipbook_assets.py). */
 (function () {
@@ -9,9 +9,10 @@
   const PARAMS = new URLSearchParams(location.search);
   const PRINT = PARAMS.get("print") === "1";
   const RATIO = 8.5 / 11;
-  const PDF = "assets/fwd-winter-2026.pdf";
+  const PDF = "assets/fwd-january-2027.pdf";
+  const PULL_PDF = "assets/fwd-pullout-map-january-2027.pdf";
   const THUMB = function (i) { return "assets/img/mag/thumbs/p" + String(i + 1).padStart(2, "0") + ".jpg"; };
-  let issue, fold, pf = null, pages = [];
+  let issue, fold, pull, marks = [], pf = null, pages = [];
 
   function esc(v) {
     return String(v ?? "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
@@ -146,6 +147,23 @@
       '" decoding="async"></picture><div class="fold-pins">' + pins + "</div>" + ctaHtml + "</div>";
   }
 
+  /* ---------- pull-out map insert (17x11 sheet, two sides, pages 12-15) ---------- */
+  const SIDE = { downtown: "Downtown · Main Street", woodshole: "Main Street & Woods Hole" };
+  const SIDE_SHORT = { downtown: "Downtown side", woodshole: "Woods Hole side" };
+  function pullAlt(face) {
+    return face === "downtown"
+      ? "Pull-out map, front: Falmouth Health & Wellness, Downtown · Main Street. Illustrated map from the bus depot and Village Green to Main Street, the Inner Harbor and Falmouth Heights, with a wellness happenings calendar, map key, bus routes and partner ads around the border. Grid A–F across, 1–4 down."
+      : "Pull-out map, back: Falmouth Health & Wellness, Main Street & Woods Hole. Illustrated map from Main Street to Quissett, Woods Hole and Nobska Light, with festival dates, beaches up north, bus routes and partner ads around the border. Grid A–F across, 1–4 down.";
+  }
+  function isPull(j) { return pages[j] && pages[j].kind === "pullout"; }
+  function pullHtml(i, page) {
+    const f = pull.faces[page.face]; const half = page.half === "R" ? "R" : "L";
+    return '<div class="pg pg-insert pullout-' + half + " face-" + esc(page.face) + '"><picture><source srcset="' + esc(f.webp) + '" type="image/webp">' +
+      '<img src="' + esc(f.src) + '" alt="' + esc(pullAlt(page.face)) + '" decoding="async"' + (half === "R" ? ' aria-hidden="true"' : "") + '></picture>' +
+      '<i class="pull-perf" aria-hidden="true"></i>' +
+      "</div>";
+  }
+
   /* ---------- pages ---------- */
   function pageInner(page, i, live) {
     const k = page.kind;
@@ -155,6 +173,7 @@
         (PRINT ? "" : '<p class="cover-hint"><span>Open the issue</span></p>') + "</div>";
     }
     if (k === "centerfold") return foldHtml(i, page);
+    if (k === "pullout") return pullHtml(i, page);
     let b = "", d = 0;
     if (page.banner && page.banner.src) b += ani(picture(page.banner.src, "", page.banner.alt, "pg-banner", page.banner.small), d++);
     b += '<div class="pg-in">';
@@ -164,8 +183,9 @@
     if (k === "toc") {
       b += ani('<ol class="pg-toc">' + pages.map(function (p, j) {
         if (j === 0) return "";
-        const t = p.kind === "centerfold" ? (p.face === "back" ? "Visitor guide (pull-out back)" : "Walking map (pull-out)") : p.title;
-        if (p.kind === "centerfold" && pages[j - 1].kind === "centerfold" && pages[j - 1].face === p.face) return "";
+        const t = p.kind === "centerfold" ? (p.face === "back" ? "Visitor guide (pull-out back)" : "Walking map (pull-out)")
+          : p.kind === "pullout" ? (p.face === "downtown" ? "Pull-out map, front: Downtown · Main Street" : "Pull-out map, back: Main Street & Woods Hole") : p.title;
+        if ((p.kind === "centerfold" || p.kind === "pullout") && pages[j - 1].kind === p.kind && pages[j - 1].face === p.face) return "";
         return '<li><a href="?page=' + (j + 1) + '" data-goto="' + j + '"><span>' + esc(t) + "</span><b>" + (j + 1) + "</b></a></li>";
       }).join("") + "</ol>", d++);
       return b + "</div>" + foot(i);
@@ -207,7 +227,8 @@
     el.className = "page kind-" + page.kind + (i % 2 ? " side-L" : " side-R") + (page.ad && page.ad.size === "full" ? " has-full-ad" : "");
     el.dataset.i = i;
     if (i === 0 || i === pages.length - 1) el.dataset.density = "hard";
-    el.innerHTML = page.kind === "centerfold" || page.kind === "cover" ? pageInner(page, i) : '<div class="pg pg-' + page.kind + '">' + pageInner(page, i) + "</div>";
+    if (page.kind === "pullout") el.classList.add("is-insert");
+    el.innerHTML = page.kind === "centerfold" || page.kind === "cover" || page.kind === "pullout" ? pageInner(page, i) : '<div class="pg pg-' + page.kind + '">' + pageInner(page, i) + "</div>";
     return el;
   }
 
@@ -225,7 +246,7 @@
 
   /* fit text: shrink type on crowded pages, scroll as a last resort */
   function fit(root) {
-    root.querySelectorAll(".pg:not(.pg-fold):not(.pg-cover)").forEach(function (pg) {
+    root.querySelectorAll(".pg:not(.pg-fold):not(.pg-cover):not(.pg-insert)").forEach(function (pg) {
       let fs = 1;
       pg.style.setProperty("--fs", fs);
       pg.classList.remove("is-scroll");
@@ -248,7 +269,7 @@
     box.style.cssText = "position:absolute;left:-10000px;top:0;visibility:hidden;width:" + pw + "px";
     document.body.appendChild(box);
     els.forEach(function (el) {
-      const pg = el.querySelector(".pg"); if (!pg || pg.classList.contains("pg-fold") || pg.classList.contains("pg-cover")) return;
+      const pg = el.querySelector(".pg"); if (!pg || pg.classList.contains("pg-fold") || pg.classList.contains("pg-cover") || pg.classList.contains("pg-insert")) return;
       const c = el.cloneNode(true);
       c.style.cssText = "position:relative;display:block;width:" + pw + "px;height:" + Math.round(pw / RATIO) + "px";
       box.appendChild(c);
@@ -295,7 +316,8 @@
       const full = document.fullscreenElement === stage;
       const bar = document.getElementById("mag-bar").offsetHeight;
       const head = full ? 0 : (document.querySelector(".site-header") || { offsetHeight: 0 }).offsetHeight;
-      const availH = Math.max(380, window.innerHeight - head - bar - (full ? 40 : 56));
+      const ins = pages.some(function (p) { return p.kind === "pullout"; }) ? 50 : 0;  /* room for the pull-out tab bar */
+      const availH = Math.max(380, window.innerHeight - head - bar - ins - (full ? 40 : 56));
       const w = stage.clientWidth - 16;
       const portrait = w < 680;
       let pw = portrait ? Math.min(w, availH * RATIO) : Math.min(w / 2, availH * RATIO);
@@ -329,9 +351,22 @@
       els.forEach(function (el, j) { el.classList.toggle("is-live", v.indexOf(j) >= 0); });
       const n = v.map(function (j) { return j + 1; });
       const pg = pages[v[0]];
-      const tail = pg.kind === "centerfold" ? (pg.face === "back" ? " · visitor guide" : " · walking map") : "";
+      const tail = pg.kind === "centerfold" ? (pg.face === "back" ? " · visitor guide" : " · walking map")
+        : pg.kind === "pullout" ? " · pull-out map, " + (pg.face === "downtown" ? "front" : "back") : "";
+      const ins = document.getElementById("insert-bar");
+      if (ins) {
+        const on = v.some(isPull);
+        ins.hidden = !on;
+        stage.classList.toggle("insert-live", on);
+        if (on) {
+          const face = pages[v.find(isPull)].face;
+          ins.dataset.face = face;
+          document.getElementById("insert-side").textContent = (face === "downtown" ? "Front · " : "Back · ") + SIDE[face];
+          document.getElementById("insert-flip").textContent = "Flip to the " + (face === "downtown" ? "Woods Hole side" : "Downtown side");
+        }
+      }
       label.innerHTML = (n.length > 1 ? "Pages <b>" + n[0] + "–" + n[1] + "</b>" : "Page <b>" + n[0] + "</b>") + " of " + pages.length + tail;
-      live.textContent = v.map(function (j) { return pages[j].title || "Cover"; }).join(" and ");
+      live.textContent = v.some(isPull) ? pages[v.find(isPull)].title.replace(/ \(right\)$/, "") + ", pull-out insert" : v.map(function (j) { return pages[j].title || "Cover"; }).join(" and ");
       document.getElementById("prev-page").disabled = v[0] === 0;
       document.getElementById("next-page").disabled = v[v.length - 1] >= pages.length - 1;
       const url = new URL(location.href);
@@ -371,11 +406,23 @@
     host.addEventListener("click", function (e) {
       const go = e.target.closest("[data-goto]");
       if (go) { e.preventDefault(); window.goToPage(Number(go.dataset.goto)); return; }
+      const fs = e.target.closest("[data-flip-side]");
+      if (fs) { e.preventDefault(); flipSide(fs.dataset.flipSide); return; }
       if (e.target.closest("[data-zoom]")) { e.preventDefault(); openZoom(); }
+    });
+    const ib = document.getElementById("insert-bar");
+    if (ib) ib.addEventListener("click", function (e) {
+      if (e.target.closest("#insert-zoom")) { e.preventDefault(); openZoom(); }
+      if (e.target.closest("#insert-flip")) { e.preventDefault(); flipSide(ib.dataset.face === "downtown" ? "woodshole" : "downtown"); }
     });
     wireChrome(visible);
     document.getElementById("reader-status").textContent = "";
     if (!PARAMS.get("page") && !REDUCED) setTimeout(function () { stage.classList.add("hint-on"); }, 900);
+  }
+
+  function flipSide(face) {
+    const j = pages.findIndex(function (p) { return p.kind === "pullout" && p.face === face; });
+    if (j >= 0 && window.goToPage) window.goToPage(j);
   }
 
   function toggleFull() {
@@ -394,12 +441,17 @@
     const l = portrait ? i : (i % 2 ? i : i - 1);
     const v = portrait ? [l] : [l, l + 1].filter(function (j) { return j < pages.length; });
     body.innerHTML = "";
-    const p0 = pages[v[0]];
+    const p0 = pages[v.find(isPull) !== undefined ? v.find(isPull) : v[0]];
+    if (p0.kind === "pullout") {
+      openPullZoom(p0.face);
+      return;
+    }
     if (p0.kind === "centerfold") {
       const face = p0.face === "back" ? "back" : "front";
       body.innerHTML = '<div class="zoom-sheet"><img src="' + esc(fold[face].src) + '" alt="' + (face === "front" ? "Falmouth Wellness Walking Map, full sheet" : "Falmouth Visitor Guide, full sheet") + '"></div>';
       body.dataset.mode = "sheet";
     } else {
+      body.onclick = null;
       body.dataset.mode = "pages";
       v.forEach(function (j) {
         const wrap = document.createElement("div");
@@ -417,6 +469,39 @@
     document.getElementById("zoom-title").textContent = v.map(function (j) { return "Page " + (j + 1); }).join(" · ");
     dlg.showModal();
   }
+  function openPullZoom(face, focus) {
+    const dlg = document.getElementById("zoom-dialog");
+    const body = document.getElementById("zoom-body");
+    const f = pull.faces[face]; const g = pull.grid;
+    body.dataset.mode = "pull";
+    const list = marks.filter(function (m) { return m.side === face; }).sort(function (a, b) { return a.grid < b.grid ? -1 : a.grid > b.grid ? 1 : a.name < b.name ? -1 : 1; });
+    body.innerHTML = '<div class="pull-zoom-head"><p class="pull-tab is-static"><span>Pull-out map · keep me</span><small>' + (face === "downtown" ? "Front · " : "Back · ") + esc(SIDE[face]) + "</small></p>" +
+      '<div class="pull-zoom-tools"><button type="button" class="pull-btn" data-zside="downtown"' + (face === "downtown" ? ' aria-pressed="true"' : "") + '>Front: Downtown</button>' +
+      '<button type="button" class="pull-btn" data-zside="woodshole"' + (face === "woodshole" ? ' aria-pressed="true"' : "") + '>Back: Woods Hole</button>' +
+      '<a class="pull-btn is-sun" href="' + esc(PULL_PDF) + '" download>Download this map (PDF)</a></div></div>' +
+      '<div class="zoom-sheet pull-sheet"><img src="' + esc(f.zoom || f.webp) + '" alt="' + esc(pullAlt(face)) + '"><i class="pull-mark" hidden></i></div>' +
+      '<details class="pull-find" open><summary>Find it on this side · grid A–F across, 1–4 down</summary><ul>' + list.map(function (m) {
+        return '<li><button type="button" data-mark="' + esc(m.name) + '"><b>' + esc(m.grid) + "</b> " + esc(m.name) + "</button></li>";
+      }).join("") + '</ul><p><a href="guide.html#pullout-index">Full grid index in the visitor guide →</a></p></details>';
+    body.onclick = function (e) {
+      const sb = e.target.closest("[data-zside]");
+      if (sb) { openPullZoom(sb.dataset.zside); return; }
+      const mb = e.target.closest("[data-mark]");
+      if (mb) {
+        const m = list.find(function (x) { return x.name === mb.dataset.mark; }); if (!m) return;
+        if (zoomLevel < 2) { zoomLevel = 2; applyZoom(); }
+        const sheet = body.querySelector(".pull-sheet"); const mk = sheet.querySelector(".pull-mark");
+        mk.hidden = false; mk.style.left = (m.x * 100) + "%"; mk.style.top = (m.y * 100) + "%";
+        mk.classList.remove("ping"); void mk.offsetWidth; mk.classList.add("ping");
+        requestAnimationFrame(function () {
+          body.scrollTo({ left: Math.max(0, sheet.offsetLeft + sheet.offsetWidth * m.x - body.clientWidth / 2), top: Math.max(0, sheet.offsetTop + sheet.offsetHeight * m.y - body.clientHeight / 2), behavior: REDUCED ? "auto" : "smooth" });
+        });
+      }
+    };
+    zoomLevel = 1; applyZoom();
+    document.getElementById("zoom-title").textContent = "Pull-out map · " + (face === "downtown" ? "front" : "back") + " (pages " + (face === "downtown" ? "12–13" : "14–15") + ")";
+    if (!dlg.open) dlg.showModal();
+  }
   function applyZoom() {
     const body = document.getElementById("zoom-body");
     body.style.setProperty("--z", zoomLevel);
@@ -425,14 +510,15 @@
 
   function wireChrome(visible) {
     document.getElementById("zoom-btn").addEventListener("click", openZoom);
-    document.getElementById("zoom-in").addEventListener("click", function () { zoomLevel = Math.min(3, zoomLevel + 0.25); applyZoom(); });
+    document.getElementById("zoom-in").addEventListener("click", function () { zoomLevel = Math.min(document.getElementById("zoom-body").dataset.mode === "pull" ? 4 : 3, zoomLevel + 0.25); applyZoom(); });
     document.getElementById("zoom-out").addEventListener("click", function () { zoomLevel = Math.max(0.75, zoomLevel - 0.25); applyZoom(); });
     document.getElementById("full-btn").addEventListener("click", toggleFull);
     if (!document.fullscreenEnabled) document.getElementById("full-btn").hidden = true;
     const drawer = document.getElementById("thumbs-dialog");
     const grid = document.getElementById("thumbs-grid");
     grid.innerHTML = pages.map(function (p, j) {
-      const t = p.kind === "cover" ? "Cover" : p.kind === "centerfold" ? (p.face === "back" ? "Visitor guide" : "Walking map") : p.title;
+      const t = p.kind === "cover" ? "Cover" : p.kind === "centerfold" ? (p.face === "back" ? "Visitor guide" : "Walking map")
+        : p.kind === "pullout" ? "Pull-out map · " + (p.face === "downtown" ? "front" : "back") : p.title;
       return '<button type="button" data-goto="' + j + '"><span class="th"><img src="' + THUMB(j) + '" alt="" loading="lazy" onerror="this.parentNode.classList.add(\'no-img\');this.remove()"></span><span class="tn">' + (j + 1) + '</span><span class="tt">' + esc(t) + "</span></button>";
     }).join("");
     grid.addEventListener("click", function (e) {
@@ -453,8 +539,9 @@
   async function start() {
     const host = document.getElementById("book");
     try {
-      const [a, b] = await Promise.all([fetch("data/issue1.json"), fetch("data/centerfold-images.json")]);
-      issue = await a.json(); fold = await b.json();
+      const [a, b, c, m] = await Promise.all([fetch("data/issue1.json"), fetch("data/centerfold-images.json"), fetch("data/pullout-map.json"), fetch("data/pullout-landmarks.json")]);
+      issue = await a.json(); fold = await b.json(); pull = await c.json();
+      marks = m.ok ? ((await m.json()).landmarks || []) : [];
     } catch (err) {
       document.getElementById("reader-status").textContent = "The issue did not load. Please refresh the page.";
       return;

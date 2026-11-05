@@ -1,17 +1,17 @@
 {
   "issue": {
-    "id": "winter-2026",
+    "id": "january-2027",
     "name": "Falmouth Wellness Discovery",
-    "season": "Winter 2026",
+    "season": "January 2027",
     "number": 1,
     "sample": true,
     "tagline": "A quarterly health and wellness magazine and discovery map for Falmouth, Massachusetts."
   },
   "images": {
     "cover": {
-      "src": "assets/img/cover-winter-2026.jpg",
-      "webp": "assets/img/cover-winter-2026.webp",
-      "alt": "Winter 2026 cover of Falmouth Wellness Discovery. Nobska Light, a white lighthouse and dark-roofed keeper's house in Woods Hole, under a pale sky, with the magazine masthead in the sky. Photo by Giacomo Barbaro, CC BY-SA 3.0, via Wikimedia Commons, modified with added text.",
+      "src": "assets/img/cover-january-2027.jpg",
+      "webp": "assets/img/cover-january-2027.webp",
+      "alt": "January 2027 cover of Falmouth Wellness Discovery. Nobska Light, a white lighthouse and dark-roofed keeper's house in Woods Hole, under a pale sky, with the magazine masthead in the sky. Photo by Giacomo Barbaro, CC BY-SA 3.0, via Wikimedia Commons, modified with added text.",
       "credit": "Nobska Light cover photo: Giacomo Barbaro, CC BY-SA 3.0, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Nobska_Lighthouse.jpg); modified with added text."
     },
     "hero": {
@@ -80,28 +80,10 @@
   ],
   "events": [
     {
-      "title": "Autumn Forest Paint-along with Ana Johnson Moore",
-      "when": "Fri Oct 30, 2026",
-      "status": "Confirmed",
-      "detail": "Falmouth Art Center workshop, 137 Gifford Street. Register at falmouthart.org."
-    },
-    {
-      "title": "Falmouth Art Center opening reception",
-      "when": "Fri Nov 6, 2026 · 4–6 p.m.",
-      "status": "Confirmed",
-      "detail": "New exhibits in the three galleries. Free. 137 Gifford Street, 508-540-3304."
-    },
-    {
-      "title": "Ramen Night at Cape Island Café",
-      "when": "Sat Nov 7, 2026 · 5–8 p.m.",
-      "status": "Confirmed",
-      "detail": "One night only at 316 Gifford Street. Free RSVP; order off the Ramen Night menu. Details at capeislandcafe.com."
-    },
-    {
-      "title": "Felt Making with Silk and Wool (Nuno) with Wendy Bagley",
-      "when": "Sat Nov 21, 2026",
-      "status": "Confirmed",
-      "detail": "Falmouth Art Center workshop. Register at falmouthart.org."
+      "title": "Friday Night Five-Miler",
+      "when": "Every Friday · Town Hall Square",
+      "status": "Check date",
+      "detail": "Year-round group run, from the Health & Wellness map calendar."
     },
     {
       "title": "Local Business Celebration Night",
@@ -110,44 +92,8 @@
       "detail": "Cape Island Café hosts a local business, nonprofit, first-responder or team milestone night: samples from the kitchen ($20 suggested donation per person), your name on the screen, and 10% to the charity you choose. Reserve at capeislandcafe.com or 774-247-5263."
     },
     {
-      "title": "Call for Art: “These Shoes are Made for Walking… Or Not”",
-      "when": "November 2026",
-      "status": "Check date",
-      "detail": "Falmouth Art Center exhibit call. Deadlines are on falmouthart.org."
-    },
-    {
-      "title": "Falmouth in the Fall",
-      "when": "First Sunday in November",
-      "status": "Check date",
-      "detail": "From the Health & Wellness map calendar."
-    },
-    {
-      "title": "Chase the Turkey 5K",
-      "when": "Thanksgiving",
-      "status": "Check date",
-      "detail": "From the Health & Wellness map calendar."
-    },
-    {
-      "title": "Holidays by the Sea",
-      "when": "First weekend in December",
-      "status": "Check date",
-      "detail": "From the Health & Wellness map calendar."
-    },
-    {
-      "title": "Falmouth Christmas Parade",
-      "when": "Sun Dec 6, 2026 · noon",
-      "status": "Confirmed",
-      "detail": "Falmouth Chamber of Commerce, rain or shine."
-    },
-    {
-      "title": "Friday Night Five-Miler",
-      "when": "Every Friday · Town Hall Square",
-      "status": "Check date",
-      "detail": "Year-round group run, from the Health & Wellness map calendar."
-    },
-    {
       "title": "Winter Farmers Market",
-      "when": "January–March · Sundays · Mullen Hall lot",
+      "when": "January–March 2027 · Sundays · Mullen Hall lot",
       "status": "Check date",
       "detail": "From the Health & Wellness map calendar."
     },
@@ -155,23 +101,23 @@
       "title": "Printmaking: Would You Do Wood? with Alice Galick",
       "when": "Feb 18, 25 and Mar 4, 6",
       "status": "Check date",
-      "detail": "Falmouth Art Center woodcut workshop. Year not printed on the listing."
+      "detail": "Falmouth Art Center woodcut workshop. The listing does not print a year; confirm the 2027 dates at falmouthart.org."
     },
     {
       "title": "Daffodil Daze at Spohr Gardens",
-      "when": "Mid to late April",
+      "when": "Mid to late April 2027",
       "status": "Check date",
       "detail": "From the Health & Wellness map calendar."
     },
     {
       "title": "Thursday Farmers Market",
-      "when": "May–October · Thursdays 11–3 · Marine Park",
+      "when": "May–October 2027 · Thursdays 11–3 · Marine Park",
       "status": "Check date",
       "detail": "From the Health & Wellness map calendar."
     },
     {
       "title": "Arts Alive",
-      "when": "Mid-June",
+      "when": "Mid-June 2027",
       "status": "Check date",
       "detail": "From the Health & Wellness map calendar."
     },
@@ -183,19 +129,19 @@
     },
     {
       "title": "Arts & Crafts Street Fair",
-      "when": "Early July · Main Street",
+      "when": "Early July 2027 · Main Street",
       "status": "Check date",
       "detail": "From the Health & Wellness map calendar."
     },
     {
       "title": "Falmouth Sprint Triathlon",
-      "when": "Mid-July · Surf Drive",
+      "when": "Mid-July 2027 · Surf Drive",
       "status": "Check date",
       "detail": "From the Health & Wellness map calendar."
     },
     {
       "title": "Barnstable County Fair",
-      "when": "Late July",
+      "when": "Late July 2027",
       "status": "Check date",
       "detail": "From the Health & Wellness map calendar."
     },
@@ -216,6 +162,30 @@
       "when": "Oct 9–10, 2027",
       "status": "Check date",
       "detail": "From the Health & Wellness map calendar."
+    },
+    {
+      "title": "Falmouth in the Fall",
+      "when": "First Sunday in November 2027",
+      "status": "Check date",
+      "detail": "From the Health & Wellness map calendar."
+    },
+    {
+      "title": "Chase the Turkey 5K",
+      "when": "Thanksgiving 2027",
+      "status": "Check date",
+      "detail": "From the Health & Wellness map calendar."
+    },
+    {
+      "title": "Holidays by the Sea",
+      "when": "First weekend in December 2027",
+      "status": "Check date",
+      "detail": "From the Health & Wellness map calendar."
+    },
+    {
+      "title": "Falmouth Christmas Parade",
+      "when": "Early December 2027",
+      "status": "Check date",
+      "detail": "Falmouth Chamber of Commerce. The 2026 parade was Sunday, December 6, at noon; the 2027 date is not posted yet."
     }
   ],
   "crossword": {
@@ -323,9 +293,9 @@
       "title": "A magazine for the time you spend waiting",
       "lead": "Falmouth already gathers in waiting rooms, hotel lobbies, the Chamber, and the library. This magazine is for that time.",
       "paragraphs": [
-        "Falmouth Wellness Discovery is a quarterly health and wellness magazine with a fold-out discovery map. We print 1,000 copies and place them free. Winter 2026 is the founding issue, and this digital flipbook is a preview of that issue.",
+        "Falmouth Wellness Discovery is a quarterly health and wellness magazine with a fold-out discovery map. We print 1,000 copies and place them free. January 2027 is the founding issue, and this digital flipbook is a preview of that issue.",
         "The pages follow four pillars: Mind, Body, Soul, and Health & Food. Stories are written from interviews. Open spots are marked as available and link to the partner page.",
-        "The printed magazine is letter size, made from 11×17 sheets. Tear out the walking-map sheet: the front is the wellness map, with partner boxes around the edge, and the back is a Falmouth visitor guide. On a wide screen those two sides open as landscape spreads.",
+        "The printed magazine is letter size, made from 11×17 sheets. In the middle is a pull-out map, one 17×11 sheet printed on both sides: Downtown and Main Street on the front, Main Street and Woods Hole on the back, with partner ads around the border and a letter-and-number grid so you can find a place from the visitor guide. Pull it out and keep it in the car. The interactive walking map and the full visitor guide are online.",
         "Come by Cape Island Café at 316 Gifford Street if you want to talk about a story or a partnership. The phone is (774) 247-5263 and the email is CapeIslandCafe@gmail.com."
       ],
       "ad": {
@@ -612,28 +582,28 @@
       }
     },
     {
-      "kind": "centerfold",
-      "panel": "map",
-      "title": "Walking map",
-      "face": "front"
+      "kind": "pullout",
+      "face": "downtown",
+      "half": "L",
+      "title": "Pull-out map: Downtown · Main Street"
     },
     {
-      "kind": "centerfold",
-      "panel": "legend",
-      "title": "Partner boxes",
-      "face": "front"
+      "kind": "pullout",
+      "face": "downtown",
+      "half": "R",
+      "title": "Pull-out map: Downtown · Main Street (right)"
     },
     {
-      "kind": "centerfold",
-      "face": "back",
-      "panel": "guide",
-      "title": "Visitor guide"
+      "kind": "pullout",
+      "face": "woodshole",
+      "half": "L",
+      "title": "Pull-out map: Main Street & Woods Hole"
     },
     {
-      "kind": "centerfold",
-      "face": "back",
-      "panel": "guide",
-      "title": "Visitor guide, continued"
+      "kind": "pullout",
+      "face": "woodshole",
+      "half": "R",
+      "title": "Pull-out map: Main Street & Woods Hole (right)"
     },
     {
       "kind": "story",
@@ -1036,15 +1006,15 @@
     },
     {
       "kind": "calendar",
-      "kicker": "Winter 2026",
+      "kicker": "January 2027",
       "title": "Quarterly calendar",
-      "dek": "Confirmed dates are marked. Anything marked “Check date” comes from last year's pattern or a secondary source, so confirm it with the organizer.",
+      "dek": "Dates for the year ahead, from January 2027. Anything marked “Check date” comes from last year's pattern or a secondary source, so confirm it with the organizer.",
       "paragraphs": [
-        "Local dates for the season ahead, then the year-round Falmouth wellness calendar from the Health & Wellness map. Dates change, so check the organizer's own site before you go."
+        "The winter and spring dates come first, then the year-round Falmouth wellness calendar from the Health & Wellness map. Dates change, so check the organizer's own site before you go."
       ],
       "eventsRange": [
         0,
-        12
+        9
       ]
     },
     {
@@ -1052,8 +1022,8 @@
       "kicker": "What's on · continued",
       "title": "Quarterly calendar, continued",
       "eventsRange": [
-        12,
-        23
+        9,
+        18
       ],
       "audio": {
         "kicker": "Listen",
@@ -1415,7 +1385,8 @@
           "lat": 41.5157896,
           "lng": -70.6551448,
           "qr": "guide.html#nobska",
-          "detail": "Nobska Point Light, 233 Nobska Road, Woods Hole, Falmouth, MA 02543. Friends of Nobska Light. Grounds open dawn to dusk year-round. Phone 774-763-6453."
+          "detail": "Nobska Point Light, 233 Nobska Road, Woods Hole, Falmouth, MA 02543. Friends of Nobska Light. Grounds open dawn to dusk year-round. Phone 774-763-6453.",
+          "pullout": "Woods Hole side B4"
         },
         {
           "id": "village-green",
@@ -1423,7 +1394,8 @@
           "lat": 41.5550589,
           "lng": -70.6194749,
           "qr": "guide.html#village-green",
-          "detail": "The Town Green at Palmer Avenue, beside Falmouth Museums on the Green. This cell is the visitor-center address, 55 Palmer Avenue."
+          "detail": "The Town Green at Palmer Avenue, beside Falmouth Museums on the Green. This cell is the visitor-center address, 55 Palmer Avenue.",
+          "pullout": "Downtown side A1 · Woods Hole side C2"
         },
         {
           "id": "wicks-house",
@@ -1447,7 +1419,8 @@
           "lat": 41.5550589,
           "lng": -70.6194749,
           "qr": "guide.html#museums-on-the-green",
-          "detail": "Nonprofit Falmouth Historical Society. Visitor center in the Hallett Barn, 55 Palmer Avenue, Falmouth, MA 02540. Office hours Monday–Friday, 10 a.m.–3 p.m., year-round. Phone 508-548-4857."
+          "detail": "Nonprofit Falmouth Historical Society. Visitor center in the Hallett Barn, 55 Palmer Avenue, Falmouth, MA 02540. Office hours Monday–Friday, 10 a.m.–3 p.m., year-round. Phone 508-548-4857.",
+          "pullout": "Downtown side B1"
         },
         {
           "id": "woods-hole-historical-museum",
@@ -1463,7 +1436,8 @@
           "lat": 41.5245293,
           "lng": -70.6683751,
           "qr": "guide.html#whoi-discovery",
-          "detail": "15 School Street, Woods Hole, MA 02543. Hours and the phone number are on whoi.edu/visit."
+          "detail": "15 School Street, Woods Hole, MA 02543. Hours and the phone number are on whoi.edu/visit.",
+          "pullout": "Woods Hole side A4"
         },
         {
           "id": "highfield",
@@ -1471,7 +1445,8 @@
           "lat": 41.55756,
           "lng": -70.629128,
           "qr": "guide.html#highfield",
-          "detail": "56 Highfield Drive, Falmouth, MA 02541. Phone 508-495-1878. From Depot Avenue, through the stone pillars onto Highfield Drive."
+          "detail": "56 Highfield Drive, Falmouth, MA 02541. Phone 508-495-1878. From Depot Avenue, through the stone pillars onto Highfield Drive.",
+          "pullout": "Downtown side A1"
         }
       ],
       "trails": [
@@ -1481,7 +1456,8 @@
           "lat": 41.5559095,
           "lng": -70.6226492,
           "qr": "guide.html#shining-sea",
-          "detail": "10.7 miles, from County Road in North Falmouth (off this sheet) to the Steamship Authority terminal in Woods Hole. This cell is the Depot Avenue parking access in the village. Named for Katharine Lee Bates. A monument stands on the path near Woods Hole and Oyster Pond; it is not pinned on this sheet. From Depot Avenue the town describes a trail toward Highfield Hall and Beebe Woods, and another toward Goodwill Park, Grew’s Pond, Long Pond, and the Moraine Trail, crossing Route 28."
+          "detail": "10.7 miles, from County Road in North Falmouth (off this sheet) to the Steamship Authority terminal in Woods Hole. This cell is the Depot Avenue parking access in the village. Named for Katharine Lee Bates. A monument stands on the path near Woods Hole and Oyster Pond; it is not pinned on this sheet. From Depot Avenue the town describes a trail toward Highfield Hall and Beebe Woods, and another toward Goodwill Park, Grew’s Pond, Long Pond, and the Moraine Trail, crossing Route 28.",
+          "pullout": "Downtown side A2 · Woods Hole side B3"
         }
       ],
       "beaches": [
@@ -1491,7 +1467,8 @@
           "lat": 41.5423335,
           "lng": -70.6182809,
           "qr": "guide.html#surf-drive",
-          "detail": "56 Surf Drive. Town beach; the public is welcome."
+          "detail": "56 Surf Drive. Town beach; the public is welcome.",
+          "pullout": "Downtown side B3 · Woods Hole side C2"
         },
         {
           "id": "menauhant",
@@ -1505,12 +1482,14 @@
           "name": "Old Silver Beach",
           "lat": 41.6393836,
           "lng": -70.6296664,
-          "detail": "296 Quaker Road, North Falmouth. Public beach. Off this sheet."
+          "detail": "296 Quaker Road, North Falmouth. Public beach. Off this sheet.",
+          "pullout": "Woods Hole side F2"
         },
         {
           "id": "falmouth-heights",
           "name": "Falmouth Heights Beach",
-          "detail": "261 Grand Avenue. Sticker parking. Off this sheet."
+          "detail": "261 Grand Avenue. Sticker parking. Off this sheet.",
+          "pullout": "Downtown side E3"
         },
         {
           "id": "grews-pond",
@@ -1523,35 +1502,23 @@
       ],
       "events": [
         {
-          "id": "ramen-night",
-          "name": "Cape Island Café: Ramen Night · Business Night",
-          "ref": "Nov 7",
-          "detail": "Ramen Sat Nov 7, 5–8 p.m., free RSVP. Business Night 5–7 p.m. by reservation."
-        },
-        {
-          "id": "art-center-reception",
-          "name": "Falmouth Art Center reception",
-          "ref": "Nov 6",
-          "detail": "Fri Nov 6, 4–6 p.m., free. 137 Gifford St."
-        },
-        {
           "id": "christmas-parade",
           "name": "Falmouth Christmas Parade",
-          "ref": "Dec 6",
+          "ref": "Dec",
           "qr": "guide.html#christmas-parade",
-          "detail": "Falmouth Chamber of Commerce. Sun Dec 6, 2026, noon, rain or shine, from Dillingham Ave."
+          "detail": "Falmouth Chamber of Commerce. Early December 2027; the 2026 parade was Sun Dec 6 at noon. Check date."
         },
         {
           "id": "fall-holidays",
           "name": "Marathon · Fall fest · Turkey 5K · Holidays by the Sea",
           "ref": "Oct–Dec",
-          "detail": "Oct 9–10, 2027; Nov; Thanksgiving; Dec. Check dates."
+          "detail": "Oct 9–10, 2027; Nov; Thanksgiving; Dec 2027. Check dates."
         },
         {
           "id": "winter-runs-markets",
           "name": "Five-Miler · Winter Farmers Market",
           "ref": "All yr",
-          "detail": "Fridays, Town Hall Sq; Sun Jan–Mar. Check dates."
+          "detail": "Fridays, Town Hall Sq; Sundays Jan–Mar 2027. Check dates."
         },
         {
           "id": "spring-early-summer",
@@ -1586,5 +1553,19 @@
         "qr": "garden-center/index.html#beacon-gardens"
       }
     ]
+  },
+  "pullout": {
+    "pages": [
+      12,
+      15
+    ],
+    "pdf": "assets/fwd-pullout-map-january-2027.pdf",
+    "data": "data/pullout-map.json",
+    "online": {
+      "map": "map.html",
+      "guide": "guide.html",
+      "print": "map-print.html"
+    },
+    "note": "Two-sided 17x11 sheet, folded once to 8.5x11. Front = pages 12-13, back = pages 14-15."
   }
 }

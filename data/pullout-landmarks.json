@@ -1,0 +1,527 @@
+{
+ "note": "Points are where each landmark appears on the pull-out art, as fractions of the 17x11 sheet (x from left, y from top). Grid cells are computed from these by scripts/pullout_grid_refs.py; do not hand-edit the grid field.",
+ "landmarks": [
+  {
+   "name": "Peter Pan · Falmouth Bus Depot (59 Depot Ave)",
+   "side": "downtown",
+   "category": "bus",
+   "x": 0.227,
+   "y": 0.1572,
+   "grid": "A1",
+   "ref": "Downtown side A1"
+  },
+  {
+   "name": "Highfield Hall & Gardens",
+   "side": "downtown",
+   "category": "museum",
+   "x": 0.1829,
+   "y": 0.1665,
+   "grid": "A1",
+   "ref": "Downtown side A1"
+  },
+  {
+   "name": "Falmouth Village Green",
+   "side": "downtown",
+   "category": "landmark",
+   "x": 0.2342,
+   "y": 0.2763,
+   "grid": "A1",
+   "ref": "Downtown side A1"
+  },
+  {
+   "name": "First Congregational Church",
+   "side": "downtown",
+   "category": "landmark",
+   "x": 0.253,
+   "y": 0.2436,
+   "grid": "B1",
+   "ref": "Downtown side B1"
+  },
+  {
+   "name": "Post Office",
+   "side": "downtown",
+   "category": "landmark",
+   "x": 0.271,
+   "y": 0.2961,
+   "grid": "B1",
+   "ref": "Downtown side B1"
+  },
+  {
+   "name": "St. Barnabas Church",
+   "side": "downtown",
+   "category": "landmark",
+   "x": 0.221,
+   "y": 0.3455,
+   "grid": "A2",
+   "ref": "Downtown side A2"
+  },
+  {
+   "name": "Town Hall",
+   "side": "downtown",
+   "category": "landmark",
+   "x": 0.297,
+   "y": 0.3763,
+   "grid": "B2",
+   "ref": "Downtown side B2"
+  },
+  {
+   "name": "Siders Pond",
+   "side": "downtown",
+   "category": "nature",
+   "x": 0.3118,
+   "y": 0.4454,
+   "grid": "B2",
+   "ref": "Downtown side B2"
+  },
+  {
+   "name": "Museums on the Green",
+   "side": "downtown",
+   "category": "museum",
+   "x": 0.343,
+   "y": 0.2683,
+   "grid": "B1",
+   "ref": "Downtown side B1"
+  },
+  {
+   "name": "Shining Sea Bikeway (runs south toward Woods Hole)",
+   "side": "downtown",
+   "category": "trail",
+   "x": 0.1869,
+   "y": 0.3146,
+   "grid": "A2",
+   "ref": "Downtown side A2"
+  },
+  {
+   "name": "Falmouth Public Library",
+   "side": "downtown",
+   "category": "landmark",
+   "x": 0.385,
+   "y": 0.3208,
+   "grid": "C2",
+   "ref": "Downtown side C2"
+  },
+  {
+   "name": "Chamber of Commerce",
+   "side": "downtown",
+   "category": "landmark",
+   "x": 0.379,
+   "y": 0.3776,
+   "grid": "C2",
+   "ref": "Downtown side C2"
+  },
+  {
+   "name": "Fire Rescue",
+   "side": "downtown",
+   "category": "landmark",
+   "x": 0.4738,
+   "y": 0.3702,
+   "grid": "C2",
+   "ref": "Downtown side C2"
+  },
+  {
+   "name": "Main Street",
+   "side": "downtown",
+   "category": "landmark",
+   "x": 0.551,
+   "y": 0.3702,
+   "grid": "D2",
+   "ref": "Downtown side D2"
+  },
+  {
+   "name": "St. Patrick Church",
+   "side": "downtown",
+   "category": "landmark",
+   "x": 0.5622,
+   "y": 0.4319,
+   "grid": "D2",
+   "ref": "Downtown side D2"
+  },
+  {
+   "name": "Falmouth Dog Park",
+   "side": "downtown",
+   "category": "nature",
+   "x": 0.593,
+   "y": 0.2375,
+   "grid": "D1",
+   "ref": "Downtown side D1"
+  },
+  {
+   "name": "Nye Pond",
+   "side": "downtown",
+   "category": "nature",
+   "x": 0.5942,
+   "y": 0.2541,
+   "grid": "D1",
+   "ref": "Downtown side D1"
+  },
+  {
+   "name": "Farmers Market (Thursdays, seasonal)",
+   "side": "downtown",
+   "category": "market",
+   "x": 0.597,
+   "y": 0.4812,
+   "grid": "D2",
+   "ref": "Downtown side D2"
+  },
+  {
+   "name": "Police",
+   "side": "downtown",
+   "category": "landmark",
+   "x": 0.719,
+   "y": 0.2591,
+   "grid": "E1",
+   "ref": "Downtown side E1"
+  },
+  {
+   "name": "Gus Canty Community Center",
+   "side": "downtown",
+   "category": "landmark",
+   "x": 0.771,
+   "y": 0.2159,
+   "grid": "F1",
+   "ref": "Downtown side F1"
+  },
+  {
+   "name": "Falmouth Baptist Church",
+   "side": "downtown",
+   "category": "landmark",
+   "x": 0.715,
+   "y": 0.401,
+   "grid": "E2",
+   "ref": "Downtown side E2"
+  },
+  {
+   "name": "Island Queen ferry (Falmouth Inner Harbor)",
+   "side": "downtown",
+   "category": "ferry",
+   "x": 0.747,
+   "y": 0.4195,
+   "grid": "E2",
+   "ref": "Downtown side E2"
+  },
+  {
+   "name": "Salt Pond",
+   "side": "downtown",
+   "category": "nature",
+   "x": 0.2797,
+   "y": 0.5928,
+   "grid": "B3",
+   "ref": "Downtown side B3"
+  },
+  {
+   "name": "Surf Drive Beach",
+   "side": "downtown",
+   "category": "beach",
+   "x": 0.3565,
+   "y": 0.6066,
+   "grid": "B3",
+   "ref": "Downtown side B3"
+  },
+  {
+   "name": "Edgartown Ferry",
+   "side": "downtown",
+   "category": "ferry",
+   "x": 0.553,
+   "y": 0.5671,
+   "grid": "D3",
+   "ref": "Downtown side D3"
+  },
+  {
+   "name": "Falmouth Inner Harbor",
+   "side": "downtown",
+   "category": "harbor",
+   "x": 0.6025,
+   "y": 0.5053,
+   "grid": "D3",
+   "ref": "Downtown side D3"
+  },
+  {
+   "name": "Falmouth Heights Beach",
+   "side": "downtown",
+   "category": "beach",
+   "x": 0.6566,
+   "y": 0.5399,
+   "grid": "E3",
+   "ref": "Downtown side E3"
+  },
+  {
+   "name": "Falmouth Heights",
+   "side": "downtown",
+   "category": "landmark",
+   "x": 0.6566,
+   "y": 0.5675,
+   "grid": "E3",
+   "ref": "Downtown side E3"
+  },
+  {
+   "name": "Quissett",
+   "side": "woodshole",
+   "category": "landmark",
+   "x": 0.2957,
+   "y": 0.4149,
+   "grid": "B2",
+   "ref": "Woods Hole side B2"
+  },
+  {
+   "name": "The Knob (Quissett)",
+   "side": "woodshole",
+   "category": "nature",
+   "x": 0.2429,
+   "y": 0.4124,
+   "grid": "B2",
+   "ref": "Woods Hole side B2"
+  },
+  {
+   "name": "Spohr Gardens",
+   "side": "woodshole",
+   "category": "nature",
+   "x": 0.3469,
+   "y": 0.4075,
+   "grid": "B2",
+   "ref": "Woods Hole side B2"
+  },
+  {
+   "name": "Falmouth Village Green",
+   "side": "woodshole",
+   "category": "landmark",
+   "x": 0.455,
+   "y": 0.3146,
+   "grid": "C2",
+   "ref": "Woods Hole side C2"
+  },
+  {
+   "name": "Siders Pond",
+   "side": "woodshole",
+   "category": "nature",
+   "x": 0.469,
+   "y": 0.3362,
+   "grid": "C2",
+   "ref": "Woods Hole side C2"
+  },
+  {
+   "name": "Salt Pond",
+   "side": "woodshole",
+   "category": "nature",
+   "x": 0.455,
+   "y": 0.4195,
+   "grid": "C2",
+   "ref": "Woods Hole side C2"
+  },
+  {
+   "name": "Oyster Pond",
+   "side": "woodshole",
+   "category": "nature",
+   "x": 0.393,
+   "y": 0.4331,
+   "grid": "C2",
+   "ref": "Woods Hole side C2"
+  },
+  {
+   "name": "Surf Drive Beach",
+   "side": "woodshole",
+   "category": "beach",
+   "x": 0.403,
+   "y": 0.4812,
+   "grid": "C2",
+   "ref": "Woods Hole side C2"
+  },
+  {
+   "name": "Trails link to Beebe Woods",
+   "side": "woodshole",
+   "category": "trail",
+   "x": 0.405,
+   "y": 0.2578,
+   "grid": "C1",
+   "ref": "Woods Hole side C1"
+  },
+  {
+   "name": "SSA Palmer Ave ferry lot (shuttle)",
+   "side": "woodshole",
+   "category": "bus",
+   "x": 0.411,
+   "y": 0.2726,
+   "grid": "C1",
+   "ref": "Woods Hole side C1"
+  },
+  {
+   "name": "Falmouth Public Library",
+   "side": "woodshole",
+   "category": "landmark",
+   "x": 0.545,
+   "y": 0.2529,
+   "grid": "D1",
+   "ref": "Woods Hole side D1"
+  },
+  {
+   "name": "Town Hall",
+   "side": "woodshole",
+   "category": "landmark",
+   "x": 0.5138,
+   "y": 0.3226,
+   "grid": "D2",
+   "ref": "Woods Hole side D2"
+  },
+  {
+   "name": "Falmouth Village · Main Street",
+   "side": "woodshole",
+   "category": "landmark",
+   "x": 0.545,
+   "y": 0.3455,
+   "grid": "D2",
+   "ref": "Woods Hole side D2"
+  },
+  {
+   "name": "Farmers Market (Thursdays, seasonal)",
+   "side": "woodshole",
+   "category": "market",
+   "x": 0.551,
+   "y": 0.372,
+   "grid": "D2",
+   "ref": "Woods Hole side D2"
+  },
+  {
+   "name": "Falmouth Dog Park",
+   "side": "woodshole",
+   "category": "nature",
+   "x": 0.671,
+   "y": 0.2375,
+   "grid": "E1",
+   "ref": "Woods Hole side E1"
+  },
+  {
+   "name": "Falmouth Inner Harbor",
+   "side": "woodshole",
+   "category": "harbor",
+   "x": 0.661,
+   "y": 0.3529,
+   "grid": "E2",
+   "ref": "Woods Hole side E2"
+  },
+  {
+   "name": "Falmouth Heights",
+   "side": "woodshole",
+   "category": "landmark",
+   "x": 0.675,
+   "y": 0.3732,
+   "grid": "E2",
+   "ref": "Woods Hole side E2"
+  },
+  {
+   "name": "Old Silver Beach (inset, ~5 mi north)",
+   "side": "woodshole",
+   "category": "beach",
+   "x": 0.795,
+   "y": 0.4658,
+   "grid": "F2",
+   "ref": "Woods Hole side F2"
+  },
+  {
+   "name": "Woods Hole village",
+   "side": "woodshole",
+   "category": "landmark",
+   "x": 0.1429,
+   "y": 0.6115,
+   "grid": "A3",
+   "ref": "Woods Hole side A3"
+  },
+  {
+   "name": "Woods Hole Science Aquarium",
+   "side": "woodshole",
+   "category": "museum",
+   "x": 0.1749,
+   "y": 0.6454,
+   "grid": "A3",
+   "ref": "Woods Hole side A3"
+  },
+  {
+   "name": "MBL (Marine Biological Laboratory)",
+   "side": "woodshole",
+   "category": "museum",
+   "x": 0.1369,
+   "y": 0.7016,
+   "grid": "A4",
+   "ref": "Woods Hole side A4"
+  },
+  {
+   "name": "WHOI",
+   "side": "woodshole",
+   "category": "museum",
+   "x": 0.1729,
+   "y": 0.7121,
+   "grid": "A4",
+   "ref": "Woods Hole side A4"
+  },
+  {
+   "name": "Eel Pond",
+   "side": "woodshole",
+   "category": "nature",
+   "x": 0.1469,
+   "y": 0.7176,
+   "grid": "A4",
+   "ref": "Woods Hole side A4"
+  },
+  {
+   "name": "Eel Pond Drawbridge",
+   "side": "woodshole",
+   "category": "landmark",
+   "x": 0.217,
+   "y": 0.7158,
+   "grid": "A4",
+   "ref": "Woods Hole side A4"
+  },
+  {
+   "name": "Steamship Authority · Woods Hole Terminal (bus stop)",
+   "side": "woodshole",
+   "category": "bus",
+   "x": 0.1549,
+   "y": 0.7534,
+   "grid": "A4",
+   "ref": "Woods Hole side A4"
+  },
+  {
+   "name": "Church of the Messiah",
+   "side": "woodshole",
+   "category": "landmark",
+   "x": 0.205,
+   "y": 0.7954,
+   "grid": "A4",
+   "ref": "Woods Hole side A4"
+  },
+  {
+   "name": "Nobska Pond",
+   "side": "woodshole",
+   "category": "nature",
+   "x": 0.2518,
+   "y": 0.7645,
+   "grid": "B4",
+   "ref": "Woods Hole side B4"
+  },
+  {
+   "name": "Nobska Light",
+   "side": "woodshole",
+   "category": "landmark",
+   "x": 0.295,
+   "y": 0.7596,
+   "grid": "B4",
+   "ref": "Woods Hole side B4"
+  },
+  {
+   "name": "Chapoquoit Beach (inset, West Falmouth)",
+   "side": "woodshole",
+   "category": "beach",
+   "x": 0.7743,
+   "y": 0.5517,
+   "grid": "F3",
+   "ref": "Woods Hole side F3"
+  },
+  {
+   "name": "Shining Sea Bikeway (Surf Drive to Woods Hole)",
+   "side": "woodshole",
+   "category": "trail",
+   "x": 0.2959,
+   "y": 0.5381,
+   "grid": "B3",
+   "ref": "Woods Hole side B3"
+  }
+ ]
+}

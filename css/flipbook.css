@@ -1,4 +1,4 @@
-/* Winter 2026 flipbook (StPageFlip). Pages are laid out in em units that
+/* January 2027 flipbook (StPageFlip). Pages are laid out in em units that
    scale with the page width (container query units), so a spread reads the
    same on a laptop, a phone, and in the 8.5×11 PDF. */
 .reader { padding: 0 0 3rem; }
@@ -207,3 +207,51 @@
 .has-full-ad .pg-foot b { color: #fff; }
 .pg-ad.size-full::before { content: ""; width: 3.2em; height: 3.2em; margin-bottom: 1em; background: url("../assets/favicon.svg") center / contain no-repeat; }
 .page a *, .page button * { pointer-events: none; }
+
+/* pull-out map insert (pages 12-15): one 17x11 sheet, front + back */
+.page.kind-pullout { background: #fff; }
+.pg-insert { overflow: hidden; }
+.pg-insert picture img { position: absolute; top: 0; height: 100%; width: 200%; max-width: none; object-fit: fill; }
+.pullout-L picture img { left: 0; }
+.pullout-R picture img { left: -100%; }
+.pull-perf { position: absolute; top: 0; bottom: 0; width: 0; border-left: 1px dashed rgba(29,42,77,.28); pointer-events: none; }
+.pullout-L .pull-perf { right: 0; }
+.pullout-R .pull-perf { left: 0; }
+.pullout-L::after, .pullout-R::after { content: ""; position: absolute; top: 0; bottom: 0; width: 3%; pointer-events: none; }
+.pullout-L::after { right: 0; background: linear-gradient(270deg, rgba(0,0,0,.10), transparent); }
+.pullout-R::after { left: 0; background: linear-gradient(90deg, rgba(0,0,0,.10), transparent); }
+.is-portrait .pullout-L::after, .is-portrait .pullout-R::after, .is-portrait .pull-perf { display: none; }
+.insert-bar { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 0.5rem 1rem; margin: 0.35rem auto -0.1rem; padding: 0.45rem 0.75rem 0.5rem; max-width: min(100%, 1320px); width: fit-content;
+  background: #f4a259; color: #1d2a4d; border-radius: 12px 12px 0 0; box-shadow: 0 -2px 0 rgba(255,255,255,.25) inset, 0 6px 18px -10px rgba(0,0,0,.5); position: relative; z-index: 4; }
+.insert-bar[hidden] { display: none; }
+.insert-tab { display: flex; align-items: center; gap: 0.55rem; margin: 0; }
+.insert-tab svg { width: 22px; height: 22px; fill: none; stroke: #1d2a4d; stroke-width: 2; stroke-linecap: round; flex: none; }
+.insert-tab b { display: block; font: 700 1.05rem/1.05 var(--cond, "Barlow Condensed", sans-serif); letter-spacing: 0.1em; text-transform: uppercase; }
+.insert-tab small { display: block; font-size: 0.78rem; font-weight: 600; opacity: 0.85; }
+.insert-actions { display: flex; flex-wrap: wrap; gap: 0.4rem; margin: 0; }
+.pull-btn { appearance: none; border: 1.5px solid #1d2a4d; background: #fffdf8; color: #1d2a4d; font: 700 0.82rem/1 "DM Sans", sans-serif; padding: 0.5rem 0.75rem; border-radius: 999px; cursor: pointer; text-decoration: none; white-space: nowrap; }
+.pull-btn:hover, .pull-btn:focus-visible { background: #1d2a4d; color: #fff; }
+.pull-btn.is-sun { background: #1d2a4d; color: #fff; }
+.pull-btn.is-sun:hover { background: #0f1830; }
+.pull-btn[aria-pressed="true"] { background: #2c7f7b; border-color: #2c7f7b; color: #fff; }
+.mag-stage.insert-live .book-box { box-shadow: 0 0 0 3px #f4a259; border-radius: 2px; }
+@media (max-width: 560px) { .insert-bar { border-radius: 10px; justify-content: center; } .insert-actions { justify-content: center; } .pull-btn { font-size: 0.76rem; padding: 0.45rem 0.6rem; } }
+/* zoom dialog, pull-out mode */
+.zoom-body[data-mode="pull"] { display: block; position: relative; }
+.pull-zoom-head { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 0.6rem; margin: 0 0 0.75rem; position: sticky; left: 0; }
+.pull-tab.is-static { margin: 0; display: inline-flex; flex-direction: column; background: #f4a259; color: #1d2a4d; padding: 0.35rem 0.8rem; border-radius: 10px; }
+.pull-tab.is-static span { font: 700 1rem/1.1 var(--cond, "Barlow Condensed", sans-serif); letter-spacing: 0.1em; text-transform: uppercase; }
+.pull-tab.is-static small { font-size: 0.78rem; font-weight: 600; }
+.pull-zoom-tools { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+.pull-sheet { position: relative; min-width: 100%; }
+.pull-mark { position: absolute; width: 0; height: 0; pointer-events: none; }
+.pull-mark::before { content: ""; position: absolute; left: -22px; top: -22px; width: 44px; height: 44px; border-radius: 50%; border: 4px solid #e0412f; box-shadow: 0 0 0 3px #fff; }
+.pull-mark.ping::before { animation: pullPing 1.4s ease-out 2; }
+@keyframes pullPing { 0% { transform: scale(2.2); opacity: 0; } 40% { opacity: 1; } 100% { transform: scale(1); } }
+.pull-find { margin: 0.9rem 0 0; position: sticky; left: 0; max-width: calc(100vw - 4rem); }
+.pull-find summary { cursor: pointer; font: 700 0.95rem var(--cond, "Barlow Condensed", sans-serif); letter-spacing: 0.08em; text-transform: uppercase; }
+.pull-find ul { list-style: none; padding: 0; margin: 0.5rem 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr)); gap: 0.25rem 0.75rem; }
+.pull-find button { appearance: none; background: none; border: 0; padding: 0.2rem 0; text-align: left; cursor: pointer; font: 0.86rem "DM Sans", sans-serif; color: inherit; }
+.pull-find button b { display: inline-grid; place-items: center; min-width: 2rem; height: 1.4rem; border-radius: 0.7rem; background: #1d2a4d; color: #fff; font-size: 0.75rem; margin-right: 0.35rem; }
+.pull-find button:hover { text-decoration: underline; }
+@media (prefers-reduced-motion: reduce) { .pull-mark.ping::before { animation: none; } }

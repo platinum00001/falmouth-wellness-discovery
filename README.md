@@ -17,10 +17,10 @@ Open `http://127.0.0.1:4177/`.
 ## Pages
 
 - `index.html` — home
-- `magazine.html` — Winter 2026 sample issue, page-turn reader
+- `magazine.html` — January 2027 sample issue, page-turn reader
 - `map.html` — Leaflet discovery map, with the A–H by 1–6 grid
-- `guide.html` — Falmouth Visitor Guide, the back of the pull-out
-- `map-print.html` — 17×11 print-ready pull-out, front and back
+- `guide.html` — Falmouth Visitor Guide (online), with the pull-out map grid index (A–F × 1–4, Downtown and Woods Hole sides)
+- `map-print.html` — printable 17×11 town-grid version of the walking map and visitor guide (the magazine's pull-out is the illustrated map: `assets/fwd-pullout-map-january-2027.pdf`)
 - `directory.html` and the category folders — local SEO directory
 - `partner.html` — packages, gift-card calculator, pitch deck, inquiry
 - `signup.html` — reader sign-up
@@ -29,6 +29,10 @@ Open `http://127.0.0.1:4177/`.
 - `audio.html` — quarterly audio placeholder
 - `credits.html` — photo credit
 - `pitch/` — advertiser pitch deck
+
+## Rebuilding the issue
+
+`scripts/rebuild_issue.sh` rebuilds the label, cover, pull-out map, grid references, thumbnails and PDFs, then runs the audit. See `scripts/README.md` for each step and the pull-out imposition.
 
 ## Data
 

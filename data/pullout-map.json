@@ -1,0 +1,49 @@
+{
+  "issue": "January 2027",
+  "sheet": "17x11 in, two-sided, folds to 8.5x11",
+  "grid": {
+    "cols": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F"
+    ],
+    "rows": 4,
+    "frame": [
+      0.10693,
+      0.11094,
+      0.89307,
+      0.88981
+    ],
+    "note": "frame = [left, top, right, bottom] of the map area as fractions of the sheet"
+  },
+  "faces": {
+    "downtown": {
+      "title": "Downtown \u00b7 Main Street (front)",
+      "src": "assets/img/mag/pullout/downtown-2400.jpg",
+      "webp": "assets/img/mag/pullout/downtown-2400.webp",
+      "small": "assets/img/mag/pullout/downtown-1200.webp",
+      "zoom": "assets/img/mag/pullout/downtown-4096.webp",
+      "width": 2400,
+      "height": 1553,
+      "upscale": "Real-ESRGAN x2 + Lanczos"
+    },
+    "woodshole": {
+      "title": "Main Street & Woods Hole (back)",
+      "src": "assets/img/mag/pullout/woodshole-2400.jpg",
+      "webp": "assets/img/mag/pullout/woodshole-2400.webp",
+      "small": "assets/img/mag/pullout/woodshole-1200.webp",
+      "zoom": "assets/img/mag/pullout/woodshole-4096.webp",
+      "width": 2400,
+      "height": 1553,
+      "upscale": "Real-ESRGAN x2 + Lanczos"
+    }
+  },
+  "pdf": "assets/fwd-pullout-map-january-2027.pdf",
+  "print": [
+    "build/pullout/print-side1-downtown-17x11.jpg",
+    "build/pullout/print-side2-woodshole-17x11.jpg"
+  ]
+}

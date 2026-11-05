@@ -152,7 +152,8 @@
       : "";
     return (
       '<li id="' + esc(item.id) + '"><span class="grid-ref">' + esc(ref) + "</span><div><strong>" + esc(item.name) + "</strong>" +
-      "<p>" + esc(item.detail || "") + "</p></div>" + qr + "</li>"
+      "<p>" + esc(item.detail || "") + "</p>" +
+      (item.pullout ? '<p class="pullout-ref">Pull-out map: <b>' + esc(item.pullout) + "</b></p>" : "") + "</div>" + qr + "</li>"
     );
   }
 
