@@ -57,6 +57,7 @@ CATEGORY_ART = {
     "dental": "v3/dental-room.jpg",
     "getting-around": "v3/bike-shoreline-path.jpg",
     "shops": "v3/boutique-jewelry.jpg",
+    "auto-insurance": "v3/village-main-street-autumn.jpg",
 }
 
 

@@ -23,31 +23,6 @@
       ],
       "listings": [
         {
-          "id": "calfee-insurance",
-          "name": "Arthur D. Calfee Insurance Agency",
-          "featured": false,
-          "placeholder": false,
-          "subcategory": "Insurance agency (Homeport)",
-          "summary": "Family-run, second-generation independent insurance agency for home, auto, boat and business, at Homeport on Gifford Street. Weekdays 8:30 a.m. to 4:30 p.m.",
-          "address": "336 Gifford Street, Falmouth, MA 02540",
-          "phone": "+1-508-540-2601",
-          "phoneDisplay": "(508) 540-2601",
-          "website": "https://www.calfeeinsurance.com/",
-          "booking": null,
-          "lat": 41.562179,
-          "lng": -70.610181,
-          "schemaType": "LocalBusiness",
-          "facts": [
-            "336 Gifford Street, Falmouth, MA 02540",
-            "(508) 540-2601"
-          ],
-          "sources": [
-            "calfeeinsurance.com (Homeport Plaza office, 336 Gifford Street), checked Oct 29, 2026"
-          ],
-          "district": "homeport",
-          "hours": "Mon–Fri 8:30 a.m.–4:30 p.m."
-        },
-        {
           "id": "falmouth-jewelry-shop",
           "name": "Falmouth Jewelry Shop",
           "featured": false,
@@ -3211,14 +3186,14 @@
       "listings": [
         {
           "id": "falmouth-taxi",
-          "name": "Falmouth Taxi",
+          "name": "Falmouth Taxi · Falmouth Transport",
           "featured": false,
           "placeholder": false,
           "subcategory": "Taxi",
-          "summary": "24-hour local taxi and livery: local rides, airport, ferry and long-distance trips. Office at 17 Walker Street, Falmouth. Call to book.",
+          "summary": "24-hour local taxi and livery: local rides, airport, ferry and long-distance trips, booked through Falmouth Transport. Office at 17 Walker Street, Falmouth. Call Falmouth Transport at (774) 247-5263.",
           "address": "17 Walker Street, Falmouth, MA 02540",
-          "phone": "+1-508-548-3100",
-          "phoneDisplay": "(508) 548-3100",
+          "phone": "+1-774-247-5263",
+          "phoneDisplay": "(774) 247-5263",
           "website": null,
           "booking": null,
           "lat": 41.55179,
@@ -3226,16 +3201,18 @@
           "schemaType": "LocalBusiness",
           "facts": [
             "17 Walker Street, Falmouth, MA 02540",
-            "(508) 548-3100",
-            "Office at 17 Walker Street (the same building as Jacqueline's Gifts & Antiques; both checked Oct 28, 2026)"
+            "Book through Falmouth Transport: (774) 247-5263",
+            "Office at 17 Walker Street (the same building as Jacqueline's Gifts & Antiques; checked Oct 28, 2026)"
           ],
           "sources": [
             "Local Wellness Maps Falmouth directory (platinum00001/local-wellness-maps, Oct 26, 2026)"
           ],
           "district": "main-street",
           "notes": [
-            "2026-10-29: website https://www.falmouthtaxi.com/ unreachable (404/expired certificate/server error); link removed, phone kept."
-          ]
+            "2026-10-29: website https://www.falmouthtaxi.com/ unreachable (404/expired certificate/server error); link removed, phone kept.",
+            "2026-11-04: owner decision: taxi's own phone (508) 548-3100 removed; listing points to the Falmouth Transport contact."
+          ],
+          "contactVia": "falmouth-transport"
         },
         {
           "id": "holiday-cycles",
@@ -3293,17 +3270,23 @@
           "featured": true,
           "placeholder": false,
           "subcategory": "Rides and moving things",
-          "summary": "A new local guide to rides and moving things around Falmouth, and a founding partner of this magazine.",
-          "address": null,
-          "phone": null,
+          "summary": "A new local guide to rides and moving things around Falmouth, and a founding partner of this magazine. Based at the Cape Island Café office, 316 Gifford Street. Call (774) 247-5263, the same line as the café.",
+          "address": "316 Gifford Street, Falmouth, MA 02540",
+          "phone": "+1-774-247-5263",
           "website": null,
           "booking": null,
-          "lat": null,
-          "lng": null,
+          "lat": 41.562274,
+          "lng": -70.611104,
           "schemaType": "LocalBusiness",
           "facts": [
             "Founding partner",
-            "Local rides and moving things around Falmouth"
+            "Local rides and moving things around Falmouth",
+            "Based at the Cape Island Café office, 316 Gifford Street, Falmouth, MA 02540",
+            "(774) 247-5263"
+          ],
+          "phoneDisplay": "(774) 247-5263",
+          "notes": [
+            "2026-11-04: owner decision: phone is the Cape Island Café line; based at the café's office."
           ]
         },
         {
@@ -3319,6 +3302,78 @@
           "booking": null,
           "lat": null,
           "lng": null
+        }
+      ]
+    },
+    {
+      "slug": "auto-insurance",
+      "short": "Cars & Insurance",
+      "nav": "Insurance at Homeport, cars on Route 28",
+      "title": "Falmouth MA Cars & Insurance | Homeport Insurance Agency, Route 28 Auto Center",
+      "h1": "Falmouth MA cars and insurance",
+      "description": "Arthur D. Calfee Insurance Agency at Homeport Plaza, 336 Gifford Street, and Route 28 Auto Center in East Falmouth, both on the Falmouth walking map.",
+      "intro": [
+        "Arthur D. Calfee Insurance Agency is the insurance office at Homeport Plaza, 336 Gifford Street, a few doors from Cape Island Café.",
+        "Route 28 Auto Center sells used cars, trucks and SUVs at 550 E. Falmouth Highway, East Falmouth."
+      ],
+      "tips": [
+        "Ask your agent to review home, flood and auto coverage together before storm season.",
+        "Call the dealer before you drive over to check a car is still on the lot."
+      ],
+      "related": [
+        "getting-around",
+        "transportation",
+        "shops"
+      ],
+      "listings": [
+        {
+          "id": "calfee-insurance",
+          "name": "Arthur D. Calfee Insurance Agency",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Insurance agency (Homeport Plaza)",
+          "summary": "The insurance agency at Homeport Plaza on Gifford Street: a family-run, second-generation independent agency for home, auto, boat, flood and business insurance, at 336 Gifford Street since its Homeport office opened. Weekdays 8:30 a.m. to 4:30 p.m.",
+          "address": "336 Gifford Street, Falmouth, MA 02540",
+          "phone": "+1-508-540-2601",
+          "phoneDisplay": "(508) 540-2601",
+          "website": "https://www.calfeeinsurance.com/",
+          "booking": null,
+          "lat": 41.562179,
+          "lng": -70.610181,
+          "schemaType": "LocalBusiness",
+          "facts": [
+            "336 Gifford Street, Falmouth, MA 02540",
+            "(508) 540-2601"
+          ],
+          "sources": [
+            "calfeeinsurance.com (Homeport Plaza office, 336 Gifford Street), checked Oct 29, 2026",
+            "agent.travelers.com and agents.libertymutual.com agency listings (336 Gifford St), checked Nov 4, 2026"
+          ],
+          "district": "homeport",
+          "hours": "Mon–Fri 8:30 a.m.–4:30 p.m."
+        },
+        {
+          "id": "route-28-auto-center",
+          "name": "Route 28 Auto Center",
+          "featured": false,
+          "placeholder": false,
+          "subcategory": "Used cars",
+          "summary": "Used-car dealership on Route 28 in East Falmouth: inspected used cars, trucks and SUVs, trade-ins and financing. Call ahead about a specific car.",
+          "address": "550 E. Falmouth Highway, East Falmouth, MA 02536",
+          "phone": "+1-508-495-0300",
+          "phoneDisplay": "(508) 495-0300",
+          "website": "https://www.route28autos.com/",
+          "booking": null,
+          "lat": 41.577832,
+          "lng": -70.553545,
+          "schemaType": "AutoDealer",
+          "facts": [
+            "550 E. Falmouth Highway, East Falmouth, MA 02536",
+            "(508) 495-0300"
+          ],
+          "sources": [
+            "route28autos.com (home, contact-us, about-us), checked Nov 4, 2026"
+          ]
         }
       ]
     },

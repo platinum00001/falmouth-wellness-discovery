@@ -393,7 +393,7 @@
         },
         {
           "title": "Arthur D. Calfee Insurance Agency",
-          "kicker": "Insurance",
+          "kicker": "Insurance · Homeport Plaza",
           "text": "336 Gifford St · (508) 540-2601"
         },
         {
@@ -471,18 +471,18 @@
       "imageSlot": "transport-story",
       "paragraphs": [
         "Falmouth Transport is a founding partner. The guide is for rides and for moving things around Falmouth, with local options ahead of the big rideshare apps.",
-        "Rides, deliveries and help moving things around town are the beat of this page each quarter. Local transportation listings are on the Getting Around page of the website directory.",
-        "A local taxi partner can take the open spot beside this feature."
+        "Rides, deliveries and help moving things around town are the beat of this page each quarter. Falmouth Transport is based at the Cape Island Café office, 316 Gifford Street; call (774) 247-5263.",
+        "Falmouth Taxi rides are booked through Falmouth Transport. More local transportation is on the Getting Around page of the website directory."
       ],
       "cards": [
         {
-          "title": "Taxi partner spot",
-          "kicker": "Featured spot available",
-          "open": true,
-          "text": "A local taxi or ride service can take this card with its phone and service area.",
+          "title": "Falmouth Taxi · Falmouth Transport",
+          "kicker": "Taxi · 24 hour",
+          "meta": "(774) 247-5263",
+          "text": "Local rides, airport, ferry and long-distance trips. Book through Falmouth Transport.",
           "cta": {
-            "label": "Become a partner",
-            "href": "partner.html"
+            "label": "Call (774) 247-5263",
+            "href": "tel:+17742475263"
           }
         }
       ]
@@ -1360,6 +1360,18 @@
         "lat": 41.553307,
         "lng": -70.600428,
         "qr": "fitness/index.html#fitness-directions",
+        "size": "small"
+      },
+      {
+        "number": 21,
+        "id": "calfee-insurance",
+        "name": "Arthur D. Calfee Insurance Agency",
+        "category": "Insurance · Homeport",
+        "pillar": "soul",
+        "address": "336 Gifford St",
+        "lat": 41.562179,
+        "lng": -70.610181,
+        "qr": "auto-insurance/index.html#calfee-insurance",
         "size": "small"
       }
     ],

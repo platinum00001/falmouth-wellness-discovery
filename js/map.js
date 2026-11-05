@@ -23,7 +23,8 @@ const COLORS = {
   "spa-recovery": "#1c5a5e",
   dental: "#18343d",
   "getting-around": "#18343d",
-  shops: "#c98a3d"
+  shops: "#c98a3d",
+  "auto-insurance": "#18343d"
 };
 
 const AREAS = {

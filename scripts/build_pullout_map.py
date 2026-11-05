@@ -7,7 +7,9 @@ Steps  : 1. upscale to 5100x3300 (300 dpi at 17x11): Real-ESRGAN x2plus via span
             when available (cached in build/), then Lanczos to size; else plain Lanczos.
          2. cover the Refuge Fitness border ad (slot R4, both sides) with a matching
             "Featured spot available" partner panel (the art has the ads baked in; there
-            is no layered source, so the slot is covered, not regenerated).
+            is no layered source, so the slot is covered, not regenerated), and re-letter
+            the Falmouth Taxi ad's contact band (R2, both sides) to "Falmouth Taxi ·
+            Falmouth Transport (774) 247-5263" (its own phone removed, owner 2026-11-04).
          3. draw the A-F / 1-4 grid inside the map frame (thin navy lines + edge badges).
 Output : build/pullout/print-<side>.jpg                    5100x3300 print composites
          assets/img/mag/pullout/<face>-{4096,2400,1200}.webp, <face>-2400.jpg  web
@@ -34,6 +36,11 @@ FRAME = (219, 147, 1829, 1179)
 COLS, ROWS = "ABCDEF", 4
 # Border-ad slots to cover: slot id -> fractions [left, top, width, height] (from health-wellness-maps maps.json)
 COVER = {"R4": [0.89588, 0.58091, 0.09941, 0.15091]}   # Refuge Fitness on both sides
+SLOTS = {"R2": [0.89588, 0.26818, 0.09941, 0.15091], "R4": [0.89588, 0.58091, 0.09941, 0.15091]}
+# Text patches on an ad's bottom contact band: slot -> (band in source px relative to the slot, lines)
+# R2 Falmouth Taxi (both sides): its own phone removed; points to Falmouth Transport (owner, 2026-11-04).
+PATCH = {"R2": ((30, 171.5, 174.5, 197), [("Falmouth Taxi · Falmouth Transport", "BarlowCondensed-SemiBold.ttf", 0.30, (176, 52, 44)),
+                                           ("(774) 247-5263", "BreeSerif-Regular.ttf", 0.42, (35, 35, 40))])}
 NAVY, CREAM, RED, TEAL, CORAL = (29, 42, 77), (247, 240, 226), (176, 52, 44), (44, 127, 123), (244, 162, 89)
 
 
@@ -109,6 +116,23 @@ def cover_slots(im):
     return im
 
 
+def patch_bands(im):
+    s = PW / 2048
+    d = ImageDraw.Draw(im)
+    for slot, ((x0, y0, x1, y1), lines) in PATCH.items():
+        sx, sy = SLOTS[slot][0] * 2048, SLOTS[slot][1] * 1325
+        box = [round((sx + x0) * s), round((sy + y0) * s), round((sx + x1) * s), round((sy + y1) * s)]
+        d.rectangle(box, fill=(252, 236, 211))
+        H = box[3] - box[1]
+        y = box[1] + H * 0.12
+        for text, fnt, frac, col in lines:
+            f = font(fnt, H * frac)
+            while d.textlength(text, font=f) > (box[2] - box[0]) * 0.94: f = font(fnt, f.size - 1)
+            d.text(((box[0] + box[2] - d.textlength(text, font=f)) / 2, y), text, font=f, fill=col)
+            y += f.size * 1.12
+    return im
+
+
 def grid(im):
     s = PW / 2048
     x0, y0, x1, y1 = [v * s for v in FRAME]
@@ -148,7 +172,7 @@ def main():
     prints = []
     for face, stem, title in SIDES:
         im, how = upscale(stem, not a.no_sr)
-        im = grid(cover_slots(im))
+        im = grid(patch_bands(cover_slots(im)))
         p = BUILD / "pullout" / f"print-{stem}.jpg"
         im.save(p, quality=95, subsampling=0, dpi=(300, 300), optimize=True)      # print master
         q = BUILD / "pullout" / f"pdf-{stem}.jpg"                                  # PDF copy, smaller
