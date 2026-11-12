@@ -436,7 +436,7 @@ p { margin: 0 0 0.9rem; }
   gap: 0.35rem;
 }
 .pkg.core { background: var(--teal); color: #fff; }
-.pkg.core .price, .pkg.core li, .pkg.core p { color: #fff; }
+.pkg.core h2, .pkg.core .price, .pkg.core li, .pkg.core p { color: #fff; }
 .pkg .price {
   font-family: var(--serif);
   font-size: 2.4rem;
