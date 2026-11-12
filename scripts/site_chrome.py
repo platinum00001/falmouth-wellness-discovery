@@ -22,6 +22,7 @@ NAV = [
     ("guide.html", "Visitor Guide", "guide.html"),
     ("free-help.html", "Free Help", "free-help.html"),
     ("partner.html", "Partner", "partner.html"),
+    ("for-businesses.html", "For Businesses", "for-businesses.html"),
 ]
 
 MARK = ('<svg class="mark" viewBox="0 0 48 48" aria-hidden="true"><rect width="48" height="48" rx="12" fill="#1C5A5E"/>'
@@ -69,12 +70,12 @@ def footer(root: str) -> str:
     <div>
       <h2>Publisher</h2>
       <p>Cape Island<br>316 Gifford Street, Falmouth, MA 02540<br><a href="tel:+17742475263">(774) 247-5263</a><br><a href="mailto:CapeIslandCafe@gmail.com">CapeIslandCafe@gmail.com</a></p>
-      <p><a class="btn btn-sun btn-small" href="{root}partner.html">Become a partner</a></p>
+      <p><a class="btn btn-sun btn-small" href="{root}partner.html">Become a partner</a><br><a href="{root}for-businesses.html">For Businesses</a></p>
     </div>
   </div>
   <div class="wrap credit-line">
     <p>Nobska Light cover photo: Giacomo Barbaro, CC BY-SA 3.0, via Wikimedia Commons (<a href="https://commons.wikimedia.org/wiki/File:Nobska_Lighthouse.jpg">source</a>); modified with added text. Other photographs are generated editorial images of generic scenes, not real people or storefronts.</p>
-    <p>© 2026 Falmouth Wellness Discovery · January 2027 · Issue 1 · <a href="{root}partner.html">Advertise</a> · <a href="{root}signup.html">Get the magazine</a></p>
+    <p>© 2026 Falmouth Wellness Discovery · January 2027 · Issue 1 · <a href="{root}partner.html">Advertise</a> · <a href="{root}for-businesses.html">For Businesses</a> · <a href="{root}signup.html">Get the magazine</a></p>
   </div>
 </footer>"""
 
