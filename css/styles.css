@@ -706,3 +706,92 @@ footer a { overflow-wrap: anywhere; word-break: break-word; }
 .article-time li:last-child { border-bottom: 0; }
 .article-time b { color: var(--teal-d); font-family: var(--cond, "Barlow Condensed", sans-serif); letter-spacing: 0.04em; }
 .rail-map p { margin: 0 0 0.7rem; }
+
+/* Article pool and candidate magazine pages */
+.print-status {
+  display: inline-block;
+  font: 700 0.78rem/1 var(--cond, "Barlow Condensed", sans-serif);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 0.28rem 0.62rem;
+  border-radius: 999px;
+  background: #f6e0c4;
+  color: #8a4b12;
+}
+.print-status.in-issue {
+  background: #1c5a5e;
+  color: #fff;
+}
+.pool-list { display: grid; gap: 1rem; margin: 1.2rem 0 2.5rem; }
+@media (min-width: 800px) { .pool-list { grid-template-columns: 1fr 1fr; } }
+.pool-card {
+  display: flex; flex-direction: column; gap: 0.45rem;
+  background: #fff; border: 1px solid rgba(24,52,61,.12);
+  border-radius: 16px; padding: 1.15rem 1.2rem 1.25rem;
+  text-decoration: none; color: inherit;
+}
+.pool-card:hover { border-color: var(--teal-d); box-shadow: 0 8px 24px rgba(24,52,61,.08); }
+.pool-card h2 { font-size: 1.35rem; margin: 0.15rem 0 0.2rem; }
+.pool-card p { margin: 0; color: var(--ink-2); }
+.pool-card .go { margin-top: auto; padding-top: 0.7rem; font-weight: 700; color: var(--teal-d); }
+
+.inst-grid { display: grid; gap: 1rem; margin: 1rem 0 1.8rem; }
+@media (min-width: 720px) { .inst-grid { grid-template-columns: 1fr 1fr; } }
+.inst-card {
+  background: #fff; border: 1px solid rgba(24,52,61,.12);
+  border-radius: 16px; padding: 1.1rem 1.15rem 1.2rem;
+}
+.inst-card h3 { margin: 0 0 0.35rem; font-size: 1.22rem; }
+.inst-card p { margin: 0 0 0.4rem; }
+.inst-card .phone { font-weight: 700; font-size: 1.05rem; }
+.confirm-note {
+  background: #f6eee1; border-left: 4px solid var(--sun, #f4a259);
+  border-radius: 0 12px 12px 0; padding: 0.85rem 1rem; margin: 1rem 0 1.4rem;
+}
+.event-list { list-style: none; padding: 0; margin: 0 0 1.6rem; }
+.event-list li {
+  display: grid; gap: 0.15rem 1rem; padding: 0.85rem 0;
+  border-bottom: 1px solid rgba(24,52,61,.12);
+}
+@media (min-width: 700px) { .event-list li { grid-template-columns: 12.5rem 1fr; } }
+.event-list .when { font: 700 0.92rem/1.35 var(--cond, "Barlow Condensed", sans-serif); letter-spacing: 0.04em; color: var(--teal-d); text-transform: uppercase; }
+.event-list h3 { margin: 0 0 0.2rem; font-size: 1.15rem; }
+.event-list p { margin: 0; }
+.badge-verified, .badge-confirm {
+  display: inline-block; font: 700 0.7rem/1 var(--cond, "Barlow Condensed", sans-serif);
+  letter-spacing: 0.08em; text-transform: uppercase; padding: 0.15rem 0.45rem;
+  border-radius: 999px; margin-right: 0.35rem;
+}
+.badge-verified { background: #1c5a5e; color: #fff; }
+.badge-confirm { background: #f6e0c4; color: #8a4b12; }
+
+.xw { width: 100%; max-width: 34rem; border-collapse: collapse; margin: 1rem 0 1.4rem; table-layout: fixed; }
+.xw td {
+  position: relative; width: 9%; aspect-ratio: 1; border: 1px solid #1c5a5e;
+  background: #fffdf9; vertical-align: middle; text-align: center;
+  font: 700 1rem/1 "DM Sans", system-ui, sans-serif; color: #12303a;
+  padding: 0;
+}
+.xw td.block { background: #1c5a5e; border-color: #12303a; }
+.xw .n { position: absolute; top: 2px; left: 3px; font: 700 0.55rem/1 "DM Sans", sans-serif; color: #1c5a5e; }
+.xw .ch { visibility: hidden; }
+.xw.show-answers .ch, .xw td[data-filled="1"] .ch { visibility: visible; }
+.xw-clues { display: grid; gap: 1.2rem; margin: 0 0 1.6rem; }
+@media (min-width: 720px) { .xw-clues { grid-template-columns: 1fr 1fr; } }
+.xw-clues h3 { margin: 0 0 0.4rem; }
+.xw-clues ol { margin: 0; padding-left: 1.3rem; }
+.xw-clues li { margin: 0.35rem 0; }
+.scavenger { list-style: none; padding: 0; margin: 0 0 1.6rem; counter-reset: sc; }
+.scavenger li {
+  counter-increment: sc; background: #fff; border: 1px solid rgba(24,52,61,.12);
+  border-radius: 14px; padding: 0.9rem 1rem 1rem 3.2rem; margin: 0 0 0.7rem; position: relative;
+}
+.scavenger li::before {
+  content: counter(sc);
+  position: absolute; left: 0.8rem; top: 0.9rem;
+  width: 1.7rem; height: 1.7rem; border-radius: 50%;
+  background: #1c5a5e; color: #fff; font: 700 0.85rem/1.7rem var(--cond, "Barlow Condensed", sans-serif);
+  text-align: center;
+}
+.scavenger h3 { margin: 0 0 0.25rem; font-size: 1.12rem; }
+.scavenger p { margin: 0 0 0.25rem; }

@@ -61,7 +61,7 @@ def footer(root: str) -> str:
     </div>
     <div>
       <h2>Read</h2>
-      <p><a href="{root}magazine.html">January 2027 flipbook</a><br><a href="{root}articles/falmouth-history.html">Think You Know Falmouth?</a><br><a href="{root}map.html">Discovery map</a><br><a href="{root}guide.html">Visitor guide</a><br><a href="{root}stories.html">Falmouth Stories &amp; History</a><br><a href="{root}magazine.html?page=12">Pull-out map</a><br><a href="{root}map-print.html">Printable town grid</a><br><a href="{root}audio.html">Audio update</a></p>
+      <p><a href="{root}magazine.html">January 2027 flipbook</a><br><a href="{root}articles/falmouth-history.html">Think You Know Falmouth?</a><br><a href="{root}articles/">Article pool</a><br><a href="{root}map.html">Discovery map</a><br><a href="{root}guide.html">Visitor guide</a><br><a href="{root}stories.html">Falmouth Stories &amp; History</a><br><a href="{root}magazine.html?page=12">Pull-out map</a><br><a href="{root}map-print.html">Printable town grid</a><br><a href="{root}audio.html">Audio update</a></p>
     </div>
     <div>
       <h2>Find</h2>

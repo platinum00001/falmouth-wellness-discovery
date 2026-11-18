@@ -60,3 +60,14 @@ The next planned issue label in the rebuild script is **April 2027** (a spring i
 - **The railroad years, 1872–1965**, as background to the bikeway, from the [Town of Falmouth bikeway page](https://www.falmouthma.gov/1362/The-Shining-Sea-Bikeway).
 - **Village Green historic districts**, only after confirming the list of districts against the town or the Massachusetts Historical Commission, not a single lifestyle feature.
 
+## Candidate pages drafted for January 2027 (November 2026)
+
+Web articles in `articles/`, listed on the [Article pool](../articles/) with status “Candidate for print,” except the opening feature, which is already in the flipbook on pages 4–5:
+
+- Local sports and schools (`articles/local-sports-schools.html`)
+- Winter events, January–March 2027 (`articles/winter-events.html`)
+- Community institutions (`articles/community-institutions.html`)
+- Falmouth trivia crossword and map hunt (`articles/falmouth-puzzles.html`)
+
+Facts are source-noted. Game dates, the 2027 winter farmers market, Highfield winter events, Y opening day, and Gus Canty January hours were left out or marked “Confirm” when they were not on an official 2027 calendar.
+
