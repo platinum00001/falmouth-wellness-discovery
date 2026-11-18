@@ -20,6 +20,7 @@ Open `http://127.0.0.1:4177/`.
 - `magazine.html` — January 2027 sample issue, page-turn reader
 - `map.html` — Leaflet discovery map, with the A–H by 1–6 grid
 - `guide.html` — Falmouth Visitor Guide (online), with the pull-out map grid index (A–F × 1–4, Downtown and Woods Hole sides)
+- `stories.html` — Falmouth Stories & History (verified local history, linked from the guide and the discovery map)
 - `map-print.html` — printable 17×11 town-grid version of the walking map and visitor guide (the magazine's pull-out is the illustrated map: `assets/fwd-pullout-map-january-2027.pdf`)
 - `directory.html` and the category folders — local SEO directory
 - `partner.html` — packages, gift-card calculator, pitch deck, inquiry
@@ -38,6 +39,7 @@ Open `http://127.0.0.1:4177/`.
 
 - `data/issue1.json` — magazine pages, crossword, events, and empty image slots
 - `data/directory.json` — category pages
+- `data/falmouth-stories.json` — verified Falmouth Stories & History points for the map layer and stories page
 
 After editing the directory file:
 

@@ -593,3 +593,57 @@
 .pullout-group .grid-ref { display: inline-grid; place-items: center; min-width: 2.1rem; height: 1.6rem; border-radius: 0.8rem; background: #1d2a4d; color: #fff; font-size: 0.8rem; }
 .pullout-group em { display: block; font-style: normal; color: #5d6b70; font-size: 0.8rem; }
 .pullout-ref { font-size: 0.82rem; color: #1d2a4d; }
+
+.walk-pin.is-story .head {
+  border-radius: 3px;
+  transform: none;
+  width: 22px;
+  height: 22px;
+  margin: 5px auto 0;
+  box-shadow: 0 0 0 3px rgba(139, 90, 43, 0.35), 0 2px 6px rgba(24, 52, 61, 0.35);
+}
+.walk-pin.is-story .walk-badge {
+  left: 9px;
+  top: 8px;
+  font-size: 9px;
+  line-height: 14px;
+}
+.swatch.is-story { border-radius: 2px; }
+.pin-list-head {
+  font: 700 0.8rem var(--sans);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #8b5a2b;
+  margin: 0.15rem 0 0;
+  padding: 0.15rem 0.2rem 0;
+}
+.pin-list button.is-story { border-color: #d9c4a4; }
+.grid-ref.is-off { background: #8b5a2b; font-size: 0.62rem; letter-spacing: 0; padding: 0 0.25rem; min-width: 3.4rem; }
+
+/* Falmouth Stories page */
+.stories-page .page-hero { padding-bottom: 1.2rem; }
+.stories-page .page-hero h1 { max-width: 22ch; }
+.stories-page .page-hero .lede { max-width: 52rem; font-size: 1.05rem; line-height: 1.55; }
+.stories-list { display: grid; gap: 1.4rem; padding-bottom: 3rem; }
+.story-card {
+  background: var(--white, #fffdf9);
+  border: 1px solid var(--line, #e6e1d6);
+  border-radius: 16px;
+  padding: 1.2rem 1.25rem 1.35rem;
+  box-shadow: 0 1px 0 rgba(24, 52, 61, 0.04);
+}
+.story-card h2 { font-size: clamp(1.45rem, 3vw, 1.9rem); margin: 0.15rem 0 0.45rem; }
+.story-card > header .lede { margin: 0 0 0.8rem; color: var(--ink-2, #3e5a61); }
+.story-locs { display: grid; gap: 0.7rem; margin: 0 0 0.9rem; }
+.story-loc { display: grid; grid-template-columns: 2.6rem 1fr; gap: 0.65rem; align-items: start; }
+.story-loc .grid-ref { margin-top: 0.15rem; }
+.story-loc-title { margin: 0 0 0.2rem; }
+.story-loc .meta-addr, .story-grid, .story-partner, .visit-note, .story-web { margin: 0.2rem 0; }
+.story-grid, .meta-addr { color: #3e5a61; font-size: 0.92rem; }
+.visit-note { background: #f6f0e6; border-radius: 10px; padding: 0.7rem 0.85rem; }
+.story-sources { margin-top: 0.8rem; }
+.story-sources h3 { font-size: 0.95rem; margin: 0 0 0.3rem; }
+.story-sources ul { margin: 0; padding-left: 1.1rem; }
+.story-sources li { margin: 0.2rem 0; }
+.stories-cta { margin: 2rem auto 2rem; }
+.stories-cta .guide-head p { max-width: 52rem; }

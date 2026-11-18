@@ -27,6 +27,8 @@ const COLORS = {
   "auto-insurance": "#18343d"
 };
 
+const HISTORY_COLOR = "#8b5a2b";
+
 const AREAS = {
   homeport: { label: "Homeport", center: [41.5626, -70.6104], radius: 190 },
   "main-street": { label: "Main Street", center: [41.5521, -70.6145], radius: 0 }
@@ -64,6 +66,34 @@ async function bootMap() {
     status.textContent = "The directory data did not load.";
     return;
   }
+  let storiesData = { stories: [] };
+  try {
+    const storiesRes = await fetch("data/falmouth-stories.json");
+    if (storiesRes.ok) storiesData = await storiesRes.json();
+  } catch (err) {
+    storiesData = { stories: [] };
+  }
+  const storyItems = [];
+  (storiesData.stories || []).forEach(function (story) {
+    (story.locations || []).forEach(function (loc) {
+      if (loc.lat == null || loc.lng == null) return;
+      storyItems.push({
+        id: loc.id,
+        storyId: story.id,
+        name: loc.title || story.title,
+        summary: story.summary,
+        address: loc.address,
+        lat: loc.lat,
+        lng: loc.lng,
+        grid_ref: loc.grid_ref,
+        grid_note: loc.grid_note || "",
+        visit_note: story.visit_note,
+        website: story.website,
+        partner: loc.nearby_partner || story.nearby_partner,
+        off_sheet: !!loc.off_sheet
+      });
+    });
+  });
   const walk = (walking && walking.walkingMap) || {};
   const numbers = {};
   const walkColor = {};
@@ -164,6 +194,38 @@ async function bootMap() {
     markers.push(marker);
   });
 
+  let historyOn = true;
+  const storyMarkers = [];
+
+  function storyPopup(item) {
+    const bits = [
+      "<strong>" + esc(item.name) + "</strong>",
+      "<div>Falmouth Stories &amp; History</div>"
+    ];
+    if (item.grid_ref) bits.push('<p class="pop-area">' + esc(item.grid_ref) + "</p>");
+    if (item.address) bits.push("<p>" + esc(item.address) + "</p>");
+    if (item.summary) bits.push("<p>" + esc(item.summary) + "</p>");
+    if (item.partner && item.partner.name) {
+      const href = item.partner.href || "directory.html";
+      bits.push("<p>Nearby partner: <a href='" + esc(href) + "'>" + esc(item.partner.name) + "</a></p>");
+    }
+    bits.push('<p><a href="stories.html#' + esc(item.storyId) + '">Read the full story</a></p>');
+    return bits.join("");
+  }
+
+  storyItems.forEach(function (item) {
+    const marker = L.marker([item.lat, item.lng], {
+      icon: window.FWDWalk.pinIcon(HISTORY_COLOR, "S", " is-story"),
+      title: item.name,
+      alt: item.name,
+      zIndexOffset: 200
+    });
+    marker.bindPopup(storyPopup(item));
+    marker.bindTooltip(item.name, { direction: "top" });
+    marker.item = item;
+    storyMarkers.push(marker);
+  });
+
   function layoutPins() {
     const visible = listings.filter(function (item) {
       return item.lat != null && item.lng != null && active.has(item.category) && isPin(item);
@@ -182,12 +244,40 @@ async function bootMap() {
     });
   }
 
+  function focusStory(item, marker) {
+    const zoom = item.off_sheet ? 14 : 16;
+    map.setView(marker.getLatLng(), zoom);
+    marker.openPopup();
+  }
+
   function render() {
     markers.forEach(function (marker) {
       if (active.has(marker.item.category)) marker.addTo(map);
       else marker.remove();
     });
+    storyMarkers.forEach(function (marker) {
+      if (historyOn) marker.addTo(map);
+      else marker.remove();
+    });
     list.innerHTML = "";
+    if (historyOn && storyItems.length) {
+      const head = document.createElement("p");
+      head.className = "pin-list-head";
+      head.textContent = "Falmouth Stories & History";
+      list.appendChild(head);
+      storyItems.forEach(function (item) {
+        const button = document.createElement("button");
+        button.type = "button";
+        button.className = "is-story";
+        button.innerHTML = esc(item.name) + "<small>" + esc(item.grid_ref || "Falmouth Stories") + "</small>";
+        button.addEventListener("click", function () {
+          const marker = storyMarkers.find(function (m) { return m.item.id === item.id; });
+          if (!marker) return;
+          focusStory(item, marker);
+        });
+        list.appendChild(button);
+      });
+    }
     listings.forEach(function (item) {
       if (!active.has(item.category)) return;
       const button = document.createElement("button");
@@ -209,9 +299,16 @@ async function bootMap() {
   document.getElementById("legend").innerHTML = data.categories.map(function (cat) {
     return '<label><input type="checkbox" checked data-cat="' + esc(cat.slug) + '"><span class="swatch" style="background:' +
       (COLORS[cat.slug] || "#18343d") + '"></span>' + esc(cat.short) + "</label>";
-  }).join("");
+  }).join("") +
+    '<label><input type="checkbox" checked data-history="1"><span class="swatch is-story" style="background:' +
+    HISTORY_COLOR + '"></span>Falmouth Stories &amp; History</label>';
   document.getElementById("legend").addEventListener("change", function (event) {
     const input = event.target;
+    if (input.dataset.history) {
+      historyOn = input.checked;
+      render();
+      return;
+    }
     if (!input.dataset.cat) return;
     if (input.checked) active.add(input.dataset.cat);
     else active.delete(input.dataset.cat);
@@ -227,6 +324,20 @@ async function bootMap() {
   document.getElementById("zoom-town").addEventListener("click", function () {
     map.setView([41.558, -70.62], 12);
   });
+  function showStories() {
+    historyOn = true;
+    const box = document.querySelector('#legend input[data-history]');
+    if (box) box.checked = true;
+    render();
+    const pts = storyItems.map(function (item) { return [item.lat, item.lng]; });
+    if (!pts.length) {
+      map.setView([41.558, -70.62], 12);
+      return;
+    }
+    map.fitBounds(L.latLngBounds(pts), { padding: [40, 40], maxZoom: 14, animate: true });
+  }
+  const storiesBtn = document.getElementById("zoom-stories");
+  if (storiesBtn) storiesBtn.addEventListener("click", showStories);
 
   // Homeport and Main Street emphasis
   const hp = AREAS.homeport;
@@ -252,12 +363,23 @@ async function bootMap() {
       input.checked = input.dataset.cat === preset;
     });
   }
+  const wantStories = params.get("layer") === "history" || params.get("stories") === "1" || params.get("story");
+  if (wantStories) historyOn = true;
   render();
   const area = params.get("area");
-  const start = function () { if (area && AREAS[area]) showArea(area); else showDowntown(); };
+  const storyId = params.get("story");
+  const start = function () {
+    if (storyId) {
+      const marker = storyMarkers.find(function (m) { return m.item.id === storyId || m.item.storyId === storyId; });
+      if (marker) { focusStory(marker.item, marker); return; }
+    }
+    if (wantStories) { showStories(); return; }
+    if (area && AREAS[area]) showArea(area);
+    else showDowntown();
+  };
   start();
   setTimeout(function () { map.invalidateSize(); start(); }, 200);
-  status.textContent = "Orange pin: Cape Island Café at Homeport, 316 Gifford St. Larger dots are Main Street and Homeport businesses; small dots are other directory listings. Tap any pin or dot for details.";
+  status.textContent = "Orange pin: Cape Island Café at Homeport, 316 Gifford St. Bronze square pins are Falmouth Stories & History. Larger dots are Main Street and Homeport businesses; small dots are other directory listings. Tap any pin or dot for details.";
 }
 
 bootMap();

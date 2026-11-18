@@ -28,7 +28,7 @@ Options: `NO_SR=1` (Lanczos instead of Real-ESRGAN), `SKIP_AUDIT=1`, `PY_SR=/pat
 | 5 | `build_flipbook_assets.py [base-url] [--slug …] [--alias …]` | Renders `magazine.html?print=1` in Chrome: 32 thumbnails, the letter-size PDF, then splices the two 17×11 pull-out pages in place of pages 12–15. Needs `python3 -m http.server 8765`. | `assets/img/mag/thumbs/pNN.jpg`, `assets/fwd-<slug>.pdf` + alias copies |
 | 6 | `audit_site.py [base-url] [--external] [--json out.json]` | Blank-information and broken-link crawl at 1440 and 390 px. | stdout, `build/audit.json` |
 
-Other scripts: `update_issue_2026_11_04_pullout.py` (one-off, idempotent: pages 12–15 become the pull-out, calendar trimmed for a January 2027 release), `build_directory.py`, `build_free_help.py`, `set_site_base.py`, `build_centerfold_images.py` (old Leaflet centerfold images; no longer used by the flipbook).
+Other scripts: `build_stories.py` (rebuilds `stories.html` from `data/falmouth-stories.json`), `update_issue_2026_11_04_pullout.py` (one-off, idempotent: pages 12–15 become the pull-out, calendar trimmed for a January 2027 release), `build_directory.py`, `build_free_help.py`, `set_site_base.py`, `build_centerfold_images.py` (old Leaflet centerfold images; no longer used by the flipbook).
 
 ## Real-ESRGAN setup (optional, CPU is fine, ~40 s per side)
 
