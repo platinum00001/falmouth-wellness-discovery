@@ -31,6 +31,8 @@ with sync_playwright() as p:
     pg.wait_for_timeout(800)
     pages = pg.query_selector_all("#book .page")
     for i, el in enumerate(pages):
+        el.scroll_into_view_if_needed()
+        pg.wait_for_timeout(120)
         im = Image.open(io.BytesIO(el.screenshot())).convert("RGB")
         im = im.resize((240, round(240 * im.height / im.width)), Image.LANCZOS)
         im.save(TH / f"p{i + 1:02d}.jpg", quality=78, optimize=True, progressive=True)

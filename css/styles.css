@@ -665,3 +665,44 @@ textarea { min-height: 8rem; resize: vertical; }
 .case-card .actions { margin-top: auto; }
 .leaf .sources { font-size: 0.82rem; color: var(--ink-2); margin-top: 0.8rem; }
 footer a { overflow-wrap: anywhere; word-break: break-word; }
+
+/* Long-form magazine article (articles/falmouth-history.html) */
+.article-page { background: #fffdf9; }
+.article-hero { position: relative; color: #fff; margin-bottom: 0; }
+.article-hero picture, .article-hero img { display: block; width: 100%; height: min(62vh, 560px); object-fit: cover; }
+.article-hero-text { position: relative; margin-top: -7.5rem; padding: 1.6rem 1.4rem 1.4rem; background: linear-gradient(180deg, transparent, rgba(12,36,44,.08) 8%, #fffdf9 28%); color: var(--ink); }
+.article-hero-text h1 { font-size: clamp(2.2rem, 6vw, 3.8rem); max-width: 16ch; margin: 0.15rem 0 0.5rem; }
+.article-hero-text .lede { max-width: 46rem; font-size: 1.2rem; }
+.article-meta { color: var(--ink-2); font-size: 0.92rem; margin: 0 0 1rem; }
+.article-layout { display: grid; gap: 2rem; padding: 0.5rem 0 3.5rem; align-items: start; }
+@media (min-width: 980px) {
+  .article-layout { grid-template-columns: minmax(0, 1fr) 18rem; gap: 2.4rem; }
+  .article-hero-text { margin-top: -8.5rem; }
+}
+.article-body { max-width: 46rem; }
+.article-lead { font-family: var(--serif); font-size: 1.22rem; line-height: 1.45; margin: 0 0 1.4rem; }
+.article-lead::first-letter { float: left; font-size: 3.4rem; line-height: 0.8; padding-right: 0.35rem; color: var(--teal-d); font-family: var(--serif); }
+.article-sec { margin: 0 0 1.5rem; }
+.article-sec h2 { font-size: 1.45rem; margin: 0 0 0.5rem; }
+.article-sec p { margin: 0 0 0.75rem; line-height: 1.6; }
+.find-it { font: 700 0.82rem/1.4 var(--cond, "Barlow Condensed", sans-serif); letter-spacing: 0.08em; text-transform: uppercase; color: var(--coral-d); margin: 0.15rem 0 0; }
+.find-it span { display: inline-block; background: var(--coral-d); color: #fff; border-radius: 999px; padding: 0.12rem 0.55rem; margin-right: 0.35rem; letter-spacing: 0.1em; }
+.article-pull { margin: 1.2rem 0 1.6rem; padding: 0.2rem 0 0.2rem 1.1rem; border-left: 4px solid var(--sun, #f4a259); font-family: var(--serif); font-style: italic; font-size: 1.45rem; line-height: 1.3; color: var(--teal-d); }
+.article-fig { margin: 1.4rem 0 1.8rem; }
+.article-fig img { width: 100%; height: auto; display: block; border-radius: 12px; }
+.article-fig figcaption { font-size: 0.85rem; color: var(--ink-2); margin-top: 0.45rem; }
+.article-callout { background: linear-gradient(160deg, #12303a, #1c5a5e); color: #e8f2ef; border-radius: 16px; padding: 1.3rem 1.35rem; margin: 1.6rem 0 2rem; }
+.article-callout h2 { color: #fff; font-size: 1.5rem; margin: 0.2rem 0 0.6rem; max-width: 22ch; }
+.article-callout .eyebrow { color: var(--sun, #f4a259); }
+.article-callout p { margin: 0 0 0.7rem; }
+.article-sources { margin: 0.4rem 0 0; padding-left: 1.15rem; }
+.article-sources li { margin: 0.28rem 0; }
+.article-rail { display: grid; gap: 1rem; }
+@media (min-width: 980px) { .article-rail { position: sticky; top: 5.5rem; } }
+.rail-card { background: #f6eee1; border-radius: 14px; padding: 1rem 1.05rem 1.1rem; }
+.rail-card h2 { font-size: 1.25rem; margin: 0.15rem 0 0.7rem; }
+.article-time { list-style: none; padding: 0; margin: 0; }
+.article-time li { display: grid; grid-template-columns: 3.6rem 1fr; gap: 0.45rem; padding: 0.4rem 0; border-bottom: 1px solid rgba(24,52,61,.12); font-size: 0.88rem; line-height: 1.35; }
+.article-time li:last-child { border-bottom: 0; }
+.article-time b { color: var(--teal-d); font-family: var(--cond, "Barlow Condensed", sans-serif); letter-spacing: 0.04em; }
+.rail-map p { margin: 0 0 0.7rem; }

@@ -21,7 +21,7 @@
   function paras(list) { return (list || []).map(function (p) { return "<p>" + esc(p) + "</p>"; }).join(""); }
   function picture(src, webp, alt, cls, small) {
     return '<figure class="' + cls + '"><picture>' + (webp ? '<source srcset="' + esc(webp) + '" type="image/webp">' : "") +
-      '<img src="' + esc(small || src) + '" alt="' + esc(alt || "") + '" loading="lazy" decoding="async"></picture></figure>';
+      '<img src="' + esc(small || src) + '" alt="' + esc(alt || "") + '" loading="' + (PRINT ? "eager" : "lazy") + '" decoding="async"></picture></figure>';
   }
   function cta(c, light) {
     if (!c) return "";
@@ -49,6 +49,41 @@
   function foot(i) {
     const side = i % 2 ? "is-left" : "is-right";
     return '<footer class="pg-foot ' + side + '"><span>' + esc(issue.issue.name) + " · " + esc(issue.issue.season) + "</span><b>" + (i + 1) + "</b></footer>";
+  }
+
+
+  function featureHtml(page) {
+    let main = "";
+    if (page.lead) main += '<p class="pg-drop feat-lead">' + esc(page.lead) + "</p>";
+    (page.sections || []).forEach(function (sec) {
+      if (sec.heading) main += "<h3>" + esc(sec.heading) + "</h3>";
+      main += paras(sec.paragraphs || []);
+      if (sec.pullquote) main += '<blockquote class="pg-pull">' + esc(sec.pullquote) + "</blockquote>";
+      if (sec.findit) main += '<p class="feat-find">Find it: ' + esc(sec.findit) + "</p>";
+    });
+    if (page.pullquote) main += '<blockquote class="pg-pull">' + esc(page.pullquote) + "</blockquote>";
+    let side = "";
+    if (page.sidebar) {
+      const sb = page.sidebar;
+      side += '<aside class="feat-time"><p class="pg-kicker">' + esc(sb.kicker || "Timeline") + "</p><h3>" + esc(sb.title) + "</h3><ol>" +
+        (sb.items || []).map(function (it) {
+          return "<li><b>" + esc(it.year) + "</b><span>" + esc(it.text) + "</span></li>";
+        }).join("") + "</ol></aside>";
+    }
+    if (page.callout) {
+      const c = page.callout;
+      side += '<aside class="feat-callout"><p class="pg-kicker">' + esc(c.kicker || "Start here") + "</p><h3>" + esc(c.title) + "</h3><p>" + esc(c.text) + "</p>" + cta(c.cta, true) + "</aside>";
+    }
+    if (page.mapbox) {
+      const m = page.mapbox;
+      side += '<aside class="feat-mapbox"><p class="pg-kicker">' + esc(m.kicker || "The pull-out map") + "</p><h3>" + esc(m.title) + "</h3><p>" + esc(m.text) + "</p></aside>";
+    }
+    let html = side
+      ? '<div class="feat-spread"><div class="feat-main">' + main + '</div><div class="feat-side">' + side + "</div></div>"
+      : '<div class="feat-main">' + main + "</div>";
+    if (page.continued) html += '<p class="feat-cont">' + esc(page.continued) + "</p>";
+    if (page.webLink) html += '<p class="pg-actions">' + cta(page.webLink, false) + "</p>";
+    return html;
   }
 
   /* ---------- crossword ---------- */
@@ -175,7 +210,7 @@
     if (k === "centerfold") return foldHtml(i, page);
     if (k === "pullout") return pullHtml(i, page);
     let b = "", d = 0;
-    if (page.banner && page.banner.src) b += ani(picture(page.banner.src, "", page.banner.alt, "pg-banner", page.banner.small), d++);
+    if (page.banner && page.banner.src) b += ani(picture(page.banner.src, page.banner.webp || "", page.banner.alt, "pg-banner", page.banner.small), d++);
     b += '<div class="pg-in">';
     if (page.kicker || k === "toc") b += ani('<p class="pg-kicker">' + esc(page.kicker || "In this issue") + "</p>", d++);
     b += ani("<h2>" + esc(page.title) + "</h2>", d++);
@@ -199,9 +234,13 @@
     }
     const s = page.imageSlot ? slot(page.imageSlot) : "";
     if (s) b += ani(s, d++);
-    if (page.lead) b += ani('<p class="pg-drop">' + esc(page.lead) + "</p>", d++);
-    if (page.paragraphs && page.paragraphs.length) b += ani('<div class="pg-body">' + paras(page.paragraphs) + "</div>", d++);
-    if (page.pullquote) b += ani('<blockquote class="pg-pull">' + esc(page.pullquote) + "</blockquote>", d++);
+    if (page.sections && page.sections.length) {
+      b += ani(featureHtml(page), d++);
+    } else {
+      if (page.lead) b += ani('<p class="pg-drop">' + esc(page.lead) + "</p>", d++);
+      if (page.paragraphs && page.paragraphs.length) b += ani('<div class="pg-body">' + paras(page.paragraphs) + "</div>", d++);
+      if (page.pullquote) b += ani('<blockquote class="pg-pull">' + esc(page.pullquote) + "</blockquote>", d++);
+    }
     if (page.cards && page.cards.length) b += ani(cardsHtml(page.cards), d++);
     if (k === "calendar") {
       b += ani('<div class="pg-events">' + (issue.events || []).slice((page.eventsRange || [0])[0], (page.eventsRange || [0, 999])[1]).map(function (e) {
@@ -224,7 +263,7 @@
   }
   function pageEl(page, i) {
     const el = document.createElement("div");
-    el.className = "page kind-" + page.kind + (i % 2 ? " side-L" : " side-R") + (page.ad && page.ad.size === "full" ? " has-full-ad" : "");
+    el.className = "page kind-" + page.kind + (i % 2 ? " side-L" : " side-R") + (page.ad && page.ad.size === "full" ? " has-full-ad" : "") + (page.kind === "feature" && !page.banner ? " is-feat-cont" : "");
     el.dataset.i = i;
     if (i === 0 || i === pages.length - 1) el.dataset.density = "hard";
     if (page.kind === "pullout") el.classList.add("is-insert");

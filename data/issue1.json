@@ -294,7 +294,7 @@
       "lead": "Falmouth already gathers in waiting rooms, hotel lobbies, the Chamber, and the library. This magazine is for that time.",
       "paragraphs": [
         "Falmouth Wellness Discovery is a quarterly health and wellness magazine with a fold-out discovery map. We print 1,000 copies and place them free. January 2027 is the founding issue, and this digital flipbook is a preview of that issue.",
-        "The pages follow four pillars: Mind, Body, Soul, and Health & Food. Stories are written from interviews. Open spots are marked as available and link to the partner page.",
+        "The pages follow four pillars: Mind, Body, Soul, and Health & Food. This issue opens with “Think You Know Falmouth?,” a history feature that points each story to a square on the pull-out map. Stories are written from interviews. Open spots are marked as available and link to the partner page.",
         "The printed magazine is letter size, made from 11×17 sheets. In the middle is a pull-out map, one 17×11 sheet printed on both sides: Downtown and Main Street on the front, Main Street and Woods Hole on the back, with partner ads around the border and a letter-and-number grid so you can find a place from the visitor guide. Pull it out and keep it in the car. The interactive walking map and the full visitor guide are online.",
         "Come by Cape Island Café at 316 Gifford Street if you want to talk about a story or a partnership. The phone is (774) 247-5263 and the email is CapeIslandCafe@gmail.com."
       ],
@@ -315,6 +315,197 @@
       "title": "Contents"
     },
     {
+      "id": "think-you-know-falmouth",
+      "kind": "feature",
+      "kicker": "Opening feature · January 2027",
+      "title": "Think You Know Falmouth?",
+      "dek": "From a town settled in 1660 to a Woods Hole team that helped find the Titanic — stories on your pull-out wellness map.",
+      "banner": {
+        "src": "assets/img/v3/village-main-street-autumn.jpg",
+        "small": "assets/img/v3/village-main-street-autumn-640.jpg",
+        "webp": "assets/img/v3/village-main-street-autumn.webp",
+        "alt": "A New England village main street in autumn: clapboard and shingled shopfronts with awnings and flower boxes of mums, maple trees in color and a white steeple in the distance."
+      },
+      "lead": "Think you know Falmouth? Open the fold-out map in the middle of this issue and put a finger on a square. Letters A through F run across; numbers 1 through 4 run down. The front is Downtown and Main Street. The back is Main Street and Woods Hole. Every story here is a real, checked place, and each one ends with a grid square.",
+      "sections": [
+        {
+          "heading": "A town since 1686",
+          "paragraphs": [
+            "The Massachusetts Secretary of the Commonwealth records that English colonists settled Falmouth in 1660 and that the town was incorporated in 1686. The Village Green, where Main Street meets Palmer Avenue and Town Hall Square, is still the civic heart of the village. First Congregational Church, gathered in 1708 and moved to 68 Main Street in 1857, looks over the Green; a Paul Revere bell in its steeple still rings. Just up Palmer Avenue, Falmouth Museums on the Green keep the public record, including the c. 1790 Dr. Francis Wicks House and the c. 1730 Conant House."
+          ],
+          "findit": "Downtown side A1 (the Green; also drawn on the Woods Hole side at C2). Town Hall is Downtown B2. The museums are Downtown B1."
+        },
+        {
+          "heading": "From sea to shining sea",
+          "paragraphs": [
+            "Katharine Lee Bates, who wrote “America the Beautiful,” was born on August 12, 1859, at 16 Main Street, in the Congregational parsonage. The 1810 house is a private residence today; please view it from the sidewalk. Bates wrote the poem after a visit to Pikes Peak in 1893, taught at Wellesley College, and is buried in Oak Grove Cemetery in Falmouth. A bronze statue by Lloyd Lillie, portraying her at 34 at Pikes Peak, stands on the lawn of Falmouth Public Library at 300 Main Street. It was dedicated on August 12, 1988, during the town’s tricentennial.",
+            "Her famous line named the Shining Sea Bikeway, a 10.7-mile paved path on the old railroad bed that carried trains between Falmouth and Woods Hole from 1872 to 1965. The town dedicated the first stretch in 1975 and extended the trail to North Falmouth in 2009. It is the only bikeway on Cape Cod that runs alongside the sea."
+          ],
+          "findit": "The birthplace is Downtown side B1 (private). The statue is Downtown C2. The downtown bikeway access is Downtown A2; the Woods Hole stretch is Woods Hole side B3.",
+          "pullquote": "Her famous line, “from sea to shining sea,” gave the bikeway its name."
+        },
+        {
+          "heading": "Science, and a wreck in the dark",
+          "paragraphs": [
+            "Woods Hole is one of the country’s major marine-science centers. WHOI, the Marine Biological Laboratory, and NOAA’s Woods Hole Science Aquarium share the village waterfront. Spencer Baird established a U.S. Fish Commission station here in 1871; a public aquarium was added in 1875, and NOAA calls it the nation’s oldest public marine aquarium, at 166 Water Street. On September 1, 1985, a WHOI–IFREMER expedition led by Dr. Robert D. Ballard and Jean-Louis Michel found the wreck of RMS Titanic. WHOI’s vessel Knorr, using the system Argo, followed a debris trail and identified a Titanic boiler, then returned to Woods Hole on September 9, 1985, to a waterfront welcome. The aquarium is closed through early 2027 for foundation repairs."
+          ],
+          "findit": "Woods Hole side A3 (the aquarium). WHOI, the Marine Biological Laboratory, and Eel Pond are in A4."
+        }
+      ],
+      "sidebar": {
+        "kicker": "Sidebar",
+        "title": "A short Falmouth timeline",
+        "items": [
+          {
+            "year": "1660",
+            "text": "English colonists settle Falmouth."
+          },
+          {
+            "year": "1686",
+            "text": "The town is incorporated."
+          },
+          {
+            "year": "1828",
+            "text": "Nobska Light station is established."
+          },
+          {
+            "year": "1859",
+            "text": "Katharine Lee Bates is born on the Green."
+          },
+          {
+            "year": "1872",
+            "text": "The railroad reaches Falmouth and Woods Hole."
+          },
+          {
+            "year": "1876",
+            "text": "The present Nobska tower is built. A public aquarium had opened in Woods Hole the year before."
+          },
+          {
+            "year": "1878",
+            "text": "Highfield Hall is built for the Beebe family."
+          },
+          {
+            "year": "1924",
+            "text": "St. Anthony’s Church opens in East Falmouth."
+          },
+          {
+            "year": "1940",
+            "text": "Falmouth Marine Railways is founded."
+          },
+          {
+            "year": "1973",
+            "text": "The first Falmouth Road Race is run."
+          },
+          {
+            "year": "1975",
+            "text": "The first stretch of the Shining Sea Bikeway is dedicated."
+          },
+          {
+            "year": "1985",
+            "text": "A WHOI-led team helps find the Titanic. Nobska Light is automated."
+          },
+          {
+            "year": "1988",
+            "text": "The Bates statue is dedicated during the town’s tricentennial."
+          },
+          {
+            "year": "2009",
+            "text": "The bikeway is extended to North Falmouth."
+          }
+        ]
+      },
+      "continued": "Continued on page 5"
+    },
+    {
+      "id": "think-you-know-falmouth-2",
+      "kind": "feature",
+      "kicker": "Opening feature, continued",
+      "title": "Think You Know Falmouth?, continued",
+      "sections": [
+        {
+          "heading": "A light on the sound",
+          "paragraphs": [
+            "Nobska Light stands at 233 Nobska Road in Woods Hole, where Buzzards Bay, Vineyard Sound, and Nantucket Sound meet, with Martha’s Vineyard and Nonamesset Island in the view. The light station was established in 1828; the present iron tower, with a brick lining, was built in 1876, automated in 1985, and listed on the National Register of Historic Places in 1987. The Town of Falmouth and the Friends of Nobska Light care for the station. The Road Race course passes the light in its first mile."
+          ],
+          "findit": "Woods Hole side B4."
+        },
+        {
+          "heading": "Seven miles, every August",
+          "paragraphs": [
+            "The Falmouth Road Race began on August 15, 1973, the 40th birthday of Woods Hole bartender Tommy Leonard, who organized a run from the Cap’n Kidd on Water Street to Falmouth Heights. The seven-mile course runs over the Eel Pond drawbridge, past Nobska Light, along Surf Drive, around the Inner Harbor, and up into the Heights. The early finish was at the Brothers Four, across from the Casino by the Sea; both buildings are gone. Today runners finish at the ballfield in the Heights."
+          ],
+          "findit": "The start is Woods Hole side A3. The finish is Downtown side E3."
+        },
+        {
+          "heading": "A summer mansion in the woods",
+          "paragraphs": [
+            "Highfield Hall, at 56 Highfield Drive, was built in 1878 for the Beebe family of Boston, a rare surviving Stick-style Queen Anne house designed by architect Carl Fehmer. A second mansion on the estate, Tanglewood, was demolished in 1977. In 1972, Josephine and Josiah K. Lilly III bought the estate and gave nearly 400 acres of Beebe Woods to the town. A community restoration later brought the hall back as a public place for art, music, and gardens. The grounds are open daily, dawn to dusk."
+          ],
+          "findit": "Downtown side A1."
+        },
+        {
+          "heading": "Homes you can only reach by boat",
+          "paragraphs": [
+            "In Great Harbor, Woods Hole, a handful of house floats — cottages on pontoons — form a small summer community. Town regulations allow them to be moored within 600 linear feet of Ram Island or Devil’s Foot Island from mid-April to mid-November, and in Eel Pond for winter storage. About 14 to 19 floats have been described, the only community of its kind on Cape Cod. They are private homes: look from the public waterfront, and do not board or approach them."
+          ],
+          "findit": "Woods Hole side A4, just off the illustrated shore toward Ram Island and Devil’s Foot Island."
+        },
+        {
+          "heading": "A neighborhood with a runway",
+          "paragraphs": [
+            "Falmouth Airpark is Massachusetts’ only residential fly-in community, in East Falmouth off Fresh Pond Road, north of Route 28. Homes sit along grass taxiways around a 2,298-by-40-foot runway, so residents can taxi an airplane from a hangar to the strip. The homeowners association is at 67 Airpark Drive. The airport (FAA identifier 5B6) is privately owned and listed as open to the public; the streets are a private neighborhood, not a walking tour. It sits off the illustrated pull-out."
+          ],
+          "findit": "Off the pull-out map — East Falmouth."
+        },
+        {
+          "heading": "The working harbor",
+          "paragraphs": [
+            "Falmouth Marine & Yachting Center, at 278 Scranton Avenue on Falmouth Inner Harbor, was founded in 1940 as Falmouth Marine Railways. The yard has served local boats for most of a century and, during World War II, work connected with the U.S. Navy. Just down the street, the Flying Bridge Restaurant occupies a waterfront building at 220 Scranton Avenue. Town assessing records date the building to 1958; the Falmouth Chamber of Commerce says the restaurant was established in 1983."
+          ],
+          "findit": "Downtown side D3."
+        },
+        {
+          "heading": "The church that strawberries built",
+          "paragraphs": [
+            "Immigrants from the Azores, Portugal, and Cape Verde turned the sandy soil of East Falmouth into a major strawberry district, and for a time Falmouth was among the largest strawberry producers in Massachusetts. As early as 1919, growers set aside money from berries picked on a peak Sunday of the harvest — “Strawberry Sunday” — to buy land for a church where Mass could be said in Portuguese. In 1921 Rev. Antonio M. Fortuna arrived, and St. Anthony’s Parish was formed. The church at 167 East Falmouth Highway opened on January 1, 1924, and became known as “the church that strawberries built.”"
+          ],
+          "findit": "Off the pull-out map — East Falmouth.",
+          "pullquote": "St. Anthony’s opened on January 1, 1924, and became known as “the church that strawberries built.”"
+        },
+        {
+          "heading": "Where the Casino stood",
+          "paragraphs": [
+            "For much of the twentieth century the Casino by the Sea stood on Grand Avenue in Falmouth Heights, between the ballfield and the beach. The original building went up around the turn of the century (local reporting has used 1901), housed a post office, burned in 1909, and was rebuilt in a Dutch Colonial style by William Tobey. It later held a movie theater, shops, and a bathhouse, and in 1966 it became the Casino by the Sea nightclub and restaurant. It was demolished on November 25, 2003."
+          ],
+          "findit": "Downtown side E3."
+        },
+        {
+          "heading": "Pick a square",
+          "paragraphs": [
+            "That is a lot of town for one map, and it is all still here. Open the pull-out between pages 11 and 16. Pick a square. Go explore."
+          ]
+        }
+      ],
+      "callout": {
+        "kicker": "Start here",
+        "title": "Start your walk at Cape Island Café",
+        "text": "The magazine’s home is an alcohol-free, sober-friendly café at Homeport, Gifford Street at Jones Road. Weekday lunch is Monday to Friday, 11 a.m. to 3 p.m. Unfold the pull-out map over a bowl, pick a square, and go. Call (774) 247-5263, or see the menu at capeislandcafe.com.",
+        "cta": {
+          "label": "See the café",
+          "href": "food/"
+        }
+      },
+      "mapbox": {
+        "kicker": "The pull-out map",
+        "title": "How to read the grid",
+        "text": "Front, pages 12–13: Downtown · Main Street. Back, pages 14–15: Main Street & Woods Hole. Letters A–F run across; numbers 1–4 run down. Two East Falmouth places in this feature sit off that sheet and are marked that way. Bronze “S” pins on the online map mark the same stories."
+      },
+      "webLink": {
+        "label": "Read this feature online",
+        "href": "articles/falmouth-history.html"
+      }
+    },
+    {
       "id": "main-street",
       "kind": "story",
       "kicker": "Start here · Main Street",
@@ -326,7 +517,7 @@
         "alt": "A New England village main street in autumn: clapboard and shingled shopfronts with awnings and flower boxes of mums, maple trees in color and a white steeple in the distance."
       },
       "paragraphs": [
-        "Main Street is the heart of the walking map. Park once, then follow the dotted line between the pins: independent shops, a bookstore, salons, bakeries and the library sit within a few blocks."
+        "Main Street is the heart of the walking map. Park once, then follow the dotted line between the pins: independent shops, a bookstore, salons, bakeries and the library sit within a few blocks. Tanorama, a tanning salon at 365 Main Street, has been on the street for nearly three decades."
       ],
       "cards": [
         {
@@ -368,6 +559,11 @@
           "title": "Falmouth Public Library",
           "kicker": "Community",
           "text": "300 Main St · (508) 457-2555"
+        },
+        {
+          "title": "Tanorama",
+          "kicker": "Tanning",
+          "text": "365 Main St · (508) 495-9905"
         }
       ]
     },
@@ -415,39 +611,6 @@
           "title": "Falmouth Dental Associates",
           "kicker": "Dental",
           "text": "210 Jones Rd · (508) 540-0303"
-        }
-      ]
-    },
-    {
-      "kind": "story",
-      "kicker": "Featured business",
-      "title": "Tanorama, nearly three decades on Main Street",
-      "dek": "Nearly three decades of tanning at 365 Main Street.",
-      "imageSlot": "tanorama-story",
-      "paragraphs": [
-        "Tanorama is a tanning salon at 365 Main Street, Falmouth. Owner Scott has kept the business on Main Street for nearly three decades.",
-        "This spread is where the interview sits: how the shop fits the winter town, who comes in, and what Scott wants readers to know.",
-        "The finished story will run beside the salon's own ad, after Scott signs off on the words."
-      ]
-    },
-    {
-      "kind": "story",
-      "kicker": "Feature, continued",
-      "title": "Tanorama, continued",
-      "paragraphs": [
-        "The salon is one of the longest-running shops on Main Street. Look for pin 12 on the walking map, a short walk east of the library.",
-        "The conversation with Scott runs here once he signs off on the words."
-      ],
-      "cards": [
-        {
-          "title": "Tanorama",
-          "kicker": "Main Street · Tanning",
-          "text": "365 Main Street, Falmouth · (508) 495-9905 · tanoramafalmouth.net"
-        },
-        {
-          "title": "Owner",
-          "kicker": "On Main Street",
-          "text": "Scott, nearly three decades on Main Street."
         }
       ]
     },
